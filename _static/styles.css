@@ -1,0 +1,25 @@
+/* match Google Docs styles for nested ordered lists */
+article ol ol li {
+  list-style-type: lower-alpha;
+}
+article ol ol ol li {
+  list-style-type: lower-roman;
+}
+
+/* indicate the version by color, overriding the colors from sphinx-book-theme */
+/* top nav bar */
+.bd-header-article {
+  --pst-color-background: #201d5d;
+}
+.bd-header-article .btn {
+  --pst-color-text-base: white;
+  --pst-color-text-muted: white;
+}
+/* undo for dropdown menus */
+.bd-header-article .dropdown-menu {
+  --pst-color-background: white;
+}
+.bd-header-article .dropdown-menu .btn {
+  --pst-color-text-base: #323232;
+  --pst-color-text-muted: #646464;
+}

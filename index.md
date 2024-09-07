@@ -1,3 +1,7 @@
+[![Columbia SIPA banner](img/sipa.svg)](https://www.sipa.columbia.edu/)
+
+---
+
 # Computing in Context syllabus, Fall 2024
 
 **_This syllabus is for the SIPA sections of the course. It builds on the [combined course information](https://courseworks2.columbia.edu/courses/203144), so make sure to read that as well._**
@@ -60,7 +64,7 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Overview
 
-- CourseWorks sites
+- CourseWorks sites:
   - [Combined](https://courseworks2.columbia.edu/courses/203144)
   - [Section 1](https://courseworks2.columbia.edu/courses/207091)
   - [Section 2](https://courseworks2.columbia.edu/courses/207092)
