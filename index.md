@@ -2,18 +2,18 @@
 
 **_This syllabus is for the SIPA sections of the course. It builds on the [combined course information](https://courseworks2.columbia.edu/courses/203144), so make sure to read that as well._**
 
-## Course information
+## Course Information
 
 - **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
 - **Credits:** 3
 - **Prerequisites:** none
 
-## Instructors
+### Instructors
 
 - **First half:** [Adam Cannon](https://www.engineering.columbia.edu/faculty/adam-cannon), cannon@cs.columbia.edu
 - **Second half:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 
-## Teaching Assistants (TAs)
+### Teaching Assistants (TAs)
 
 Section 1:
 
@@ -49,7 +49,7 @@ For the first half of the semester, if you have a conflict with a lab session, y
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
-## Office Hours
+### Office Hours
 
 - **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, IAB room 831, or [by appointment](https://calendly.com/afeld/office-hours).
 - **Others:** See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
@@ -124,7 +124,7 @@ See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through Ed Discussions, so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
-- The instructor/Reader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
+- The instructor/TA will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
 ## Course Policies
 
@@ -158,7 +158,7 @@ For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are tre
 
 These tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
-## SIPA Academic Integrity Statement
+### SIPA Academic Integrity Statement
 
 The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean's Disciplinary Procedures.
 
@@ -166,6 +166,6 @@ Please familiarize yourself with the proper methods of citation and attribution.
 
 Violations of the Code of Academic & Professional Conduct should be reported to the Associate Dean for Student Affairs.
 
-## SIPA Disability Statement
+### SIPA Disability Statement
 
 SIPA is committed to ensuring that students registered with [Columbia University's Disability Services](https://health.columbia.edu/content/disability-services) (DS) receive the reasonable accommodations necessary to participate fully in their academic programs. If you are a student with a disability and have a DS-certified accommodation letter, you may wish to make an appointment with your course instructor to discuss your accommodations. Faculty provide disability accommodations to students with DS-certified accommodation letters, and they provide the accommodations specified in such letters. If you have any additional questions, please contact SIPA's DS liaison at disability@sipa.columbia.edu.
