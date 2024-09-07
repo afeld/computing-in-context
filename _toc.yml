@@ -1,7 +1,5 @@
 # https://jupyterbook.org/customize/toc.html
 format: jb-book
 root: index
-chapters:
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
+# chapters:
+#   - file: markdown
