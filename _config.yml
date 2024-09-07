@@ -11,14 +11,19 @@ execute:
 repository:
   url: https://github.com/afeld/computing-in-context
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
+  # https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_repository_button: true
+  extra_footer: |
+    <div>
+      <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+        <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="Creative Commons 0 1.0" />
+      </a>
+    </div>
 
 sphinx:
   config:
+    html_show_copyright: false
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
     language: en
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
