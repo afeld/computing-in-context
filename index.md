@@ -47,12 +47,12 @@ For the first half of the semester, if you have a conflict with a lab session, y
 |           |                        |               | Second half  | Oct 22, 2024 | Dec 5, 2024  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
 | Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 6, 2024  | Dec 6, 2024  | TAs           | SIPA only | [IAB][IAB] room 411 |
 
-[IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
-
 ### Office Hours
 
-- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, IAB room 831, or [by appointment](https://calendly.com/afeld/office-hours).
+- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or [by appointment](https://calendly.com/afeld/office-hours).
 - **Others:** See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
+
+[IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
 ## Course Description
 
@@ -86,7 +86,7 @@ See the [Meeting Information](#meeting-information) for more details.
 
 See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
 
-_Grades submitted for SIPA core courses must have an average GPA between 3.2 and 3.4, with a goal of 3.3. Courses with enrollments over 35 are also recommended to follow this rule._
+> Grades submitted for SIPA core courses must have an average GPA between 3.2 and 3.4, with a goal of 3.3. Courses with enrollments over 35 are also recommended to follow this rule.
 
 ## Attendance
 
@@ -102,7 +102,7 @@ You are responsible for getting caught up on what was covered, without asking th
 
 No textbook purchase is required. We will be using free online sources, primarily [How to Think like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html).
 
-## Week-by-week list of class topics
+## Schedule
 
 For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/203144/pages/syllabus).
 
