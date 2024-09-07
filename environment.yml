@@ -1,0 +1,6 @@
+name: computing-in-context
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - jupyter-book
