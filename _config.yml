@@ -3,11 +3,6 @@
 title: Computing in Context (SIPA)
 author: Aidan Feldman
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
-execute:
-  execute_notebooks: force
-
 repository:
   url: https://github.com/afeld/computing-in-context
 
