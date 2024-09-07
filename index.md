@@ -27,7 +27,7 @@ Section 2:
 
 ## Meeting Information
 
-Students should bring a laptop to all lectures and labs. See [Contexts/Structure](#contextsstructure) for more details on how the course is organized.
+Students should bring a laptop to all lectures and labs. See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
 
 For the first half of the semester, if you have a conflict with a lab session, you are welcome to attend any of [the other sections](https://vergil.columbia.edu/vergil/course/20243/20303). For the second half of the semester, you must attend the SIPA ones, listed below.
 
@@ -67,7 +67,7 @@ This introductory course will explore computing concepts and coding in the conte
 - [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
 - [Comparison with Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context)
 
-### Contexts/Structure
+### Contexts and Structure
 
 Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20243/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464).
 
