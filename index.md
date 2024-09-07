@@ -4,8 +4,6 @@
 
 # Computing in Context syllabus, Fall 2024
 
-**_This syllabus is for the SIPA sections of the course. It builds on the [combined course information](https://courseworks2.columbia.edu/courses/203144), so make sure to read that as well._**
-
 ## Course Information
 
 - **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
