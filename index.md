@@ -4,6 +4,10 @@
 
 # Computing in Context syllabus, Fall 2024
 
+## Course Description
+
+This introductory course will explore computing concepts and coding in the context of solving policy problems. Such problems might include troubleshooting sources of environmental pollution, evaluating the effectiveness of public housing policy or determining the impact that local financial markets have on international healthcare or education. Using policy scenarios as examples, students will be exposed to topics including: requirements gathering, data collection, data cleansing, writing pseudocode and code, using Python packages to help solve policy problems, presenting technical solutions and the constraints of computing. The hands-on nature of the class will help students to develop a strong, transferable skill-set that could be applied to both current coursework and future employment. Between the computer science and policy context lectures, students will see how computer science will become a fundamental component of their policy analysis education.
+
 ## Course Information
 
 - **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
@@ -55,10 +59,6 @@ For the first half of the semester, if you have a conflict with a lab session, y
 - **Others:** See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
-
-## Course Description
-
-This introductory course will explore computing concepts and coding in the context of solving policy problems. Such problems might include troubleshooting sources of environmental pollution, evaluating the effectiveness of public housing policy or determining the impact that local financial markets have on international healthcare or education. Using policy scenarios as examples, students will be exposed to topics including: requirements gathering, data collection, data cleansing, writing pseudocode and code, using Python packages to help solve policy problems, presenting technical solutions and the constraints of computing. The hands-on nature of the class will help students to develop a strong, transferable skill-set that could be applied to both current coursework and future employment. Between the computer science and policy context lectures, students will see how computer science will become a fundamental component of their policy analysis education.
 
 ## Course Overview
 
