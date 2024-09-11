@@ -12,7 +12,6 @@ repository:
 html:
   # https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_repository_button: true
-  home_page_in_navbar: false
   extra_footer: |
     <div>
       <a href="https://creativecommons.org/publicdomain/zero/1.0/">

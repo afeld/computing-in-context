@@ -2,7 +2,9 @@
 
 ---
 
-# Computing in Context syllabus, Fall 2024
+# Syllabus
+
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Computing in Context, Fall 2024</p>
 
 ## Course Description
 
@@ -62,10 +64,6 @@ For the first half of the semester, if you have a conflict with a lab session, y
 
 ## Course Overview
 
-- CourseWorks sites:
-  - [Combined](https://courseworks2.columbia.edu/courses/203144)
-  - [Section 1](https://courseworks2.columbia.edu/courses/207091)
-  - [Section 2](https://courseworks2.columbia.edu/courses/207092)
 - [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
 - [Comparison with Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context)
 
