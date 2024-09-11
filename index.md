@@ -128,7 +128,7 @@ See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-
 
 ## Course Policies
 
-### Wait list
+### Wait List
 
 If there ends up being a wait list:
 
@@ -141,7 +141,7 @@ If there ends up being a wait list:
   - [Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/syllabus.html), which is [essentially a seven-week version of this course](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context), is offered in the Spring
   - [There are a lot of other ways to learn Python](https://python-public-policy.afeld.me/en/columbia/resources.html)
 
-### Joining late
+### Joining Late
 
 Go through the following as soon as possible:
 
