@@ -12,14 +12,14 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Information
 
-- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
-- **Credits:** 3
-- **Prerequisites:** none
+- **Course Number**<br/>[INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
+- **Credits**<br/>3
+- **Prerequisites**<br/>none
 
 ### Instructors
 
-- **First half:** [Adam Cannon](https://www.engineering.columbia.edu/faculty/adam-cannon), cannon@cs.columbia.edu
-- **Second half:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
+- **First half**<br/>[Adam Cannon](https://www.engineering.columbia.edu/faculty/adam-cannon), cannon@cs.columbia.edu
+- **Second half**<br/>[Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 
 ### Teaching Assistants (TAs)
 
@@ -57,8 +57,8 @@ For the first half of the semester, if you have a conflict with a lab session, y
 
 ### Office Hours
 
-- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or [by appointment](https://calendly.com/afeld/office-hours).
-- **Others:** See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
+- **Aidan Feldman**<br/>Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or [by appointment](https://calendly.com/afeld/office-hours).
+- **Others**<br/>See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
@@ -106,15 +106,15 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/203144/pages/syllabus).
 
-| Week | Homework due (Monday) | Tuesday lecture                                                                                      | Thursday lecture                 | Friday lab                       |
-| ---- | --------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
-| 8    | **Oct 21**            | **Oct 22:** [_New location and instructor_](#meeting-information) Introduction to the Policy context | **Oct 24:** Working with data    | **Oct 25:** Working with data    |
-| 9    | **Oct 28**            | **Oct 29:** Manipulating data                                                                        | **Oct 31:** Combining data       | **Nov 1:** Filtering and joining |
-| 10   | **Nov 4**             | **Nov 5:** None (Election Day)                                                                       | **Nov 7:** Data visualization    | **Nov 8:** Data visualization    |
-| 11   | **Nov 11**            | **Nov 12:** Working with dates and times                                                             | **Nov 14:** Time series analysis | **Nov 15:** Time series analysis |
-| 12   | **Nov 18**            | **Nov 19:** Working with text                                                                        | **Nov 21:** APIs                 | **Nov 22:** APIs                 |
-| 13   | **Nov 25**            | **Nov 26:** Guest lecture                                                                            | **Nov 28:** None (Thanksgiving)  | **Nov 29:** None (Thanksgiving)  |
-| 14   | **Dec 2**             | **Dec 3:** Test                                                                                      | **Dec 5:** The Bigger Picture    | **Dec 6:** Project help          |
+| Week | Homework due (Monday) | Tuesday lecture                                                                                             | Thursday lecture                    | Friday lab                          |
+| ---- | --------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- |
+| 8    | **Oct 21**            | **Oct 22**<br/>[_New location and instructor_](#meeting-information)<br/>Introduction to the Policy context | **Oct 24**<br/>Working with data    | **Oct 25**<br/>Working with data    |
+| 9    | **Oct 28**            | **Oct 29**<br/>Manipulating data                                                                            | **Oct 31**<br/>Combining data       | **Nov 1**<br/>Filtering and joining |
+| 10   | **Nov 4**             | **Nov 5**<br/>None (Election Day)                                                                           | **Nov 7**<br/>Data visualization    | **Nov 8**<br/>Data visualization    |
+| 11   | **Nov 11**            | **Nov 12**<br/>Working with dates and times                                                                 | **Nov 14**<br/>Time series analysis | **Nov 15**<br/>Time series analysis |
+| 12   | **Nov 18**            | **Nov 19**<br/>Working with text                                                                            | **Nov 21**<br/>APIs                 | **Nov 22**<br/>APIs                 |
+| 13   | **Nov 25**            | **Nov 26**<br/>Guest lecture                                                                                | **Nov 28**<br/>None (Thanksgiving)  | **Nov 29**<br/>None (Thanksgiving)  |
+| 14   | **Dec 2**             | **Dec 3**<br/>Test                                                                                          | **Dec 5**<br/>The Bigger Picture    | **Dec 6**<br/>Project help          |
 
 See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
 
