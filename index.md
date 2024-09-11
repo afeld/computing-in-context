@@ -132,12 +132,15 @@ See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-
 
 ### Wait list
 
+If there ends up being a wait list:
+
 - We expect churn in enrollment, so please be patient.
 - One reason for the class size limit is ensuring everyone has a chance to participate. Therefore, it will not be exceeded to accommodate individual students.
 - To be fair to everyone, enrollment is first come first served.
 - [How the wait list works](https://www.registrar.columbia.edu/content/wait-lists-ssol)
 - Worst case, if you don't get in:
   - This class is offered every Fall
+  - [Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/syllabus.html), which is [essentially a seven-week version of this course](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context), is offered in the Spring
   - [There are a lot of other ways to learn Python](https://python-public-policy.afeld.me/en/columbia/resources.html)
 
 ### Auditing
