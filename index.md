@@ -143,14 +143,17 @@ If there ends up being a wait list:
   - [Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/syllabus.html), which is [essentially a seven-week version of this course](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context), is offered in the Spring
   - [There are a lot of other ways to learn Python](https://python-public-policy.afeld.me/en/columbia/resources.html)
 
-## Joining late
+### Joining late
 
-Once you are registered, go through the following as soon as possible:
+Go through the following as soon as possible:
 
 1. This syllabus
-1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/203144) — let us know if you have any trouble accessing
-1. [The combined syllabus](https://courseworks2.columbia.edu/courses/203144/assignments/syllabus)
-1. [Lecture materials](https://courseworks2.columbia.edu/courses/203144/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/203144/assignments) to get caught up
+1. Once registred:
+   1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/203144) — let us know if you have any trouble accessing
+   1. [The combined syllabus](https://courseworks2.columbia.edu/courses/203144/assignments/syllabus)
+   1. [Lecture materials](https://courseworks2.columbia.edu/courses/203144/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/203144/assignments) to get caught up
+
+We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144).
 
 If you get confused/stuck on any of the material, check out [the discussion board](https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless) and [office hours](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
 
