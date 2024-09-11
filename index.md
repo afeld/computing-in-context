@@ -106,15 +106,29 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/203144/pages/syllabus).
 
-| Week | Homework due (Monday) | Tuesday lecture                                                                                             | Thursday lecture                    | Friday lab                          |
-| ---- | --------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- |
-| 8    | **Oct 21**            | **Oct 22**<br/>[_New location and instructor_](#meeting-information)<br/>Introduction to the Policy context | **Oct 24**<br/>Working with data    | **Oct 25**<br/>Working with data    |
-| 9    | **Oct 28**            | **Oct 29**<br/>Manipulating data                                                                            | **Oct 31**<br/>Combining data       | **Nov 1**<br/>Filtering and joining |
-| 10   | **Nov 4**             | **Nov 5**<br/>None (Election Day)                                                                           | **Nov 7**<br/>Data visualization    | **Nov 8**<br/>Data visualization    |
-| 11   | **Nov 11**            | **Nov 12**<br/>Working with dates and times                                                                 | **Nov 14**<br/>Time series analysis | **Nov 15**<br/>Time series analysis |
-| 12   | **Nov 18**            | **Nov 19**<br/>Working with text                                                                            | **Nov 21**<br/>APIs                 | **Nov 22**<br/>APIs                 |
-| 13   | **Nov 25**            | **Nov 26**<br/>Guest lecture                                                                                | **Nov 28**<br/>None (Thanksgiving)  | **Nov 29**<br/>None (Thanksgiving)  |
-| 14   | **Dec 2**             | **Dec 3**<br/>Test                                                                                          | **Dec 5**<br/>The Bigger Picture    | **Dec 6**<br/>Project help          |
+<!--
+Homework due (Monday) |
+--------------------- |
+**Oct 21**            |
+**Oct 28**            |
+**Nov 4**             |
+**Nov 11**            |
+**Nov 18**            |
+**Nov 25**            |
+**Dec 2**             |
+-->
+
+| Week | Tuesday lecture                                                                                             | Thursday lecture                    | Friday lab                          |
+| ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- |
+| 8    | **Oct 22**<br/>[_New location and instructor_](#meeting-information)<br/>Introduction to the Policy context | **Oct 24**<br/>Working with data    | **Oct 25**<br/>Working with data    |
+| 9    | **Oct 29**<br/>Manipulating data                                                                            | **Oct 31**<br/>Combining data       | **Nov 1**<br/>Filtering and joining |
+| 10   | **Nov 5**<br/>None (Election Day)                                                                           | **Nov 7**<br/>Data visualization    | **Nov 8**<br/>Data visualization    |
+| 11   | **Nov 12**<br/>Working with dates and times                                                                 | **Nov 14**<br/>Time series analysis | **Nov 15**<br/>Time series analysis |
+| 12   | **Nov 19**<br/>Working with text                                                                            | **Nov 21**<br/>APIs                 | **Nov 22**<br/>APIs                 |
+| 13   | **Nov 26**<br/>Guest lecture                                                                                | **Nov 28**<br/>None (Thanksgiving)  | **Nov 29**<br/>None (Thanksgiving)  |
+| 14   | **Dec 3**<br/>Test                                                                                          | **Dec 5**<br/>The Bigger Picture    | **Dec 6**<br/>Project help          |
+
+Labs are due the following Wednesday. There will be three Homeworks due on Mondays, dates to be determined. All due dates are 11:59pm ET.
 
 See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
 
