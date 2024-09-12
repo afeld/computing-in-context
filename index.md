@@ -37,8 +37,6 @@ Section 2:
 
 Students should bring a laptop to all labs. See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
 
-For the first half of the semester, if you have a conflict with a lab session, you are welcome to attend any of [the other sections](https://vergil.columbia.edu/vergil/course/20243/20303). For the second half of the semester, you must attend the SIPA ones, listed below.
-
 ### Section 1
 
 | Component | Meeting days           | Meeting times | Part of term | Start        | End          | Led by        | Contexts  | Location            |
