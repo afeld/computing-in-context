@@ -79,8 +79,8 @@ See the [Meeting Information](#meeting-information) for more details.
 
 - 30% Homework: 5% x (3 Assignments + 3 Projects)
 - 40% In-Class Tests: 20% x 2
-- 20% Lab Exercises
-- 10% Lab Attendance: There are 12 labs, each one you attend you earn 1%, up to 10%
+- 20% Lab Exercises: There are 12 labs, each is worth 0-2%, up to 20%.
+- 10% Lab Attendance: There are 12 labs, each one you attend you earn 1%, up to 10%.
 
 See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
 
