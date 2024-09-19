@@ -12,14 +12,14 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Information
 
-- **Course Number**<br/>[INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
-- **Credits**<br/>3
-- **Prerequisites**<br/>none
+- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
+- **Credits:** 3
+- **Prerequisites:** none
 
 ### Instructors
 
-- **First half**<br/>[Adam Cannon](https://www.engineering.columbia.edu/faculty/adam-cannon), cannon@cs.columbia.edu
-- **Second half**<br/>[Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
+- **First half:** [Adam Cannon](https://www.engineering.columbia.edu/faculty/adam-cannon), cannon@cs.columbia.edu
+- **Second half:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 
 ### Teaching Assistants (TAs)
 
@@ -55,8 +55,8 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 ### Office Hours
 
-- **Aidan Feldman**<br/>Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or [by appointment](https://calendly.com/afeld/office-hours).
-- **Others**<br/>See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
+- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or [by appointment](https://calendly.com/afeld/office-hours).
+- **Others:** See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
