@@ -39,19 +39,19 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 ### Section 1
 
-| Component | Meeting days           | Meeting times | Part of term | Start        | End          | Led by        | Contexts  | Location            |
-| --------- | ---------------------- | ------------- | ------------ | ------------ | ------------ | ------------- | --------- | ------------------- |
-| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 3, 2024  | Oct 17, 2024 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
-|           |                        |               | Second half  | Oct 22, 2024 | Dec 5, 2024  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | 1-2:30pm      | Full         | Sep 6, 2024  | Dec 6, 2024  | TAs           | SIPA only | [IAB][IAB] room 411 |
+| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by        | Contexts  | Location            |
+| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ------------- | --------- | ------------------- |
+| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 3  | Oct 17 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
+|           |                        |               | Second half  | Oct 22 | Dec 5  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
+| Lab       | Fridays                | 1-2:30pm      | Full         | Sep 6  | Dec 6  | TAs           | SIPA only | [IAB][IAB] room 411 |
 
 ### Section 2
 
-| Component | Meeting days           | Meeting times | Part of term | Start        | End          | Led by        | Contexts  | Location            |
-| --------- | ---------------------- | ------------- | ------------ | ------------ | ------------ | ------------- | --------- | ------------------- |
-| Lecture   | Tuesdays and Thursdays | 2:40-3:55pm   | First half   | Sep 3, 2024  | Oct 17, 2024 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
-|           |                        |               | Second half  | Oct 22, 2024 | Dec 5, 2024  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 6, 2024  | Dec 6, 2024  | TAs           | SIPA only | [IAB][IAB] room 411 |
+| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by        | Contexts  | Location            |
+| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ------------- | --------- | ------------------- |
+| Lecture   | Tuesdays and Thursdays | 2:40-3:55pm   | First half   | Sep 3  | Oct 17 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
+|           |                        |               | Second half  | Oct 22 | Dec 5  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
+| Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 6  | Dec 6  | TAs           | SIPA only | [IAB][IAB] room 411 |
 
 ### Office Hours
 
