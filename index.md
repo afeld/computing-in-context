@@ -55,7 +55,7 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 ### Office Hours
 
-- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or [by appointment](https://calendly.com/afeld/office-hours).
+- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or by appointment.
 - **Others:** See [the schedule](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
