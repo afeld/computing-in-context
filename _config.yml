@@ -9,6 +9,9 @@ only_build_toc_files: true
 repository:
   url: https://github.com/afeld/computing-in-context
 
+execute:
+  execute_notebooks: "off"
+
 html:
   # https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_repository_button: true
