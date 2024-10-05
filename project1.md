@@ -1,6 +1,6 @@
 # Project 1
 
-In this homework, you will:
+In this project, you will:
 
 - Get the feel of working in a Jupyter Notebook
 - Work with a new dataset
@@ -24,6 +24,7 @@ In this homework, you will:
    1. Compute:
       - The mean
       - The median
+      - The mode
 1. Explain what you're doing and what you found using [Markdown cells](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
 1. Repeat steps 3-4 using pandas.
 1. Turn in the notebook.
