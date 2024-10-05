@@ -116,17 +116,16 @@ Homework due (Monday) |
 **Dec 2**             |
 -->
 
-| Week | Tuesday lecture                                                                                             | Thursday lecture                    | Friday lab                          |
-| ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- |
-| 8    | **Oct 22**<br/>[_New location and instructor_](#meeting-information)<br/>Introduction to the Policy context | **Oct 24**<br/>Working with data    | **Oct 25**<br/>Working with data    |
-| 9    | **Oct 29**<br/>Manipulating data                                                                            | **Oct 31**<br/>Combining data       | **Nov 1**<br/>Filtering and joining |
-| 10   | **Nov 5**<br/>None (Election Day)                                                                           | **Nov 7**<br/>Data visualization    | **Nov 8**<br/>Data visualization    |
-| 11   | **Nov 12**<br/>Working with dates and times                                                                 | **Nov 14**<br/>Time series analysis | **Nov 15**<br/>Time series analysis |
-| 12   | **Nov 19**<br/>Working with text                                                                            | **Nov 21**<br/>APIs                 | **Nov 22**<br/>APIs                 |
-| 13   | **Nov 26**<br/>Guest lecture                                                                                | **Nov 28**<br/>None (Thanksgiving)  | **Nov 29**<br/>None (Thanksgiving)  |
-| 14   | **Dec 3**<br/>Test                                                                                          | **Dec 5**<br/>The Bigger Picture    | **Dec 6**<br/>Project help          |
-
-Labs are due the following Wednesday. There will be three Homeworks due on Mondays, dates to be determined. All due dates are 11:59pm ET.
+| Week | Monday homework due (11:59pm ET) | Tuesday lecture                                                                                             | Wednesday lab due (11:59pm ET) | Thursday lecture                    | Friday lab                                  |
+| ---- | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------- | ------------------------------------------- |
+| 8    | **Oct 21**<br/>None              | **Oct 22**<br/>[_New location and instructor_](#meeting-information)<br/>Introduction to the Policy context | **Oct 23**<br/>Lab 7           | **Oct 24**<br/>Working with data    | **Oct 25**<br/>Lab 8: Working with data     |
+| 9    | **Oct 28**<br/>None              | **Oct 29**<br/>Manipulating data                                                                            | **Oct 30**<br/>Lab 8           | **Oct 31**<br/>Combining data       | **Nov 1**<br/>Lab 9: Filtering and joining  |
+| 10   | **Nov 4**<br/>Homework 4         | **Nov 5**<br/>None (Election Day)                                                                           | **Nov 6**<br/>Lab 9            | **Nov 7**<br/>Data visualization    | **Nov 8**<br/>Lab 10: Data visualization    |
+| 11   | **Nov 11**<br/>None              | **Nov 12**<br/>Working with dates and times                                                                 | **Nov 13**<br/>Lab 10          | **Nov 14**<br/>Time series analysis | **Nov 15**<br/>Lab 11: Time series analysis |
+| 12   | **Nov 18**<br/>Homework 5        | **Nov 19**<br/>Working with text                                                                            | **Nov 20**<br/>Lab 11          | **Nov 21**<br/>APIs                 | **Nov 22**<br/>Lab 12: APIs                 |
+| 13   | **Nov 26**<br/>None              | **Nov 26**<br/>Guest lecture                                                                                | **Nov 27**<br/>Lab 12          | **Nov 28**<br/>None (Thanksgiving)  | **Nov 29**<br/>None (Thanksgiving)          |
+| 14   | **Dec 2**<br/>None               | **Dec 3**<br/>Test                                                                                          | **Dec 4**<br/>None             | **Dec 5**<br/>The Bigger Picture    | **Dec 6**<br/>Lab 13: Project help          |
+| 15   | **Dec 9**<br/>Homework 6         | **Dec 10**<br/>None                                                                                         | **Dec 11**<br/>None            | **Dec 12**<br/>None                 | **Dec 13**<br/>None                         |
 
 See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
 
