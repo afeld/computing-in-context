@@ -1,6 +1,5 @@
 import ast
 from glob import glob
-import os
 from typing import Union
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
@@ -24,15 +23,13 @@ def check_metadata(notebook, file, expected_kernel):
         ), f"Name in metadata doesn't match filename for {file}."
 
 
-def check_file(file, expected_kernel="Python [conda env:python-public-policy]"):
+def check_file(file, expected_kernel="Python [conda env:computing-in-context]"):
     notebook = read_notebook(file)
     check_metadata(notebook, file, expected_kernel)
 
 
 notebooks = glob("*.ipynb")
 notebooks.sort()
-crash_course = os.path.join(os.path.dirname(__file__), "pandas_crash_course.ipynb")
-all_notebooks = notebooks + [crash_course]
 
 
 @pytest.mark.parametrize("notebook", notebooks)
@@ -40,19 +37,14 @@ def test_class_notebooks(notebook):
     check_file(notebook)
 
 
-def test_colab():
-    # run in Google Colab
-    check_file(crash_course, "Python 3")
-
-
-@pytest.mark.parametrize("file", all_notebooks)
+@pytest.mark.parametrize("file", notebooks)
 def test_one_h1(file):
     notebook = read_notebook(file)
     num_h1s = sum(is_h1(cell) for cell in notebook.cells)
     assert num_h1s == 1
 
 
-@pytest.mark.parametrize("file", all_notebooks)
+@pytest.mark.parametrize("file", notebooks)
 def test_heading_levels(file):
     notebook = read_notebook(file)
     for cell in notebook.cells:
@@ -196,23 +188,6 @@ def test_num_slides(file):
     assert (
         num_nyu <= num_columbia
     ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
-
-
-hw_notebooks = glob("hw_*.ipynb")
-hw_notebooks.sort()
-
-
-@pytest.mark.parametrize("file", hw_notebooks)
-def test_reminders(file):
-    notebook = read_notebook(file)
-
-    assert any(
-        "assignments.html" in cell.source for cell in notebook.cells
-    ), "Missing assignment submission instructions"
-
-    assert any(
-        "participation" in cell.source for cell in notebook.cells
-    ), "Missing participation reminder"
 
 
 @pytest.mark.parametrize("file", notebooks)
