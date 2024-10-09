@@ -1,5 +1,7 @@
 # Office hours
 
+For the first half of the term, you can attend office hours offered by any instructor/TA. For the second half, you should attend ones from the SIPA instructor/TAs.
+
 <!--
 % combined src: OTFnZHRycjFxcWw5Nm43MDNyYXRzZ2puMnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 SIPA src: Y18zYmUwOTVlY2IzZjZjYzc4YTViZDE3YzVkOTVhZjg3ZTRlYTk2NmNjNjJmODI4ZTY3NGZmNGE4NDE4MmM2ZDJmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
