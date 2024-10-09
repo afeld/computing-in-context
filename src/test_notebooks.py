@@ -8,7 +8,7 @@ import re
 from .nb_helper import is_h1, is_markdown, is_python, read_notebook
 
 
-def check_metadata(notebook, file, expected_kernel):
+def check_metadata(notebook, expected_kernel):
     metadata = notebook.metadata
     runtime = metadata.kernelspec.display_name
 
@@ -16,16 +16,10 @@ def check_metadata(notebook, file, expected_kernel):
     assert runtime == expected_kernel or runtime == f"{expected_kernel} *"
     assert metadata.language_info.version.startswith("3.")
 
-    if "colab" in metadata:
-        colab_name = metadata["colab"]["name"]
-        assert (
-            colab_name == file
-        ), f"Name in metadata doesn't match filename for {file}."
-
 
 def check_file(file, expected_kernel="Python [conda env:computing-in-context]"):
     notebook = read_notebook(file)
-    check_metadata(notebook, file, expected_kernel)
+    check_metadata(notebook, expected_kernel)
 
 
 notebooks = glob("*.ipynb")
@@ -150,44 +144,24 @@ def is_slide(cell):
 
 
 def num_slides(cells):
-    """Return a weighted number of slides"""
-
     slides = [cell for cell in cells if is_slide(cell)]
-    num_exercises = sum(
-        1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
-    )
-    # let's say that each exercise is worth ten slides
-    return len(slides) + (num_exercises * 10)
+    return len(slides)
 
 
-lecture_notebooks = glob("lecture_?.ipynb")
-lecture_notebooks.sort()
-
-
-@pytest.mark.parametrize("file", lecture_notebooks)
+@pytest.mark.parametrize("file", notebooks)
 def test_num_slides(file):
-    """Ensure there are a reasonable number of slides for each school"""
+    """Ensure there are a reasonable number of slides"""
 
     notebook = read_notebook(file)
 
     # known issue that these lectures have too many slides
-    if file in ["lecture_1.ipynb", "lecture_2.ipynb"]:
+    if file in ["lecture16.ipynb"]:
         return
     # the various pieces of the lecture can be scaled appropriately
-    if file == "lecture_6.ipynb":
+    if file == "lecture25.ipynb":
         return
 
-    columbia = [cell for cell in notebook.cells if "nyu-only" not in get_tags(cell)]
-    num_columbia = num_slides(columbia)
-    assert num_columbia <= 62, "Too many slides for Columbia"
-
-    nyu = [cell for cell in notebook.cells if "columbia-only" not in get_tags(cell)]
-    num_nyu = num_slides(nyu)
-    assert num_nyu <= 51, "Too many slides for NYU"
-
-    assert (
-        num_nyu <= num_columbia
-    ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
+    assert num_slides(notebook.cells) <= 42
 
 
 @pytest.mark.parametrize("file", notebooks)
