@@ -35,7 +35,7 @@ Section 2:
 
 ## Meeting Information
 
-Students should bring a laptop to all labs. See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
+Students should bring a laptop to all labs. See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized. [Office hour information.](office_hours.md)
 
 ### Section 1
 
@@ -52,11 +52,6 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 | Lecture   | Tuesdays and Thursdays | 2:40-3:55pm   | First half   | Sep 3  | Oct 17 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
 |           |                        |               | Second half  | Oct 22 | Dec 5  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
 | Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 6  | Dec 6  | TAs           | SIPA only | [IAB][IAB] room 411 |
-
-### Office Hours
-
-- **Aidan Feldman:** Thursdays 11:30am-12:30pm starting Oct 24, [IAB][IAB] room 831, or by appointment.
-- **Others:** See [the schedule](office_hours.md).
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
@@ -152,7 +147,7 @@ Go through the following as soon as possible:
 
 We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144).
 
-If you get confused/stuck on any of the material, check out [the discussion board](https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless) and [office hours](https://calendar.google.com/calendar/embed?src=91gdtrr1qql96n703ratsgjn2s%40group.calendar.google.com&ctz=America%2FNew_York).
+If you get confused/stuck on any of the material, check out [the discussion board](https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless) and [office hours](office_hours.md).
 
 ### Auditing
 

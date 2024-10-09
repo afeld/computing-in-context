@@ -1,6 +1,8 @@
 # Office hours
 
-For the first half of the term, you can attend office hours offered by any instructor/TA. For the second half, you should attend ones from the SIPA instructor/TAs.
+For the first half of the term, you can attend office hours offered by any instructor/TA. For the second half, you should attend ones with Aidan / the SIPA TAs. Aidan is also available by appointment; [reach out](index.md#instructors).
+
+## Schedule
 
 <!--
 % combined src: OTFnZHRycjFxcWw5Nm43MDNyYXRzZ2puMnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
