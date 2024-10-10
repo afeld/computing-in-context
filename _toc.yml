@@ -4,11 +4,8 @@ root: index
 chapters:
   - url: https://courseworks2.columbia.edu/courses/203144
     title: "Courseworks: combined"
-  # will surface these later
   # - url: https://courseworks2.columbia.edu/courses/207091
-  #   title: "Courseworks: Section 1"
-  # - url: https://courseworks2.columbia.edu/courses/207092
-  #   title: "Courseworks: Section 2"
+  #   title: "Courseworks: SIPA"
   - url: https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless
     title: Ed Discussion
   - file: office_hours

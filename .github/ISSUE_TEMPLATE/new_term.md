@@ -15,9 +15,8 @@ assignees: afeld
   - [ ] Update [job post](https://docs.google.com/document/d/10nDc6y2LZdQDjGkqSP6f1tVlRmjhYU41jWKMlIT-324/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
-  - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
+  - [ ] Make them [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
-  - [ ] Set up Discussion rotation
   - [ ] Share solutions
 - [ ] Set up Courseworks
   - [ ] Combine sites from sections
@@ -30,20 +29,10 @@ assignees: afeld
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
 - [ ] Print attendance sheets
-- [ ] Bring the first day
-  - [ ] A/V keys
-  - [ ] Laptop stand
-  - [ ] Power strips
-  - [ ] Extension cord
-  - [ ] Attendance sheets
 - [ ] Update [Gmail filters](https://docs.google.com/spreadsheets/d/1MoOnADGw_A3oc1qMx2TllbRHlRD-4dDcrHXldSdzM5E/edit#gid=1645501691)
-- [ ] A couple weeks in: do a quality check on Assignments and Discussions
-- [ ] [Find guest(s)](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
-  - [ ] Confirm order
-  - [ ] Get bio(s)
-  - [ ] Update lecture 6
 - [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
   - [ ] Submit for reimbursement
-- [ ] Update curve
+
+See also: [context cut-over checklist](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit#heading=h.g6ipma2850mf)
