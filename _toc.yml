@@ -3,11 +3,13 @@ format: jb-book
 root: index
 chapters:
   - url: https://courseworks2.columbia.edu/courses/203144
-    title: "Courseworks: combined"
+    title: Courseworks (combined)
   # - url: https://courseworks2.columbia.edu/courses/207091
-  #   title: "Courseworks: SIPA"
+  #   title: Courseworks (SIPA)
   - url: https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless
-    title: Ed Discussion
+    title: Ed Discussion (combined)
+  # - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
+  #   title: Ed Discussion (SIPA)
   - file: office_hours
   - file: lecture15
   - file: lecture16
