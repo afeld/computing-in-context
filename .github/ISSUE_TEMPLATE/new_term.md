@@ -28,7 +28,6 @@ assignees: afeld
     <!-- - [ ] Schedule sending solutions -->
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
-- [ ] Print attendance sheets
 - [ ] Update [Gmail filters](https://docs.google.com/spreadsheets/d/1MoOnADGw_A3oc1qMx2TllbRHlRD-4dDcrHXldSdzM5E/edit#gid=1645501691)
 - [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
   - [ ] Schedule
