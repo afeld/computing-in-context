@@ -5,7 +5,7 @@ from markdown_it import MarkdownIt
 from markdown_it.token import Token
 import pytest
 import re
-from .nb_helper import is_h1, is_markdown, is_python, read_notebook
+from .nb_helper import is_code_cell, is_h1, is_markdown, is_python, read_notebook
 
 
 def check_metadata(notebook, expected_kernel):
@@ -148,7 +148,7 @@ def num_slides(cells):
     return len(slides)
 
 
-lecture_notebooks = glob("lecture??.ipynb")
+lecture_notebooks = glob("lecture*.ipynb")
 lecture_notebooks.sort()
 
 
@@ -184,3 +184,18 @@ def test_long_outputs_scrolled(file):
                         assert (
                             cell.metadata.get("scrolled") is not False
                         ), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
+
+
+lab_notebooks = glob("lab*.ipynb")
+lab_notebooks.sort()
+
+
+@pytest.mark.parametrize("file", lab_notebooks)
+def test_lab_outputs_cleared(file):
+    notebook = read_notebook(file)
+
+    for cell in notebook.cells:
+        if is_code_cell(cell):
+            assert (
+                cell.outputs == []
+            ), f"Output should be cleared. Cell:\n\n{cell.source}\n"
