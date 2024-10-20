@@ -10,4 +10,6 @@ dependencies:
   - nb_conda_kernels
   - nbdime
   - nbformat
+  # band-aid fix for https://github.com/sphinx-doc/sphinx/issues/10440, as ReadTheDocs is still using an old version of Sphinx for some reason
+  - python<3.13
   - pytest
