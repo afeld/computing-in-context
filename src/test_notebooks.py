@@ -166,7 +166,7 @@ def test_num_slides(file):
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     slide_count = num_slides(notebook.cells)
-    assert slide_count <= 28
+    assert slide_count <= 27
 
 
 @pytest.mark.parametrize("file", notebooks)

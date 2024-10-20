@@ -29,3 +29,10 @@ jupyter-book build .
 ```sh
 jupyter lab --no-browser
 ```
+
+## Generating slides
+
+```sh
+jupyter nbconvert --to slides lecture_NN.ipynb
+open lecture_NN.slides.html
+```

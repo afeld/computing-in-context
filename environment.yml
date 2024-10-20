@@ -6,8 +6,8 @@ dependencies:
   - ipykernel
   - jupyter-book
   - jupyterlab
-  - jupyterlab_rise
   - nb_conda_kernels
+  - nbconvert
   - nbdime
   - nbformat
   - pytest
