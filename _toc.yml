@@ -13,5 +13,7 @@ chapters:
   - file: office_hours
   - file: lecture15
   - file: lecture16
-  - file: lab8
+  - file: lab8_guide
+    sections:
+      - file: lab8
   - file: project1
