@@ -161,7 +161,8 @@ def test_num_slides(file):
     if file == "lecture25.ipynb":
         return
 
-    assert num_slides(notebook.cells) <= 42
+    slide_count = num_slides(notebook.cells)
+    assert slide_count <= 28
 
 
 @pytest.mark.parametrize("file", notebooks)
