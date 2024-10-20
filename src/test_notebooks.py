@@ -148,7 +148,7 @@ def num_slides(cells):
     return len(slides)
 
 
-lecture_notebooks = glob("lecture*.ipynb")
+lecture_notebooks = glob("lecture_*.ipynb")
 lecture_notebooks.sort()
 
 
@@ -159,10 +159,10 @@ def test_num_slides(file):
     notebook = read_notebook(file)
 
     # known issue that these lectures have too many slides
-    if file in ["lecture16.ipynb"]:
+    if file in ["lecture_16.ipynb"]:
         pytest.xfail("Known issue that these lectures have too many slides")
     # the various pieces of the lecture can be scaled appropriately
-    if file == "lecture25.ipynb":
+    if file == "lecture_25.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     slide_count = num_slides(notebook.cells)
@@ -186,7 +186,7 @@ def test_long_outputs_scrolled(file):
                         ), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
 
 
-lab_notebooks = glob("lab*.ipynb")
+lab_notebooks = glob("lab_*.ipynb")
 lab_notebooks.sort()
 
 

@@ -11,9 +11,9 @@ chapters:
   # - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
   #   title: Ed Discussion (SIPA)
   - file: office_hours
-  - file: lecture15
-  - file: lecture16
-  - file: lab8
+  - file: lecture_15
+  - file: lecture_16
+  - file: lab_8
     sections:
-      - file: lab8_guide
-  - file: project1
+      - file: lab_8_guide
+  - file: project_1
