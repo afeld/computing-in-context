@@ -8,5 +8,6 @@ dependencies:
   - jupyterlab
   - jupyterlab_rise
   - nb_conda_kernels
+  - nbdime
   - nbformat
   - pytest
