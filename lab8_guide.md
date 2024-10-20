@@ -14,4 +14,8 @@ Run [this example](https://plotly.com/python/linear-fits/#linear-fit-trendlines-
 
 _FYI `px.data.tips()` loads one of [Plotly's sample datasets](https://plotly.com/python-api-reference/generated/plotly.express.data.html). You don't need that when plotting other datasets._
 
-Once that's working, start [Lab 8](lab8.ipynb)!
+## Walkthrough
+
+1. Reiterate [Jupyter basics](lecture15.ipynb#jupyter-basics).
+1. Try some Markdown.
+1. Start [Lab 8](lab8.ipynb).
