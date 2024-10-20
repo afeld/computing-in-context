@@ -1,4 +1,4 @@
-# Week 8 reading
+# Week 8
 
 ## One-time setup
 
