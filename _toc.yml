@@ -21,4 +21,7 @@ chapters:
         sections:
           - file: lab_8_guide
             title: Guide
+  - file: week_9
+    sections:
+      - file: lecture_17
   - file: project_1
