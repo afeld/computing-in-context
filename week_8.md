@@ -4,17 +4,17 @@
 
 Please do the following:
 
-- [Add your name pronunciation and pronouns](https://courseworks2.columbia.edu/courses/207091/external_tools/62951)
-- [Set your profile photo in CourseWorks](https://courseworks2.columbia.edu/profile)
-- Add your profile photo in Ed, the discussion tool
-  1.  [Open Ed](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless)
-  1.  Click the icon in the top right
-  1.  Click Settings
-  1.  Add your photo
+- [Add your name pronunciation and pronouns.](https://courseworks2.columbia.edu/courses/207091/external_tools/62951)
+- [Set your profile photo in CourseWorks.](https://courseworks2.columbia.edu/profile)
+- Add your profile photo in Ed.
+  1.  [Open Ed.](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless)
+  1.  Click the icon in the top right.
+  1.  Click Settings.
+  1.  Add your photo.
 
 ## Reading
 
-1. Read [The Joys (and Woes) of the Craft of Software Engineering](https://cs.calvin.edu/courses/cs/262/kvlinden/references/brooksJoysAndWoes.html)
+1. [The Joys (and Woes) of the Craft of Software Engineering](https://cs.calvin.edu/courses/cs/262/kvlinden/references/brooksJoysAndWoes.html)
    - Note not _everything_ in there is applicable to data analysis
 1. Filtering/indexing `DataFrame`s
    - [Filter specific rows from a `DataFrame`](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#how-do-i-filter-specific-rows-from-a-dataframe)
