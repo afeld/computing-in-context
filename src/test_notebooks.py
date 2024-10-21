@@ -152,21 +152,20 @@ lecture_notebooks = glob("lecture_*.ipynb")
 lecture_notebooks.sort()
 
 
+# see counts with `pytest -s -k num_slides`
 @pytest.mark.parametrize("file", lecture_notebooks)
 def test_num_slides(file):
     """Ensure there are a reasonable number of slides"""
 
     notebook = read_notebook(file)
 
-    # known issue that these lectures have too many slides
-    if file in ["lecture_16.ipynb"]:
-        pytest.xfail("Known issue that these lectures have too many slides")
     # the various pieces of the lecture can be scaled appropriately
     if file == "lecture_25.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     slide_count = num_slides(notebook.cells)
-    assert slide_count <= 31
+    print(f"{file}: {slide_count} slides")
+    assert 30 <= slide_count <= 40
 
 
 @pytest.mark.parametrize("file", notebooks)
