@@ -93,7 +93,7 @@ You are responsible for getting caught up on what was covered, without asking th
 
 ## Readings
 
-No textbook purchase is required. We will be using free online sources, primarily [How to Think like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html).
+No textbook purchase is required. We will be using free online sources, primarily [How to Think like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html) in the first half.
 
 ## Schedule
 
