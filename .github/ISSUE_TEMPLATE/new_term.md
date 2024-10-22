@@ -15,7 +15,6 @@ assignees: afeld
   - [ ] Update [job post](https://docs.google.com/document/d/10nDc6y2LZdQDjGkqSP6f1tVlRmjhYU41jWKMlIT-324/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
-  - [ ] Make them [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
   - [ ] Share solutions
 - [ ] Set up Courseworks
@@ -26,7 +25,6 @@ assignees: afeld
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
     - [ ] Create categories
     - [ ] Send welcome Announcement
-    <!-- - [ ] Schedule sending solutions -->
   - [ ] Set up recurring Zoom
   - [ ] [Set up Gradescope](https://ctl.columbia.edu/resources-and-technology/teaching-with-technology/teaching-online/gradescope/)
     - [ ] Disable Regrade Requests

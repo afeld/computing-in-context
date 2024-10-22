@@ -27,4 +27,4 @@ In this project, you will:
       - The mode
 1. Explain what you're doing and what you found using [Markdown cells](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
 1. Repeat steps 3-4 using pandas.
-1. Turn in the notebook.
+1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
