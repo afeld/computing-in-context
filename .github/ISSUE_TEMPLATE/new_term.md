@@ -25,7 +25,6 @@ assignees: afeld
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
     - [ ] Create categories
     - [ ] Send welcome Announcement
-  - [ ] Set up recurring Zoom
   - [ ] [Set up Gradescope](https://ctl.columbia.edu/resources-and-technology/teaching-with-technology/teaching-online/gradescope/)
     - [ ] Disable Regrade Requests
     - [ ] Sync Roster
