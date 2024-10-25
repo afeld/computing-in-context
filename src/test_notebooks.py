@@ -71,10 +71,15 @@ def test_nested_lists(file):
 
 
 def check_link(token: Token, parent: Token = None):
+    url = None
     if token.type == "link_open":
-        href = token.attrGet("href")
+        url = token.attrGet("href")
+    if token.type == "image":
+        url = token.attrGet("src")
+
+    if url:
         # escaped Jinja2 tags
-        if not re.match(r"http|#|%7B%7B", href):
+        if not re.match(r"http|#|%7B%7B", url):
             source = parent.content if parent else token.content
             assert False, f"Link should be absolute. Text:\n\n{source}\n"
 
