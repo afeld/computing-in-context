@@ -16,6 +16,7 @@ _FYI `px.data.tips()` loads one of [Plotly's sample datasets](https://plotly.com
 
 ## Walkthrough
 
+1. Walk through [working with notebooks from course site](notebooks.md#downloading-notebooks).
 1. Reiterate [Jupyter basics](lecture_15.ipynb#jupyter-basics).
 1. Try some Markdown.
 1. Start [Lab 8](lab_8.ipynb).
