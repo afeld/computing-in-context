@@ -32,5 +32,11 @@ Please do the following:
 - More on indexing:
   - [How to Select Rows from Pandas DataFrame](https://datatofish.com/select-rows-pandas-dataframe/)
   - Selecting Subsets of Data in Pandas: [Part 1](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) and [Part 2](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-39e811c81a0c)
+- More about 311:
+  - [Wikipedia](<https://en.wikipedia.org/wiki/311_(telephone_number)>)
+  - NYC
+    - [About page](https://portal.311.nyc.gov/about-nyc-311/)
+    - [2023 Report](https://www.nyc.gov/office-of-the-mayor/news/163-23/mayor-adams-celebrates-20-years-nyc311-release-state-311-report)
+  - [Open311](https://www.open311.org/learn/)
 
 If you're feeling shaky on any Python fundamentals, check out [the Python resources](https://python-public-policy.afeld.me/en/columbia/resources.html#python-fundamentals).
