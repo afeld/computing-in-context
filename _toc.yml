@@ -13,6 +13,7 @@ chapters:
   - file: office_hours
   - url: https://python-public-policy.afeld.me/en/columbia/resources.html
     title: Resources
+  - file: notebooks
   - file: week_8
     sections:
       - file: lecture_15
