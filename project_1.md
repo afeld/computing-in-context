@@ -36,9 +36,9 @@ For all steps, explain what you're doing and what you found using [Markdown cell
 - The data/calculations can come through pandas, but you should be writing the drawing code using only the Python standard library.
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - `print()`ing strings ([ASCII](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange) and/or [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters), including [emoji](https://getemoji.com/)) will be easiest, but you can get fancy and use [HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
-- It should not be hard-coded.
+- It should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding).
   - In other words, if the dataset got additional rows, had values changed, etc., it should display those appropriately.
-- It should look decent on a small (11") laptop screen.
+- It should look decent on a narrow (11") laptop screen.
 - You can be creative here, but **start simple**.
   - Use only one or two columns of your dataset.
 
@@ -52,7 +52,7 @@ Data that looks like this:
 | 2015 | 4,985 |
 | 2016 | 4,091 |
 
-could be turned into a vertical [sparkline](https://en.wikipedia.org/wiki/Sparkline) that looks like this:
+could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that looks like this:
 
 ```
 2014: ***
@@ -62,5 +62,6 @@ could be turned into a vertical [sparkline](https://en.wikipedia.org/wiki/Sparkl
 
 ### Tips
 
+- Making your chart vertical (one data point per line) will probably be easier than doing something horizontal.
 - [Repeating strings](https://phoenixnap.com/kb/python-repeat-string)
 - ["Rewinding" a CSV](https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file)
