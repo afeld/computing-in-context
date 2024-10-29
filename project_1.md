@@ -5,8 +5,8 @@ In this project, you will:
 - Get the feel of working in a Jupyter Notebook
 - Work with a new dataset
 - Practice working with data in:
-  - [The Python standard library](https://docs.python.org/3/library/index.html)
   - pandas
+  - [The Python standard library](https://docs.python.org/3/library/index.html)
 
 ## Steps
 
@@ -28,6 +28,7 @@ For all steps, explain what you're doing and what you found using [Markdown cell
       - The median
       - The mode
 1. Repeat the previous step using only the Python standard library ("the hard way" - not using pandas, a spreadsheet program, etc).
+   - Hint: Use a [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) to keep track of value counts.
 1. Create a data visualization, following the instructions below.
 1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
 
