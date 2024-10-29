@@ -25,6 +25,10 @@ chapters:
   - file: week_9
     sections:
       - file: lecture_17
+      - file: lab_9
+        sections:
+          - file: lab_9_guide
+            title: Guide
   - file: project_1
   - file: week_10
   - file: week_11
