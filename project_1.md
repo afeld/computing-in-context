@@ -48,9 +48,9 @@ Data that looks like this:
 
 | Year | Count |
 | ---- | ----- |
-| 2014 | 3     |
-| 2015 | 5     |
-| 2016 | 4     |
+| 2014 | 3,162 |
+| 2015 | 4,985 |
+| 2016 | 4,091 |
 
 could be turned into a vertical [sparkline](https://en.wikipedia.org/wiki/Sparkline) that looks like this:
 
@@ -59,8 +59,6 @@ could be turned into a vertical [sparkline](https://en.wikipedia.org/wiki/Sparkl
 2015: *****
 2016: ****
 ```
-
-Doesn't _need_ to be more complex than that.
 
 ### Tips
 
