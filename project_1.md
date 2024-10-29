@@ -19,21 +19,21 @@ For all steps, explain what you're doing and what you found using [Markdown cell
        - If it's larger than that, you can filter it down.
    - See [this list of open data portals](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals).
    - Don't spend too long on this step.
+1. If there's more than one numeric column, pick one.
 1. Create a new notebook.
-1. Using only the Python standard library (not using pandas, a spreadsheet program, etc):
+1. Using pandas:
    1. Read in the data.
-   1. If there's more than one numeric column, pick one.
    1. Compute:
       - The mean
       - The median
       - The mode
-1. Repeat previous step using pandas.
+1. Repeat the previous step using only the Python standard library ("the hard way" - not using pandas, a spreadsheet program, etc).
 1. Create a data visualization, following the instructions below.
 1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
 
 ## Data visualization
 
-- The data/calculations can come through pandas, but you should be writing the drawing code using only the Python standard library.
+- The data/calculations can come through pandas, but the drawing code should only use the Python standard library.
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - `print()`ing strings ([ASCII](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange) and/or [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters), including [emoji](https://getemoji.com/)) will be easiest, but you can get fancy and use [HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
 - It should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding).
