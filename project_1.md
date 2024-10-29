@@ -37,7 +37,8 @@ For all steps, explain what you're doing and what you found using [Markdown cell
 - The data can come from pandas, but you should be writing the drawing code from scratch using only the Python standard library.
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - It should not be hard-coded.
-  - In other words, it should work if the dataset got additional rows, values were changed, etc.
+  - In other words, if the dataset got additional rows, had values changed, etc., it should display those appropriately.
+- It should look decent on a small (11") laptop screen.
 - You can be creative here, but **start simple**.
 
 ### Example
