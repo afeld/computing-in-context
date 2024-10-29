@@ -5,7 +5,7 @@ In this project, you will:
 - Get the feel of working in a Jupyter Notebook
 - Work with a new dataset
 - Practice working with data in:
-  - Pure Python
+  - [The Python standard library](https://docs.python.org/3/library/index.html)
   - pandas
 
 ## Steps
@@ -20,7 +20,7 @@ For all steps, explain what you're doing and what you found using [Markdown cell
    - See [this list of open data portals](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals).
    - Don't spend too long on this step.
 1. Create a new notebook.
-1. In pure Python (not using pandas, a spreadsheet program, etc):
+1. Using only the Python standard library (not using pandas, a spreadsheet program, etc):
    1. Read in the data.
    1. If there's more than one numeric column, pick one.
    1. Compute:
@@ -28,14 +28,14 @@ For all steps, explain what you're doing and what you found using [Markdown cell
       - The median
       - The mode
 1. Repeat previous step using pandas.
-1. Create a data visualization in pure Python. More details below.
+1. Create a data visualization using only the Python standard library. More details below.
 1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
 
 ## Data visualization
 
 - Using plain text ([ASCII](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange), via `print()`) is strongly recommended, but you can get fancy and use [HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
-- The data can come from pandas, but you should be writing the drawing code from scratch in pure Python.
-  - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), etc.
+- The data can come from pandas, but you should be writing the drawing code from scratch using only the Python standard library.
+  - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - It should not be hard-coded.
   - In other words, it should work if the dataset got additional rows, values were changed, etc.
 - You can be creative here, but **start simple**.
