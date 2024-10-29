@@ -28,18 +28,19 @@ For all steps, explain what you're doing and what you found using [Markdown cell
       - The median
       - The mode
 1. Repeat previous step using pandas.
-1. Create a data visualization using only the Python standard library. More details below.
+1. Create a data visualization, following the instructions below.
 1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
 
 ## Data visualization
 
-- Using plain text ([ASCII](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange), via `print()`) is strongly recommended, but you can get fancy and use [HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
-- The data can come from pandas, but you should be writing the drawing code from scratch using only the Python standard library.
+- The data/calculations can come through pandas, but you should be writing the drawing code using only the Python standard library.
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
+- `print()`ing strings ([ASCII](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange) and/or [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters), including [emoji](https://getemoji.com/)) will be easiest, but you can get fancy and use [HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
 - It should not be hard-coded.
   - In other words, if the dataset got additional rows, had values changed, etc., it should display those appropriately.
 - It should look decent on a small (11") laptop screen.
 - You can be creative here, but **start simple**.
+  - Use only one or two columns of your dataset.
 
 ### Example
 
@@ -58,3 +59,10 @@ could be turned into a vertical [sparkline](https://en.wikipedia.org/wiki/Sparkl
 2015: *****
 2016: ****
 ```
+
+Doesn't _need_ to be more complex than that.
+
+### Tips
+
+- [Repeating strings](https://phoenixnap.com/kb/python-repeat-string)
+- ["Rewinding" a CSV](https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file)
