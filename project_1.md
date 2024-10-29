@@ -35,7 +35,7 @@ For all steps, explain what you're doing and what you found using [Markdown cell
 
 - The data/calculations can come through pandas, but the drawing code should only use the Python standard library.
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
-- `print()`ing strings ([ASCII](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange) and/or [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters), including [emoji](https://getemoji.com/)) will be easiest, but you can get fancy and use [HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
+- `print()`ing strings will probably be easiest, but you can get fancy and [generate HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
 - It should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding).
   - In other words, if the dataset got additional rows, had values changed, etc., it should display those appropriately.
 - It should look decent on a narrow (11") laptop screen.
@@ -65,3 +65,4 @@ could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that
 - Making your chart vertical (one data point per line) will probably be easier than doing something horizontal.
 - [Repeating strings](https://phoenixnap.com/kb/python-repeat-string)
 - ["Rewinding" a CSV](https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file)
+- [Python strings can contain Unicode](https://docs.python.org/3/howto/unicode.html#the-string-type), including [emoji](https://getemoji.com/) 📈✨
