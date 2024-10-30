@@ -1,5 +1,13 @@
 # Lab 9 guide
 
-_This page is written for the TAs._
+## Data cleaning
 
-You will lead the first half of [Lab 9](lab_9.ipynb) (data cleaning) as a full group, with students driving what should be done. The second half (of the notebook and the time) will be done independently.
+This part will be done all together, with the TAs mainly asking leading questions rather than lecturing. Students should be driving, telling the TA what to do. The TA will be live-coding; students can do the same if they like. At a high level, the class will:
+
+1. Create a notebook.
+1. Download the dataset. (TBD)
+1. Clean the data.
+
+## Joining
+
+Introduce [Lab 9](lab_9.ipynb).
