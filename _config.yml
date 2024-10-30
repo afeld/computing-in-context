@@ -12,6 +12,11 @@ repository:
 execute:
   execute_notebooks: "off"
 
+parse:
+  # when notebooks are downloaded, the links should still work
+  # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#customising-external-url-resolution
+  myst_all_links_external: true
+
 html:
   # https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_repository_button: true
