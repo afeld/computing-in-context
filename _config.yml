@@ -36,5 +36,6 @@ sphinx:
       - ^https://(.+\.)?substack\.com
       - ^https://(.+\.)?columbia\.edu
       - ^https://guides.gradescope.com+
+    linkcheck_report_timeouts_as_broken: false
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
