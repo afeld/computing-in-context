@@ -13,5 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
+
       - name: Run tests
         run: pytest
+
+      - name: Build and check for broken links
+        # https://jupyterbook.org/en/stable/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
+        # https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
+        run: jupyter-book build --builder=linkcheck .
