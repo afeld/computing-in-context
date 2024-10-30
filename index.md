@@ -81,20 +81,6 @@ See [the late policy in the combined syllabus](https://courseworks2.columbia.edu
 
 > Grades submitted for SIPA core courses must have an average GPA between 3.2 and 3.4, with a goal of 3.3. Courses with enrollments over 35 are also recommended to follow this rule.
 
-## Attendance
-
-Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
-
-Attendance is only taken for the lab sessions; see below and [grading](#grading) for details. If you are absent, we trust that it's for a good reason. If you're sick, please stay home and rest.
-
-You are responsible for getting caught up on what was covered, without asking the instructors/TAs to re-teach the material to you. You may want to ask a classmate for notes.
-
-### Labs
-
-_These only apply to the second half of the course; see the [combined CourseWorks](https://courseworks2.columbia.edu/courses/203144)/announcements for policies regarding labs in the first half._
-
-Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
-
 ## Readings
 
 No textbook purchase is required. We will be using free online sources, primarily [How to Think like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html) in the first half.
@@ -157,6 +143,20 @@ If you get confused/stuck on any of the material, check out [the discussion boar
 ### Auditing
 
 See the [school policies](https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq). Students must be officially registered. If there's a wait list, priority for spots in the class will be given to students taking it for credit. Once registered: To receive [R-credit](https://www.registrar.columbia.edu/content/grade-options#auditing), every assignment should at least be attempted and submitted. At the end of the course, please remind the instructor that you were auditing.
+
+### Attendance
+
+Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
+
+Attendance is only taken for the lab sessions; see below and [grading](#grading) for details. If you are absent, we trust that it's for a good reason. If you're sick, please stay home and rest.
+
+You are responsible for getting caught up on what was covered, without asking the instructors/TAs to re-teach the material to you. You may want to ask a classmate for notes.
+
+### Labs
+
+_These only apply to the second half of the course; see the [combined CourseWorks](https://courseworks2.columbia.edu/courses/203144)/announcements for policies regarding labs in the first half._
+
+Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
 
 ### Academic Integrity
 
