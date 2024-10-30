@@ -10,7 +10,7 @@
 
 ## Try it!
 
-Run [this example](https://plotly.com/python/linear-fits/#linear-fit-trendlines-with-plotly-express) in your local Jupyter.
+Run [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in your local Jupyter.
 
 _FYI `px.data.tips()` loads one of [Plotly's sample datasets](https://plotly.com/python-api-reference/generated/plotly.express.data.html). You don't need that when plotting other datasets._
 
