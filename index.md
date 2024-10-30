@@ -85,17 +85,15 @@ See [the late policy in the combined syllabus](https://courseworks2.columbia.edu
 
 Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
 
-Attendance is only taken for the lab sessions; see [grading](#grading) for details.
+Attendance is only taken for the lab sessions; see below and [grading](#grading) for details. If you are absent, we trust that it's for a good reason. If you're sick, please stay home and rest.
 
-### Second half
+You are responsible for getting caught up on what was covered, without asking the instructors/TAs to re-teach the material to you. You may want to ask a classmate for notes.
+
+### Labs
 
 _These only apply to the second half of the course; see the [combined CourseWorks](https://courseworks2.columbia.edu/courses/203144)/announcements for policies regarding labs in the first half._
 
 Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
-
-If you are absent, we trust that it's for a good reason. If you're sick, please stay home and rest.
-
-You are responsible for getting caught up on what was covered, without asking the instructors/TAs to re-teach the material to you. You may want to ask a classmate for notes.
 
 ## Readings
 
