@@ -2,7 +2,6 @@
 
 In this project, you will:
 
-- Get the feel of working in a Jupyter Notebook
 - Work with a new dataset
 - Practice working with data in:
   - pandas
