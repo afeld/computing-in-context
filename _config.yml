@@ -30,5 +30,11 @@ sphinx:
     html_show_copyright: false
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
     language: en
+    # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
+    linkcheck_ignore:
+      # behind Cloudflare; get 403s
+      - ^https://(.+\.)?substack\.com
+      - ^https://(.+\.)?columbia\.edu
+      - ^https://guides.gradescope.com+
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
