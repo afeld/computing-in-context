@@ -152,7 +152,7 @@ Attendance is only taken for the lab sessions; see below and [grading](#grading)
 
 You are responsible for getting caught up on what was covered, without asking the instructors/TAs to re-teach the material to you. You may want to ask a classmate for notes.
 
-### Labs
+#### Labs
 
 _These only apply to the second half of the course; see the [combined CourseWorks](https://courseworks2.columbia.edu/courses/203144)/announcements for policies regarding labs in the first half._
 
