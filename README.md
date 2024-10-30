@@ -33,5 +33,5 @@ jupyter lab --no-browser
 ## Generating slides
 
 ```sh
-jupyter nbconvert --to slides --post serve lecture_NN.ipynb
+jupyter nbconvert --to slides --SlidesExporter.reveal_scroll=True --post serve lecture_NN.ipynb
 ```
