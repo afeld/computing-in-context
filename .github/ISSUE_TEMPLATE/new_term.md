@@ -33,6 +33,9 @@ assignees: afeld
       - [ ] Enable regrade requests for Projects, disable for Labs
       - [ ] Create rubric
 - [ ] Update [Gmail filters](https://docs.google.com/spreadsheets/d/1MoOnADGw_A3oc1qMx2TllbRHlRD-4dDcrHXldSdzM5E/edit#gid=1645501691)
+- [ ] [Find guest](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
+  - [ ] Get bio
+  - [ ] Update lecture 24
 - [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
