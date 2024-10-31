@@ -161,3 +161,15 @@ def test_long_outputs_scrolled(file):
                         assert cell.metadata.get(
                             "scrolled"
                         ), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_no_python_public_policy_tags(file):
+    notebook = read_notebook(file)
+
+    for cell in notebook.cells:
+        tags = get_tags(cell)
+        for tag in ["columbia-only", "nyu-only"]:
+            assert (
+                tag not in tags
+            ), f"Notebook contains a `{tag}` tag. Cell:\n\n{cell.source}\n"
