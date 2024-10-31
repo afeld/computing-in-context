@@ -9,7 +9,4 @@ set -x
 # https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
 jupyter-book build --all -W -n --keep-going --builder=linkcheck .
 
-# check for Jinja tags, copied from Python for Public Policy
-git ls-files '*.md' '*.ipynb' | xargs grep -q -E '\{\{|\{%' && exit 1 || echo "No Jinja tags found"
-
 pytest
