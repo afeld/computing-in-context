@@ -27,7 +27,7 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 ## [Starting Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)
 
 ```sh
-jupyter lab --no-browser
+jupyter lab --browser chrome
 ```
 
 ## Generating slides
