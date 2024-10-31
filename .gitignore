@@ -1,4 +1,7 @@
+*.csv
 *.slides.html
+*.zip
+
 __pycache__/
 _build/
 .ipynb_checkpoints/
