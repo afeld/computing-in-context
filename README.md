@@ -20,8 +20,16 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 
 ## [Building the site](https://jupyterbook.org/en/stable/basics/build.html#build-via-the-command-line)
 
+Building the site from scratch and running tests:
+
 ```sh
 make
+```
+
+If just testing a change within a page:
+
+```sh
+make quick
 ```
 
 ## [Starting Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)

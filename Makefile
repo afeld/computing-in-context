@@ -5,6 +5,9 @@ all: site test
 lab:
 	jupyter lab --browser $(browser)
 
+quick:
+	jupyter-book build -W -n --keep-going .
+
 site:
 	# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 	# https://jupyterbook.org/en/stable/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
