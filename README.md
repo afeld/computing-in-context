@@ -30,11 +30,8 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 jupyter lab --browser chrome
 ```
 
-## Generating slides
+## Viewing slides
 
 ```sh
-jupyter nbconvert --to slides \
-   --SlidesExporter.reveal_scroll=True \
-   --ServePostProcessor.browser chrome \
-   --post serve lecture_NN.ipynb
+make slides lec=N
 ```
