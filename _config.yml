@@ -5,6 +5,9 @@ author: Aidan Feldman
 
 # https://jupyterbook.org/en/stable/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
 only_build_toc_files: true
+exclude_patterns:
+  - .github/*
+  - .pytest_cache/*
 
 repository:
   url: https://github.com/afeld/computing-in-context
@@ -23,9 +26,6 @@ html:
     </div>
 
 sphinx:
-  # avoid the html_theme_options from overriding the ones set by Jupyter Book
-  # https://jupyterbook.org/en/stable/advanced/sphinx.html#manual-sphinx-configuration
-  recursive_update: true
   config:
     html_show_copyright: false
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
