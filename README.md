@@ -33,5 +33,8 @@ jupyter lab --browser chrome
 ## Generating slides
 
 ```sh
-jupyter nbconvert --to slides --SlidesExporter.reveal_scroll=True --post serve lecture_NN.ipynb
+jupyter nbconvert --to slides \
+   --SlidesExporter.reveal_scroll=True \
+   --ServePostProcessor.browser chrome \
+   --post serve lecture_NN.ipynb
 ```
