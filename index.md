@@ -70,12 +70,17 @@ For example, let's say a student is in SIPA (INAFU6006) section 1. The first hal
 
 See the [Meeting Information](#meeting-information) for more details.
 
+If there are any discrepancies between the syllabi:
+
+- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) will take precendence.
+- For the second half of the course, this syllabus will take precendence.
+
 ## Grading
 
 - 30% Homework: 5% x (3 Assignments + 3 Projects)
 - 40% In-Class Tests: 20% x 2
 - 20% Lab Exercises: There are 12 labs. Each is worth 0-2%, up to 20%.
-- 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%.
+- 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%. See [lab attendance](#labs) for more details.
 
 See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
 
@@ -131,7 +136,7 @@ If there ends up being a wait list:
 Go through the following as soon as possible:
 
 1. This syllabus
-1. Once registred:
+1. Once registered:
    1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/203144) — let us know if you have any trouble accessing
    1. [The combined syllabus](https://courseworks2.columbia.edu/courses/203144/assignments/syllabus)
    1. [Lecture materials](https://courseworks2.columbia.edu/courses/203144/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/203144/assignments) to get caught up
@@ -154,9 +159,11 @@ You are responsible for getting caught up on what was covered, without asking th
 
 #### Labs
 
-_These only apply to the second half of the course; see the [combined CourseWorks](https://courseworks2.columbia.edu/courses/203144)/announcements for policies regarding labs in the first half._
+_For the second half of the course, at least:_
 
 Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
+
+We give two "freebies" — see [grading](#grading). These can be used for illness, scheduling conflicts, [religious observance](https://universitypolicies.columbia.edu/content/religious-accommodation-policy). We don't excuse absences beyond that, except in exceptional circumstances.
 
 ### Academic Integrity
 
