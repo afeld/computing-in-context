@@ -39,3 +39,4 @@ sphinx:
     linkcheck_report_timeouts_as_broken: false
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
+    html_extra_path: ['MessyData.csv']
