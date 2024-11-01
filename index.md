@@ -12,7 +12,7 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Information
 
-- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464)
+- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/course/20243/74422)
 - **Credits:** 3
 - **Prerequisites:** none
 
@@ -62,7 +62,7 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 ### Contexts and Structure
 
-Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20243/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/search/alf2215?term=20243&course=12464).
+Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20243/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/course/20243/74422).
 
 The lectures in the first half of the semester have students from multiple contexts, and are taught by Adam Cannon. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (recitations) are context-specific are context-specific the entire semester.
 
