@@ -136,7 +136,7 @@ If there ends up being a wait list:
 Go through the following as soon as possible:
 
 1. This syllabus
-1. Once registered:
+1. Once [registered](https://bulletin.columbia.edu/sipa/registration/):
    1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/203144) — let us know if you have any trouble accessing
    1. [The combined syllabus](https://courseworks2.columbia.edu/courses/203144/assignments/syllabus)
    1. [Lecture materials](https://courseworks2.columbia.edu/courses/203144/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/203144/assignments) to get caught up
@@ -147,7 +147,7 @@ If you get confused/stuck on any of the material, check out [the discussion boar
 
 ### Auditing
 
-See the [school policies](https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq). Students must be officially registered. If there's a wait list, priority for spots in the class will be given to students taking it for credit. Once registered: To receive [R-credit](https://www.registrar.columbia.edu/content/grade-options#auditing), every assignment should at least be attempted and submitted. At the end of the course, please remind the instructor that you were auditing.
+See the [school policies](https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq). Students must be officially [registered](https://bulletin.columbia.edu/sipa/registration/). If there's a wait list, priority for spots in the class will be given to students taking it for credit. Once registered: To receive [R-credit](https://www.registrar.columbia.edu/content/grade-options#auditing), every assignment should at least be attempted and submitted. At the end of the course, please remind the instructor that you were auditing.
 
 ### Attendance
 
