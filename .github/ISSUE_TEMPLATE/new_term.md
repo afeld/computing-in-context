@@ -29,7 +29,7 @@ assignees: afeld
     - [ ] Disable Regrade Requests
     - [ ] Sync Roster
     - [ ] [Create assignments](https://guides.gradescope.com/hc/en-us/articles/23584827793421-Using-Gradescope-LTI-1-0-with-Canvas-as-an-Instructor)
-      - [ ] Late deadline four days after due date
+      - [ ] Late deadline four days after due date for Projects, disable for Labs
       - [ ] Enable regrade requests for Projects, disable for Labs
       - [ ] Create rubric
 - [ ] Update [Gmail filters](https://docs.google.com/spreadsheets/d/1MoOnADGw_A3oc1qMx2TllbRHlRD-4dDcrHXldSdzM5E/edit#gid=1645501691)
