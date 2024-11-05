@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - name: Run build and tests
-        run: make
+      - name: Run tests and build
+        run: make test linkcheck
