@@ -32,6 +32,8 @@ sphinx:
     language: en
     # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
     linkcheck_ignore:
+      # invalid cert
+      - ^https://www.open311.org
       # behind Cloudflare; get 403s
       - ^https://(.+\.)?substack\.com
       - ^https://(.+\.)?columbia\.edu
@@ -39,4 +41,5 @@ sphinx:
     linkcheck_report_timeouts_as_broken: false
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
-    html_extra_path: ['MessyData.csv']
+    html_extra_path:
+      - MessyData.csv
