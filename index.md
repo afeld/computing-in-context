@@ -82,7 +82,9 @@ If there are any discrepancies between the syllabi:
 - 20% Lab Exercises: There are 12 labs. Each is worth 0-2%, up to 20%.
 - 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%. See [lab attendance](#labs) for more details.
 
-See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
+See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). Grace days may not be used for labs.
+
+The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
 
 > Grades submitted for SIPA core courses must have an average GPA between 3.2 and 3.4, with a goal of 3.3. Courses with enrollments over 35 are also recommended to follow this rule.
 
