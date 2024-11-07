@@ -2,6 +2,11 @@ browser := chrome
 
 all: site open test
 
+setup:
+	# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
+	# https://mamba.readthedocs.io/
+	mamba env create --file environment.yml
+
 lab:
 	jupyter lab --browser $(browser)
 
