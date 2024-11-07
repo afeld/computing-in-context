@@ -40,6 +40,7 @@ For all steps, explain what you're doing and what you found using [Markdown cell
   - In other words, if the dataset got additional rows, had values changed, etc., it should display those appropriately.
 - It should look decent on a narrow (11") laptop screen.
 - You can be creative here, but **start simple**.
+  - Recommendation: Start with the example below, get that working, then go from there.
   - Use only one or two columns of your dataset.
 - We'll talk about data visualization in more detail in [the week 10 reading](week_10.md), [Lecture 19](lecture_19.ipynb), and Lab 10, but none of that knowledge is expected to complete this. In other words, it's fine if your visualization is "bad" (doesn't follow best practices), since it's not assumed that you've learned those yet.
 
