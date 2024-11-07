@@ -82,7 +82,7 @@ If there are any discrepancies between the syllabi:
 - 20% Lab Exercises: There are 12 labs. Each is worth 0-2%, up to 20%.
 - 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%. See [lab attendance](#labs) for more details.
 
-See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). Grace days may not be used for labs.
+See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). Grace days may not be used for labs. That said, you get two "freebies" for both Lab Exercises and Attendace.
 
 The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
 
@@ -155,7 +155,7 @@ See the [school policies](https://www.sipa.columbia.edu/students/student-affairs
 
 Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
 
-Attendance is only taken for the lab sessions; see below and [grading](#grading) for details. If you are absent, we trust that it's for a good reason. If you're sick, please stay home and rest.
+Attendance is only taken for the lab sessions; see below and [grading](#grading) for details. If you are absent, we trust that it's for a good reason: scheduling conflicts, [religious observance](https://universitypolicies.columbia.edu/content/religious-accommodation-policy), etc. We don't excuse absences beyond that, except in exceptional circumstances. If you're sick, please stay home and rest.
 
 You are responsible for getting caught up on what was covered, without asking the instructors/TAs to re-teach the material to you. You may want to ask a classmate for notes.
 
@@ -165,7 +165,7 @@ _For the second half of the course, at least:_
 
 Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
 
-We give two "freebies" — see [grading](#grading). These can be used for illness, scheduling conflicts, [religious observance](https://universitypolicies.columbia.edu/content/religious-accommodation-policy). We don't excuse absences beyond that, except in exceptional circumstances.
+See [grading](#grading) for more details.
 
 ### Academic Integrity
 
