@@ -33,3 +33,11 @@ def test_num_slides(file):
     slide_count = num_slides(notebook.cells)
     print(f"{file}: {slide_count} slides")
     assert 30 <= slide_count <= 40
+
+@pytest.mark.parametrize("file", lecture_notebooks)
+def test_no_attendance(file):
+    notebook = read_notebook(file)
+
+    for cell in notebook.cells:
+        if cell.cell_type == "markdown":
+            assert "attendance" not in cell.source.lower()
