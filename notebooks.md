@@ -1,4 +1,4 @@
-# Notebooks
+# Notebook info
 
 This site is built from Jupyter notebooks and Markdown files using [Jupyter Book](https://jupyterbook.org/). You can take a look at [the source code](https://github.com/afeld/computing-in-context), if curious.
 

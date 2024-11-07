@@ -14,25 +14,28 @@ chapters:
   - url: https://python-public-policy.afeld.me/en/columbia/resources.html
     title: Resources
   - file: notebooks
-  - file: week_8
+    # use glob where the automatic sorting would put them in the correct order (all single or double digits, but not both)
     sections:
-      - file: lecture_15
-      - file: lecture_16
+      - glob: notebook_*
+  - file: lectures
+    sections:
+      - glob: lecture_*
+  - file: labs
+    sections:
       - file: lab_8
         sections:
           - file: lab_8_guide
             title: Guide
-  - file: week_9
-    sections:
-      - file: lecture_17
-      - file: lecture_18
       - file: lab_9
         sections:
           - file: lab_9_guide
             title: Guide
-  - file: project_1
-  - file: week_10
+  - file: reading
     sections:
-      - file: lecture_19
-  - file: week_11
-  - file: lecture_24
+      - file: week_8
+      - file: week_9
+      - file: week_10
+      - file: week_11
+  - file: projects
+    sections:
+      - glob: project_*
