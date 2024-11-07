@@ -1,4 +1,5 @@
 from glob import glob
+import re
 import pytest
 
 from .nb_helper import read_notebook
@@ -15,8 +16,22 @@ def is_slide(cell):
 
 
 def num_slides(cells):
+    """Return a weighted number of slides"""
+
     slides = [cell for cell in cells if is_slide(cell)]
-    return len(slides)
+    count = len(slides)
+
+    has_intro = any(re.match("# Intro(duction)?s", slide.source) for slide in slides)
+    if has_intro:
+        count += 5
+
+    num_exercises = sum(
+        1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
+    )
+    # let's say that each exercise is worth ten slides
+    count += num_exercises * 10
+
+    return count
 
 
 # see counts with `pytest -s -k num_slides`
