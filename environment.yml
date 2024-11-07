@@ -15,3 +15,4 @@ dependencies:
   - pytest
   # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
   - sphinx>=6.2.0
+  - statsmodels
