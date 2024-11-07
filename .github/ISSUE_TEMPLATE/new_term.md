@@ -14,7 +14,7 @@ assignees: afeld
 - [ ] Find TAs
   - [ ] Update [job post](https://docs.google.com/document/d/10nDc6y2LZdQDjGkqSP6f1tVlRmjhYU41jWKMlIT-324/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit)
-  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
+  - [ ] Update in [syllabus](https://computing-in-context.afeld.me/#teaching-assistants-tas)
   - [ ] Set up check-in
   - [ ] Share solutions
 - [ ] Set up Courseworks
