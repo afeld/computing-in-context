@@ -9,7 +9,7 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 1. [Install the dependencies](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) - using [mamba](https://mamba.readthedocs.io/) is recommended.
 
    ```sh
-   mamba install -f environment.yml
+   mamba env create --file environment.yml
    ```
 
 1. [Activate the environment.](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
