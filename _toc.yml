@@ -32,5 +32,7 @@ chapters:
             title: Guide
   - file: project_1
   - file: week_10
+    sections:
+      - file: lecture_19
   - file: week_11
   - file: lecture_24

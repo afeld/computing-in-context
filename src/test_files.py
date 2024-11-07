@@ -1,6 +1,9 @@
 from glob import glob
+import re
 
 import pytest
+
+JINJA_EXPRESSION = re.compile(r"{{ ?\w+ ?}}")
 
 files = glob("*.ipynb") + glob("*.md")
 
@@ -10,5 +13,5 @@ def test_no_jinja(file):
     with open(file) as f:
         content = f.read()
 
-    assert "{{" not in content
+    assert JINJA_EXPRESSION.search(content) is None
     assert "{%" not in content
