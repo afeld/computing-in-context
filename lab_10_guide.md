@@ -23,6 +23,12 @@ Do the following as a group, with students directing.
 
 If you have time, repeat with a different visualization type, using a different dataset if you need. It's ok if it's a bit bumpy; use any dead ends as teachable moments.
 
+### Examples
+
+- Using [crash data](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/explore), make a histogram of contributing factors.
+- Using [city payroll data](https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e/explore), make a scatterplot of base salary vs. total other pay.
+  - You'll need to deal with formatting / data types.
+
 ## Second half
 
 Walk through [Lab 10 Exercise](lab_10.ipynb).
