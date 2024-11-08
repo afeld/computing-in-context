@@ -33,13 +33,15 @@ For all steps, explain what you're doing and what you found using [Markdown cell
 
 ## Data visualization
 
+Requirements:
+
 - The data/calculations can come through pandas, but the drawing code should only use the Python standard library.
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - It should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding).
   - In other words, if the dataset got additional rows, had values changed, etc., it should display those appropriately.
 - It should look decent on a narrow (11") laptop screen.
-- You can be creative here, but **start simple**.
-- We'll talk about data visualization in more detail in [the week 10 reading](week_10.md), [Lecture 19](lecture_19.ipynb), and [Lab 10](lab_10_guide.md), but none of that knowledge is expected to complete this. In other words, it's fine if your visualization is "bad" (doesn't follow best practices), since it's not assumed that you've learned those yet.
+
+We'll talk about data visualization in more detail in [the week 10 reading](week_10.md), [Lecture 19](lecture_19.ipynb), and [Lab 10](lab_10_guide.md), but none of that knowledge is expected to complete this. In other words, it's fine if your visualization is "bad" (doesn't follow best practices), since it's not assumed that you've learned those yet.
 
 ### Example
 
@@ -61,7 +63,8 @@ could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that
 
 ### Tips
 
-- Start with the example above, get that working, then go from there.
+- You can be creative here, but **start simple**.
+  - Start with the example above, get that working, then go from there.
 - Use only one or two columns of your dataset.
 - Making your chart vertical (one data point per line) will probably be easier than doing something horizontal.
 - `print()`ing strings will probably be easiest, but you can get fancy and [generate HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
