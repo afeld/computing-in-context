@@ -39,7 +39,7 @@ chapters:
       - file: week_10
       - file: week_11
       - file: week_12
-      - file: week_13
+      - file: week_13_14
   - file: redirects/projects
     sections:
       - glob: project_*
