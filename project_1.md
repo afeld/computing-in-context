@@ -74,8 +74,8 @@ could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that
 
 ## Rubric
 
-- 20% Follows [Style Guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)
-- 15% [pandas Steps: 5% x 3](#steps)
-- 30% [Python Standard Library Steps: 10% x 3](#steps)
-- 25% [Data Visualization](#data-visualization)
+- 20% Follows [style guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)
+- 15% [pandas steps](#steps): 5% x 3
+- 30% [Python standard library steps](#steps): 10% x 3
+- 25% [Data visualization](#data-visualization)
 - 10% [Explanations](#steps)
