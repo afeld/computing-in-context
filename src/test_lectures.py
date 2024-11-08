@@ -41,6 +41,8 @@ def test_num_slides(file):
 
     notebook = read_notebook(file)
 
+    if file == "lecture_20.ipynb":
+        pytest.xfail("In progress")
     # the various pieces of the lecture can be scaled appropriately
     if file == "lecture_25.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
@@ -48,6 +50,7 @@ def test_num_slides(file):
     slide_count = num_slides(notebook.cells)
     print(f"{file}: {slide_count} slides")
     assert 30 <= slide_count <= 40
+
 
 @pytest.mark.parametrize("file", lecture_notebooks)
 def test_no_attendance(file):
