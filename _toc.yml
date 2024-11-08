@@ -28,6 +28,10 @@ chapters:
         sections:
           - file: lab_9_guide
             title: Guide
+      - file: lab_10
+        sections:
+          - file: lab_10_guide
+            title: Guide
   - file: redirects/reading
     sections:
       - file: week_8
