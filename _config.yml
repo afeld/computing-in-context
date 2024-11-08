@@ -47,6 +47,8 @@ sphinx:
     html_extra_path:
       - MessyData.csv
     suppress_warnings:
+      # linkcheck doesn't like plotly HTML outputs
+      - mystnb.mime_priority
       # Plotly gives a custom MIME Type
       # https://plotly.com/python/renderers/#plotly_mimetype
       - mystnb.unknown_mime_type
