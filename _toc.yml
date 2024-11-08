@@ -38,6 +38,8 @@ chapters:
       - file: week_9
       - file: week_10
       - file: week_11
+      - file: week_12
+      - file: week_13
   - file: redirects/projects
     sections:
       - glob: project_*
