@@ -65,11 +65,12 @@ could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that
 
 - You can be creative here, but **start simple**.
   - Start with the example above, get that working, then go from there.
-- Use only one or two columns of your dataset.
+  - Use only one or two columns of your dataset.
+  - `print()`ing strings will probably be easiest, but you can get fancy and [generate HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
 - Making your chart vertical (one data point per line) will probably be easier than doing something horizontal.
-- `print()`ing strings will probably be easiest, but you can get fancy and [generate HTML](https://mkonicek.medium.com/simple-tip-how-to-use-html-in-jupyter-notebook-eef14e81dbc5) if you want.
+- Techniques that may be helpful:
   - [Repeating strings](https://phoenixnap.com/kb/python-repeat-string)
-- ["Rewinding" a CSV](https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file)
+  - ["Rewinding" a CSV](https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file)
 - [Python strings can contain Unicode](https://docs.python.org/3/howto/unicode.html#the-string-type), including [emoji](https://getemoji.com/) 📈✨
 
 ## Rubric
