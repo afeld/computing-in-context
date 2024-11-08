@@ -1,6 +1,6 @@
 # Lab 10 guide
 
-**Goal:** Get students to think ahead to the visualizations they want to produce.
+**Goal:** Get students to think ahead to the visualizations they want to produce, then work through the steps to get there.
 
 ## First half
 

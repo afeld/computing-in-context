@@ -2,6 +2,8 @@
 
 ## First half: Data cleaning
 
+**Goal:** Have students think through what data quality issues may occur, then how to find and address them.
+
 This part will be done all together, with the TAs mainly asking leading questions rather than lecturing. Students should be driving, telling the TA what to do. The TA will be live-coding; students can do the same if they like. At a high level, the class will:
 
 1. Create a notebook.

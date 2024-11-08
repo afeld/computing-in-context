@@ -1,5 +1,7 @@
 # Lab 8 guide
 
+**Goal:** Ensure students are set up for the rest of the course and comfortable using Jupyter.
+
 ## Setup
 
 1. [Install the Anaconda Distribution](https://docs.anaconda.com/anaconda/install/) (called "Anaconda" for short), if you haven't already.
