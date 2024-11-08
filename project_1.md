@@ -71,3 +71,11 @@ could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that
   - [Repeating strings](https://phoenixnap.com/kb/python-repeat-string)
 - ["Rewinding" a CSV](https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file)
 - [Python strings can contain Unicode](https://docs.python.org/3/howto/unicode.html#the-string-type), including [emoji](https://getemoji.com/) 📈✨
+
+## Rubric
+
+- 20% Follows [Style Guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)
+- 15% [pandas Steps: 5% x 3](#steps)
+- 30% [Python Standard Library Steps: 10% x 3](#steps)
+- 25% [Data Visualization](#data-visualization)
+- 10% [Explanations](#steps)
