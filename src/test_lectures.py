@@ -5,7 +5,7 @@ import pytest
 from .nb_helper import is_markdown, read_notebook
 
 
-lecture_notebooks = glob("lecture_[0-9][0-9].ipynb")
+lecture_notebooks = glob("lecture_*.ipynb")
 lecture_notebooks.sort()
 
 
@@ -44,6 +44,8 @@ def test_num_slides(file):
     slide_count = num_slides(notebook.cells)
     print(f"{file}: {slide_count} slides")
 
+    if "exercise" in file:
+        pytest.xfail("Not expected to be a full lecture")
     if file == "lecture_21.ipynb":
         pytest.xfail("In progress")
     if file == "lecture_25.ipynb":
