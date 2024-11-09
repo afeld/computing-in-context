@@ -23,8 +23,6 @@ chapters:
       - file: lecture_19
       - file: lecture_20
         sections:
-          - file: lecture_20_exercise
-            title: Exercise
           - file: lecture_20_exercise_solution
             title: Exercise solution
       - file: lecture_21
