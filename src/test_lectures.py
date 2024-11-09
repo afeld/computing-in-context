@@ -49,7 +49,8 @@ def test_num_slides(file):
 
     slide_count = num_slides(notebook.cells)
     print(f"{file}: {slide_count} slides")
-    assert 30 <= slide_count <= 40
+    assert slide_count >= 30, "Too few slides"
+    assert slide_count <= 40, "Too many slides"
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
