@@ -5,7 +5,7 @@ import pytest
 from .nb_helper import is_markdown, read_notebook
 
 
-lecture_notebooks = glob("lecture_*.ipynb")
+lecture_notebooks = glob("lecture_[0-9][0-9].ipynb")
 lecture_notebooks.sort()
 
 
