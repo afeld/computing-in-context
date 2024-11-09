@@ -41,14 +41,14 @@ def test_num_slides(file):
 
     notebook = read_notebook(file)
 
+    slide_count = num_slides(notebook.cells)
+    print(f"{file}: {slide_count} slides")
+
     if file == "lecture_21.ipynb":
         pytest.xfail("In progress")
-    # the various pieces of the lecture can be scaled appropriately
     if file == "lecture_25.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
-    slide_count = num_slides(notebook.cells)
-    print(f"{file}: {slide_count} slides")
     assert slide_count >= 30, "Too few slides"
     assert slide_count <= 40, "Too many slides"
 
