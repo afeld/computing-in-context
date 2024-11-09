@@ -5,6 +5,7 @@
 __pycache__/
 _build/
 .ipynb_checkpoints/
+data/
 Lab Material/
 Lectures_first_half/
 
