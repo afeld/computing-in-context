@@ -43,3 +43,7 @@ make lab
 ```sh
 make slides lec=N
 ```
+
+## Merging notebooks
+
+[nbmerge](https://github.com/jbn/nbmerge?tab=readme-ov-file#usage) seems to be easier than copying across them.
