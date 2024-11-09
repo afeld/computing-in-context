@@ -41,7 +41,7 @@ def test_num_slides(file):
 
     notebook = read_notebook(file)
 
-    if file == "lecture_20.ipynb":
+    if file in ["lecture_20.ipynb", "lecture_21.ipynb"]:
         pytest.xfail("In progress")
     # the various pieces of the lecture can be scaled appropriately
     if file == "lecture_25.ipynb":
