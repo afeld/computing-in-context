@@ -2,7 +2,7 @@ from glob import glob
 import re
 import pytest
 
-from .nb_helper import read_notebook
+from .nb_helper import is_markdown, read_notebook
 
 
 lecture_notebooks = glob("lecture_*.ipynb")
@@ -58,5 +58,5 @@ def test_no_attendance(file):
     notebook = read_notebook(file)
 
     for cell in notebook.cells:
-        if cell.cell_type == "markdown":
+        if is_markdown(cell):
             assert "attendance" not in cell.source.lower()
