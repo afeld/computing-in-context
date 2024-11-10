@@ -46,8 +46,6 @@ def test_num_slides(file):
 
     if "exercise" in file:
         pytest.xfail("Not expected to be a full lecture")
-    if file == "lecture_21.ipynb":
-        pytest.xfail("In progress")
     if file == "lecture_25.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
