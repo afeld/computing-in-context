@@ -45,6 +45,8 @@ chapters:
         sections:
           - file: lab_11_guide
             title: Guide
+          - file: lab_11_exercise_solution
+            title: Exercise solution
   - file: redirects/reading
     sections:
       - file: week_8
