@@ -28,6 +28,7 @@ All Projects must:
 - **Be done in a Jupyter notebook**
 - **Follow the [style guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)**
 - **Use at least one dataset you aren't familiar with**
+  - Using data from a primary source is preferred.
   - [Open data portals](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals)
 - **Link to the source dataset(s)**
 - **Read like a blog post**

@@ -11,13 +11,14 @@ The goal of this Project is to **prove or disprove a hypothesis using skills lea
 
 ## Analysis requirements
 
-In addition to the applicable [general Project requirements](notebooks.md#projects), your submission should:
+Your submission should:
 
+- **Meet the [general Project requirements](notebooks.md#projects)**
 - **Not be trivial** - requiring:
   - At least 40 lines of code to come to a conclusion
     - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
     - If you meet all the other requirements, you will likely be well over this number.
-    - [How to count them automaticaly](final_project/resources.md#counting-lines-of-code)
+    - You can count them automatically using a tool like [tokei](https://github.com/XAMPPRocky/tokei).
   - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.
 - **Have a visualization** (chart or map) of some kind
@@ -31,14 +32,9 @@ If you answer the first question easily, that's fine; dig into / build off of it
 
 ## Process
 
-1. [Find a dataset](resources.md#open-data-portals) that seems interesting.
-   - Use at least one dataset that you aren't familiar with.
-     - Using data from a primary source is preferred.
-   - To meet the [requirement](../final_project.md#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
+1. [Find a dataset](notebooks.md#projects) that seems interesting.
+   - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
    - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
-     {%- if id == "nyu" %}
-   - Note the [{{coding_env_name}} limits](../assignments.md#limits).
-     {%- endif %}
 1. Load the data into a DataFrame.
 1. Inspect the data a bit.
 1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
@@ -55,7 +51,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
 - If you're using multiple datasets: **What columns are you going to merge/join them on?**
 - **What's your hypothesis?**
 
-Feel free to include any questions/concerns/uncertainties that the {{assistant_name}} can help with.
+Feel free to include any questions/concerns/uncertainties that the TAs can help with.
 
 ## Tips
 
