@@ -13,5 +13,5 @@ def test_no_jinja(file):
     with open(file) as f:
         content = f.read()
 
-    assert JINJA_EXPRESSION.search(content) is None
-    assert "{%" not in content
+    assert JINJA_EXPRESSION.search(content) is None, "Jinja expression found"
+    assert "{%" not in content, "Jinja statement found"

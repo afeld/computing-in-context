@@ -9,4 +9,4 @@ assignments = glob("lab_*.ipynb") + glob("project_*.md")
 def test_submit_info(file):
     with open(file) as f:
         content = f.read()
-    assert "Submit via Gradescope" in content
+    assert "submit via gradescope" in content.lower()

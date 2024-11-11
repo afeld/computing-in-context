@@ -41,6 +41,7 @@ chapters:
         sections:
           - file: lab_10_guide
             title: Guide
+      - file: lab_11
   - file: redirects/reading
     sections:
       - file: week_8
