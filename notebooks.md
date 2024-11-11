@@ -49,6 +49,7 @@ All Projects must:
 
 ### Tips
 
+- [The Final Project resources from Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html) may be helpful, as that Project is similar.
 - The dataset/analysis can be serious or silly.
 - You can be creative, but **start simple**.
 - Go back and find any information that's available _around_ the data, to get a better understanding of what it contains and means.

@@ -19,7 +19,7 @@ Your submission should:
     - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
     - If you meet all the other requirements, you will likely be well over this number.
     - You can count them automatically using a tool like [tokei](https://github.com/XAMPPRocky/tokei).
-  - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
+  - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.
 - **Have a visualization** (chart or map) of some kind
   - Follow [best practices](https://xdgov.github.io/data-design-standards/)
