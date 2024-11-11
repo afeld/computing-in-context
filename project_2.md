@@ -33,3 +33,7 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
 - 55% Data from two datasets is reflected in a single chart
 - 5% Visualization(s) are well-formatted
   - Titles and axis labels are present and clear, including units (if applicable)
+
+---
+
+Submit via Gradescope.

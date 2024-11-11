@@ -1,3 +1,7 @@
 # Project 3
 
-TODO
+## TODO
+
+---
+
+Submit via Gradescope.
