@@ -2,7 +2,9 @@ from glob import glob
 
 import pytest
 
-assignments = glob("lab_*.ipynb") + glob("project_*.md")
+assignments = (
+    glob("lab_[0-9].ipynb") + glob("lab_[0-9][0-9].ipynb") + glob("project_*.md")
+)
 
 
 @pytest.mark.parametrize("file", assignments)

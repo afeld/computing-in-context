@@ -5,7 +5,7 @@ import pytest
 from .nb_helper import is_code_cell, read_notebook
 
 
-lab_notebooks = glob("lab_*.ipynb")
+lab_notebooks = glob("lab_[0-9].ipynb") + glob("lab_[0-9][0-9].ipynb")
 lab_notebooks.sort()
 
 
