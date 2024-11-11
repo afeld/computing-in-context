@@ -9,7 +9,7 @@
 
 Do the following in [the lab notebook](lab_11.ipynb) all together, with students driving.
 
-1. **~20 minutes:** Street trees
+1. **~20 minutes:** Trees
 1. **~25 minutes:** Buses
    - If you have time, make charts. Otherwise, showing in a table is fine.
 1. 311 and COVID
