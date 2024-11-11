@@ -42,10 +42,17 @@ All Projects must:
     - You may need to tweak your research question as you go. Show and explain why.
 - **Values should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)**
   - In other words, if the dataset got additional rows, had values changed, etc., the rest of the notebook should work as expected.
+- **Don't leave any sensitive information in the notebook**, such as:
+  - API keys
+  - Personally-identifiable information (PII)
 
 ### Tips
 
 - The dataset/analysis can be serious or silly.
 - You can be creative, but **start simple**.
+- Go back and find any information that's available _around_ the data, to get a better understanding of what it contains and means.
+  - Might include a data dictionary
+  - Might involve poking around a government agency's web site to understand their processes
+  - Understand what all the different columns and values represent
 - For these Projects, the important thing is getting practice with the mechanics of working with data in code.
   - You won’t be graded on the scientific soundness of your work.
