@@ -21,8 +21,12 @@ Known issue: images will be broken.
 
 ## Projects
 
+### Requirements
+
 All Projects must:
 
+- **Be done in a Jupyter notebook**
+- **Follow the [style guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)**
 - **Use at least one dataset you aren't familiar with**
   - [Open data portals](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals)
 - **Link to the source dataset(s)**
@@ -36,3 +40,12 @@ All Projects must:
     - For example, include charts that you generate that may not show anything interesting and explain what you are choosing to look at instead.
     - You should still be cleaning up unused/broken code to make your notebook readable.
     - You may need to tweak your research question as you go. Show and explain why.
+- **Values should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)**
+  - In other words, if the dataset got additional rows, had values changed, etc., the rest of the notebook should work as expected.
+
+### Tips
+
+- The dataset/analysis can be serious or silly.
+- You can be creative, but **start simple**.
+- For these Projects, the important thing is getting practice with the mechanics of working with data in code.
+  - You won’t be graded on the scientific soundness of your work.
