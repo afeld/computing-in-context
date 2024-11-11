@@ -1,8 +1,10 @@
 # Lab 11 guide
 
+Do the following all together, with students driving. While the [solutions](lab_11_solutions.ipynb) are available for the first two, discourage students from looking at them before completing.
+
 1. Using [Street Tree Census data](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh/about_data), make a choropleth map of the number of trees per Community District/Board.
    - [More info about the Census](https://www.nycgovparks.org/trees/treescount)
-   - [Solution](lab_11_exercise_solution.ipynb)
-1. TODO resampling exercise
-1. Do [Lab 11 Exercise](lab_11.ipynb) through Step 5 all together, with students driving.
+1. Using [MTA ridership data](https://data.ny.gov/Transportation/MTA-Daily-Ridership-Data-Beginning-2020/vxuj-8kew/about_data), view the bus ridership by day, month, and year.
+   - If you have time, you can plot that in a line chart. Otherwise, showing in a table is fine.
+1. Do [Lab 11 Exercise](lab_11.ipynb) through Step 5.
 1. Remaining ~30 minutes: Independent work time for Lab 11.
