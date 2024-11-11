@@ -9,14 +9,12 @@ In this project, you will:
 
 ## Steps
 
-For all steps, explain what you're doing and what you found using [Markdown cells](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
-
-1. Find a dataset you aren't familiar with.
+1. Read the [general Project information](notebooks.md#projects).
+1. Find a dataset.
    - It must have:
      - At least one numeric column
      - Between one thousand and one million rows
        - If it's larger than that, you can filter it down.
-   - See [this list of open data portals](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals).
    - Don't spend too long on this step.
 1. If there's more than one numeric column, pick one.
 1. Create a new notebook.
