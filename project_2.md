@@ -1,3 +1,35 @@
 # Project 2
 
-TODO
+In this project, you will:
+
+- Work across datasets
+- Create data visualization(s)
+
+## Objective
+
+In this Project, you will **take two datasets and show a relationship (or lack thereof) in one chart**. This can mean:
+
+- Plotting information from both as separate lines/points
+- Merging the datasets and plotting a derived measure
+- etc.
+
+Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/final_project/universities.html).
+
+## Requirements
+
+- Use Python/pandas for everything
+  - You can use a spreadsheet program for simple preparation like extracting a table from a larger sheet (explain in the notebook if you do this), but all data cleaning, merging, visualizations, etc. should be done in code.
+- Data from two datasets is reflected in a single chart
+  - There can be additional visualizations
+- [General Project information](notebooks.md#projects)
+
+## Tips
+
+- The relationship you're showing doesn’t need to be something novel; replicating something you saw / read / heard about is fine.
+
+## Rubric
+
+- 40% [General project requirements](notebooks.md#projects)
+- 55% Data from two datasets is reflected in a single chart
+- 5% Visualization(s) are well-formatted
+  - Titles and axis labels are present and clear, including units (if applicable)
