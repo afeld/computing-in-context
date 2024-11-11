@@ -21,6 +21,7 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
   - You can use a spreadsheet program for simple preparation like extracting a table from a larger sheet (explain in the notebook if you do this), but all data cleaning, merging, visualizations, etc. should be done in code.
 - Data from two datasets is reflected in a single chart
   - There can be additional visualizations
+- State the takeaway(s)
 - [General Project information](notebooks.md#projects)
 
 ## Tips
