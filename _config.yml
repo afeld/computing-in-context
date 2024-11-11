@@ -35,6 +35,8 @@ sphinx:
     language: en
     # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
     linkcheck_ignore:
+      # their anchors are title-cased
+      - ^https://plotly.com
       # invalid cert
       - ^https://www.open311.org
       # behind Cloudflare; get 403s
