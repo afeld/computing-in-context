@@ -61,7 +61,7 @@ Data that looks like this:
 could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that looks like this:
 
 ```
-Rat sightings over time
+Rat sightings, in thousands
 
 2014: ***
 2015: *****
