@@ -70,3 +70,13 @@ All visualizations must:
   - Understand what all the different columns and values represent
 - For these Projects, the important thing is getting practice with the mechanics of working with data in code.
   - You won’t be graded on the scientific soundness of your work.
+
+### Grading
+
+The Rubrics in Gradescope have [Items](https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-Submissions#h_01HHDFGS9DRQ52GVJAG04KPBVV) that correspond to the different sections/requirements. Each will be broken down to:
+
+- Full credit
+- Partial credit (half points)
+- Incomplete (zero points)
+
+There will no points assigned between those values. In other words, if a specific section that is attempted but didn't meet all the requirements, it will get half the points for that Rubric Item, no matter how far off it was.

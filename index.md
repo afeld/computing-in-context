@@ -70,14 +70,15 @@ For example, let's say a student is in SIPA (INAFU6006) section 1. The first hal
 
 See the [Meeting Information](#meeting-information) for more details.
 
-If there are any discrepancies between the syllabi:
+If there are any discrepancies between the syllabi, course sites, etc:
 
-- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) will take precendence.
-- For the second half of the course, this syllabus will take precendence.
+- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) / Professor Cannon / the Lead TAs will take precendence.
+- For the second half of the course, this syllabus / this site / Professor Feldman will take precendence.
 
 ## Grading
 
 - 30% Homework: 5% x (3 Assignments + 3 Projects)
+  - [Project grading details](notebooks.md#grading)
 - 40% In-Class Tests: 20% x 2
 - 20% Lab Exercises: There are 12 labs. Each is worth 0-2%, up to 20%.
 - 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%. See [lab attendance](#labs) for more details.
