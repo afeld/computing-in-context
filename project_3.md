@@ -22,7 +22,7 @@ Your submission should:
   - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.
 - **Have a visualization** (chart or map) of some kind
-  - Follow [best practices](https://xdgov.github.io/data-design-standards/)
+  - [General requirements](notebooks.md#visualizations)
 
 If you answer the first question easily, that's fine; dig into / build off of it. Go deep, not broad.
 

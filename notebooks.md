@@ -41,11 +41,22 @@ All Projects must:
     - For example, include charts that you generate that may not show anything interesting and explain what you are choosing to look at instead.
     - You should still be cleaning up unused/broken code to make your notebook readable.
     - You may need to tweak your research question as you go. Show and explain why.
-- **Values should not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)**
+- **Values must not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)**
   - In other words, if the dataset got additional rows, had values changed, etc., the rest of the notebook should work as expected.
 - **Don't leave any sensitive information in the notebook**, such as:
   - API keys
   - Personally-identifiable information (PII)
+
+#### Visualizations
+
+All visualizations must:
+
+- **Have a title** that's clear
+- **Have axis labels**, including units (if applicable)
+  - Not required for Project 1.
+- **Look decent on a narrow (11") laptop screen**
+
+[Best practices.](https://xdgov.github.io/data-design-standards/)
 
 ### Tips
 

@@ -42,14 +42,15 @@ Requirements:
 
 - The data/calculations can come through pandas, but **the drawing code should only use the Python standard library.**
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
-- It must **look decent on a narrow (11") laptop screen**.
-  - In other words, with the example below, please don't print 3,162 asterisks (`*`).
+- [General requirements](notebooks.md#visualizations)
 
 We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this. In other words, it's fine if your visualization is "bad" (doesn't follow best practices), since it's not assumed that you've learned those yet.
 
 ### Example
 
 Data that looks like this:
+
+**Rat sightings**
 
 | Year | Count |
 | ---- | ----- |
@@ -60,10 +61,14 @@ Data that looks like this:
 could be turned into a [sparkline](https://en.wikipedia.org/wiki/Sparkline) that looks like this:
 
 ```
+Rat sightings over time
+
 2014: ***
 2015: *****
 2016: ****
 ```
+
+Please don't print 3,162 asterisks (`*`) 😉
 
 ### Tips
 
