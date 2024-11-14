@@ -52,7 +52,8 @@ All Projects must:
 All visualizations must:
 
 - **Have a title** that's clear
-- **Have axis labels**, including units (if applicable)
+- **Have axis labels** that are clear
+  - Include units, if applicable
   - Not required for Project 1.
 - **Look decent on a narrow (11") laptop screen**
 
