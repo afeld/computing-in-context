@@ -44,7 +44,7 @@ Requirements:
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - [General requirements](notebooks.md#visualizations)
 
-We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this. In other words, it's fine if your visualization is "bad" (doesn't follow best practices), since it's not assumed that you've learned those yet.
+We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this.
 
 ### Example
 
