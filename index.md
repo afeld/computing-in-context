@@ -70,10 +70,14 @@ For example, let's say a student is in SIPA (INAFU6006) section 1. The first hal
 
 See the [Meeting Information](#meeting-information) for more details.
 
-If there are any discrepancies between the syllabi, course sites, etc:
+#### Discrepancies
+
+If there is any conflicting information between the syllabi, course sites, etc:
 
 - For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) / Professor Cannon / the Lead TAs will take precendence.
 - For the second half of the course, this syllabus / this site / Professor Feldman will take precendence.
+
+If you aren't sure, please ask.
 
 ## Grading
 
