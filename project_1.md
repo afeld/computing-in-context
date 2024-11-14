@@ -24,18 +24,25 @@ In this project, you will:
       - The mean
       - The median
       - The mode
-1. Repeat the previous step using only the Python standard library ("the hard way" - not using pandas, a spreadsheet program, etc).
-   - Hint: Use a [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) to keep track of value counts.
-1. Create a data visualization, following the instructions below.
+1. Repeat the previous step using only the Python standard library., a.k.a. [the hard way](#aggregations-the-hard-way).
+1. Create a data visualization, following [the instructions below](#data-visualization).
 1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
+
+## Aggregations, the hard way
+
+- You should not be reusing the DataFrame/Series you read in in the pandas step.
+  - In other words, if you deleted the code for the previous step and restarted the kernel, the code for this step should still work.
+- You should be doing those calculations yourself.
+- You may not use pandas, [the statistics module](https://docs.python.org/3/library/statistics.html), a spreadsheet program, etc.
+- Hint: Use a [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) to keep track of value counts.
 
 ## Data visualization
 
 Requirements:
 
-- The data/calculations can come through pandas, but the drawing code should only use the Python standard library.
+- The data/calculations can come through pandas, but **the drawing code should only use the Python standard library.**
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
-- It should look decent on a narrow (11") laptop screen.
+- It must **look decent on a narrow (11") laptop screen**.
 
 We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this. In other words, it's fine if your visualization is "bad" (doesn't follow best practices), since it's not assumed that you've learned those yet.
 
