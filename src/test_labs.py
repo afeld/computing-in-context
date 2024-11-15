@@ -15,9 +15,7 @@ def test_lab_outputs_cleared(file):
 
     for cell in notebook.cells:
         if is_code_cell(cell):
-            assert (
-                cell.outputs == []
-            ), f"Output should be cleared. Cell:\n\n{cell.source}\n"
+            assert cell.outputs == [], f"Output should be cleared. Cell:\n\n{cell.source}\n"
 
 
 @pytest.mark.parametrize("file", lab_notebooks)
@@ -25,6 +23,4 @@ def test_boilerplate(file):
     notebook = read_notebook(file)
 
     boilerplate = "_[General notebook information](https://computing-in-context.afeld.me/notebooks.html)_"
-    assert any(
-        boilerplate in cell.source for cell in notebook.cells
-    ), "General assignment info is missing from lab"
+    assert any(boilerplate in cell.source for cell in notebook.cells), "General assignment info is missing from lab"

@@ -1,3 +1,6 @@
+[tool.ruff]
+line-length = 150
+
 [tool.ruff.lint.per-file-ignores]
 # ignore the provided code
 "lab_10.ipynb" = ["F821"]

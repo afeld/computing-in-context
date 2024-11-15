@@ -39,3 +39,6 @@ test:
 
 lint:
 	ruff check
+
+format:
+	ruff format *.ipynb src

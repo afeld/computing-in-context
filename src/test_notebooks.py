@@ -158,9 +158,7 @@ def test_long_outputs_scrolled(file):
                     num_rows = num_lines(output)
                     if num_rows > 30:
                         # if not set, the notebook will automatically scroll
-                        assert cell.metadata.get(
-                            "scrolled"
-                        ), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
+                        assert cell.metadata.get("scrolled"), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
 
 
 @pytest.mark.parametrize("file", notebooks)
@@ -170,6 +168,4 @@ def test_no_python_public_policy_tags(file):
     for cell in notebook.cells:
         tags = get_tags(cell)
         for tag in ["columbia-only", "nyu-only"]:
-            assert (
-                tag not in tags
-            ), f"Notebook contains a `{tag}` tag. Cell:\n\n{cell.source}\n"
+            assert tag not in tags, f"Notebook contains a `{tag}` tag. Cell:\n\n{cell.source}\n"

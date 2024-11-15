@@ -25,9 +25,7 @@ def num_slides(cells):
     if has_intro:
         count += 5
 
-    num_exercises = sum(
-        1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
-    )
+    num_exercises = sum(1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE))
     # let's say that each exercise is worth ten slides
     count += num_exercises * 10
 
