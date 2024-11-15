@@ -1,6 +1,9 @@
-name: Run tests
+name: Linkcheck
 
-on: push
+on:
+  schedule:
+    # nightly
+    - cron: "0 0 * * *"
 
 jobs:
   # https://docs.github.com/en/actions/using-workflows/reusing-workflows
@@ -13,5 +16,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - name: Run tests
-        run: make test
+      - name: Check for broken links
+        run: make linkcheck
