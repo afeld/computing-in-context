@@ -2,17 +2,20 @@ from glob import glob
 import re
 import pytest
 
-from .nb_helper import is_markdown, read_notebook
+from .nb_helper import is_code_cell, is_markdown, read_notebook
 
 
 lecture_notebooks = glob("lecture_*.ipynb")
 lecture_notebooks.sort()
 
 
+def slide_type(cell):
+    return cell.metadata.get("slideshow", {}).get("slide_type")
+
+
 def is_slide(cell):
     SLIDE_TYPES = ["slide", "subslide"]
-    slide_type = cell.metadata.get("slideshow", {}).get("slide_type")
-    return slide_type in SLIDE_TYPES
+    return slide_type(cell) in SLIDE_TYPES
 
 
 def num_slides(cells):
@@ -62,3 +65,18 @@ def test_no_attendance(file):
     for cell in notebook.cells:
         if is_markdown(cell):
             assert "attendance" not in cell.source.lower()
+
+
+@pytest.mark.parametrize("file", lecture_notebooks)
+def test_hidden_imports(file):
+    notebook = read_notebook(file)
+
+    for cell in notebook.cells:
+        if is_code_cell(cell):
+            lines = cell.source.splitlines()
+
+            imports_only = all(line.startswith("import ") for line in lines)
+            if imports_only:
+                assert (
+                    slide_type(cell) == "skip"
+                ), f"imports should be hidden:\n\n{cell.source}\n"
