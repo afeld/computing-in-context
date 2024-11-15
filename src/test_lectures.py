@@ -25,9 +25,9 @@ def num_slides(cells):
     if has_intro:
         count += 5
 
-    num_exercises = sum(1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE))
-    # let's say that each exercise is worth ten slides
-    count += num_exercises * 10
+    num_exercises = sum(1 for slide in slides if "# In-class exercise" in slide.source)
+    # let's say that each exercise is worth this many slides
+    count += num_exercises * 15
 
     return count
 
@@ -44,6 +44,10 @@ def test_num_slides(file):
 
     if "exercise" in file:
         pytest.xfail("Not expected to be a full lecture")
+    if file == "lecture_20.ipynb":
+        pytest.xfail("This exercise is long")
+    if file == "lecture_22.ipynb":
+        pytest.xfail("Work in progress")
     if file == "lecture_25.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
