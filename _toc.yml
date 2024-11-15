@@ -30,6 +30,7 @@ chapters:
           - file: lecture_20_exercise_sec_2
             title: Exercise solution - section 2
       - file: lecture_21
+      - file: lecture_22
       - file: lecture_24
   - file: redirects/labs
     sections:
