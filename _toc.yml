@@ -24,7 +24,11 @@ chapters:
       - file: lecture_20
         sections:
           - file: lecture_20_exercise_solution
-            title: Exercise solution
+            title: Exercise solution - official
+          - file: lecture_20_exercise_sec_1
+            title: Exercise solution - section 1
+          - file: lecture_20_exercise_sec_2
+            title: Exercise solution - section 2
       - file: lecture_21
       - file: lecture_24
   - file: redirects/labs
