@@ -31,8 +31,8 @@ In this project, you will:
 ## The hard way
 
 - You may not use pandas, [the statistics module](https://docs.python.org/3/library/statistics.html), a spreadsheet program, etc.
-  - You should not be reusing the DataFrame/Series you read in in the pandas step.
-    - In other words, if you deleted the code for the previous step and restarted the kernel, the code for this step should still work.
+  - You should be using the same dataset from the first step, but not accessing the DataFrame/Series.
+    - In other words, if put the code for this step in a totally separate notebook, it should still work.
 - You should be calculating the mean, median, and mode yourself, not using functions with those names (or equivalent).
   - Hint: Use a [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) to keep track of value counts.
 
