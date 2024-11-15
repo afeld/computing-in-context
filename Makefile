@@ -1,6 +1,6 @@
 browser := chrome
 
-all: site open test
+all: site open test lint
 
 setup:
 	# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
@@ -36,3 +36,6 @@ slides:
 
 test:
 	pytest
+
+lint:
+	ruff check

@@ -15,6 +15,7 @@ dependencies:
   # https://plotly.com/python/mapbox-to-maplibre/
   - plotly>=5.24.0
   - pytest
+  - ruff
   # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
   - sphinx>=6.2.0
   - statsmodels
