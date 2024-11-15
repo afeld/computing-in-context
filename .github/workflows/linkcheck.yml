@@ -4,6 +4,8 @@ on:
   schedule:
     # nightly
     - cron: "0 0 * * *"
+  # support manual trigger
+  workflow_dispatch:
 
 jobs:
   # https://docs.github.com/en/actions/using-workflows/reusing-workflows
