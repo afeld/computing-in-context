@@ -3,5 +3,8 @@
   "python.testing.pytestEnabled": true,
   "[json]": {
     "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
   }
 }
