@@ -24,3 +24,14 @@ def test_boilerplate(file):
 
     boilerplate = "_[General notebook information](https://computing-in-context.afeld.me/notebooks.html)_"
     assert any(boilerplate in cell.source for cell in notebook.cells), "General assignment info is missing from lab"
+
+
+lab_guides = glob("lab_*_guide.md")
+
+
+@pytest.mark.parametrize("file", lab_guides)
+def test_goal(file):
+    with open(file) as f:
+        guide = f.read()
+
+    assert "**Goal:** " in guide
