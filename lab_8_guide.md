@@ -5,9 +5,7 @@
 ## Setup
 
 1. [Install the Anaconda Distribution](https://docs.anaconda.com/anaconda/install/) (called "Anaconda" for short), if you haven't already.
-1. [Open Anaconda Navigator.](https://docs.anaconda.com/navigator/getting-started/#starting-navigator)
-1. Navigate to [Environments](https://docs.anaconda.com/navigator/tutorials/manage-environments/).
-1. [Ensure](https://docs.anaconda.com/navigator/tutorials/manage-packages/#searching-for-packages) `pandas` and `plotly` are installed.
+1. Ensure `pandas` and `plotly` are [installed](notebooks.md#installing-packages).
 1. Launch JupyterLab.
 
 ## Try it!

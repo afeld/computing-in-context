@@ -19,6 +19,12 @@ That is now your own copy; you can execute/add cells as you like, including addi
 
 Known issue: images will be broken.
 
+## Installing packages
+
+1. [Open Anaconda Navigator.](https://docs.anaconda.com/navigator/getting-started/#starting-navigator)
+1. Navigate to [Environments](https://docs.anaconda.com/navigator/tutorials/manage-environments/).
+1. [Find and install the relevant package(s)](https://docs.anaconda.com/navigator/tutorials/manage-packages/#installing-a-package).
+
 ## Projects
 
 ### Requirements
