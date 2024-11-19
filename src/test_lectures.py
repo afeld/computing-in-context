@@ -46,16 +46,16 @@ def test_num_slides(file):
     print(f"{file}: {slide_count} slides")
 
     if "exercise" in file:
-        pytest.xfail("Not expected to be a full lecture")
-    if file == "lecture_20.ipynb":
-        pytest.xfail("This exercise is long")
-    if file == "lecture_22.ipynb":
-        pytest.xfail("Work in progress")
-    if file == "lecture_25.ipynb":
-        pytest.xfail("The various pieces of the lecture can be scaled appropriately")
-
-    assert slide_count >= 30, "Too few slides"
-    assert slide_count <= 40, "Too many slides"
+        pytest.skip("Not expected to be a full lecture")
+    elif file == "lecture_20.ipynb":
+        assert slide_count <= 28, "This exercise is long"
+    elif file == "lecture_22.ipynb":
+        pytest.skip("Work in progress")
+    elif file == "lecture_25.ipynb":
+        pytest.skip("The various pieces of the lecture can be scaled appropriately")
+    else:
+        assert slide_count >= 30, "Too few slides"
+        assert slide_count <= 40, "Too many slides"
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
@@ -77,6 +77,4 @@ def test_hidden_imports(file):
 
             imports_only = all(line.startswith("import ") for line in lines)
             if imports_only:
-                assert (
-                    slide_type(cell) == "skip"
-                ), f"imports should be hidden:\n\n{cell.source}\n"
+                assert slide_type(cell) == "skip", f"imports should be hidden:\n\n{cell.source}\n"
