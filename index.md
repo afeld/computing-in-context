@@ -59,7 +59,8 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 - [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
 - [Comparison with Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context)
-- This is a prerequisite for some [DAQA courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext), such as [Advanced Computing for Policy](https://docs.google.com/document/d/14hGiU8LP0vosSnaT2z_3BYIQM1S4stPN/edit) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323). For Advanced Computing for Policy, see [the option to test out for Spring 2025](https://docs.google.com/document/d/14hGiU8LP0vosSnaT2z_3BYIQM1S4stPN/edit#heading=h.zflze4qejktu).
+- This is a prerequisite for some [DAQA courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext), such as [Advanced Computing for Policy](https://docs.google.com/document/d/14hGiU8LP0vosSnaT2z_3BYIQM1S4stPN/edit) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323).
+  - For Advanced Computing for Policy, see [the option to test out for Spring 2025](https://docs.google.com/document/d/14hGiU8LP0vosSnaT2z_3BYIQM1S4stPN/edit#heading=h.zflze4qejktu).
 
 ### Contexts and Structure
 
