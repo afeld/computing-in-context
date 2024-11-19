@@ -7,6 +7,9 @@ setup:
 	# https://mamba.readthedocs.io/
 	mamba env create --file environment.yml
 
+update:
+	mamba env update --file environment.yml --prune
+
 lab:
 	jupyter lab --browser $(browser)
 
