@@ -14,6 +14,8 @@ chapters:
   - url: https://python-public-policy.afeld.me/en/columbia/resources.html
     title: Resources
   - file: notebooks
+    sections:
+      - file: analytics
   - file: redirects/lectures
     sections:
       - file: lecture_15
