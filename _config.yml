@@ -49,7 +49,7 @@ sphinx:
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
     html_extra_path:
-      - MessyData.csv
+      - data/messy_data.csv
     suppress_warnings:
       # linkcheck doesn't like plotly HTML outputs
       - mystnb.mime_priority
