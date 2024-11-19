@@ -14,6 +14,7 @@ lab:
 	jupyter lab --browser $(browser)
 
 clean:
+	rm *.slides.html || true
 	jupyter-book clean .
 
 quick:
