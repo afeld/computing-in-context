@@ -1,5 +1,15 @@
-# Lab 12 guide
+# [Lab 12](lab_12.ipynb) guide
 
-IN PROGRESS
+**Goal:** Get familiar with how to read documentation for, test, and use APIs.
 
-**Goal:** Get familiar with how to use APIs.
+## First half
+
+1. Introduce scraping
+   - Don't need to spend long on this
+1. Work together in notebook through "API calls in the browser".
+   - Have students drive
+   - Can continue through "Querying" if they are feeling shaky
+
+## Second half
+
+Independent work time
