@@ -54,6 +54,10 @@ chapters:
             title: Guide
           - file: lab_11_solutions
             title: Solutions
+      - file: lab_12
+        sections:
+          - file: lab_12_guide
+            title: Guide
   - file: redirects/reading
     sections:
       - file: week_8
