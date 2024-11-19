@@ -5,9 +5,13 @@
 __pycache__/
 _build/
 .ipynb_checkpoints/
-data/
 Lab Material/
 Lectures_first_half/
+
+# data downloaded as part of an exercise
+data/electricity/
+data/P_Data_Extract_From_World_Development_Indicators/
+data/DataForTable2.1.xls
 
 # override the global
 !.vscode/settings.json
