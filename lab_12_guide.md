@@ -8,7 +8,7 @@
    - Don't need to spend long on this
 1. Work together in notebook through "API calls in the browser".
    - Have students drive
-   - Can continue through "Querying" if they are feeling shaky
+   - Can continue through [Retrieving nested data](lab_12.ipynb##retrieving-nested-data) if they are feeling shaky
 
 ## Second half
 
