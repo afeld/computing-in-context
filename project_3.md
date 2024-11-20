@@ -30,6 +30,8 @@ If you answer the first question easily, that's fine; dig into / build off of it
 
 **DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
 
+Instead of submitting via Gradescope, you will be publishing your notebooks for Project 1, 2, and 3 to the web. The suggested method is [Jupyter Book via Read the Docs](week_13.md). (If you want to publish a different way, please ask on Ed first and wait for the instructor/TAs to confirm.)
+
 ## Process
 
 1. [Find a dataset](notebooks.md#projects) that seems interesting.
@@ -68,7 +70,3 @@ Even the question can bake in assumptions. For example:
 > What ZIP code has the highest number of food poisoning cases?
 
 assumes a relationship between food-borne illness and geography. What assumptions does your question make?
-
----
-
-Submit via Gradescope.
