@@ -1,1 +1,1 @@
-These are required because Jupyter Book needs individual pages for the section headings in the Table of Contents. [The redirect rule is set up in ReadTheDocs.](https://app.readthedocs.org/dashboard/computing-in-context/redirects/)
+These are required because Jupyter Book needs individual pages for the section headings in the Table of Contents. [The redirect rule is set up in Read the Docs.](https://app.readthedocs.org/dashboard/computing-in-context/redirects/)
