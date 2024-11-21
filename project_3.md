@@ -4,6 +4,15 @@
 
 The goal of this Project is to **prove or disprove a hypothesis using skills learned in this class**. We're looking for you to be _just the right amount_ of ambitious.
 
+## JupyterBook
+
+1. Make a homepage.
+   - `project_3` will no longer be the `root`
+   - Relevant documentation:
+     - https://jupyterbook.org/en/stable/start/new-file.html
+     - https://jupyterbook.org/en/stable/structure/configure.html
+1. [Publish to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html)
+
 ## Once you start
 
 - [General Project information](notebooks.md#projects)
