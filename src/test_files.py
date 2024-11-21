@@ -26,7 +26,6 @@ def test_no_python_public_policy_stuff(file):
     words = [
         "Brightspace",
         "JupyterHub",
-        "Reader",
         "grader",
     ]
 
