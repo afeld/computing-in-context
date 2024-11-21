@@ -24,6 +24,7 @@ Known issue: images will be broken.
 1. [Open Anaconda Navigator.](https://docs.anaconda.com/navigator/getting-started/#starting-navigator)
 1. Navigate to [Environments](https://docs.anaconda.com/navigator/tutorials/manage-environments/).
 1. [Find and install the relevant package(s)](https://docs.anaconda.com/navigator/tutorials/manage-packages/#installing-a-package).
+   - If a package you expect to find is missing, try [adding the `conda-forge` channel](https://docs.anaconda.com/navigator/tutorials/manage-channels/#adding-a-channel-in-navigator).
 
 ## Projects
 
