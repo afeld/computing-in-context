@@ -47,8 +47,10 @@ def test_heading_levels(file):
         if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
             # slide with a heading
             slide_type = meta["slideshow"]["slide_type"]
+            # slides should start with an H1 or H2
             if slide_type == "slide":
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"
+            # sub-slides should start with an H3+
             elif slide_type == "subslide":
                 assert source.startswith("###"), "should be H3+"
 

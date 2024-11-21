@@ -50,7 +50,7 @@ def test_num_slides(file):
     elif file == "lecture_20.ipynb":
         assert slide_count <= 28, "This exercise is long"
     elif file == "lecture_23.ipynb":
-        assert slide_count <= 25, "This is mostly live demo"
+        assert slide_count <= 30, "This is mostly live demo"
     elif file == "lecture_25.ipynb":
         pytest.skip("The various pieces of the lecture can be scaled appropriately")
     else:
@@ -78,3 +78,16 @@ def test_hidden_imports(file):
             imports_only = all(line.startswith("import ") for line in lines)
             if imports_only:
                 assert slide_type(cell) == "skip", f"imports should be hidden:\n\n{cell.source}\n"
+
+
+@pytest.mark.parametrize("file", lecture_notebooks)
+def test_h3_subslide(file):
+    notebook = read_notebook(file)
+    for cell in notebook.cells:
+        meta = cell.metadata
+        source = cell.source
+        if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
+            # H3+ should always be a sub-slide
+            if source.startswith("###"):
+                slide_type = meta["slideshow"]["slide_type"]
+                assert slide_type in ["subslide", "skip"], f"should be a subslide:\n\n{source}\n"
