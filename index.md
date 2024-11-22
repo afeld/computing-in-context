@@ -117,8 +117,6 @@ For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/cou
 
 Reading should be completed before the lab session that week (Friday). For example: [Week 8 reading](week_8.md) should be completed before [Lab 8](lab_8_guide.md).
 
-Labs are structured, while Projects are more open-ended. Neither are meant to be easy.
-
 See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
 
 ## Communications

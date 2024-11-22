@@ -7,10 +7,11 @@ assignees: afeld
 ---
 
 - [ ] Get space for office hours
+- [ ] Incorporate [learnings from last time](https://docs.google.com/document/d/1NBqKbW8sZzG3SB44FvC4jED7_wCVv-3nH2k9KD0qYqg/edit?tab=t.0#heading=h.3stfpnh3zcav)
 - [ ] Update in repo
   - [ ] Dates
   - [ ] Office hours
-  - [ ] CourseWorks link
+  - [ ] CourseWorks links
 - [ ] Find TAs
   - [ ] Update [job post](https://docs.google.com/document/d/10nDc6y2LZdQDjGkqSP6f1tVlRmjhYU41jWKMlIT-324/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit)
