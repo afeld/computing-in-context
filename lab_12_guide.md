@@ -6,9 +6,9 @@
 
 1. Introduce scraping
    - Don't need to spend long on this
-1. Work together in notebook through "API calls in the browser".
+1. Work together in notebook through [Querying](lab_12.ipynb#querying).
    - Have students drive
-   - Can continue through [Retrieving nested data](lab_12.ipynb#retrieving-nested-data) if they are feeling shaky
+   - Can get them started on [Pagination](lab_12.ipynb#pagination) if they are feeling shaky
 
 ## Second half
 
