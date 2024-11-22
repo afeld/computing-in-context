@@ -45,8 +45,10 @@ def test_heading_levels(file):
         meta = cell.metadata
         source = cell.source
         if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
-            # slide with a heading
             slide_type = meta["slideshow"]["slide_type"]
+
+            # checking the inverse of test_lectures::test_heading_slide_types()
+
             # slides should start with an H1 or H2
             if slide_type == "slide":
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"

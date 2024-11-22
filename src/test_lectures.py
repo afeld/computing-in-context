@@ -5,7 +5,7 @@ import pytest
 from .nb_helper import is_code_cell, is_markdown, read_notebook
 
 
-lecture_notebooks = glob("lecture_*.ipynb")
+lecture_notebooks = glob("lecture_[0-9][0-9].ipynb")
 lecture_notebooks.sort()
 
 
@@ -81,13 +81,19 @@ def test_hidden_imports(file):
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
-def test_h3_subslide(file):
+def test_heading_slide_types(file):
     notebook = read_notebook(file)
     for cell in notebook.cells:
         meta = cell.metadata
         source = cell.source
         if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
+            slide_type = meta["slideshow"]["slide_type"]
+
+            # checking the inverse of test_notebooks::test_heading_levels()
+
+            # H2 should always be a slide
+            if source.startswith("## "):
+                assert slide_type in ["slide", "skip"], f"should be a slide:\n\n{source}\n"
             # H3+ should always be a sub-slide
             if source.startswith("###"):
-                slide_type = meta["slideshow"]["slide_type"]
                 assert slide_type in ["subslide", "skip"], f"should be a subslide:\n\n{source}\n"
