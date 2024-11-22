@@ -6,7 +6,7 @@ The goal of this Project is to **prove or disprove a hypothesis using skills lea
 
 ## JupyterBook
 
-1. Make a homepage.
+1. Make a homepage in your JupyterBook.
    - `project_3` will no longer be the `root`
    - Relevant documentation:
      - https://jupyterbook.org/en/stable/start/new-file.html
