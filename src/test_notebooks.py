@@ -38,16 +38,23 @@ def test_one_h1(file):
     assert num_h1s == 1
 
 
+def get_slide_type(cell) -> str:
+    return cell.metadata.get("slideshow", {}).get("slide_type")
+
+
 @pytest.mark.parametrize("file", notebooks)
 def test_heading_levels(file):
     notebook = read_notebook(file)
-    for cell in notebook.cells:
-        meta = cell.metadata
-        source = cell.source
-        if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
-            slide_type = meta["slideshow"]["slide_type"]
 
-            # checking the inverse of test_lectures::test_heading_slide_types()
+    if not any(get_slide_type(cell) == "slide" for cell in notebook.cells):
+        pytest.skip("No slides")
+
+    for cell in notebook.cells:
+        source = cell.source
+        if is_markdown(cell) and source.startswith("#"):
+            # it's a heading
+
+            slide_type = get_slide_type(cell)
 
             # slides should start with an H1 or H2
             if slide_type == "slide":
@@ -55,6 +62,15 @@ def test_heading_levels(file):
             # sub-slides should start with an H3+
             elif slide_type == "subslide":
                 assert source.startswith("###"), "should be H3+"
+
+            # checking the inverse of the above
+
+            # H2 should always be a slide
+            if source.startswith("## "):
+                assert slide_type in ["slide", "skip"], f"should be a slide:\n\n{source}\n"
+            # H3+ should always be a sub-slide
+            if source.startswith("###"):
+                assert slide_type in ["subslide", "skip"], f"should be a subslide:\n\n{source}\n"
 
 
 @pytest.mark.parametrize("file", notebooks)
