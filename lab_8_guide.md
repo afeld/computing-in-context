@@ -4,7 +4,8 @@
 
 ## Setup
 
-1. [Install the Anaconda Distribution](https://docs.anaconda.com/anaconda/install/) (called "Anaconda" for short), if you haven't already.
+1. For those who have the Anaconda Distribution (called "Anaconda" for short) installed, [update it](https://docs.anaconda.com/navigator/update-navigator/). Everyone else, [install it](https://docs.anaconda.com/anaconda/install/).
+1. [Add the `conda-forge` channel.](https://docs.anaconda.com/navigator/tutorials/manage-channels/#adding-a-channel-in-navigator)
 1. Ensure `pandas` and `plotly` are [installed](notebooks.md#installing-packages).
 1. Launch JupyterLab.
 
