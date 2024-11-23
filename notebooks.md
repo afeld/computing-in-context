@@ -23,7 +23,10 @@ For lecture slides / labs, download the page as a notebook to work with it local
 
 That is now your own copy; you can execute/add cells as you like, including adding your own notes in [Markdown cells](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). For Labs, the intention is for you to turn in the template via Gradescope, filled in with your code.
 
-Known issue: images will be broken.
+## Known issues
+
+- Images will be broken in downloaded notebooks
+- [Gradescope limits submissions to 100MB.](https://guides.gradescope.com/hc/en-us/articles/21861529742477-File-Requirements-for-Assignment-Types#h_01HGKC7CC57Q7MMHMYJ5G6F80E) If you're unable to submit for this (or any other) reason, reach out to the TAs.
 
 ## Installing packages
 
