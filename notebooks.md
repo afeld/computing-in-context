@@ -32,8 +32,10 @@ That is now your own copy; you can execute/add cells as you like, including addi
 
 1. [Open Anaconda Navigator.](https://docs.anaconda.com/navigator/getting-started/#starting-navigator)
 1. Navigate to [Environments](https://docs.anaconda.com/navigator/tutorials/manage-environments/).
-1. [Find and install the relevant package(s)](https://docs.anaconda.com/navigator/tutorials/manage-packages/#installing-a-package).
-   - If a package you expect to find is missing, try [adding the `conda-forge` channel](https://docs.anaconda.com/navigator/tutorials/manage-channels/#adding-a-channel-in-navigator).
+1. [Add the `conda-forge` channel](https://docs.anaconda.com/navigator/tutorials/manage-channels/#adding-a-channel-in-navigator), if you haven't already.
+1. [Update the index.](https://docs.anaconda.com/navigator/tutorials/manage-packages/)
+1. [Find and install the relevant package(s).](https://docs.anaconda.com/navigator/tutorials/manage-packages/#installing-a-package)
+   - The interface is a bit confusing, so read these instructions carefully.
 
 ## Projects
 

@@ -1,6 +1,6 @@
 # Project 3
 
-**DRAFT**
+**IN PROGRESS**
 
 The goal of this Project is to **prove or disprove a hypothesis using skills learned in this class**. We're looking for you to be _just the right amount_ of ambitious.
 
