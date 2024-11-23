@@ -18,4 +18,4 @@
 
 ## Second half
 
-Independent work time
+Independent work time for the rest
