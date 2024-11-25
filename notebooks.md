@@ -47,6 +47,7 @@ All Projects must:
 - **Follow the [style guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)**
 - **Use at least one dataset you aren't familiar with**
   - Using data from a primary source is preferred.
+  - Using a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
   - [Open data portals](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals)
 - **Link to the source dataset(s)**
 - **Read like a blog post**
@@ -88,6 +89,7 @@ All visualizations must:
   - Understand what all the different columns and values represent
 - For these Projects, the important thing is getting practice with the mechanics of working with data in code.
   - You won’t be graded on the scientific soundness of your work.
+- **DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
 
 ### Grading
 

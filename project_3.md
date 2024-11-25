@@ -27,12 +27,54 @@ Please do not include your Lab notebooks in your site, per the [Academic Integri
 
 ## Data analysis
 
-We're looking for you to be _just the right amount_ of ambitious.
+[General Project information](notebooks.md#projects)
 
-### Once you start
+### Process
 
-- [General Project information](notebooks.md#projects)
-- If you end up answering your initial research question easily (haven't met the requirements below), ask and answer follow-up question(s).
+You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#create-notebook).
+
+1. [Find a dataset](notebooks.md#projects) that seems interesting.
+   - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
+1. Load the data into a DataFrame.
+1. Inspect the data a bit.
+1. Fill out the prompt (below).
+1. Answer the question.
+1. If you end up answering your initial research question easily (haven't met [the requirements](#analysis-requirements)), that's fine. Ask and answer follow-up question(s).
+   - Go deep, not broad.
+
+### Prompt
+
+Include this in your notebook:
+
+```md
+- **Dataset(s) to be used:** [link]
+- **Analysis question:** …
+- **Columns that will (likely) be used:**
+  - [Column 1]
+  - [Column 2]
+  - …
+- If you're using multiple datasets: **Columns used to merge/join them:** …
+- **Hypothesis**: …
+```
+
+The question should be:
+
+- Specific
+- Objectively answerable through the data available
+- _Just the right amount_ of ambitious (non-trivial)
+
+If you want help/feedback, don't hesitate ask on [Ed](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless) or come to [office hours](office_hours.md).
+
+#### Tips
+
+- Don't overthink it; getting up through filling out the prompt shouldn't take more than a few hours.
+- Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
+- You won't be graded on the scientific soundness of your work.
+  - That said, please think through and note assumptions/caveats/unknowns of your approach.
+- The point of the prompt is to ensure you've dug into the data and that your project scope is reasonable. Think of it as a head start rather than something you're locked into.
+- Even the question can bake in assumptions.
+  - Example: "What ZIP code has the highest number of food poisoning cases?" assumes a relationship between food-borne illness and geography.
+  - What assumptions does your question make?
 
 ### Analysis requirements
 
@@ -49,49 +91,6 @@ Your submission should:
 - **Have a visualization** (chart or map) of some kind
   - [General requirements](notebooks.md#visualizations)
 
-If you answer the first question easily, that's fine; dig into / build off of it. Go deep, not broad.
-
 ### Submission
 
-**DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
-
-Instead of submitting via Gradescope, you will be publishing your notebooks for Project 1, 2, and 3 to the web. The suggested method is [Jupyter Book via Read the Docs](week_13.md). (If you want to publish a different way, please ask on Ed first and wait for the instructor/TAs to confirm.)
-
-### Process
-
-1. [Find a dataset](notebooks.md#projects) that seems interesting.
-   - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
-   - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
-1. Load the data into a DataFrame.
-1. Inspect the data a bit.
-1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
-   - If you aren't sure, ask.
-1. Come up with a hypothesis (a.k.a. a guess of the answer to the question).
-
-### Format
-
-- **What dataset(s) are you going to use?**
-  - Please include link(s).
-- **What's the question you are trying to answer?**
-  - It should be _specific, and objectively answerable_ through the data available.
-- **What columns of the DataFrame(s) are you going to use to answer that?**
-- If you're using multiple datasets: **What columns are you going to merge/join them on?**
-- **What's your hypothesis?**
-
-Feel free to include any questions/concerns/uncertainties that the TAs can help with.
-
-### Tips
-
-- Don't overthink it; [the process above](#process) shouldn't take more than a few hours.
-- Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
-- You won't be graded on the scientific soundness of your work.
-  - That said, please think through and note assumptions/caveats/unknowns of your approach.
-- The point of the proposal is to ensure you've dug into the data and that your project scope is reasonable. Think of it as a head start rather than something you're locked into.
-
-#### Question your question
-
-Even the question can bake in assumptions. For example:
-
-> What ZIP code has the highest number of food poisoning cases?
-
-assumes a relationship between food-borne illness and geography. What assumptions does your question make?
+Instead of submitting via Gradescope, you will be submitting the URL to your project site.
