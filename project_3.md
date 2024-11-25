@@ -48,13 +48,15 @@ Include this in your notebook:
 
 ```md
 - **Dataset(s) to be used:** [link]
-- **Analysis question:** …
+- **Analysis question:** [question]
 - **Columns that will (likely) be used:**
   - [Column 1]
   - [Column 2]
-  - …
-- If you're using multiple datasets: **Columns used to merge/join them:** …
-- **Hypothesis**: …
+  - [etc]
+- (If you're using multiple datasets) **Columns to be used to merge/join them:** …
+  - [Dataset 1] [column]
+  - [Dataset 2] [column]
+- **Hypothesis**: [hypothesis]
 ```
 
 The question should be:
