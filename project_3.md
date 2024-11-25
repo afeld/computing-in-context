@@ -15,13 +15,14 @@ They can be done in either order, or in parallel.
 
 You don't know how to do this yet. You will need to read the documentation to figure it out.
 
-1. Make a homepage in your JupyterBook.
+1. **Make a homepage** in your JupyterBook.
    - Suggest making it a Markdown file, `index.md`
    - `project_3` will no longer be the `root`
    - Relevant documentation:
      - [Create your own content file](https://jupyterbook.org/en/stable/start/new-file.html)
-     - [Configure the Table of Contents](https://jupyterbook.org/en/stable/structure/configure.html)
-1. [Publish to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html)
+     - [Structure the Table of Contents](https://jupyterbook.org/en/stable/structure/toc.html)
+1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
+1. [**Publish** to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html)
 
 Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
 
@@ -38,13 +39,13 @@ You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#creat
 1. Load the data into a DataFrame.
 1. Inspect the data a bit.
 1. Fill out the prompt (below).
-1. Answer the question.
+1. Use the data to answer the question.
 1. If you end up answering your initial research question easily (haven't met [the requirements](#analysis-requirements)), that's fine. Ask and answer follow-up question(s).
    - Go deep, not broad.
 
 ### Prompt
 
-Include this in your notebook:
+Copy this to a Markdown cell in your notebook and fill it out:
 
 ```md
 - **Dataset(s) to be used:** [link]
@@ -53,7 +54,7 @@ Include this in your notebook:
   - [Column 1]
   - [Column 2]
   - [etc]
-- (If you're using multiple datasets) **Columns to be used to merge/join them:** …
+- (If you're using multiple datasets) **Columns to be used to merge/join them:**
   - [Dataset 1] [column]
   - [Dataset 2] [column]
 - **Hypothesis**: [hypothesis]
@@ -63,17 +64,15 @@ The question should be:
 
 - Specific
 - Objectively answerable through the data available
-- _Just the right amount_ of ambitious (non-trivial)
+- _Just the right amount_ of ambitious ([non-trivial](#analysis-requirements))
 
-If you want help/feedback, don't hesitate ask on [Ed](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless) or come to [office hours](office_hours.md).
+If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless) or come to [office hours](office_hours.md).
 
 #### Tips
 
 - Don't overthink it; getting up through filling out the prompt shouldn't take more than a few hours.
 - Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
-- You won't be graded on the scientific soundness of your work.
-  - That said, please think through and note assumptions/caveats/unknowns of your approach.
-- The point of the prompt is to ensure you've dug into the data and that your project scope is reasonable. Think of it as a head start rather than something you're locked into.
+- The point of the prompt is to ensure you've dug into the data and that your project scope is reasonable. Think of it as a guide rather than something you're locked into.
 - Even the question can bake in assumptions.
   - Example: "What ZIP code has the highest number of food poisoning cases?" assumes a relationship between food-borne illness and geography.
   - What assumptions does your question make?
@@ -93,6 +92,8 @@ Your submission should:
 - **Have a visualization** (chart or map) of some kind
   - [General requirements](notebooks.md#visualizations)
 
-### Submission
+You won't be graded on the scientific soundness of your work. That said, please think through and note assumptions/caveats/unknowns of your approach.
+
+## Submission
 
 Instead of submitting via Gradescope, you will be submitting the URL to your project site.
