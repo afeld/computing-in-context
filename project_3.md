@@ -2,23 +2,39 @@
 
 **IN PROGRESS**
 
-The goal of this Project is to **prove or disprove a hypothesis using skills learned in this class**. We're looking for you to be _just the right amount_ of ambitious.
+## Objectives
 
-## JupyterBook
+This project has two parts:
+
+- [Publishing your Projects as a website](#project-site)
+- [Proving or disproving a hypothesis using skills learned in this class](#data-analysis)
+
+They can be done in either order, or in parallel.
+
+## Project site
+
+You don't know how to do this yet. You will need to read the documentation to figure it out.
 
 1. Make a homepage in your JupyterBook.
+   - Suggest making it a Markdown file, `index.md`
    - `project_3` will no longer be the `root`
    - Relevant documentation:
-     - https://jupyterbook.org/en/stable/start/new-file.html
-     - https://jupyterbook.org/en/stable/structure/configure.html
+     - [Create your own content file](https://jupyterbook.org/en/stable/start/new-file.html)
+     - [Configure the Table of Contents](https://jupyterbook.org/en/stable/structure/configure.html)
 1. [Publish to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html)
 
-## Once you start
+Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
+
+## Data analysis
+
+We're looking for you to be _just the right amount_ of ambitious.
+
+### Once you start
 
 - [General Project information](notebooks.md#projects)
 - If you end up answering your initial research question easily (haven't met the requirements below), ask and answer follow-up question(s).
 
-## Analysis requirements
+### Analysis requirements
 
 Your submission should:
 
@@ -35,13 +51,13 @@ Your submission should:
 
 If you answer the first question easily, that's fine; dig into / build off of it. Go deep, not broad.
 
-## Submission
+### Submission
 
 **DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
 
 Instead of submitting via Gradescope, you will be publishing your notebooks for Project 1, 2, and 3 to the web. The suggested method is [Jupyter Book via Read the Docs](week_13.md). (If you want to publish a different way, please ask on Ed first and wait for the instructor/TAs to confirm.)
 
-## Process
+### Process
 
 1. [Find a dataset](notebooks.md#projects) that seems interesting.
    - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
@@ -52,7 +68,7 @@ Instead of submitting via Gradescope, you will be publishing your notebooks for 
    - If you aren't sure, ask.
 1. Come up with a hypothesis (a.k.a. a guess of the answer to the question).
 
-## Format
+### Format
 
 - **What dataset(s) are you going to use?**
   - Please include link(s).
@@ -64,7 +80,7 @@ Instead of submitting via Gradescope, you will be publishing your notebooks for 
 
 Feel free to include any questions/concerns/uncertainties that the TAs can help with.
 
-## Tips
+### Tips
 
 - Don't overthink it; [the process above](#process) shouldn't take more than a few hours.
 - Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
@@ -72,7 +88,7 @@ Feel free to include any questions/concerns/uncertainties that the TAs can help 
   - That said, please think through and note assumptions/caveats/unknowns of your approach.
 - The point of the proposal is to ensure you've dug into the data and that your project scope is reasonable. Think of it as a head start rather than something you're locked into.
 
-## Question your question
+#### Question your question
 
 Even the question can bake in assumptions. For example:
 
