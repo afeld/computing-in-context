@@ -13,6 +13,7 @@ The test will cover some or all of the following:
 - Grouping
 - Cleaning
 - Merging
+- Data visualization
 - Time series
 - APIs, conceptually
 - Best practices
@@ -22,6 +23,26 @@ The test will cover some or all of the following:
 - List all the types that a pandas column can be. Come up with at least three.
 - How do you make a link in Markdown?
 - How does `groupby()` work?
+- Write the equivalent of the following in pandas.
+
+  ```python
+  import csv
+
+  lowest_gdp = None
+  lowest_country = None
+
+  with open("gdp.csv") as f:
+     reader = csv.DictReader(f)
+     for row in reader:
+        gdp = float(row["GDP"])
+        if lowest_gdp is None or gdp < lowest_gdp:
+              lowest_gdp = gdp
+              lowest_country = row["Country"]
+
+  print(lowest_country)
+  ```
+
+- What's wrong with the following code?
 - You have the following Dataframes. Write the code to merge them.
 
 **`intros`**
