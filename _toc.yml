@@ -74,3 +74,4 @@ chapters:
   - file: redirects/projects
     sections:
       - glob: project_*
+  - file: test
