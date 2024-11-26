@@ -1,7 +1,5 @@
 # Project 3
 
-**IN PROGRESS**
-
 ## Objectives
 
 This project has two parts:
@@ -120,4 +118,4 @@ You won't be graded on the scientific soundness of your work. That said, please 
 
 ## Submission
 
-Instead of submitting via Gradescope, you will be submitting the URL to your project site.
+Instead of submitting the notebook, you'll be submitting the URL to your [project site](#project-site).
