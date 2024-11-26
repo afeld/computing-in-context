@@ -9,7 +9,7 @@
 1. Work together in notebook through [Querying](lab_12.ipynb#querying).
    - Have students drive
    - For [the GitHub section](lab_12.ipynb#github), we are just looking to get their code in a public repo.
-     - We're trying to get them ready for [publishing to Read the Docs in Project 3](project_3.md#jupyterbook).
+     - We're trying to get them ready for [publishing to Read the Docs in Project 3](project_3.md#publish).
      - Resist the urge to show them more complex topics like:
        - Issues
        - Branches
