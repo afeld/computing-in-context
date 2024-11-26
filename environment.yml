@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - ipykernel
-  - jupyter-book
+  - jupyter-book=1.*
   - jupyterlab
   - lxml
   - nb_conda_kernels

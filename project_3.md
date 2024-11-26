@@ -37,7 +37,7 @@ You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/sta
      - default
      - conda-forge
    dependencies:
-     - jupyter-book
+     - jupyter-book=1.*
      # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
      - sphinx>=6.2.0
    ```
