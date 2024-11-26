@@ -7,14 +7,16 @@ The test will contain fill-in-the-blank and free response questions, coding and 
 The test will cover some or all of the following:
 
 - Working with data using only the Python standard library ("pure Python")
+- Python/pandas data types/structures
 - Jupyter concepts
-- Pandas data structures
-- Boolean indexing
-- Grouping
-- Cleaning
-- Merging
+- Data manipulation
+  - Boolean indexing
+  - Grouping
+  - Cleaning
+  - Merging
 - Data visualization
 - Time series
+  - Resampling
 - APIs, conceptually
 - Best practices
 
