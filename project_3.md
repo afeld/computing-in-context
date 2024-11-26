@@ -13,7 +13,7 @@ They can be done in either order, or in parallel.
 
 ## Project site
 
-You don't know how to do this yet. You will need to read the documentation to figure it out.
+You don't know how to do this yet. You will need to read the documentation to figure it out. Building on [what you started in Lab 12](lab_12.ipynb#jupyterbook):
 
 1. **Make a homepage** in your JupyterBook.
    - Suggest making it a Markdown file, `index.md`
@@ -22,9 +22,33 @@ You don't know how to do this yet. You will need to read the documentation to fi
      - [Create your own content file](https://jupyterbook.org/en/stable/start/new-file.html)
      - [Structure the Table of Contents](https://jupyterbook.org/en/stable/structure/toc.html)
 1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
-1. [**Publish** to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html)
+
+[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
 
 Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
+
+### Publish
+
+You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html) [via GitHub](https://docs.readthedocs.io/en/stable/tutorial/index.html).
+
+1. Add an [`environment.yml`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment) file to specify the [conda package](https://docs.conda.io/projects/conda/en/stable/glossary.html#conda-package) dependencies for building the site.
+
+   ```yaml
+   name: computing-in-context
+   channels:
+     - default
+     - conda-forge
+   dependencies:
+     - jupyter-book
+     # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
+     - sphinx>=6.2.0
+   ```
+
+1. Add a [`.readthedocs.yml`](https://docs.readthedocs.io/en/stable/config-file/index.html) file, matching [the one from this site](https://github.com/afeld/computing-in-context/blob/main/.readthedocs.yaml).
+1. Commit and push the changes.
+1. Go through the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html#creating-a-read-the-docs-account).
+   - Skip "Preparing your repository on GitHub" - you've already done that.
+   - Stop after "Checking the first build".
 
 ## Data analysis
 
