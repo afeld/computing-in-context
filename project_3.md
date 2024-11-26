@@ -21,7 +21,7 @@ You don't know how to do this yet. You will need to read the documentation to fi
      - [Structure the Table of Contents](https://jupyterbook.org/en/stable/structure/toc.html)
 1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
 
-[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
+[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected. You are more than welcome to customize the site as much as you like, but it's recommended that you complete the Project first.
 
 Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
 

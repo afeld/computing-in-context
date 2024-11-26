@@ -76,11 +76,9 @@ All visualizations must:
   - Not required for Project 1.
 - **Look decent on a narrow (11") laptop screen**
 
-[Best practices.](https://xdgov.github.io/data-design-standards/)
-
 ### Tips
 
-- [The Final Project resources from Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html) may be helpful, as that Project is similar.
+- [The Final Project resources from Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html) may be helpful.
 - The dataset/analysis can be serious or silly.
 - You can be creative, but **start simple**.
 - Go back and find any information that's available _around_ the data, to get a better understanding of what it contains and means.
@@ -90,6 +88,12 @@ All visualizations must:
 - For these Projects, the important thing is getting practice with the mechanics of working with data in code.
   - You won’t be graded on the scientific soundness of your work.
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
+
+#### Visualizations
+
+- [Consider which visualization type is most appropriate.](lecture_20.ipynb#what-visualization-should-i-use)
+- If you’re trying to show more than three variables at once (e.g. X axis, Y axis, and color), try simplifying.
+- [Other best practices.](https://xdgov.github.io/data-design-standards/)
 
 ### Grading
 
