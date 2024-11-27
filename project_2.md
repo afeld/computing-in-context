@@ -13,7 +13,7 @@ In this Project, you will **take two datasets and show a relationship (or lack t
 - Merging the datasets and plotting a derived measure
 - etc.
 
-Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/final_project/universities.html).
+Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/final_project/universities.html) - yours does _not_ need to be that complex though.
 
 ## Requirements
 

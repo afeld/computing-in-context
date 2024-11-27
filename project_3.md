@@ -52,6 +52,8 @@ You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/sta
 
 [General Project information](notebooks.md#projects)
 
+You can think of this as [Project 2](project_2.md), expanded. [Examples of Final Projects for Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/examples.html) - the result of this Project will be similar.
+
 ### Process
 
 You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#create-notebook).
