@@ -7,9 +7,6 @@ assignments = glob("lab_[0-9].ipynb") + glob("lab_[0-9][0-9].ipynb") + glob("pro
 
 @pytest.mark.parametrize("file", assignments)
 def test_submit_info(file):
-    if file == "project_3.md":
-        pytest.skip("Submitted as a live site")
-
     with open(file) as f:
         content = f.read()
     assert "submit via gradescope" in content.lower()

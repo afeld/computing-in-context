@@ -82,6 +82,7 @@ Copy this to a Markdown cell in your notebook and fill it out:
   - [Dataset 1] [column]
   - [Dataset 2] [column]
 - **Hypothesis**: [hypothesis]
+- **Site URL:** [URL from Publish section]
 ```
 
 The question should be:
@@ -120,4 +121,4 @@ You won't be graded on the scientific soundness of your work. That said, please 
 
 ## Submission
 
-Instead of submitting the notebook, you'll be submitting the URL to your [project site](#project-site).
+Submit via Gradescope.
