@@ -122,3 +122,9 @@ You won't be graded on the scientific soundness of your work. That said, please 
 ## Submission
 
 Submit via Gradescope.
+
+## Rubric
+
+- 50% [General project requirements](notebooks.md#projects)
+- 40% Non-trivial
+- 10% Visualization(s) meet [the requirements](notebooks.md#visualizations)
