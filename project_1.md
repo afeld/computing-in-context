@@ -42,6 +42,8 @@ Requirements:
 
 - The data/calculations can come through pandas, but **the drawing code should only use the Python standard library.**
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
+- The visualization should be _visual_, using shape, size, symbols, etc. to represent the values.
+  — Printing the numbers (as is) isn't sufficient.
 - [General requirements](notebooks.md#visualizations)
 
 We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this.
