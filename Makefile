@@ -3,6 +3,9 @@ browser := chrome
 all: site open test lint
 
 setup:
+	# https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-channels.html#strict-channel-priority
+	conda config --set channel_priority strict
+
 	# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
 	# https://mamba.readthedocs.io/
 	mamba env create --file environment.yml
