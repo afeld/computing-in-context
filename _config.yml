@@ -38,6 +38,9 @@ sphinx:
     linkcheck_ignore:
       # their anchors are title-cased
       - ^https://plotly.com
+      # missing anchor
+      # https://github.com/mattcone/markdown-guide/pull/214
+      - https://www.markdownguide.org/basic-syntax/#headings
       # invalid cert
       - ^https://www.open311.org
       # behind Cloudflare; get 403s
