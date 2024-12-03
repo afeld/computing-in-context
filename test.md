@@ -1,10 +1,10 @@
 # Test
 
-The test will contain fill-in-the-blank and free response questions, coding and high-level. It will be done on paper, closed-book (no cheat sheets, phones, laptops, etc).
+The test will contain fill-in-the-blank, matching, and free response questions, coding and high-level. It will be done on paper, closed-book (no cheat sheets, phones, laptops, etc).
 
 ## Topics
 
-The test will cover some or all of the following:
+The test will cover most or all of the following:
 
 - Working with data using only the Python standard library ("pure Python")
 - Python/pandas data types/structures
