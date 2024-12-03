@@ -1,5 +1,7 @@
 # Project 3
 
+Complete [Lab 12](lab_12.ipynb#jupyterbook) before proceeding.
+
 ## Objectives
 
 This project has two parts:
@@ -11,7 +13,7 @@ They can be done in either order, or in parallel.
 
 ## Project site
 
-You don't know how to do this yet. You will need to read the documentation to figure it out. Building on [what you started in Lab 12](lab_12.ipynb#jupyterbook):
+You don't know how to do this yet. You will need to read the documentation to figure it out.
 
 1. **Make a homepage** in your JupyterBook.
    - Suggest making it a Markdown file, `index.md`
