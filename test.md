@@ -22,8 +22,9 @@ The test will cover some or all of the following:
 
 ## Example questions
 
-- How would you read from a CSV using only the Python standard library (not pandas)? Pseudocode is fine.
-- List all the types that a pandas column can be. Come up with at least three.
+Recommendation: Try completing them without using a search engine, generative AI, the course materials, etc.
+
+- What are types can a pandas column be? Come up with at least three.
 - What are some scenarios where you'd need to convert between Python/pandas types? Come up with at least three.
 - How do you make a link in Markdown?
 - How does `groupby()` work?
@@ -48,9 +49,8 @@ The test will cover some or all of the following:
   print(lowest_country)
   ```
 
-- What's wrong with the following code?
 - What are the different kinds of merges? Can describe through text and/or visuals.
-- You have the following Dataframes. Write the code to merge them.
+- How would you merge the following Dataframes? Write the code as best you can.
 
 **`intros`**
 
