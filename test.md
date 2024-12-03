@@ -49,6 +49,7 @@ The test will cover some or all of the following:
   ```
 
 - What's wrong with the following code?
+- What are the different kinds of merges? Can describe through text and/or visuals.
 - You have the following Dataframes. Write the code to merge them.
 
 **`intros`**
