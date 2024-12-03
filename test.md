@@ -4,7 +4,7 @@ The test will contain fill-in-the-blank, matching, and free response questions, 
 
 ## Topics
 
-The test will cover most or all of the following:
+The test will cover the following:
 
 - Working with data using only the Python standard library ("pure Python")
 - Python/pandas data types/structures
@@ -14,11 +14,11 @@ The test will cover most or all of the following:
   - Grouping
   - Cleaning
   - Merging
+- Troubleshooting
 - Data visualization
 - Time series
   - Resampling
 - APIs, conceptually
-- Best practices
 
 ## Example questions
 
