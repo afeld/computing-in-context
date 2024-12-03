@@ -24,7 +24,7 @@ The test will cover some or all of the following:
 
 Recommendation: Try completing them without using a search engine, generative AI, the course materials, etc.
 
-- What are types can a pandas column be? Come up with at least three.
+- What types can a pandas column be? Come up with at least three.
 - What are some scenarios where you'd need to convert between Python/pandas types? Come up with at least three.
 - How do you make a link in Markdown?
 - How does `groupby()` work?
@@ -49,6 +49,7 @@ Recommendation: Try completing them without using a search engine, generative AI
   print(lowest_country)
   ```
 
+- What's a choropleth map? Try explaining to someone who's never seen one before.
 - What are the different kinds of merges? Can describe through text and/or visuals.
 - How would you merge the following Dataframes? Write the code as best you can.
 
