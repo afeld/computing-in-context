@@ -22,9 +22,13 @@ The test will cover some or all of the following:
 
 ## Example questions
 
+- How would you read from a CSV using only the Python standard library (not pandas)? Pseudocode is fine.
 - List all the types that a pandas column can be. Come up with at least three.
+- What are some scenarios where you'd need to convert between Python/pandas types? Come up with at least three.
 - How do you make a link in Markdown?
 - How does `groupby()` work?
+- What is resampling used for? Include an example.
+- What's a kernel, in the context of this course?
 - Write the equivalent of the following in pandas.
 
   ```python
