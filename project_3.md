@@ -30,7 +30,11 @@ You don't know how to do this yet. You will need to read the documentation to fi
    pio.renderers.default = "vscode+jupyterlab+notebook_connected"
    ```
 
-[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected. You are more than welcome to customize the site as much as you like, but it's recommended that you complete the Project first.
+[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected. It should look something like this:
+
+![JupyterBook homepage](img/book_home.png)
+
+You are more than welcome to customize the site as much as you like, but it's recommended that you complete the Project first.
 
 Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
 
@@ -131,6 +135,8 @@ You won't be graded on the scientific soundness of your work. That said, please 
 ## Submission
 
 Submit via Gradescope.
+
+If you're unable to submit ([file is too large](notebooks.md#known-issues), etc.), that's ok, it's just a redundancy. You can submit a notebook / text file / etc. that just contains a link to your site.
 
 ## Rubric
 
