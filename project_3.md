@@ -30,7 +30,13 @@ You don't know how to do this yet. You will need to read the documentation to fi
    pio.renderers.default = "vscode+jupyterlab+notebook_connected"
    ```
 
-[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected. It should look something like this:
+[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
+
+```{note}
+You can press the up arrow on your keyboard to get to [previously-run commands](https://www.thomas-krenn.com/en/wiki/Bash_history), rather than having to re-type it each time.
+```
+
+The built site should look something like this:
 
 ![JupyterBook homepage](img/book_home.png)
 
