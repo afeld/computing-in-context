@@ -91,20 +91,16 @@ You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#creat
 
 ### Prompt
 
+<!-- https://myst-parser.readthedocs.io/en/latest/syntax/organising_content.html#inserting-other-documents-directly-into-the-current-document -->
+
+```{include} src/project_3_prompt.md
+
+```
+
 Copy this to a Markdown cell in your notebook and fill it out:
 
-```md
-- **Dataset(s) to be used:** [link]
-- **Analysis question:** [question]
-- **Columns that will (likely) be used:**
-  - [Column 1]
-  - [Column 2]
-  - [etc]
-- (If you're using multiple datasets) **Columns to be used to merge/join them:**
-  - [Dataset 1] [column]
-  - [Dataset 2] [column]
-- **Hypothesis**: [hypothesis]
-- **Site URL:** [the `*.readthedocs.io` URL of your live site, from the Publish section]
+```{literalinclude} src/project_3_prompt.md
+:language: md
 ```
 
 The question should be:
@@ -152,3 +148,7 @@ If you're unable to submit ([file is too large](notebooks.md#known-issues), etc.
 - 50% [General project requirements](notebooks.md#projects)
 - 40% Non-trivial
 - 10% Visualization(s) meet [the requirements](notebooks.md#visualizations)
+
+```
+
+```

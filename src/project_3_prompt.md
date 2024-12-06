@@ -1,0 +1,11 @@
+- **Dataset(s) to be used:** [link]
+- **Analysis question:** [question]
+- **Columns that will (likely) be used:**
+  - [Column 1]
+  - [Column 2]
+  - [etc]
+- (If you're using multiple datasets) **Columns to be used to merge/join them:**
+  - [Dataset 1] [column]
+  - [Dataset 2] [column]
+- **Hypothesis**: [hypothesis]
+- **Site URL:** [the `*.readthedocs.io` URL of your live site, from the Publish section]
