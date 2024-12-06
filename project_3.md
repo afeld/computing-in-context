@@ -32,7 +32,7 @@ You don't know how to do this yet. You will need to read the documentation to fi
 
 [Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
 
-```{note}
+```{tip}
 You can press the up arrow on your keyboard to get to [previously-run commands](https://www.thomas-krenn.com/en/wiki/Bash_history), rather than having to re-type it each time.
 ```
 
@@ -42,7 +42,9 @@ The built site should look something like this:
 
 You are more than welcome to customize the site as much as you like, but it's recommended that you complete the Project first.
 
+```{caution}
 Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
+```
 
 ### Publish
 
@@ -72,7 +74,7 @@ You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/sta
 
 [General Project information](notebooks.md#projects)
 
-You can think of this as [Project 2](project_2.md), expanded. [Examples of Final Projects for Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/examples.html) - the result of this Project will be similar.
+You can think of this as similar to the [Project 2](project_2.md) requirements, but expanded. [Examples of Final Projects for Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/examples.html) - the result of this Project will be similar.
 
 ### Process
 
@@ -91,17 +93,22 @@ You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#creat
 
 ### Prompt
 
+Put the following in a Markdown cell in your notebook and fill it out:
+
 <!-- https://myst-parser.readthedocs.io/en/latest/syntax/organising_content.html#inserting-other-documents-directly-into-the-current-document -->
 
 ```{include} src/project_3_prompt.md
 
 ```
 
-Copy this to a Markdown cell in your notebook and fill it out:
+:::{admonition} Raw Markdown
+:class: dropdown
 
 ```{literalinclude} src/project_3_prompt.md
 :language: md
 ```
+
+:::
 
 The question should be:
 
@@ -148,7 +155,3 @@ If you're unable to submit ([file is too large](notebooks.md#known-issues), etc.
 - 50% [General project requirements](notebooks.md#projects)
 - 40% Non-trivial
 - 10% Visualization(s) meet [the requirements](notebooks.md#visualizations)
-
-```
-
-```
