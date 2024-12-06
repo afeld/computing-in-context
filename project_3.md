@@ -62,6 +62,7 @@ You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/sta
    ```
 
 1. Add a [`.readthedocs.yml`](https://docs.readthedocs.io/en/stable/config-file/index.html) file, matching [the one from this site](https://github.com/afeld/computing-in-context/blob/main/.readthedocs.yaml).
+   - [Mac: "Dotfiles" (starting with a period) are hidden by default in Finder.](https://www.avast.com/c-mac-show-hidden-files)
 1. Commit and push the changes.
 1. Go through the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html#creating-a-read-the-docs-account).
    - Skip "Preparing your repository on GitHub" - you've already done that.
@@ -78,10 +79,12 @@ You can think of this as [Project 2](project_2.md), expanded. [Examples of Final
 You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#create-notebook).
 
 1. [Find a dataset](notebooks.md#projects) that seems interesting.
-   - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
+   - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance.
+     - If you're only using one dataset, you probably want it to have 500+ rows.
 1. Load the data into a DataFrame.
 1. Inspect the data a bit.
 1. Fill out the prompt (below).
+   - Work backwards: On a piece of paper / whiteboard, draw the visualization you imagine producing.
 1. Use the data to answer the question.
 1. If you end up answering your initial research question easily (haven't met [the requirements](#analysis-requirements)), that's fine. Ask and answer follow-up question(s).
    - Go deep, not broad.
@@ -101,7 +104,7 @@ Copy this to a Markdown cell in your notebook and fill it out:
   - [Dataset 1] [column]
   - [Dataset 2] [column]
 - **Hypothesis**: [hypothesis]
-- **Site URL:** [URL from Publish section]
+- **Site URL:** [`*.readthedocs.io URL of your live site from the Publish section]
 ```
 
 The question should be:
@@ -140,7 +143,7 @@ You won't be graded on the scientific soundness of your work. That said, please 
 
 ## Submission
 
-Submit via Gradescope.
+**Make sure you have [the prompt](#prompt) filled out**, including the Read the Docs site URL. Then, submit via Gradescope.
 
 If you're unable to submit ([file is too large](notebooks.md#known-issues), etc.), that's ok, it's just a redundancy. You can submit a notebook / text file / etc. that just contains a link to your site.
 
