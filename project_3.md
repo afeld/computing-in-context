@@ -104,7 +104,7 @@ Copy this to a Markdown cell in your notebook and fill it out:
   - [Dataset 1] [column]
   - [Dataset 2] [column]
 - **Hypothesis**: [hypothesis]
-- **Site URL:** [`*.readthedocs.io URL of your live site from the Publish section]
+- **Site URL:** [the `*.readthedocs.io` URL of your live site, from the Publish section]
 ```
 
 The question should be:
@@ -143,7 +143,7 @@ You won't be graded on the scientific soundness of your work. That said, please 
 
 ## Submission
 
-**Make sure you have [the prompt](#prompt) filled out**, including the Read the Docs site URL. Then, submit via Gradescope.
+**Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, submit via Gradescope.
 
 If you're unable to submit ([file is too large](notebooks.md#known-issues), etc.), that's ok, it's just a redundancy. You can submit a notebook / text file / etc. that just contains a link to your site.
 
