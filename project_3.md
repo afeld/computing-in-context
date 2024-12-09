@@ -146,9 +146,9 @@ You won't be graded on the scientific soundness of your work. That said, please 
 
 ## Submission
 
-**Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, submit via Gradescope.
+**Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, [submit](notebooks.md#submission).
 
-If you're unable to submit ([file is too large](notebooks.md#known-issues), etc.), that's ok, it's just a redundancy. You can submit a notebook / text file / etc. that just contains a link to your site.
+If for some reason you're unable to submit the full Project 3 notebook, you can submit a notebook / text file / etc. that just contains a link to your site.
 
 ## Rubric
 

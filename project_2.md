@@ -36,4 +36,4 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
 
 ---
 
-Submit via Gradescope.
+[Submit.](notebooks.md#submission)

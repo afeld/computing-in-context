@@ -26,6 +26,13 @@ def test_boilerplate(file):
     assert any(boilerplate in cell.source for cell in notebook.cells), "General assignment info is missing from lab"
 
 
+@pytest.mark.parametrize("file", lab_notebooks)
+def test_submit_info(file):
+    with open(file) as f:
+        content = f.read()
+    assert "https://computing-in-context.afeld.me/notebooks.html#submission" in content
+
+
 lab_guides = glob("lab_*_guide.md")
 
 

@@ -23,10 +23,9 @@ For lecture slides / labs, download the page as a notebook to work with it local
 
 That is now your own copy; you can execute/add cells as you like, including adding your own notes in [Markdown cells](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). For Labs, the intention is for you to turn in the template via Gradescope, filled in with your code.
 
-## Known issues
-
-- Images will be broken in downloaded notebooks
-- [Gradescope limits submissions to 100MB.](https://guides.gradescope.com/hc/en-us/articles/21861529742477-File-Requirements-for-Assignment-Types#h_01HGKC7CC57Q7MMHMYJ5G6F80E) If you're unable to submit for this (or any other) reason, reach out to the TAs.
+```{warning}
+Images will be broken in downloaded notebooks.
+```
 
 ## Installing packages
 
@@ -104,3 +103,11 @@ The Rubrics in Gradescope have [Items](https://guides.gradescope.com/hc/en-us/ar
 - Incomplete (zero points)
 
 There will no points assigned between those values. In other words, if a specific section that is attempted but didn't meet all the requirements, it will get half the points for that Rubric Item, no matter how far off it was.
+
+## Submission
+
+You will [submit your Lab/Project notebooks via Gradescope](https://courseworks2.columbia.edu/courses/207091/external_tools/29680?display=borderless).
+
+```{warning}
+[Gradescope limits submissions to 100MB.](https://guides.gradescope.com/hc/en-us/articles/21861529742477-File-Requirements-for-Assignment-Types#h_01HGKC7CC57Q7MMHMYJ5G6F80E) If you're unable to submit for this (or any other) reason, reach out to the TAs.
+```

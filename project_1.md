@@ -26,7 +26,7 @@ In this project, you will:
       - The mode
 1. Repeat the previous step using only the Python standard library, a.k.a. [the hard way](#the-hard-way).
 1. Create a data visualization, following [the instructions below](#data-visualization).
-1. [Submit via Gradescope.](https://courseworks2.columbia.edu/courses/207091/assignments/1345872)
+1. [Submit.](notebooks.md#submission)
 
 ## The hard way
 
