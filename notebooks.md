@@ -108,6 +108,10 @@ There will no points assigned between those values. In other words, if a specifi
 
 You will [submit your Lab/Project notebooks via Gradescope](https://courseworks2.columbia.edu/courses/207091/external_tools/29680?display=borderless).
 
+```{note}
+You can ignore Gradescope saying "Large file hidden". The TAs can download the notebook to view.
+```
+
 ```{warning}
 [Gradescope limits submissions to 100MB.](https://guides.gradescope.com/hc/en-us/articles/21861529742477-File-Requirements-for-Assignment-Types#h_01HGKC7CC57Q7MMHMYJ5G6F80E) If you're unable to submit for this (or any other) reason, reach out to the TAs.
 ```
