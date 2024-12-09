@@ -2,8 +2,8 @@ name: Linkcheck
 
 on:
   schedule:
-    # nightly
-    - cron: "0 0 * * *"
+    # weekly
+    - cron: "0 0 * * 0"
   # support manual trigger
   workflow_dispatch:
 
