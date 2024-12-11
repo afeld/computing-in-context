@@ -147,9 +147,3 @@ Your submission should:
 **Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, [submit](notebooks.md#submission).
 
 If for some reason you're unable to submit the full Project 3 notebook, you can submit a notebook / text file / etc. that just contains a link to your site.
-
-## Rubric
-
-- 50% [General project requirements](notebooks.md#projects)
-- 40% Non-trivial
-- 10% Visualization(s) meet [the requirements](notebooks.md#visualizations)

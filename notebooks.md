@@ -40,6 +40,10 @@ Images will be broken in downloaded notebooks.
 
 ### Requirements
 
+```{warning}
+This section was expanded as the class went on. Past Project grades won't be held to the modified requirements.
+```
+
 All Projects must:
 
 - **Be done in a Jupyter notebook**
@@ -94,16 +98,6 @@ All visualizations must:
 - [Consider which visualization type is most appropriate.](lecture_20.ipynb#what-visualization-should-i-use)
 - If you’re trying to show more than three variables at once (e.g. X axis, Y axis, and color), try simplifying.
 - [Other best practices.](https://xdgov.github.io/data-design-standards/)
-
-### Grading
-
-The Rubrics in Gradescope have [Items](https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-Submissions#h_01HHDFGS9DRQ52GVJAG04KPBVV) that correspond to the different sections/requirements. Each will be broken down to:
-
-- Full credit
-- Partial credit (half points)
-- Incomplete (zero points)
-
-There will no points assigned between those values. In other words, if a specific section that is attempted but didn't meet all the requirements, it will get half the points for that Rubric Item, no matter how far off it was.
 
 ## Submission
 
