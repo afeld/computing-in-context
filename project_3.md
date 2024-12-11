@@ -70,6 +70,14 @@ You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/sta
    - Skip "Preparing your repository on GitHub" - you've already done that.
    - Stop after "Checking the first build".
 
+### Requirements
+
+Your site must:
+
+- Be accessible at a public URL (-10 points)
+- Have multiple pages (-10 points)
+- Display your visualization(s) (-5 points)
+
 ## Data analysis
 
 [General Project information](projects.md)
@@ -133,13 +141,13 @@ Your submission should:
 
 - **Meet the [general Project information](projects.md#requirements)**
 - **Not be trivial** - requiring:
-  - At least 40 lines of code to come to a conclusion
+  - At least 40 lines of code to come to a conclusion (-40 points)
     - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
     - If you meet all the other requirements, you will likely be well over this number.
     - You can count them automatically using a tool like [tokei](https://github.com/XAMPPRocky/tokei).
-  - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
-  - Operations that aren't easily done in a spreadsheet.
-- **Have a visualization** (chart or map) of some kind
+  - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames (-20 points)
+  - Operations that aren't easily done in a spreadsheet. (-40 points)
+- **Have a visualization** (chart or map) of some kind (-20 points)
   - [General requirements](projects.md#visualizations)
 
 ## Submission
