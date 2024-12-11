@@ -22,7 +22,7 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
 - Data from two datasets is reflected in a single visualization
   - There can be additional visualizations
 - State the takeaway(s)
-- [General Project information](notebooks.md#projects)
+- [General Project information](projects.md)
 
 ## Tips
 
@@ -30,9 +30,9 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
 
 ## Rubric
 
-- 40% [General project requirements](notebooks.md#projects)
+- 40% [General project information](projects.md#requirements)
 - 55% Data from two datasets is reflected in a single visualization
-- 5% Visualization(s) meet [the requirements](notebooks.md#visualizations)
+- 5% Visualization(s) meet [the requirements](projects.md#visualizations)
 
 ---
 

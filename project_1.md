@@ -9,7 +9,7 @@ In this project, you will:
 
 ## Steps
 
-1. Read the [general Project information](notebooks.md#projects).
+1. Read the [general Project information](projects.md).
 1. Find a dataset.
    - It must have:
      - At least one numeric column
@@ -44,7 +44,7 @@ Requirements:
   - In other words, don't use [`plot()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html), [plotly](https://plotly.com/python/), or any other external packages.
 - The visualization should be _visual_, using shape, size, symbols, etc. to represent the values.
   — Printing the numbers (as is) isn't sufficient.
-- [General requirements](notebooks.md#visualizations)
+- [General requirements](projects.md#visualizations)
 
 We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this.
 
@@ -86,7 +86,7 @@ Please don't print 3,162 asterisks (`*`) 😉
 
 ## Rubric
 
-- 30% [General project requirements](notebooks.md#projects)
+- 30% [General project information](projects.md#requirements)
 - 15% [pandas steps](#steps): 5% x 3
 - 30% [Python standard library steps](#steps): 10% x 3
 - 25% [Data visualization](#data-visualization)

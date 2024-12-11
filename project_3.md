@@ -72,7 +72,7 @@ You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/sta
 
 ## Data analysis
 
-[General Project information](notebooks.md#projects)
+[General Project information](projects.md)
 
 You can think of this as similar to the [Project 2](project_2.md) requirements, but expanded. [Examples of Final Projects for Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/examples.html) - the result of this Project will be similar.
 
@@ -80,7 +80,7 @@ You can think of this as similar to the [Project 2](project_2.md) requirements, 
 
 You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#create-notebook).
 
-1. [Find a dataset](notebooks.md#projects) that seems interesting.
+1. [Find a dataset](projects.md#requirements) that seems interesting.
    - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance.
      - If you're only using one dataset, you probably want it to have 500+ rows.
 1. Load the data into a DataFrame.
@@ -131,7 +131,7 @@ If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.co
 
 Your submission should:
 
-- **Meet the [general Project requirements](notebooks.md#projects)**
+- **Meet the [general Project information](projects.md#requirements)**
 - **Not be trivial** - requiring:
   - At least 40 lines of code to come to a conclusion
     - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
@@ -140,7 +140,7 @@ Your submission should:
   - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.
 - **Have a visualization** (chart or map) of some kind
-  - [General requirements](notebooks.md#visualizations)
+  - [General requirements](projects.md#visualizations)
 
 ## Submission
 
