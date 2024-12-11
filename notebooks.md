@@ -86,6 +86,7 @@ All visualizations must:
   - Understand what all the different columns and values represent
 - For these Projects, the important thing is getting practice with the mechanics of working with data in code.
   - You won’t be graded on the scientific soundness of your work.
+    - That said, please think through and note assumptions/caveats/unknowns of your approach.
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
 
 #### Visualizations

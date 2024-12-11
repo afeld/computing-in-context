@@ -142,8 +142,6 @@ Your submission should:
 - **Have a visualization** (chart or map) of some kind
   - [General requirements](notebooks.md#visualizations)
 
-You won't be graded on the scientific soundness of your work. That said, please think through and note assumptions/caveats/unknowns of your approach.
-
 ## Submission
 
 **Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, [submit](notebooks.md#submission).
