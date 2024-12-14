@@ -185,13 +185,13 @@ Students are more than welcome to share approaches and code snippets in the Disc
 
 Students may post the Projects publicly (on GitHub, LinkedIn, etc.), since they're open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your work with specific people, such as future employers.
 
-### Generative AI
+#### Generative AI
 
 For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are treated the same as other sources. For any code that's copied, reference the use of the tool and link to the discussion (where supported).
 
 These tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
-### SIPA Academic Integrity Statement
+#### SIPA Academic Integrity Statement
 
 The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean's Disciplinary Procedures.
 
