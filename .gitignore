@@ -1,6 +1,5 @@
 #*.csv
 *.slides.html
-*.xlsx
 *.zip
 
 __pycache__/
