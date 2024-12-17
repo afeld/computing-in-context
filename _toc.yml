@@ -2,19 +2,22 @@
 format: jb-book
 root: index
 chapters:
-  # - url: https://courseworks2.columbia.edu/courses/203144
-  #   title: Courseworks (combined)
-  - url: https://courseworks2.columbia.edu/courses/207091
-    title: Courseworks (SIPA)
-  # - url: https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless
-  #   title: Ed Discussion (combined)
-  - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
-    title: Ed Discussion (SIPA)
-  - file: office_hours
-  - url: https://python-public-policy.afeld.me/en/columbia/resources.html
-    title: Resources
-  - file: notebooks
+  - file: course_info
     sections:
+      # - url: https://courseworks2.columbia.edu/courses/203144
+      #   title: Courseworks (combined)
+      - url: https://courseworks2.columbia.edu/courses/207091
+        title: Courseworks (SIPA)
+      # - url: https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless
+      #   title: Ed Discussion (combined)
+      - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
+        title: Ed Discussion (SIPA)
+      - file: office_hours
+      - url: https://python-public-policy.afeld.me/en/columbia/resources.html
+        title: Resources
+      - file: notebooks
+      - file: test
+      - file: curve
       - file: analytics
   - file: redirects/lectures
     sections:
@@ -74,4 +77,3 @@ chapters:
   - file: projects
     sections:
       - glob: project_*
-  - file: test

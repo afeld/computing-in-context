@@ -1,4 +1,4 @@
-# Notebook info
+# Notebooks
 
 ## General guidance
 

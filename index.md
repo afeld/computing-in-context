@@ -90,9 +90,7 @@ If you aren't sure, please ask.
 
 See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). Grace days may not be used for labs. That said, you get two "freebies" for both Lab Exercises and Attendace.
 
-The final grades for each section will be curved, per [SIPA policy](https://bulletin.columbia.edu/sipa/academic-policies/satisfactory-academic-progress/):
-
-> Grades submitted for SIPA core courses must have an average GPA between 3.2 and 3.4, with a goal of 3.3. Courses with enrollments over 35 are also recommended to follow this rule.
+The final grades for each section will be [curved](curve.ipynb).
 
 ## Readings
 
