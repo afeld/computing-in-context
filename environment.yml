@@ -12,6 +12,7 @@ dependencies:
   - nbdime
   - nbformat
   - nbmerge
+  - openpyxl
   - pandas
   # https://plotly.com/python/mapbox-to-maplibre/
   - plotly>=5.24.0
