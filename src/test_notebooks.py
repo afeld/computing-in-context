@@ -22,7 +22,7 @@ def check_file(file, expected_kernel="Python 3 (ipykernel)"):
     check_metadata(notebook, expected_kernel)
 
 
-notebooks = glob("*.ipynb")
+notebooks = glob("site/*.ipynb")
 notebooks.sort()
 
 
