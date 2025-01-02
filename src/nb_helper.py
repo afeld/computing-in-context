@@ -1,5 +1,7 @@
 import nbformat
 
+BASE_DIR = "site"
+
 
 def read_notebook(notebook_path):
     return nbformat.read(notebook_path, as_version=4)

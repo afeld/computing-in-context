@@ -2,7 +2,7 @@ from glob import glob
 
 import pytest
 
-projects = glob("project_*.md")
+projects = glob("site/project_*.md")
 
 
 @pytest.mark.parametrize("file", projects)
