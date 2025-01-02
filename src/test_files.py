@@ -5,7 +5,7 @@ import pytest
 
 JINJA_EXPRESSION = re.compile(r"{{ ?\w+ ?}}")
 
-files = glob("*.ipynb") + glob("*.md")
+files = glob("site/*.ipynb") + glob("site/*.md")
 
 
 def get_content(file: str):
