@@ -1,3 +1,4 @@
+book_dir := site/
 browser := chrome
 
 all: site open test lint
@@ -18,28 +19,31 @@ lab:
 
 clean:
 	rm *.slides.html || true
-	jupyter-book clean .
+	jupyter-book clean $(book_dir)
 
 quick:
-	jupyter-book build -W -n --keep-going .
+	cd $(book_dir) && \
+		jupyter-book build -W -n .
 
 site: clean
 	# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 	# https://jupyterbook.org/en/stable/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
-	jupyter-book build -W -n --keep-going .
+	cd $(book_dir) && \
+		jupyter-book build -W -n --keep-going .
 
 linkcheck:
 	# https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
-	jupyter-book build -W -n --keep-going --builder=linkcheck .
+	cd $(book_dir) && \
+		jupyter-book build -W -n --keep-going --builder=linkcheck .
 
 open:
-	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome _build/html/index.html
+	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $(book_dir)/_build/html/index.html
 
 slides:
 	jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
 		--ServePostProcessor.browser $(browser) \
-		--post serve lecture_$(lec).ipynb
+		--post serve $(book_dir)/lecture_$(lec).ipynb
 
 test:
 	pytest
@@ -48,4 +52,4 @@ lint:
 	ruff check
 
 format:
-	ruff format *.ipynb src
+	ruff format $(book_dir)/*.ipynb src
