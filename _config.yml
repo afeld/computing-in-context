@@ -49,6 +49,8 @@ sphinx:
       - ^https://guides.gradescope.com+
       # timeouts
       - ^https://data.cityofnewyork.us
+      # encoding error...?
+      - ^https://www.nyc.gov/assets/planning/download/pdf/data-maps/open-data/pluto_datadictionary.pdf
     linkcheck_report_timeouts_as_broken: false
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
