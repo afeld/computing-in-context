@@ -4,7 +4,7 @@
 
 ## Setup
 
-1. For those who have the Anaconda Distribution (called "Anaconda" for short) installed, [update it](https://docs.anaconda.com/navigator/update-navigator/). Everyone else, [install it](https://docs.anaconda.com/anaconda/install/).
+1. For those who have the Anaconda Distribution (called "Anaconda" for short) installed, [update it](https://www.anaconda.com/docs/tools/anaconda-navigator/update-navigator). Everyone else, [install it](https://www.anaconda.com/docs/getting-started/anaconda/install).
    - Can skip registration
 1. [Add the `conda-forge` channel.](notebooks.md#installing-packages)
 1. Ensure `pandas` and `plotly` are [installed](notebooks.md#installing-packages).

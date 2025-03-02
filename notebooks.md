@@ -29,11 +29,11 @@ Images will be broken in downloaded notebooks.
 
 ## Installing packages
 
-1. [Open Anaconda Navigator.](https://docs.anaconda.com/navigator/getting-started/#starting-navigator)
-1. Navigate to [Environments](https://docs.anaconda.com/navigator/tutorials/manage-environments/).
-1. [Add the `conda-forge` channel](https://docs.anaconda.com/navigator/tutorials/manage-channels/#adding-a-channel-in-navigator), if you haven't already.
-1. [Update the index.](https://docs.anaconda.com/navigator/tutorials/manage-packages/)
-1. [Find and install the relevant package(s).](https://docs.anaconda.com/navigator/tutorials/manage-packages/#installing-a-package)
+1. [Open Anaconda Navigator.](https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started#starting-navigator)
+1. Navigate to [Environments](https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started#managing-environments).
+1. [Add the `conda-forge` channel](https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started#managing-channels), if you haven't already.
+1. [Update the index.](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-packages)
+1. [Find and install the relevant package(s).](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-packages#installing-a-package)
    - The interface is a bit confusing, so read these instructions carefully.
 
 ## Submission
