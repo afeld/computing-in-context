@@ -4,10 +4,6 @@
 
 ## Requirements
 
-```{warning}
-This section was expanded as the class went on. Past Project grades won't be held to the modified requirements.
-```
-
 All Projects must:
 
 - **Be done in a Jupyter notebook**
@@ -56,7 +52,7 @@ All visualizations must:
 - For these Projects, the important thing is getting practice with the mechanics of working with data in code.
   - You won’t be graded on the scientific soundness of your work.
     - That said, please think through and note assumptions/caveats/unknowns of your approach.
-- **DO NOT WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
+- **DON'T WAIT UNTIL THE LAST MINUTE TO SUBMIT.** Leave yourself time to fix any issues that come up in doing so, computer crashing, etc.
 
 ### Visualizations
 
