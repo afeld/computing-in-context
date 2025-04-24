@@ -1,5 +1,3 @@
-browser := chrome
-
 all: site open test lint
 
 setup:
@@ -14,7 +12,7 @@ update:
 	mamba env update --file environment.yml --prune
 
 lab:
-	jupyter lab --browser $(browser)
+	jupyter lab
 
 clean:
 	rm *.slides.html || true
@@ -38,7 +36,6 @@ open:
 slides:
 	jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
-		--ServePostProcessor.browser $(browser) \
 		--post serve lecture_$(lec).ipynb
 
 test:
