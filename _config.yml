@@ -44,9 +44,10 @@ sphinx:
       # invalid cert
       - ^https://www.open311.org
       # behind Cloudflare; get 403s
-      - ^https://(.+\.)?substack\.com
       - ^https://(.+\.)?columbia\.edu
-      - ^https://guides.gradescope.com+
+      - ^https://guides.gradescope\.com
+      - ^https://stackoverflow\.com
+      - ^https://(.+\.)?substack\.com
       # timeouts
       - ^https://data.cityofnewyork.us
       # encoding error...?
