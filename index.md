@@ -56,12 +56,11 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 - [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
 - [Comparison with Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context)
-- This is a prerequisite for some [DAQA courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext), such as [Advanced Computing for Policy](https://docs.google.com/document/d/14hGiU8LP0vosSnaT2z_3BYIQM1S4stPN/edit) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323).
-  - For Advanced Computing for Policy, see [the option to test out for Spring 2025](https://github.com/advanced-computing/course-materials/blob/main/docs/testing_out.md).
+- This is a prerequisite for some [DAQA courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext), such as [Advanced Computing for Policy](https://github.com/advanced-computing/course-materials?tab=readme-ov-file#readme) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323).
 
 ### Contexts and Structure
 
-Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/course/20243/74422).
+Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/course/20253/74422).
 
 The lectures in the first half of the semester have students from multiple contexts, and are taught by Mark Santolucito. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (recitations) are context-specific are context-specific the entire semester.
 
