@@ -4,7 +4,7 @@
 
 # Syllabus
 
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">Computing in Context, Fall 2024</p>
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Computing in Context, Fall 2025</p>
 
 ## Course Description
 
@@ -12,26 +12,23 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Information
 
-- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/course/20243/74422)
+- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/course/20253/74422)
 - **Credits:** 3
 - **Prerequisites:** none
 
 ### Instructors
 
-- **First half:** [Adam Cannon](https://www.engineering.columbia.edu/faculty/adam-cannon), cannon@cs.columbia.edu
+- **First half:** [Mark Santolucito](https://cs.barnard.edu/profiles/mark-santolucito), msantolu@barnard.edu
 - **Second half:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 
 ### Teaching Assistants (TAs)
 
-Section 1:
+<!-- TODO split to sections -->
 
 - Adithi Narayan, an3308@columbia.edu
 - Riya Raj, rr3630@columbia.edu
-
-Section 2:
-
-- Chuhan Zou, cz2733@columbia.edu
-- Kevin Tang, kt2942@columbia.edu
+- Shruti Das, sd3875@columbia.edu
+- Sneha Palle, sp4434@columbia.edu
 
 ## Meeting Information
 
@@ -39,19 +36,19 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 ### Section 1
 
-| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by        | Contexts  | Location            |
-| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ------------- | --------- | ------------------- |
-| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 3  | Oct 17 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
-|           |                        |               | Second half  | Oct 22 | Dec 5  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | 1-2:30pm      | Full         | Sep 6  | Dec 6  | TAs           | SIPA only | [IAB][IAB] room 411 |
+| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by           | Contexts  | Location            |
+| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
+| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
+|           |                        |               | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
+| Lab       | Fridays                | 1-2:30pm      | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
 
 ### Section 2
 
-| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by        | Contexts  | Location            |
-| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ------------- | --------- | ------------------- |
-| Lecture   | Tuesdays and Thursdays | 2:40-3:55pm   | First half   | Sep 3  | Oct 17 | Adam Cannon   | Combined  | [IAB][IAB] room 417 |
-|           |                        |               | Second half  | Oct 22 | Dec 5  | Aidan Feldman | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 6  | Dec 6  | TAs           | SIPA only | [IAB][IAB] room 411 |
+| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by           | Contexts  | Location            |
+| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
+| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
+|           |                        | 3:10–4:25pm   | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
+| Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
@@ -64,9 +61,9 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 
 ### Contexts and Structure
 
-Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20243/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/course/20243/74422).
+Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/course/20243/74422).
 
-The lectures in the first half of the semester have students from multiple contexts, and are taught by Adam Cannon. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (recitations) are context-specific are context-specific the entire semester.
+The lectures in the first half of the semester have students from multiple contexts, and are taught by Mark Santolucito. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (recitations) are context-specific are context-specific the entire semester.
 
 For example, let's say a student is in SIPA (INAFU6006) section 1. The first half of the semester, they will attend combined lectures with students from Biology, Linguistics, etc., while doing labs with just their SIPA section. The second half of the semester, they will have both lectures and labs with their SIPA section only.
 
@@ -76,7 +73,7 @@ See the [Meeting Information](#meeting-information) for more details.
 
 If there is any conflicting information between the syllabi, course sites, etc:
 
-- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) / Professor Cannon / the Lead TAs will take precendence.
+- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) / Professor Santolucito / the Lead TAs will take precendence.
 - For the second half of the course, this syllabus / this site / Professor Feldman will take precendence.
 
 If you aren't sure, please ask.
@@ -102,13 +99,13 @@ For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/cou
 
 | Week             | Tuesday [lecture](#meeting-information)                                                                                                          | Wednesday Lab exercise due (11:59pm ET) | Thursday [lecture](#meeting-information)                                         | Friday [lab session](#meeting-information), Project due (11:59pm ET)                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [8](week_8.md)   | **Oct 22**<br/>[Lecture 15: Introduction to the Policy context](lecture_15.ipynb)<br/><br/>[_New location and instructor_](#meeting-information) | **Oct 23**<br/>[Lab 7][lab7]            | **Oct 24**<br/>[Lecture 16: Working with data](lecture_16.ipynb)                 | **Oct 25**<br/>[Lab 8: Working with data](lab_8_guide.md)                                     |
-| [9](week_9.md)   | **Oct 29**<br/>[Lecture 17: Manipulating data](lecture_17.ipynb)                                                                                 | **Oct 30**<br/>[Lab 8](lab_8.ipynb)     | **Oct 31**<br/>[Lecture 18: Combining data](lecture_18.ipynb)                    | **Nov 1**<br/>[Lab 9: Data cleaning and joining](lab_9_guide.md)                              |
-| [10](week_10.md) | **Nov 5**<br/>None (Election Day)                                                                                                                | **Nov 6**<br/>[Lab 9](lab_9.ipynb)      | **Nov 7**<br/>[Lecture 19: Data visualization](lecture_19.ipynb)                 | **Nov 8**<br/>[Lab 10: Data visualization](lab_10_guide.md)<hr/>[Project 1](project_1.md) due |
-| [11](week_11.md) | **Nov 12**<br/>[Lecture 20: Data visualization, continued](lecture_20.ipynb)                                                                     | **Nov 13**<br/>[Lab 10](lab_10.ipynb)   | **Nov 14**<br/>[Lecture 21: Visualization exercise, continued](lecture_21.ipynb) | **Nov 15**<br/>[Lab 11: Time series analysis](lab_11_guide.md)                                |
-| [12](week_12.md) | **Nov 19**<br/>[Lecture 22: Dates and time series analysis, APIs](lecture_22.ipynb)                                                              | **Nov 20**<br/>[Lab 11](lab_11.ipynb)   | **Nov 21**<br/>[Lecture 23: Editors and version control](lecture_23.ipynb)       | **Nov 22**<br/>[Lab 12: APIs](lab_12_guide.md)<hr/>[Project 2](project_2.md) due              |
-| [13](week_13.md) | **Nov 26**<br/>[Lecture 24: Guest speaker](lecture_24.md)                                                                                        | **Nov 27**<br/>[Lab 12](lab_12.ipynb)   | **Nov 28**<br/>None (Thanksgiving)                                               | **Nov 29**<br/>None (Thanksgiving)                                                            |
-| [14](week_14.md) | **Dec 3**<br/>[Test](test.md)                                                                                                                    | **Dec 4**<br/>None                      | **Dec 5**<br/>[Lecture 25: The Bigger Picture](lecture_25.ipynb)                 | **Dec 6**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due                       |
+| [8](week_8.md)   | **Oct 21**<br/>[Lecture 15: Introduction to the Policy context](lecture_15.ipynb)<br/><br/>[_New location and instructor_](#meeting-information) | **Oct 22**<br/>[Lab 7][lab7]            | **Oct 23**<br/>[Lecture 16: Working with data](lecture_16.ipynb)                 | **Oct 24**<br/>[Lab 8: Working with data](lab_8_guide.md)                                     |
+| [9](week_9.md)   | **Oct 28**<br/>[Lecture 17: Manipulating data](lecture_17.ipynb)                                                                                 | **Oct 29**<br/>[Lab 8](lab_8.ipynb)     | **Oct 30**<br/>[Lecture 18: Combining data](lecture_18.ipynb)                    | **Oct 31**<br/>[Lab 9: Data cleaning and joining](lab_9_guide.md)                             |
+| [10](week_10.md) | **Nov 4**<br/>None (Election Day)                                                                                                                | **Nov 5**<br/>[Lab 9](lab_9.ipynb)      | **Nov 6**<br/>[Lecture 19: Data visualization](lecture_19.ipynb)                 | **Nov 7**<br/>[Lab 10: Data visualization](lab_10_guide.md)<hr/>[Project 1](project_1.md) due |
+| [11](week_11.md) | **Nov 11**<br/>[Lecture 20: Data visualization, continued](lecture_20.ipynb)                                                                     | **Nov 12**<br/>[Lab 10](lab_10.ipynb)   | **Nov 13**<br/>[Lecture 21: Visualization exercise, continued](lecture_21.ipynb) | **Nov 14**<br/>[Lab 11: Time series analysis](lab_11_guide.md)                                |
+| [12](week_12.md) | **Nov 18**<br/>[Lecture 22: Dates and time series analysis, APIs](lecture_22.ipynb)                                                              | **Nov 19**<br/>[Lab 11](lab_11.ipynb)   | **Nov 20**<br/>[Lecture 23: Editors and version control](lecture_23.ipynb)       | **Nov 21**<br/>[Lab 12: APIs](lab_12_guide.md)<hr/>[Project 2](project_2.md) due              |
+| [13](week_13.md) | **Nov 25**<br/>[Lecture 24: Guest speaker](lecture_24.md)                                                                                        | **Nov 26**<br/>[Lab 12](lab_12.ipynb)   | **Nov 27**<br/>None (Thanksgiving)                                               | **Nov 28**<br/>None (Thanksgiving)                                                            |
+| [14](week_14.md) | **Dec 2**<br/>[Test](test.md)                                                                                                                    | **Dec 3**<br/>None                      | **Dec 4**<br/>[Lecture 25: The Bigger Picture](lecture_25.ipynb)                 | **Dec 5**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due                       |
 
 [lab7]: https://courseworks2.columbia.edu/courses/203144/files/folder/Lab%20Material?preview=22215714
 
