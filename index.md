@@ -40,7 +40,7 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 | --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
 | Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
 |           |                        |               | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | 1-2:30pm      | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
+| Lab       | Fridays                | TBD           | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
 
 ### Section 2
 
@@ -48,7 +48,7 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 | --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
 | Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
 |           |                        | 3:10–4:25pm   | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | 2:40-4:10pm   | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
+| Lab       | Fridays                | TBD           | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
