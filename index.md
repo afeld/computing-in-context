@@ -28,7 +28,7 @@ This introductory course will explore computing concepts and coding in the conte
 - Adithi Narayan, an3308@columbia.edu
 - Riya Raj, rr3630@columbia.edu
 - Shruti Das, sd3875@columbia.edu
-- Sneha Palle, sp4434@columbia.edu
+- Sneha Palle, sp4434@columbia.edu <!-- section 2 -->
 
 ## Meeting Information
 
@@ -47,8 +47,10 @@ Students should bring a laptop to all labs. See [Contexts and Structure](#contex
 | Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by           | Contexts  | Location            |
 | --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
 | Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
-|           |                        | 3:10–4:25pm   | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
+|           |                        | 3:10–4:25pm\* | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
 | Lab       | Fridays                | TBD           | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
+
+\*Note that the lecture time is different for the second half of the semester.
 
 [IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
