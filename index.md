@@ -32,27 +32,28 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Meeting Information
 
-Students should bring a laptop to all labs. See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized. [Office hour information.](office_hours.md)
+- All class sessions take place in [IAB](https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7).
+- Students should bring a laptop to all labs.
+- See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
+- [Office hour information.](office_hours.md)
 
 ### Section 1
 
-| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by           | Contexts  | Location            |
-| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
-| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
-|           |                        |               | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | TBD           | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
+| Component | Part of term | Start  | End    | Meeting days           | Meeting times | Room | Led by           | Contexts  |
+| --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
+| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
+|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm   | 410  | Aidan Feldman    | SIPA only |
+| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | TBD           | TBD  | TAs              | SIPA only |
 
 ### Section 2
 
-| Component | Meeting days           | Meeting times | Part of term | Start  | End    | Led by           | Contexts  | Location            |
-| --------- | ---------------------- | ------------- | ------------ | ------ | ------ | ---------------- | --------- | ------------------- |
-| Lecture   | Tuesdays and Thursdays | 1:10-2:25pm   | First half   | Sep 2  | Oct 16 | Mark Santolucito | Combined  | [IAB][IAB] room 417 |
-|           |                        | 3:10–4:25pm\* | Second half  | Oct 21 | Dec 4  | Aidan Feldman    | SIPA only | [IAB][IAB] room 410 |
-| Lab       | Fridays                | TBD           | Full         | Sep 5  | Dec 5  | TAs              | SIPA only | [IAB][IAB] room TBD |
+| Component | Part of term | Start  | End    | Meeting days           | Meeting times | Room | Led by           | Contexts  |
+| --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
+| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
+|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman    | SIPA only |
+| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | TBD           | TBD  | TAs              | SIPA only |
 
 \*Note that the lecture time is different for the second half of the semester.
-
-[IAB]: https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7
 
 ## Course Overview
 
