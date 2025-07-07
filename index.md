@@ -39,15 +39,15 @@ This introductory course will explore computing concepts and coding in the conte
 
 ### Section 1
 
-| Component | Part of term | Start  | End    | Meeting days           | Meeting times | Room | Led by           | Contexts  |
-| --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
-| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
-|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm   | 410  | Aidan Feldman    | SIPA only |
-| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | TBD           | TBD  | TAs              | SIPA only |
+| Component | Part of term | Start  | End    | Days                   | Times       | Room | Led by           | Contexts  |
+| --------- | ------------ | ------ | ------ | ---------------------- | ----------- | ---- | ---------------- | --------- |
+| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm | 417  | Mark Santolucito | Combined  |
+|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm | 410  | Aidan Feldman    | SIPA only |
+| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | TBD         | TBD  | TAs              | SIPA only |
 
 ### Section 2
 
-| Component | Part of term | Start  | End    | Meeting days           | Meeting times | Room | Led by           | Contexts  |
+| Component | Part of term | Start  | End    | Days                   | Times         | Room | Led by           | Contexts  |
 | --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
 | Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
 |           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman    | SIPA only |
