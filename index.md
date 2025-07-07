@@ -12,7 +12,7 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Information
 
-- **Course Number:** [INAFU6006](https://vergil.columbia.edu/vergil/course/20253/74422)
+- **Course Number:** [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786), formerly INAFU6006
 - **Credits:** 3
 - **Prerequisites:** none
 
@@ -63,11 +63,11 @@ This introductory course will explore computing concepts and coding in the conte
 
 ### Contexts and Structure
 
-Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [INAFU6006](https://vergil.columbia.edu/vergil/course/20253/74422).
+Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786).
 
 The lectures in the first half of the semester have students from multiple contexts, and are taught by Mark Santolucito. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (recitations) are context-specific are context-specific the entire semester.
 
-For example, let's say a student is in SIPA (INAFU6006) section 1. The first half of the semester, they will attend combined lectures with students from Biology, Linguistics, etc., while doing labs with just their SIPA section. The second half of the semester, they will have both lectures and labs with their SIPA section only.
+For example, let's say a student is in SIPA (DSPC6000IA) section 1. The first half of the semester, they will attend combined lectures with students from Biology, Linguistics, etc., while doing labs with just their SIPA section. The second half of the semester, they will have both lectures and labs with their SIPA section only.
 
 See the [Meeting Information](#meeting-information) for more details.
 
