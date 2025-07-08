@@ -35,6 +35,9 @@ sphinx:
     language: en
     linkcheck_allow_unauthorized: true
     # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
+    linkcheck_anchors_ignore:
+      # GitHub no longer has #readme anchors, apparently
+      - "^readme$"
     linkcheck_ignore:
       # their anchors are title-cased
       - ^https://plotly.com
