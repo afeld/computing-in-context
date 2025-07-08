@@ -23,12 +23,15 @@ This introductory course will explore computing concepts and coding in the conte
 
 ### Teaching Assistants (TAs)
 
-<!-- TODO split to sections -->
+Section 1:
 
 - Adithi Narayan, an3308@columbia.edu
-- Riya Raj, rr3630@columbia.edu
 - Shruti Das, sd3875@columbia.edu
-- Sneha Palle, sp4434@columbia.edu <!-- section 2 -->
+
+Section 2:
+
+- Riya Raj, rr3630@columbia.edu
+- Sneha Palle, sp4434@columbia.edu
 
 ## Meeting Information
 
