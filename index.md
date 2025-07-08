@@ -195,7 +195,7 @@ These tools can be incredibly useful, but the code they provide is often incompl
 
 The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean's Disciplinary Procedures.
 
-Please familiarize yourself with the proper methods of citation and attribution. The School provides some valuable resources online; we strongly encourage you to familiarize yourself with these various styles before conducting research. Cut and paste the following link into your browser to view the Code of Academic & Professional Conduct and to access useful resources on citation and attribution: [http://bulletin.columbia.edu/sipa/academic-policies/](http://bulletin.columbia.edu/sipa/academic-policies/)
+Please familiarize yourself with the proper methods of citation and attribution. The School provides some valuable resources online; we strongly encourage you to familiarize yourself with these various styles before conducting research. Cut and paste the following link into your browser to view the Code of Academic & Professional Conduct and to access useful resources on citation and attribution: [https://bulletin.columbia.edu/sipa/academic-policies/](https://bulletin.columbia.edu/sipa/academic-policies/)
 
 Violations of the Code of Academic & Professional Conduct should be reported to the Associate Dean for Student Affairs.
 
