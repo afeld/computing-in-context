@@ -46,7 +46,7 @@ Section 2:
 | --------- | ------------ | ------ | ------ | ---------------------- | ----------- | ---- | ---------------- | --------- |
 | Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm | 417  | Mark Santolucito | Combined  |
 |           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm | 410  | Aidan Feldman    | SIPA only |
-| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | TBD         | TBD  | TAs              | SIPA only |
+| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | 1-2:30pm    | TBD  | TAs              | SIPA only |
 
 ### Section 2
 
@@ -54,7 +54,7 @@ Section 2:
 | --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
 | Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
 |           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman    | SIPA only |
-| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | TBD           | TBD  | TAs              | SIPA only |
+| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | 2:40-4:10pm   | TBD  | TAs              | SIPA only |
 
 \*Note that the lecture time is different for the second half of the semester.
 
