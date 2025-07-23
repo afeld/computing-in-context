@@ -85,9 +85,9 @@ def test_nested_lists(file):
                 match = re.match(r"^( +)(-|\d\.)", line)
                 if match:
                     num_spaces = len(match[1])
-                    assert (
-                        num_spaces % 3 == 0 or num_spaces % 4 == 0
-                    ), f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
+                    assert num_spaces % 3 == 0 or num_spaces % 4 == 0, (
+                        f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
+                    )
 
 
 def check_link(token: Token, parent: Token = None):
