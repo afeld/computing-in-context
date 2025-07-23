@@ -19,12 +19,11 @@ clean:
 	jupyter-book clean .
 
 quick:
-	jupyter-book build -W -n --keep-going .
-
-site: clean
 	# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 	# https://jupyterbook.org/en/stable/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
 	jupyter-book build -W -n --keep-going .
+
+site: clean quick
 
 linkcheck:
 	# https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
