@@ -38,7 +38,7 @@ Section 2:
 - All class sessions take place in [IAB](https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7).
 - Students should bring a laptop to all labs.
 - See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
-- [Office hour information.](office_hours.md)
+- [Office hours](office_hours.md)
 
 ### Section 1
 
@@ -60,7 +60,8 @@ Section 2:
 
 ## Course Overview
 
-- [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
+### Relationship to Other Courses
+
 - [Comparison with Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context)
 - This is a prerequisite for some [Data Science for Policy (DSP) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#dsprequirementstext), such as [Advanced Computing for Policy](https://github.com/advanced-computing/course-materials?tab=readme-ov-file#readme) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323).
 
@@ -72,7 +73,10 @@ The lectures in the first half of the semester have students from multiple conte
 
 For example, let's say a student is in SIPA (DSPC6000IA) section 1. The first half of the semester, they will attend combined lectures with students from Biology, Linguistics, etc., while doing labs with just their SIPA section. The second half of the semester, they will have both lectures and labs with their SIPA section only.
 
-See the [Meeting Information](#meeting-information) for more details.
+See also:
+
+- [Meeting Information](#meeting-information)
+- [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
 
 #### Discrepancies
 
