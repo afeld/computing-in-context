@@ -165,6 +165,8 @@ See the [school policies](https://www.sipa.columbia.edu/students/student-affairs
 
 ### Attendance
 
+See also: [The combined syllabus](https://courseworks2.columbia.edu/courses/226977)
+
 Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
 
 Attendance is only taken for the lab sessions; see below and [grading](#grading) for details. If you are absent, we trust that it's for a good reason: scheduling conflicts, [religious observance](https://universitypolicies.columbia.edu/content/religious-accommodation-policy), etc. We don't excuse absences beyond that, except in exceptional circumstances. If you're sick, please stay home and rest.
