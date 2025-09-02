@@ -63,7 +63,7 @@ Section 2:
 ### Relationship to Other Courses
 
 - [Comparison with Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context)
-- This is a prerequisite for some [Data Science for Policy (DSP) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#dsprequirementstext), such as [Advanced Computing for Policy](https://github.com/advanced-computing/course-materials?tab=readme-ov-file#readme) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323).
+- This is a prerequisite for some [Data Science for Policy (DSP) courses](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp#dsp-requirements), such as [Advanced Computing for Policy](https://github.com/advanced-computing/course-materials?tab=readme-ov-file#readme) and [Applying Machine Learning](https://vergil.columbia.edu/vergil/course/20251/62323).
 
 ### Contexts and Structure
 
