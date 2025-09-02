@@ -4,14 +4,14 @@ root: index
 chapters:
   - file: course_info
     sections:
-      # - url: https://courseworks2.columbia.edu/courses/203144
-      #   title: Courseworks (combined)
-      - url: https://courseworks2.columbia.edu/courses/207091
-        title: Courseworks (SIPA)
-      # - url: https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless
-      #   title: Ed Discussion (combined)
-      - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
-        title: Ed Discussion (SIPA)
+      - url: https://courseworks2.columbia.edu/courses/226977
+        title: Courseworks (combined)
+      # - url: https://courseworks2.columbia.edu/courses/207091
+      #   title: Courseworks (SIPA)
+      - url: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless
+        title: Ed Discussion (combined)
+      # - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
+      #   title: Ed Discussion (SIPA)
       - file: office_hours
       - url: https://python-public-policy.afeld.me/en/columbia/resources.html
         title: Resources
@@ -21,7 +21,7 @@ chapters:
       - file: analytics
   - file: redirects/lectures
     sections:
-      - url: https://courseworks2.columbia.edu/courses/203144/files/folder/Lectures_first_half
+      - url: https://courseworks2.columbia.edu/courses/226977/files/folder/Lectures_first_half
         title: Lectures 1-14
       - file: lecture_15
       - file: lecture_16
@@ -39,7 +39,7 @@ chapters:
       - file: lecture_25
   - file: redirects/labs
     sections:
-      - url: https://courseworks2.columbia.edu/courses/203144/assignments
+      - url: https://courseworks2.columbia.edu/courses/226977/assignments
         title: Labs 1-7
       - file: lab_8
         sections:
@@ -67,7 +67,7 @@ chapters:
             title: Solutions
   - file: redirects/reading
     sections:
-      - url: https://courseworks2.columbia.edu/courses/203144/assignments/syllabus
+      - url: https://courseworks2.columbia.edu/courses/226977/pages/syllabus
         title: Weeks 1-7
       - file: week_8
       - file: week_9
@@ -78,6 +78,6 @@ chapters:
       - file: week_14
   - file: projects
     sections:
-      - url: https://courseworks2.columbia.edu/courses/203144/assignments
+      - url: https://courseworks2.columbia.edu/courses/226977/assignments
         title: Homeworks 1-3
       - glob: project_*

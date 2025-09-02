@@ -7,7 +7,7 @@
 All Projects must:
 
 - **Be done in a Jupyter notebook**
-- **Follow the [style guide](https://courseworks2.columbia.edu/courses/203144/files?preview=21151852)**
+- **Follow the [style guide](https://courseworks2.columbia.edu/courses/226977/files?preview=24687098)**
 - **Use at least one dataset you aren't familiar with**
   - Using data from a primary source is preferred.
   - Using a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).

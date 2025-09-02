@@ -82,7 +82,7 @@ See also:
 
 If there is any conflicting information between the syllabi, course sites, etc:
 
-- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/203144) / Professor Santolucito / the Lead TAs will take precendence.
+- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/226977) / Professor Santolucito / the Lead TAs will take precendence.
 - For the second half of the course, this syllabus / this site / Professor Feldman will take precendence.
 
 If you aren't sure, please ask.
@@ -94,7 +94,7 @@ If you aren't sure, please ask.
 - 20% Lab Exercises: There are 12 labs. Each is worth 0-2%, up to 20%.
 - 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%. See [lab attendance](#labs) for more details.
 
-See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144). Grace days may not be used for labs. That said, you get two "freebies" for both Lab Exercises and Attendace.
+See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977). Grace days may not be used for labs. That said, you get two "freebies" for both Lab Exercises and Attendace.
 
 The final grades for each section will be [curved](curve.ipynb).
 
@@ -104,7 +104,7 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 ## Schedule
 
-For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/203144/pages/syllabus).
+For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus).
 
 | Week             | Tuesday [lecture](#meeting-information)                                                                                                          | Wednesday Lab exercise due (11:59pm ET) | Thursday [lecture](#meeting-information)                                         | Friday [lab session](#meeting-information), Project due (11:59pm ET)                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -116,7 +116,7 @@ For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/cou
 | [13](week_13.md) | **Nov 25**<br/>[Lecture 24: Guest speaker](lecture_24.md)                                                                                        | **Nov 26**<br/>[Lab 12](lab_12.ipynb)   | **Nov 27**<br/>None (Thanksgiving)                                               | **Nov 28**<br/>None (Thanksgiving)                                                            |
 | [14](week_14.md) | **Dec 2**<br/>[Test](test.md)                                                                                                                    | **Dec 3**<br/>None                      | **Dec 4**<br/>[Lecture 25: The Bigger Picture](lecture_25.ipynb)                 | **Dec 5**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due                       |
 
-[lab7]: https://courseworks2.columbia.edu/courses/203144/files/folder/Lab%20Material?preview=22215714
+[lab7]: https://courseworks2.columbia.edu/courses/226977/files/folder/Lab%20Material
 
 Reading should be completed before the lab session that week (Friday). For example: [Week 8 reading](week_8.md) should be completed before [Lab 8](lab_8_guide.md).
 
@@ -151,13 +151,13 @@ Go through the following as soon as possible:
 
 1. This syllabus
 1. Once [registered](https://bulletin.columbia.edu/sipa/registration/):
-   1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/203144) — let us know if you have any trouble accessing
-   1. [The combined syllabus](https://courseworks2.columbia.edu/courses/203144/assignments/syllabus)
-   1. [Lecture materials](https://courseworks2.columbia.edu/courses/203144/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/203144/assignments) to get caught up
+   1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977) — let us know if you have any trouble accessing
+   1. [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus)
+   1. [Lecture materials](https://courseworks2.columbia.edu/courses/226977/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
 
-We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/203144).
+We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977).
 
-If you get confused/stuck on any of the material, check out [the discussion board](https://courseworks2.columbia.edu/courses/203144/external_tools/37606?display=borderless) and [office hours](office_hours.md).
+If you get confused/stuck on any of the material, check out [the discussion board](https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless) and [office hours](office_hours.md).
 
 ### Auditing
 
