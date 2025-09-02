@@ -22,7 +22,7 @@ def check_file(file, expected_kernel="Python [conda env:computing-in-context]"):
     check_metadata(notebook, expected_kernel)
 
 
-notebooks = glob("*.ipynb")
+notebooks = glob("site/*.ipynb")
 notebooks.sort()
 
 
