@@ -10,7 +10,6 @@ assignees: afeld
 - [ ] Incorporate [learnings from last time](https://docs.google.com/document/d/1NBqKbW8sZzG3SB44FvC4jED7_wCVv-3nH2k9KD0qYqg/edit?tab=t.0#heading=h.3stfpnh3zcav)
 - [ ] Update in repo
   - [ ] Dates
-  - [ ] Office hours
   - [ ] CourseWorks links
 - [ ] Find TAs
   - [ ] Update [job post](https://docs.google.com/document/d/10nDc6y2LZdQDjGkqSP6f1tVlRmjhYU41jWKMlIT-324/edit)

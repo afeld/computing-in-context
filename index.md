@@ -150,10 +150,10 @@ If there ends up being a wait list:
 Go through the following as soon as possible:
 
 1. This syllabus
-1. Once [registered](https://bulletin.columbia.edu/sipa/registration/):
+1. Once [registered](https://bulletin.columbia.edu/sipa/registration/), review:
    1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977) — let us know if you have any trouble accessing
    1. [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus)
-   1. [Lecture materials](https://courseworks2.columbia.edu/courses/226977/files/folder/Lectures_first_half) (ignore the `.ipynb` files) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
+   1. [Lecture materials](https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
 
 We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977).
 
