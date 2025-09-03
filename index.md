@@ -36,6 +36,7 @@ Section 2:
 ## Meeting Information
 
 - All class sessions take place in [IAB](https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7).
+- You don't need to register for the labs, just the lectures.
 - Students should bring a laptop to all labs.
 - See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
 - [Office hours](office_hours.md)
@@ -69,7 +70,7 @@ Section 2:
 
 Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786).
 
-The lectures in the first half of the semester have students from multiple contexts, and are taught by Mark Santolucito. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (recitations) are context-specific are context-specific the entire semester.
+The lectures in the first half of the semester have students from multiple contexts, and are taught by Mark Santolucito. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (a.k.a. recitations) are context-specific are context-specific the entire semester.
 
 For example, let's say a student is in SIPA (DSPC6000IA) section 1. The first half of the semester, they will attend combined lectures with students from Biology, Linguistics, etc., while doing labs with just their SIPA section. The second half of the semester, they will have both lectures and labs with their SIPA section only.
 
