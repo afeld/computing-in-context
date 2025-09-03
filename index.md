@@ -92,6 +92,8 @@ If you aren't sure, please ask.
 
 Computing in Context is a required course for [the Data Science for Policy (DSP) concentration and the Data Science for Public Policy minor](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp), and a [prerequisite for various courses](#relationship-to-other-courses). If you already have experience with the [topics covered in this course](#schedule), you can test out. If you pass, you will be exempt from Computing in Context as a requirement and prerequisite. Instead, you will choose three credits of other DSP course(s) in its place, and be able to go straight into more advanced classes.
 
+To sign up for the test, contact [Aidan](#instructors).
+
 ## Grading
 
 - 30% Homework: 5% x (3 Assignments + 3 [Projects](projects.md))
