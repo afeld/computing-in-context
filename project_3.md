@@ -116,7 +116,7 @@ The question should be:
 - Objectively answerable through the data available
 - _Just the right amount_ of ambitious ([non-trivial](#analysis-requirements))
 
-If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless) or come to [office hours](office_hours.md).
+If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless) or come to [office hours](office_hours.md).
 
 #### Tips
 

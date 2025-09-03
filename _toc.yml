@@ -6,11 +6,11 @@ chapters:
     sections:
       - url: https://courseworks2.columbia.edu/courses/226977
         title: Courseworks (combined)
-      # - url: https://courseworks2.columbia.edu/courses/207091
+      # - url: https://courseworks2.columbia.edu/courses/230821
       #   title: Courseworks (SIPA)
       - url: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless
         title: Ed Discussion (combined)
-      # - url: https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless
+      # - url: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless
       #   title: Ed Discussion (SIPA)
       - file: office_hours
       - url: https://python-public-policy.afeld.me/en/columbia/resources.html

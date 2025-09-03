@@ -5,7 +5,7 @@
 - This site is built from Jupyter notebooks and Markdown files using [Jupyter Book](https://jupyterbook.org/). You can take a look at [the source code](https://github.com/afeld/computing-in-context), if curious.
 - Labs are structured, while [Projects](projects.md) are more open-ended. Both are meant to be challenging, but not impossible.
   - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
-    - [Ed](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless)
+    - [Ed](https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless)
     - [Office hours](office_hours.md)
 
 ## Downloading notebooks
@@ -38,7 +38,7 @@ Images will be broken in downloaded notebooks.
 
 ## Submission
 
-You will [submit your Lab/Project notebooks via Gradescope](https://courseworks2.columbia.edu/courses/207091/external_tools/29680?display=borderless).
+You will [submit your Lab/Project notebooks via Gradescope](https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless).
 
 ```{note}
 You can ignore Gradescope saying "Large file hidden". The TAs can download the notebook to view.

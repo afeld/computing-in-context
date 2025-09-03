@@ -4,10 +4,10 @@
 
 Please do the following:
 
-- [Add your name pronunciation and pronouns.](https://courseworks2.columbia.edu/courses/207091/external_tools/62951)
+- [Add your name pronunciation and pronouns.](https://courseworks2.columbia.edu/courses/230821/external_tools/62951)
 - [Set your profile photo in CourseWorks.](https://courseworks2.columbia.edu/profile)
 - Add your profile photo in Ed.
-  1.  [Open Ed.](https://courseworks2.columbia.edu/courses/207091/external_tools/37606?display=borderless)
+  1.  [Open Ed.](https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless)
   1.  Click the icon in the top right.
   1.  Click Settings.
   1.  Add your photo.
