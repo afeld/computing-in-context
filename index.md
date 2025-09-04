@@ -133,15 +133,15 @@ For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/cou
 
 ### Assignments
 
-| Week | Tuesday<br/>Lab exercise due (6pm ET) | Friday<br/>Reading due (before lab); project due (11:59pm ET)      |
-| ---- | ------------------------------------- | ------------------------------------------------------------------ |
-| 8    | **Oct 21**<br/>[Lab 7][lab7]          | **Oct 24**<br/>[Week 8](week_8.md)                                 |
-| 9    | **Oct 28**<br/>[Lab 8](lab_8.ipynb)   | **Oct 31**<br/>[Week 9](week_9.md)                                 |
-| 10   | **Nov 4**<br/>[Lab 9](lab_9.ipynb)    | **Nov 7**<br/>[Week 10](week_10.md)<hr/>[Project 1](project_1.md)  |
-| 11   | **Nov 11**<br/>[Lab 10](lab_10.ipynb) | **Nov 14**<br/>[Week 11](week_11.md)                               |
-| 12   | **Nov 18**<br/>[Lab 11](lab_11.ipynb) | **Nov 21**<br/>[Week 12](week_12.md)<hr/>[Project 2](project_2.md) |
-| 13   | **Nov 25**<br/>[Lab 12](lab_12.ipynb) | **Nov 28**<br/>None (Thanksgiving)                                 |
-| 14   | **Dec 2**<br/>None                    | **Dec 5**<br/>[Project 3](project_3.md)                            |
+| Week | Tuesday<br/>Lab due (6pm ET)          | Friday<br/>Reading due (before lab); project due (11:59pm ET)   |
+| ---- | ------------------------------------- | --------------------------------------------------------------- |
+| 8    | **Oct 21**<br/>[Lab 7][lab7]          | **Oct 24**<br/>[Week 8](week_8.md)                              |
+| 9    | **Oct 28**<br/>[Lab 8](lab_8.ipynb)   | **Oct 31**<br/>[Week 9](week_9.md)                              |
+| 10   | **Nov 4**<br/>[Lab 9](lab_9.ipynb)    | **Nov 7**<br/>[Week 10](week_10.md); [Project 1](project_1.md)  |
+| 11   | **Nov 11**<br/>[Lab 10](lab_10.ipynb) | **Nov 14**<br/>[Week 11](week_11.md)                            |
+| 12   | **Nov 18**<br/>[Lab 11](lab_11.ipynb) | **Nov 21**<br/>[Week 12](week_12.md); [Project 2](project_2.md) |
+| 13   | **Nov 25**<br/>[Lab 12](lab_12.ipynb) | **Nov 28**<br/>None (Thanksgiving)                              |
+| 14   | **Dec 2**<br/>None                    | **Dec 5**<br/>None; [Project 3](project_3.md)                   |
 
 [lab7]: https://courseworks2.columbia.edu/courses/226977/files/folder/Lab%20Material
 
