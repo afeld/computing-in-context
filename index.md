@@ -115,22 +115,35 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 ## Schedule
 
-For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus).
+For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus). See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23).
 
-| Week | Tuesday<br/>[Lecture](#meeting-information); lab exercise due (6pm ET)                                                                                       | Thursday<br/>[Lecture](#meeting-information)                                     | Friday<br/>Reading due (before lab); [lab session](#meeting-information); project due (11:59pm ET)                          |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 8    | **Oct 21**<br/>[Lecture 15: Introduction to the Policy context](lecture_15.ipynb); [new location and instructor](#meeting-information)<hr/>[Lab 7][lab7] due | **Oct 23**<br/>[Lecture 16: Working with data](lecture_16.ipynb)                 | **Oct 24**<br/>[Reading](week_8.md) due<hr/>[Lab 8: Working with data](lab_8_guide.md)                                      |
-| 9    | **Oct 28**<br/>[Lecture 17: Manipulating data](lecture_17.ipynb)<hr/>[Lab 8](lab_8.ipynb) due                                                                | **Oct 30**<br/>[Lecture 18: Combining data](lecture_18.ipynb)                    | **Oct 31**<br/>[Reading](week_9.md) due<hr/>[Lab 9: Data cleaning and joining](lab_9_guide.md)                              |
-| 10   | **Nov 4**<br/>None (Election Day)<hr/>[Lab 9](lab_9.ipynb) due                                                                                               | **Nov 6**<br/>[Lecture 19: Data visualization](lecture_19.ipynb)                 | **Nov 7**<br/>[Reading](week_10.md) due<hr/>[Lab 10: Data visualization](lab_10_guide.md)<hr/>[Project 1](project_1.md) due |
-| 11   | **Nov 11**<br/>[Lecture 20: Data visualization, continued](lecture_20.ipynb)<hr/>[Lab 10](lab_10.ipynb) due                                                  | **Nov 13**<br/>[Lecture 21: Visualization exercise, continued](lecture_21.ipynb) | **Nov 14**<br/>[Reading](week_11.md) due<hr/>[Lab 11: Time series analysis](lab_11_guide.md)                                |
-| 12   | **Nov 18**<br/>[Lecture 22: Dates and time series analysis, APIs](lecture_22.ipynb)<hr/>[Lab 11](lab_11.ipynb) due                                           | **Nov 20**<br/>[Lecture 23: Editors and version control](lecture_23.ipynb)       | **Nov 21**<br/>[Reading](week_12.md) due<hr/>[Lab 12: APIs](lab_12_guide.md)<hr/>[Project 2](project_2.md) due              |
-| 13   | **Nov 25**<br/>[Lecture 24: Guest speaker](lecture_24.md) ([virtual][zoom])<hr/>[Lab 12](lab_12.ipynb) due                                                   | **Nov 27**<br/>None (Thanksgiving)                                               | **Nov 28**<br/>None (Thanksgiving)                                                                                          |
-| 14   | **Dec 2**<br/>[Test](test.md)                                                                                                                                | **Dec 4**<br/>[Lecture 25: The Bigger Picture](lecture_25.ipynb)                 | **Dec 5**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due                                                     |
+### Topics
 
-[lab7]: https://courseworks2.columbia.edu/courses/226977/files/folder/Lab%20Material
+| Week | Tuesday<br/>[Lecture](#meeting-information)                                                                                            | Thursday<br/>[Lecture](#meeting-information)                                     | Friday<br/>[Lab session](#meeting-information)                    |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 8    | **Oct 21**<br/>[Lecture 15: Introduction to the Policy context](lecture_15.ipynb); [new location and instructor](#meeting-information) | **Oct 23**<br/>[Lecture 16: Working with data](lecture_16.ipynb)                 | **Oct 24**<br/>[Lab 8: Working with data](lab_8_guide.md)         |
+| 9    | **Oct 28**<br/>[Lecture 17: Manipulating data](lecture_17.ipynb)                                                                       | **Oct 30**<br/>[Lecture 18: Combining data](lecture_18.ipynb)                    | **Oct 31**<br/>[Lab 9: Data cleaning and joining](lab_9_guide.md) |
+| 10   | **Nov 4**<br/>None (Election Day)                                                                                                      | **Nov 6**<br/>[Lecture 19: Data visualization](lecture_19.ipynb)                 | **Nov 7**<br/>[Lab 10: Data visualization](lab_10_guide.md)       |
+| 11   | **Nov 11**<br/>[Lecture 20: Data visualization, continued](lecture_20.ipynb)                                                           | **Nov 13**<br/>[Lecture 21: Visualization exercise, continued](lecture_21.ipynb) | **Nov 14**<br/>[Lab 11: Time series analysis](lab_11_guide.md)    |
+| 12   | **Nov 18**<br/>[Lecture 22: Dates and time series analysis, APIs](lecture_22.ipynb)                                                    | **Nov 20**<br/>[Lecture 23: Editors and version control](lecture_23.ipynb)       | **Nov 21**<br/>[Lab 12: APIs](lab_12_guide.md)                    |
+| 13   | **Nov 25**<br/>[Lecture 24: Guest speaker](lecture_24.md) ([virtual][zoom])                                                            | **Nov 27**<br/>None (Thanksgiving)                                               | **Nov 28**<br/>None (Thanksgiving)                                |
+| 14   | **Dec 2**<br/>[Test](test.md)                                                                                                          | **Dec 4**<br/>[Lecture 25: The Bigger Picture](lecture_25.ipynb)                 | **Dec 5**<br/>Office hours (optional)                             |
+
 [zoom]: https://courseworks2.columbia.edu/courses/230821/external_tools/72338
 
-See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
+### Assignments
+
+| Week | Tuesday<br/>Lab exercise due (6pm ET) | Friday<br/>Reading due (before lab); project due (11:59pm ET)      |
+| ---- | ------------------------------------- | ------------------------------------------------------------------ |
+| 8    | **Oct 21**<br/>[Lab 7][lab7]          | **Oct 24**<br/>[Week 8](week_8.md)                                 |
+| 9    | **Oct 28**<br/>[Lab 8](lab_8.ipynb)   | **Oct 31**<br/>[Week 9](week_9.md)                                 |
+| 10   | **Nov 4**<br/>[Lab 9](lab_9.ipynb)    | **Nov 7**<br/>[Week 10](week_10.md)<hr/>[Project 1](project_1.md)  |
+| 11   | **Nov 11**<br/>[Lab 10](lab_10.ipynb) | **Nov 14**<br/>[Week 11](week_11.md)                               |
+| 12   | **Nov 18**<br/>[Lab 11](lab_11.ipynb) | **Nov 21**<br/>[Week 12](week_12.md)<hr/>[Project 2](project_2.md) |
+| 13   | **Nov 25**<br/>[Lab 12](lab_12.ipynb) | **Nov 28**<br/>None (Thanksgiving)                                 |
+| 14   | **Dec 2**<br/>None                    | **Dec 5**<br/>[Project 3](project_3.md)                            |
+
+[lab7]: https://courseworks2.columbia.edu/courses/226977/files/folder/Lab%20Material
 
 ## Communications
 
