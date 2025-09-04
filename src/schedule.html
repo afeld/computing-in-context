@@ -1,24 +1,23 @@
+<!-- https://www.w3.org/WAI/tutorials/tables/irregular/#table-with-two-tier-headers -->
 <table class="table">
   <col />
+  <colgroup span="2"></colgroup>
   <colgroup></colgroup>
-  <colgroup></colgroup>
-  <colgroup></colgroup>
+  <colgroup span="3"></colgroup>
   <thead>
     <tr>
       <th rowspan="2">Week</th>
-      <th scope="colgroup">Tuesday</th>
+      <th colspan="2" scope="colgroup">Tuesday</th>
       <th scope="colgroup">Thursday</th>
-      <th scope="colgroup">Friday</th>
+      <th colspan="3" scope="colgroup">Friday</th>
     </tr>
     <tr>
-      <th scope="col">
-        <a href="#meeting-information">Lecture</a>; lab exercise due (6pm ET)
-      </th>
       <th scope="col"><a href="#meeting-information">Lecture</a></th>
-      <th scope="col">
-        Reading due (before lab);
-        <a href="#meeting-information">lab session</a>; project due (11:59pm ET)
-      </th>
+      <th scope="col">Lab exercise due (6pm ET)</th>
+      <th scope="col"><a href="#meeting-information">Lecture</a></th>
+      <th scope="col">Reading due (before lab)</th>
+      <th scope="col"><a href="#meeting-information">Lab session</a></th>
+      <th scope="col">Project due (11:59pm ET)</th>
     </tr>
   </thead>
   <tbody>
@@ -30,12 +29,12 @@
           >Lecture 15: Introduction to the Policy context</a
         >;
         <a href="#meeting-information">new location and instructor</a>
-        <hr />
+      </td>
+      <td>
         <a
           href="https://courseworks2.columbia.edu/courses/226977/files/folder/Lab%20Material"
           >Lab 7</a
         >
-        due
       </td>
       <td>
         <strong>Oct 23</strong><br />
@@ -43,59 +42,60 @@
       </td>
       <td>
         <strong>Oct 24</strong><br />
-        <a href="week_8.md">Reading</a> due
-        <hr />
+        <a href="week_8.md">Week 8</a>
+      </td>
+      <td>
         <a href="lab_8_guide.md">Lab 8: Working with data</a>
       </td>
+      <td></td>
     </tr>
     <tr>
       <th scope="col">9</th>
       <td>
         <strong>Oct 28</strong><br />
         <a href="lecture_17.ipynb">Lecture 17: Manipulating data</a>
-        <hr />
-        <a href="lab_8.ipynb">Lab 8</a> due
       </td>
+      <td><a href="lab_8.ipynb">Lab 8</a></td>
       <td>
         <strong>Oct 30</strong><br />
         <a href="lecture_18.ipynb">Lecture 18: Combining data</a>
       </td>
       <td>
         <strong>Oct 31</strong><br />
-        <a href="week_9.md">Reading</a> due
-        <hr />
+        <a href="week_9.md">Reading</a>
+      </td>
+      <td>
         <a href="lab_9_guide.md">Lab 9: Data cleaning and joining</a>
       </td>
+      <td></td>
     </tr>
     <tr>
       <th scope="col">10</th>
       <td>
         <strong>Nov 4</strong><br />
         None (Election Day)
-        <hr />
-        <a href="lab_9.ipynb">Lab 9</a> due
       </td>
+      <td><a href="lab_9.ipynb">Lab 9</a></td>
       <td>
         <strong>Nov 6</strong><br />
         <a href="lecture_19.ipynb">Lecture 19: Data visualization</a>
       </td>
       <td>
         <strong>Nov 7</strong><br />
-        <a href="week_10.md">Reading</a> due
-        <hr />
-        <a href="lab_10_guide.md">Lab 10: Data visualization</a>
-        <hr />
-        <a href="project_1.md">Project 1</a> due
+        <a href="week_10.md">Reading</a>
       </td>
+      <td>
+        <a href="lab_10_guide.md">Lab 10: Data visualization</a>
+      </td>
+      <td><a href="project_1.md">Project 1</a></td>
     </tr>
     <tr>
       <th scope="col">11</th>
       <td>
         <strong>Nov 11</strong><br />
         <a href="lecture_20.ipynb">Lecture 20: Data visualization, continued</a>
-        <hr />
-        <a href="lab_10.ipynb">Lab 10</a> due
       </td>
+      <td><a href="lab_10.ipynb">Lab 10</a></td>
       <td>
         <strong>Nov 13</strong><br />
         <a href="lecture_21.ipynb"
@@ -104,10 +104,12 @@
       </td>
       <td>
         <strong>Nov 14</strong><br />
-        <a href="week_11.md">Reading</a> due
-        <hr />
+        <a href="week_11.md">Reading</a>
+      </td>
+      <td>
         <a href="lab_11_guide.md">Lab 11: Time series analysis</a>
       </td>
+      <td></td>
     </tr>
     <tr>
       <th scope="col">12</th>
@@ -116,21 +118,20 @@
         <a href="lecture_22.ipynb"
           >Lecture 22: Dates and time series analysis, APIs</a
         >
-        <hr />
-        <a href="lab_11.ipynb">Lab 11</a> due
       </td>
+      <td><a href="lab_11.ipynb">Lab 11</a></td>
       <td>
         <strong>Nov 20</strong><br />
         <a href="lecture_23.ipynb">Lecture 23: Editors and version control</a>
       </td>
       <td>
         <strong>Nov 21</strong><br />
-        <a href="week_12.md">Reading</a> due
-        <hr />
-        <a href="lab_12_guide.md">Lab 12: APIs</a>
-        <hr />
-        <a href="project_2.md">Project 2</a> due
+        <a href="week_12.md">Reading</a>
       </td>
+      <td>
+        <a href="lab_12_guide.md">Lab 12: APIs</a>
+      </td>
+      <td><a href="project_2.md">Project 2</a></td>
     </tr>
     <tr>
       <th scope="col">13</th>
@@ -140,9 +141,8 @@
           href="https://courseworks2.columbia.edu/courses/230821/external_tools/72338"
           >virtual</a
         >)
-        <hr />
-        <a href="lab_12.ipynb">Lab 12</a> due
       </td>
+      <td><a href="lab_12.ipynb">Lab 12</a></td>
       <td>
         <strong>Nov 27</strong><br />
         None (Thanksgiving)
@@ -151,6 +151,8 @@
         <strong>Nov 28</strong><br />
         None (Thanksgiving)
       </td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="col">14</th>
@@ -158,16 +160,17 @@
         <strong>Dec 2</strong><br />
         <a href="test.md">Test</a>
       </td>
+      <td></td>
       <td>
         <strong>Dec 4</strong><br />
         <a href="lecture_25.ipynb">Lecture 25: The Bigger Picture</a>
       </td>
+      <td></td>
       <td>
         <strong>Dec 5</strong><br />
         Office hours (optional)
-        <hr />
-        <a href="project_3.md">Project 3</a> due
       </td>
+      <td><a href="project_3.md">Project 3</a></td>
     </tr>
   </tbody>
 </table>
