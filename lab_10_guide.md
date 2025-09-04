@@ -14,7 +14,7 @@ Do the following as a group, with students directing.
    - Keep it simple.
      - Avoid anything that would require complex transformations.
      - For the purposes of this lab, it's ok to cut corners.
-   - Avoid using date/time columns - we'll cover those in [Week 11](index.md#schedule). Years are fine.
+   - Avoid using date/time columns - we'll cover those in [Week 11](index.md#topics). Years are fine.
 1. Get the CSV URL.
 1. Create a new notebook.
 1. Read in the data.
