@@ -1,6 +1,6 @@
 # Projects
 
-[Due dates](index.md#schedule)
+[Due dates](index.md#assignments)
 
 ## Requirements
 

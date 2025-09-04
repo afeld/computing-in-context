@@ -46,7 +46,7 @@ Requirements:
   — Printing the numbers (as is) isn't sufficient.
 - [General requirements](projects.md#visualizations)
 
-We'll talk about data visualization in more detail in [week 10](index.md#schedule), but none of that knowledge is expected to complete this.
+We'll talk about data visualization in more detail in [week 10](index.md#topics), but none of that knowledge is expected to complete this.
 
 ### Example
 

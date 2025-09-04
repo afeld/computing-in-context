@@ -1,3 +1,3 @@
 # Lectures
 
-See [schedule](../index.md#schedule).
+See [schedule](../index.md#topics).
