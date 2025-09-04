@@ -37,3 +37,24 @@ article ol ol ol li {
     }
   }
 }
+
+.schedule {
+  th {
+    text-align: center;
+  }
+  /* week numbers */
+  th[scope="row"] {
+    text-align: right;
+  }
+
+  /* columns without dates */
+  td:nth-child(3),
+  td:nth-child(6),
+  td:nth-child(7) {
+    padding-top: 2rem;
+  }
+
+  time {
+    font-weight: bold;
+  }
+}
