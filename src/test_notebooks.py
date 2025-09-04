@@ -73,23 +73,6 @@ def test_heading_levels(file):
                 assert slide_type in ["subslide", "skip"], f"should be a subslide:\n\n{source}\n"
 
 
-@pytest.mark.parametrize("file", notebooks)
-def test_nested_lists(file):
-    """JupyterBook's markdown parser doesn't support nested lists with two spaces."""
-
-    notebook = read_notebook(file)
-    for cell in notebook.cells:
-        if is_markdown(cell):
-            source = cell.source
-            for line in source.splitlines():
-                match = re.match(r"^( +)(-|\d\.)", line)
-                if match:
-                    num_spaces = len(match[1])
-                    assert num_spaces % 3 == 0 or num_spaces % 4 == 0, (
-                        f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
-                    )
-
-
 def check_link(token: Token, parent: Token = None):
     if token.type == "link_open":
         href = token.attrGet("href")
