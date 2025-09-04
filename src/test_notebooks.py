@@ -73,9 +73,9 @@ def test_heading_levels(file):
                 assert slide_type in ["subslide", "skip"], f"should be a subslide:\n\n{source}\n"
 
 
-def check_link(token: Token, parent: Token = None):
+def check_link(token: Token, parent: Token | None = None):
     if token.type == "link_open":
-        href = token.attrGet("href")
+        href = str(token.attrGet("href"))
         # escaped Jinja2 tags
         if not re.match(r"http|#|%7B%7B", href):
             source = parent.content if parent else token.content
@@ -99,7 +99,7 @@ def test_links(file):
             for token in tokens:
                 check_link(token)
                 if token.type == "inline":
-                    for child in token.children:
+                    for child in token.children:  # type: ignore
                         check_link(child, token)
 
 
@@ -115,7 +115,7 @@ class PlotChecker(ast.NodeVisitor):
     def visit_Call(self, node):
         if base_obj(node) == "px":
             args = [kw.arg for kw in node.keywords]
-            method = node.func.attr
+            method = node.func.attr  # type: ignore
 
             if method == "get_trendline_results":
                 # `title` not applicable
