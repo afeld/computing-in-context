@@ -90,7 +90,11 @@ If you aren't sure, please ask.
 
 ### Testing out
 
-Computing in Context is a required course for [the Data Science for Policy (DSP) concentration and the Data Science for Public Policy minor](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp), and a [prerequisite for various courses](#relationship-to-other-courses). If you already have experience with the [topics covered in this course](#schedule), you can test out. The test will cover those same topics. Note that it's closed-book.
+Computing in Context is a required course for [the Data Science for Policy (DSP) concentration and the Data Science for Public Policy minor](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp), and a [prerequisite for various courses](#relationship-to-other-courses). If you have Python+pandas experience, you can test out. The test will:
+
+- Cover the same [topics as the course](#schedule)
+- Be 90 minutes (or less)
+- Be closed-book
 
 If you pass, you'll be exempt from Computing in Context as a requirement and prerequisite. Instead, you'll choose three credits of other DSP course(s) in its place, and be able to go straight into more advanced classes.
 
