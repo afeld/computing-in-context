@@ -155,19 +155,19 @@ If there ends up being a wait list:
 - To be fair to everyone, enrollment is first come first served.
 - [How the wait list works](https://www.registrar.columbia.edu/content/wait-lists-ssol)
 - Worst case, if you don't get in:
-  - This class is offered every Fall
-  - [Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/syllabus.html), which is [essentially a seven-week version of this course](https://python-public-policy.afeld.me/en/columbia/#comparison-to-computing-in-context), is offered in the Spring
+  - See the [other Python course options](#relationship-to-other-courses)
   - [There are a lot of other ways to learn Python](https://python-public-policy.afeld.me/en/columbia/resources.html)
 
 ### Joining Late
 
-Go through the following as soon as possible:
+If you're not officially [registered](https://www.sipa.columbia.edu/sipa-education/bulletin/registration) for the course but want to be, due to being wait-listed or having a registration issue, [attend class](#course-information), and go through the following as soon as possible:
 
-1. This syllabus
-1. Once [registered](https://bulletin.columbia.edu/sipa/registration/), review:
-   1. [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977) — let us know if you have any trouble accessing
-   1. [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus)
-   1. [Lecture materials](https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
+- This syllabus
+- [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977)
+- [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus)
+- [Lecture materials](https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
+
+[Let us know](#instructors) if you have any trouble accessing.
 
 We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977).
 
