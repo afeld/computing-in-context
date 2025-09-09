@@ -136,6 +136,16 @@ For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/cou
 
 See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
 
+### Generative AI overlap
+
+The [Generative AI course is four Fridays, 10am-5pm](https://vergil.columbia.edu/vergil/course/20253/105790). This overlaps with the [Computing in Context labs](#meeting-information).
+
+The September dates are still in the [first half](#contexts-and-structure), when all contexts are still doing the same material. For students enrolled in both courses, attend one of the [Thursday evening or Friday morning labs](https://vergil.columbia.edu/vergil/course/20253/20303) on those weeks.
+
+The SIPA labs are longer than the other contexts', so SIPA's include more introduction and walkthrough. Students are generally asked to attend the lab for their section — this is an exception.
+
+For the November dates, the labs will be SIPA-specific, so it doesn't make sense to attend labs for the other contexts. Students have [two freebies on the attendance and lab submissions](#grading), so those weeks' labs can be skipped. Working through the material is still recommended. [Office hours](office_hours.md) / [Ed](https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless) are available for questions.
+
 ## Communications
 
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
