@@ -1,3 +1,7 @@
+html {
+  --columbia-blue: #201d5d;
+}
+
 /* match Google Docs styles for nested ordered lists */
 article ol ol li {
   list-style-type: lower-alpha;
@@ -17,10 +21,9 @@ article ol ol ol li {
   }
 }
 
-/* indicate the version by color, overriding the colors from sphinx-book-theme */
 /* top nav bar */
 .bd-header-article {
-  --pst-color-background: #201d5d;
+  --pst-color-background: var(--columbia-blue);
 
   .btn {
     --pst-color-text-base: white;
