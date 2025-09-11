@@ -36,7 +36,8 @@ Section 2:
 ## Meeting Information
 
 - All class sessions take place in [IAB](https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7).
-- You don't need to register for the labs, just the lectures.
+- For [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786), you need to register for the lectures but _don't_ need to register for the labs separately.
+  - This isn't clear in Vergil, at time of writing.
 - Students should bring a laptop to all labs.
 - See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
 - [Office hours](office_hours.md)
