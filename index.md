@@ -153,18 +153,13 @@ Assignments, due dates, and other aspects of the course may be modified mid-cour
 
 ### Getting help
 
-- Troubleshooting and other communications between class sessions will be through [Ed Discussions][ed], so that other students can respond and/or benefit from the answers.
-  - Email is also an option, though please only use for questions that aren't appropriate for others to see.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions][ed].
+  - This way, other students can respond and/or benefit from the answers.
+  - Don't just say "I got an error." Include the relevant line(s) of code and the full error, copied-and-pasted or as a [screenshot](https://www.take-a-screenshot.org/).
+    - See [Academic Integrity policy](#academic-integrity) for guidance on sharing solutions.
 - The instructor/TAs will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 - [Office hours](office_hours.md) are also available.
-
-<!-- combined -->
-
-[ed]: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless
-
-<!-- SIPA -->
-
-<!-- [ed]: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless -->
+- Email is also an option, though please only use for questions that aren't appropriate for others to see.
 
 ## Course Policies
 
@@ -223,9 +218,9 @@ A student may work with other students. However, assignment solutions should not
 
 Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
 
-Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
+Students are more than welcome to share approaches and code snippets in [Ed Discussions][ed], so long as they aren't giving the full solution away.
 
-Students may post the Projects publicly (on GitHub, LinkedIn, etc.), since they're open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your work with specific people, such as future employers.
+Students may post the Projects publicly (on GitHub, LinkedIn, etc.), since they're open-ended. Other assignments (with "correct answers") cannot be posted publicly, to prevent other students from cheating. You are, however, more than welcome to share any of your work with specific people, such as future employers.
 
 #### Generative AI
 
@@ -244,3 +239,11 @@ Violations of the Code of Academic & Professional Conduct should be reported to 
 ### SIPA Disability Statement
 
 SIPA is committed to ensuring that students registered with [Columbia University's Disability Services](https://health.columbia.edu/content/disability-services) (DS) receive the reasonable accommodations necessary to participate fully in their academic programs. If you are a student with a disability and have a DS-certified accommodation letter, you may wish to make an appointment with your course instructor to discuss your accommodations. Faculty provide disability accommodations to students with DS-certified accommodation letters, and they provide the accommodations specified in such letters. If you have any additional questions, please contact SIPA's DS liaison at disability@sipa.columbia.edu.
+
+<!-- combined -->
+
+[ed]: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless
+
+<!-- SIPA -->
+
+<!-- [ed]: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless -->
