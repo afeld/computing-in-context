@@ -145,15 +145,26 @@ The September dates are still in the [first half](#contexts-and-structure), when
 
 The SIPA labs are longer than the other contexts', so SIPA's include more introduction and walkthrough. Students are generally asked to attend the lab for their section — this is an exception.
 
-For the November dates, the labs will be SIPA-specific, so it doesn't make sense to attend labs for the other contexts. Students have [two freebies on the attendance and lab submissions](#grading), so those weeks' labs can be skipped. Working through the material is still recommended. [Office hours](office_hours.md) / [Ed](https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless) are available for questions.
+For the November dates, the labs will be SIPA-specific, so it doesn't make sense to attend labs for the other contexts. Students have [two freebies on the attendance and lab submissions](#grading), so those weeks' labs can be skipped. Working through the material is still recommended.
 
 ## Communications
 
-- Assignments, due dates, and other aspects of the course may be modified mid-course.
-  - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through Ed Discussions, so that other students can respond and/or benefit from the answers.
+Assignments, due dates, and other aspects of the course may be modified mid-course. As much advance notice will be given as possible.
+
+### Getting help
+
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions][ed], so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/TAs will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
+- [Office hours](office_hours.md) are also available.
+
+<!-- combined -->
+
+[ed]: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless
+
+<!-- SIPA -->
+
+<!-- [ed]: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless -->
 
 ## Course Policies
 
@@ -182,7 +193,7 @@ If you're not officially [registered](https://www.sipa.columbia.edu/sipa-educati
 
 We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977).
 
-If you get confused/stuck on any of the material, check out [the discussion board](https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless) and [office hours](office_hours.md).
+If you get confused/stuck on any of the material, [ask for help](#getting-help).
 
 ### Auditing
 
