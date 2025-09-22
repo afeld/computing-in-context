@@ -145,7 +145,7 @@ The September dates are still in the [first half](#contexts-and-structure), when
 
 The SIPA labs are longer than the other contexts', so SIPA's include more introduction and walkthrough. Students are generally asked to attend the lab for their section — this is an exception.
 
-For the November dates, the labs will be SIPA-specific, so it doesn't make sense to attend labs for the other contexts. Students have [two freebies on the attendance and lab submissions](#grading), so those weeks' labs can be skipped. Working through the material is still recommended.
+For the November dates, the labs will be SIPA-specific, so it doesn't make sense to attend labs for the other contexts. Students have [two freebies on the attendance and lab submissions](#grading), so you can use your freebies for the two weeks' labs. Working through the material is still recommended — note the caveats under [Attendance](#attendance).
 
 ## Communications
 
