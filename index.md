@@ -120,7 +120,7 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 ## Schedule
 
-For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus).
+For weeks 1-7, see [the combined syllabus](https://courseworks2.columbia.edu/courses/226977/assignments/syllabus).
 
 | Week | Tuesday                                                                                                                                                             | Thursday                                                                         | Friday                                                                                                                                            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -181,7 +181,7 @@ If you're not officially [registered](https://www.sipa.columbia.edu/sipa-educati
 
 - This syllabus
 - [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977)
-- [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/pages/syllabus)
+- [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/assignments/syllabus)
 - [Lecture materials](https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
 
 [Let us know](#instructors) if you have any trouble accessing.

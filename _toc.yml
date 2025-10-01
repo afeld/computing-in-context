@@ -67,7 +67,7 @@ chapters:
             title: Solutions
   - file: redirects/reading
     sections:
-      - url: https://courseworks2.columbia.edu/courses/226977/pages/syllabus
+      - url: https://courseworks2.columbia.edu/courses/226977/assignments/syllabus
         title: Weeks 1-7
       - file: week_8
       - file: week_9
