@@ -24,6 +24,7 @@ quick:
 	jupyter-book build -W -n --keep-going .
 
 site: clean quick
+	open _build/html/index.html
 
 linkcheck:
 	# https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
