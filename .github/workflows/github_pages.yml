@@ -4,8 +4,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    # branches:
+    #   - main
 
 jobs:
   deploy-book:
@@ -13,13 +13,18 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    # https://github.com/mamba-org/provision-with-micromamba#important
+    # https://github.com/marketplace/actions/setup-miniconda#example-3-other-options
     defaults:
       run:
-        shell: bash -l {0}
+        shell: bash -el {0}
     steps:
       - uses: actions/checkout@v5
-      - uses: ./.github/actions/setup
+
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          environment-file: environment.yml
+          auto-activate-base: false
+          activate-environment: computing-in-context
 
       - name: Build the book
         run: |
