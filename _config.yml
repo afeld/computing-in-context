@@ -16,6 +16,7 @@ execute:
   execute_notebooks: "off"
 
 html:
+  # useful since the site's being deployed to both ReadTheDocs and GitHub Pages
   baseurl: https://computing-in-context.afeld.me/
   # https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_repository_button: true
