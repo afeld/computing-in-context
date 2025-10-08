@@ -120,11 +120,11 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 ## Schedule
 
-For weeks 1-6, see [the combined syllabus](https://courseworks2.columbia.edu/courses/226977/assignments/syllabus).
+For weeks 1-6, see the [combined syllabus][combined-syl].
 
 | Week | Tuesday                                                                                                                                                             | Thursday                                                                         | Friday                                                                                                                                            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7    | **Oct 14**<br/>_See combined syllabus_                                                                                                                              | **Oct 16**<br/>TBD                                                               | **Oct 17**<br/>TBD                                                                                                                                |
+| 7    | **Oct 14**<br/>_See [combined syllabus][combined-syl]_                                                                                                              | **Oct 16**<br/>Lecture 14: TBD                                                   | **Oct 17**<br/>Lab 7: TBD                                                                                                                         |
 | 8    | **Oct 21**<br/>[Lecture 15: Introduction to the Policy context](lecture_15.ipynb); [new location and instructor](#meeting-information)<hr/>[Lab 7][lab7] due 6pm ET | **Oct 23**<br/>[Lecture 16: Working with data](lecture_16.ipynb)                 | **Oct 24**<br/>[Reading](week_8.md) due before lab<hr/>[Lab 8: Working with data](lab_8_guide.md)                                                 |
 | 9    | **Oct 28**<br/>[Lecture 17: Manipulating data](lecture_17.ipynb)<hr/>[Lab 8](lab_8.ipynb) due 6pm ET                                                                | **Oct 30**<br/>[Lecture 18: Combining data](lecture_18.ipynb)                    | **Oct 31**<br/>[Reading](week_9.md) due before lab<hr/>[Lab 9: Data cleaning and joining](lab_9_guide.md)                                         |
 | 10   | **Nov 4**<br/>None (Election Day)<hr/>[Lab 9](lab_9.ipynb) due 6pm ET                                                                                               | **Nov 6**<br/>[Lecture 19: Data visualization](lecture_19.ipynb)                 | **Nov 7**<br/>[Reading](week_10.md) due before lab<hr/>[Lab 10: Data visualization](lab_10_guide.md)<hr/>[Project 1](project_1.md) due 11:59pm ET |
@@ -182,7 +182,7 @@ If you're not officially [registered](https://www.sipa.columbia.edu/sipa-educati
 
 - This syllabus
 - [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977)
-- [The combined syllabus](https://courseworks2.columbia.edu/courses/226977/assignments/syllabus)
+- [The combined syllabus][combined-syl]
 - [Lecture materials](https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
 
 [Let us know](#instructors) if you have any trouble accessing.
@@ -248,3 +248,7 @@ SIPA is committed to ensuring that students registered with [Columbia University
 <!-- SIPA -->
 
 <!-- [ed]: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless -->
+
+<!-- -------------------------------- -->
+
+[combined-syl]: https://courseworks2.columbia.edu/courses/226977/assignments/syllabus
