@@ -46,16 +46,16 @@ Section 2:
 
 | Component | Part of term | Start  | End    | Days                   | Times       | Room | Led by           | Contexts  |
 | --------- | ------------ | ------ | ------ | ---------------------- | ----------- | ---- | ---------------- | --------- |
-| Lecture   | First half   | Sep 2  | Oct 14 | Tuesdays and Thursdays | 1:10-2:25pm | 417  | Mark Santolucito | Combined  |
-|           | Second half  | Oct 16 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm | 410  | Aidan Feldman    | SIPA only |
+| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm | 417  | Mark Santolucito | Combined  |
+|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm | 410  | Aidan Feldman    | SIPA only |
 | Lab       | Full         | Sep 5  | Dec 5  | Fridays                | 1-2:30pm    | 411  | TAs              | SIPA only |
 
 ### Section 2
 
 | Component | Part of term | Start  | End    | Days                   | Times         | Room | Led by           | Contexts  |
 | --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
-| Lecture   | First half   | Sep 2  | Oct 14 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
-|           | Second half  | Oct 16 | Dec 4  | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman    | SIPA only |
+| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
+|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman    | SIPA only |
 | Lab       | Full         | Sep 5  | Dec 5  | Fridays                | 2:40-4:10pm   | 411  | TAs              | SIPA only |
 
 \*Note that the lecture time is different for the second half of the semester.
@@ -120,11 +120,10 @@ No textbook purchase is required. We will be using free online sources, primaril
 
 ## Schedule
 
-For weeks 1-6, see the [combined syllabus][combined-syl].
+For weeks 1-7, see [the combined syllabus][combined-syl].
 
 | Week | Tuesday                                                                                                                                                             | Thursday                                                                         | Friday                                                                                                                                            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7    | **Oct 14**<br/>_See [combined syllabus][combined-syl]_                                                                                                              | **Oct 16**<br/>Lecture 14: TBD                                                   | **Oct 17**<br/>Lab 7: TBD                                                                                                                         |
 | 8    | **Oct 21**<br/>[Lecture 15: Introduction to the Policy context](lecture_15.ipynb); [new location and instructor](#meeting-information)<hr/>[Lab 7][lab7] due 6pm ET | **Oct 23**<br/>[Lecture 16: Working with data](lecture_16.ipynb)                 | **Oct 24**<br/>[Reading](week_8.md) due before lab<hr/>[Lab 8: Working with data](lab_8_guide.md)                                                 |
 | 9    | **Oct 28**<br/>[Lecture 17: Manipulating data](lecture_17.ipynb)<hr/>[Lab 8](lab_8.ipynb) due 6pm ET                                                                | **Oct 30**<br/>[Lecture 18: Combining data](lecture_18.ipynb)                    | **Oct 31**<br/>[Reading](week_9.md) due before lab<hr/>[Lab 9: Data cleaning and joining](lab_9_guide.md)                                         |
 | 10   | **Nov 4**<br/>None (Election Day)<hr/>[Lab 9](lab_9.ipynb) due 6pm ET                                                                                               | **Nov 6**<br/>[Lecture 19: Data visualization](lecture_19.ipynb)                 | **Nov 7**<br/>[Reading](week_10.md) due before lab<hr/>[Lab 10: Data visualization](lab_10_guide.md)<hr/>[Project 1](project_1.md) due 11:59pm ET |
