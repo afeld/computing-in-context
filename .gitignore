@@ -9,3 +9,5 @@ tmp/
 
 # override the global
 !.vscode/settings.json
+
+.venv/
