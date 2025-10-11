@@ -6,17 +6,9 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 
 ## Setup
 
-1. Install the dependencies.
-
-   ```sh
-   make setup
-   ```
-
-1. [Activate the environment.](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
-
-   ```sh
-   conda activate computing-in-context
-   ```
+```sh
+make setup
+```
 
 ## [Building the site](https://jupyterbook.org/en/stable/basics/build.html#build-via-the-command-line)
 
