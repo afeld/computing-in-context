@@ -17,7 +17,7 @@ def check_metadata(notebook, expected_kernel):
     assert metadata.language_info.version.startswith("3.")
 
 
-def check_file(file, expected_kernel="Python [conda env:computing-in-context]"):
+def check_file(file, expected_kernel="Python 3 (ipykernel)"):
     notebook = read_notebook(file)
     check_metadata(notebook, expected_kernel)
 
