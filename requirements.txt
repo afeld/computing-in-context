@@ -11,7 +11,7 @@ pandas
 # https://plotly.com/python/mapbox-to-maplibre/
 plotly>=5.24.0
 # https://github.com/pydata/pydata-sphinx-theme/issues/2067
-pydata-sphinx-theme<0.16.0
+pydata-sphinx-theme<0.17.0
 pytest
 requests
 ruff
