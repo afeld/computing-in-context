@@ -4,10 +4,20 @@
 
 ## Setup
 
-1. For those who have the Anaconda Distribution (called "Anaconda" for short) installed, [update it](https://www.anaconda.com/docs/tools/anaconda-navigator/update-navigator). Everyone else, [install it](https://www.anaconda.com/docs/getting-started/anaconda/install).
-   - Can skip registration
-1. [Add the `conda-forge` channel.](notebooks.md#installing-packages)
-1. Ensure `pandas` and `plotly` are [installed](notebooks.md#installing-packages).
+1. Create a folder for this lab (like `lab_8/`). Can do this from Finder/Explorer, or terminal:
+
+   ```sh
+   mkdir lab_8
+   ```
+
+1. In the terminal, navigate to the directory. For example:
+
+   ```sh
+   cd ~/Documents/SIPA/Computing\ in\ Context/lab_8
+   ```
+
+1. [Set up the virtual environment.](notebooks.md#installing-packages)
+1. Install the `pandas` and `plotly` packages.
 1. Launch JupyterLab.
 
 ## Try it!

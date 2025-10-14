@@ -50,17 +50,12 @@ Please do not include your Lab notebooks in your site, per the [Academic Integri
 
 You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html) [via GitHub](https://docs.readthedocs.io/en/stable/tutorial/index.html).
 
-1. Add an [`environment.yml`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment) file to specify the [conda package](https://docs.conda.io/projects/conda/en/stable/glossary.html#conda-package) dependencies for building the site.
+1. Add a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file to specify the package dependencies for building the site.
 
-   ```yaml
-   name: computing-in-context
-   channels:
-     - default
-     - conda-forge
-   dependencies:
-     - jupyter-book=1.*
-     # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
-     - sphinx>=6.2.0
+   ```
+   jupyter-book==1.*
+   # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
+   sphinx>=6.2.0
    ```
 
 1. Add a [`.readthedocs.yml`](https://docs.readthedocs.io/en/stable/config-file/index.html) file, matching [the one from this site](https://github.com/afeld/computing-in-context/blob/main/.readthedocs.yaml).
