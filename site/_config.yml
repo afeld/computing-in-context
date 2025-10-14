@@ -12,6 +12,7 @@ exclude_patterns:
 
 repository:
   url: https://github.com/afeld/computing-in-context
+  path_to_book: site/
 
 execute:
   execute_notebooks: "off"

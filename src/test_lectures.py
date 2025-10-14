@@ -1,11 +1,11 @@
 from glob import glob
+import os
 import re
 import pytest
 
-from .nb_helper import is_code_cell, is_markdown, read_notebook
+from .nb_helper import BASE_DIR, is_code_cell, is_markdown, read_notebook
 
-
-lecture_notebooks = glob("lecture_[0-9][0-9].ipynb")
+lecture_notebooks = glob(os.path.join(BASE_DIR, "lecture_[0-9][0-9].ipynb"))
 lecture_notebooks.sort()
 
 
