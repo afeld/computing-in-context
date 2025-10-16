@@ -30,11 +30,26 @@ make quick
 make lab
 ```
 
-## Viewing slides
+## Slides
+
+### Presenting
 
 ```sh
 make slides lec=N
 ```
+
+### Creating/editing
+
+Most of the notebooks in this repository are also slide decks, with the Slide Type specified as cell metadata. In JupyterLab:
+
+![Slide type selection](img/slide_type.png)
+
+In general, the presentations are organized as:
+
+- One intro Slide per topic, then Sub-Slides that go into details
+- Slides have an H2, while Sub-Slides have an H3+
+
+Easiest to understand this by viewing the presentation.
 
 ## Merging notebooks
 

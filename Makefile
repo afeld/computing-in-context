@@ -32,6 +32,7 @@ linkcheck:
 open:
 	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome _build/html/index.html
 
+# https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs
 slides:
 	jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
