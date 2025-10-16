@@ -29,20 +29,23 @@ Images will be broken in downloaded notebooks.
 
 ## Installing packages
 
-To install Python packages:
+To install Python packages, do the following through VSCode:
 
-1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work)
-1. Use [pip](https://pip.pypa.io/en/stable/) from the command line:
+1. [Open your working folder.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+1. [Open a terminal.](https://code.visualstudio.com/docs/terminal/getting-started)
+1. [Create a virtual environment](https://docs.python.org/3/library/venv.html#creating-virtual-environments), if you haven't already.
 
    ```sh
-   pip install <package-name>
+   python -m venv .venv
    ```
 
-For example, to install pandas and plotly:
+1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work)
+1. Add packages to a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file.
+1. Install the packages.
 
-```sh
-pip install pandas plotly
-```
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## Submission
 

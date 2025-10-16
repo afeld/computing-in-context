@@ -16,8 +16,18 @@
    cd ~/Documents/SIPA/Computing\ in\ Context/lab_8
    ```
 
-1. [Set up the virtual environment.](notebooks.md#installing-packages)
-1. Install the `pandas` and `plotly` packages.
+1. [Set up a virtual environment](notebooks.md#installing-packages) with the following packages:
+
+   ```
+   jupyterlab
+   pandas
+   plotly
+
+   # needed for plotly
+   nbformat
+   statsmodels
+   ```
+
 1. Launch JupyterLab.
 
 ## Try it!
