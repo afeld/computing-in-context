@@ -29,17 +29,11 @@ Images will be broken in downloaded notebooks.
 
 ## Installing packages
 
-To install Python packages, do the following through VSCode:
+Assumes the [setup](lab_8.ipynb#setup) is already complete. This will need to be done any time you add packages.
 
-1. [Open your working folder.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
-1. [Open a terminal.](https://code.visualstudio.com/docs/terminal/getting-started)
-1. [Create a virtual environment](https://docs.python.org/3/library/venv.html#creating-virtual-environments), if you haven't already.
-
-   ```sh
-   python -m venv .venv
-   ```
-
-1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work)
+1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
+1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
 1. Add packages to a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file.
 1. Install the packages.
 

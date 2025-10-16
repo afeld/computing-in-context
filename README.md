@@ -24,7 +24,7 @@ If just testing a change within a page:
 make quick
 ```
 
-## [Starting Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)
+## [Starting JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)
 
 ```sh
 make lab

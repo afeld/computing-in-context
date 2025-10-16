@@ -4,19 +4,18 @@
 
 ## Setup
 
-1. Create a folder for this lab (like `lab_8/`). Can do this from Finder/Explorer, or terminal:
+Assumes you already have Python 3 and VSCode installed.
+
+1. Create a folder (a.k.a. directory) for this class — like `computing-in-context/` — if you don't have one already.
+1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+1. [Open a terminal.](https://code.visualstudio.com/docs/terminal/getting-started)
+1. In the terminal, [create a virtual environment](https://docs.python.org/3/library/venv.html#creating-virtual-environments).
 
    ```sh
-   mkdir lab_8
+   python -m venv .venv
    ```
 
-1. In the terminal, navigate to the directory. For example:
-
-   ```sh
-   cd ~/Documents/SIPA/Computing\ in\ Context/lab_8
-   ```
-
-1. [Set up a virtual environment](notebooks.md#installing-packages) with the following packages:
+1. [Install the following packages.](notebooks.md#installing-packages)
 
    ```
    jupyterlab
@@ -28,11 +27,10 @@
    statsmodels
    ```
 
-1. Launch JupyterLab.
-
 ## Try it!
 
-Run [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in your local Jupyter.
+1. Create a `lab_8.ipynb` notebook.
+1. Run [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in that notebook.
 
 _FYI `px.data.tips()` loads one of [Plotly's sample datasets](https://plotly.com/python-api-reference/generated/plotly.express.data.html). You don't need that when plotting other datasets._
 
