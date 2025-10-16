@@ -18,7 +18,7 @@ Assumes you already have Python 3 and VSCode installed.
 1. [Install the following packages.](notebooks.md#installing-packages)
 
    ```
-   jupyterlab
+   ipykernel
    pandas
    plotly
 
@@ -28,6 +28,8 @@ Assumes you already have Python 3 and VSCode installed.
    ```
 
 ## Try it!
+
+In VSCode:
 
 1. Create a `lab_8.ipynb` notebook.
 1. Run [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in that notebook.

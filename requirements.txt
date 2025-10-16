@@ -1,3 +1,4 @@
+ipykernel
 jupyter-book==1.*
 jupyterlab
 lxml

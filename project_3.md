@@ -22,13 +22,6 @@ You don't know how to do this yet. You will need to read the documentation to fi
      - [Create your own content file](https://jupyterbook.org/en/stable/start/new-file.html)
      - [Structure the Table of Contents](https://jupyterbook.org/en/stable/structure/toc.html)
 1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
-1. **Add the following** near the top of each Project notebook (before any Plotly code), and `Run All`. [More information.](https://plotly.com/python/renderers/)
-
-   ```python
-   import plotly.io as pio
-
-   pio.renderers.default = "vscode+jupyterlab+notebook_connected"
-   ```
 
 [Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
 
