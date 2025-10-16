@@ -31,8 +31,9 @@ Assumes you already have Python 3 and VSCode installed.
 
 In VSCode:
 
-1. Create a `lab_8.ipynb` notebook.
-1. Run [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in that notebook.
+1. [Create a `lab_8.ipynb` notebook.](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook)
+1. Walk them through the Jupyter interface.
+1. [Run](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_running-cells) [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in that notebook.
 
 _FYI `px.data.tips()` loads one of [Plotly's sample datasets](https://plotly.com/python-api-reference/generated/plotly.express.data.html). You don't need that when plotting other datasets._
 
