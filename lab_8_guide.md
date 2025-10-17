@@ -29,11 +29,15 @@ Assumes students already have [Python 3](https://www.python.org/downloads/) and 
 
 ## Try it!
 
-In VSCode:
+Have the do the following in VSCode:
 
-1. [Create a `lab_8.ipynb` notebook.](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook)
+1. [Create a `lab_8_example.ipynb` notebook.](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook)
 1. Walk them through the Jupyter interface.
 1. [Run](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_running-cells) [this example](https://plotly.com/python/linear-fits/#Linear-fit-trendlines-with-Plotly-Express) in that notebook.
+1. Redo it, showing each step in their own cell:
+   1. Data loading
+   1. Displaying the `df`
+   1. Creating the chart
 
 _FYI `px.data.tips()` loads one of [Plotly's sample datasets](https://plotly.com/python-api-reference/generated/plotly.express.data.html). They don't need that when plotting other datasets._
 
