@@ -9,6 +9,12 @@
     text-wrap-mode: wrap;
   }
 
+  /* keep long outputs on the screen */
+  .jp-OutputArea {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
   .jp-RenderedHTMLCommon {
     /* output code should be the same size as input code */
     pre code {
