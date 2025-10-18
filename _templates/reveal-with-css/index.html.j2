@@ -1,0 +1,7 @@
+{% extends "reveal/index.html.j2" %}
+
+{% block html_head_css %}
+  {{ super() }}
+  {# Add custom stylesheet for Reveal slides #}
+  <link rel="stylesheet" href="_templates/reveal-with-css/slides.css"/>
+{% endblock %}

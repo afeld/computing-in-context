@@ -36,6 +36,8 @@ open:
 slides:
 	jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
+		--TemplateExporter.extra_template_basedirs=_templates \
+		--template=reveal-with-css \
 		--post serve lecture_$(lec).ipynb
 
 test:

@@ -1,0 +1,18 @@
+.reveal {
+  /* overrides https://github.com/jupyter/nbconvert/blob/d0d1cb621fa0cab9bdedd95b05c7e97b7a7941fa/share/templates/reveal/index.html.j2#L85-L90 */
+  /* --jp-code-font-size: 30px; */
+  --jp-content-font-size1: 25px;
+
+  .jp-InputArea-editor pre {
+    /* overflow-x: scroll; */
+    /* wrap text in code cells */
+    text-wrap-mode: wrap;
+  }
+
+  .jp-RenderedHTMLCommon {
+    /* output code should be the same size as input code */
+    pre code {
+      font-size: var(--jp-code-font-size);
+    }
+  }
+}
