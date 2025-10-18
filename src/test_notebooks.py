@@ -10,14 +10,13 @@ from .nb_helper import is_h1, is_markdown, is_python, read_notebook
 
 def check_metadata(notebook, expected_kernel):
     metadata = notebook.metadata
-    runtime = metadata.kernelspec.display_name
+    runtime = metadata.kernelspec.name
 
-    # seems the asterisk is added for the "preferred kernel"
-    assert runtime == expected_kernel or runtime == f"{expected_kernel} *"
+    assert runtime == expected_kernel
     assert metadata.language_info.version.startswith("3.")
 
 
-def check_file(file, expected_kernel="Python 3 (ipykernel)"):
+def check_file(file, expected_kernel="python3"):
     notebook = read_notebook(file)
     check_metadata(notebook, expected_kernel)
 
