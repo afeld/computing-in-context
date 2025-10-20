@@ -11,6 +11,7 @@ Please do the following:
   1.  Click the icon in the top right.
   1.  Click Settings.
   1.  Add your photo.
+- Disable notificatins for combined [CourseWorks](https://courseworks2.columbia.edu/profile/communication) and [Ed](https://edstem.org/us/settings/notifications)
 
 ## Reading
 
