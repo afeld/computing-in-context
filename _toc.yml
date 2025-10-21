@@ -29,10 +29,10 @@ chapters:
       - file: lecture_18
       - file: lecture_19
       - file: lecture_20
-        sections:
-          - file: lecture_20_exercise_solution
-            title: Exercise solution
       - file: lecture_21
+        sections:
+          - file: lecture_21_exercise_solution
+            title: Exercise solution
       - file: lecture_22
       - file: lecture_23
       - file: lecture_24
@@ -57,8 +57,6 @@ chapters:
         sections:
           - file: lab_11_guide
             title: Guide
-          - file: lab_11_solutions
-            title: Solutions
       - file: lab_12
         sections:
           - file: lab_12_guide

@@ -1,6 +1,6 @@
 # Project 3
 
-Complete [Lab 12](lab_12.ipynb#jupyterbook) before proceeding.
+Complete [Lab 8](lab_8.ipynb#jupyterbook) before proceeding.
 
 ## Objectives
 
@@ -23,7 +23,7 @@ You don't know how to do this yet. You will need to read the documentation to fi
      - [Structure the Table of Contents](https://jupyterbook.org/en/stable/structure/toc.html)
 1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
 
-[Build](lab_12.ipynb#build-the-site) and [preview](lab_12.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
+[Build](lab_8.ipynb#build-the-site) and [preview](lab_8.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
 
 ```{tip}
 You can press the up arrow on your keyboard to get to [previously-run commands](https://www.thomas-krenn.com/en/wiki/Bash_history), rather than having to re-type it each time.
@@ -66,7 +66,7 @@ You can think of this as similar to the [Project 2](project_2.md) requirements, 
 
 ### Process
 
-You'll be working in [the notebook created in Lecture 23](lecture_23.ipynb#create-notebook).
+You'll be working in [the notebook created in Lecture 16](lecture_16.ipynb#create-notebook).
 
 1. [Find a dataset](projects.md#requirements) that seems interesting.
    - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance.

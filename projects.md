@@ -56,6 +56,6 @@ All visualizations must:
 
 ### Visualizations
 
-- [Consider which visualization type is most appropriate.](lecture_20.ipynb#what-visualization-should-i-use)
+- [Consider which visualization type is most appropriate.](lecture_21.ipynb#what-visualization-should-i-use)
 - If you’re trying to show more than three variables at once (e.g. X axis, Y axis, and color), try simplifying.
 - [Other best practices.](https://xdgov.github.io/data-design-standards/)

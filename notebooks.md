@@ -13,7 +13,7 @@
 For lecture slides / labs, download the page as a notebook to work with it locally.
 
 1. Open the page for the Homework/Lecture on this site.
-   - For example: [Lab 8](lab_8.ipynb)
+   - For example: [Lab 9](lab_9.ipynb)
 1. Hover over the download icon (⬇️) in the toolbar at the top.
    - Feel free to move it to whatever folder you like.
 1. You may then see the [notebook JSON](https://nbformat.readthedocs.io/en/latest/format_description.html) - go to:
@@ -29,7 +29,7 @@ Images will be broken in downloaded notebooks.
 
 ## Installing packages
 
-Assumes the [setup](lab_8_guide.md#setup) is already complete. This will need to be done any time you add packages.
+Assumes the [setup](lab_9_guide.md#setup) is already complete. This will need to be done any time you add packages.
 
 1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
 1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
