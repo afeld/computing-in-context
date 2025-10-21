@@ -1,25 +1,34 @@
 # Lab 11 guide
 
-**Goal:** Students should get practice with:
+**Goal:** Get students to think ahead to the visualizations they want to produce, then work through the steps to get there.
 
-- Grouping
-- Mapping
-- Resampling
-- Multi-line charts
+## First half
 
-Do the following in [the lab notebook](lab_11.ipynb) all together, with students driving.
+Do the following as a group, with students directing.
 
-1. **~35 minutes:** Buses
-   - You'll need to introduce [`pd.to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#converting-to-timestamps) and [`resample()`](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/09_timeseries.html#resample-a-time-series-to-another-frequency), since we didn't get to them yet.
-     - You can keep this fairly brief, as we'll revisit in [Lecture 22](lecture_22.ipynb).
-     - See [the slides from Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/lecture_4.html#convert-columns-to-timestamps-using-pandas-to-datetime) for ideas on how to talk about them.
-   - If you have time, make charts. Otherwise, showing in a table is fine.
-1. 311 and COVID
-   1. **~30 minutes:** Work through Step 5 together.
-      - You'll need to introduce [resampling with other grouping](https://python-public-policy.afeld.me/en/columbia/lecture_4.html#resampling-with-other-grouping) for Step 3 since we didn't get to it yet.
-   1. **~25 minutes:** Independent work time for the rest.
+1. Pick [a `Dataset` from the NYC Open Data Portal](https://data.cityofnewyork.us/browse?sortBy=most_accessed&limitTo=datasets).
+1. Look at the columns/data through the Portal (don't download).
+1. Decide how you want to visualize.
+   - What columns should be used?
+   - What chart type should be used?
+   - Keep it simple.
+     - Avoid anything that would require complex transformations.
+     - For the purposes of this lab, it's ok to cut corners.
+   - Avoid using date/time columns - we'll cover those in [Week 11](index.md#schedule). Years are fine.
+1. Get the CSV URL.
+1. Create a new notebook.
+1. Read in the data.
+1. Do any necessary data cleaning.
+1. Create the visualization.
 
-While the [solutions for the first two sections](lab_11_solutions.ipynb) are available,
+If you have time, repeat with a different visualization type, using a different dataset if you need. It's ok if it's a bit bumpy; use any dead ends as teachable moments.
 
-- Discourage students from looking at them before completing
-- The solutions the group comes up with don't need to look like the provided ones
+### Examples
+
+- Using [crash data](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/explore), make a histogram of contributing factors.
+- Using [city payroll data](https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e/explore), make a scatterplot of base salary vs. total other pay.
+  - You'll need to deal with formatting / data types.
+
+## Second half
+
+Walk through [Lab 11 Exercise](lab_11.ipynb).
