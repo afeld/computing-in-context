@@ -1,12 +1,15 @@
-from glob import glob
 import re
+from glob import glob
+
 import pytest
+from pytest import approx
 
 from .nb_helper import is_code_cell, is_markdown, read_notebook
 
-
 lecture_notebooks = glob("lecture_[0-9][0-9].ipynb")
 lecture_notebooks.sort()
+
+SLIDE_TOLERANCE = 4
 
 
 def slide_type(cell):
@@ -47,15 +50,14 @@ def test_num_slides(file):
 
     if "exercise" in file:
         pytest.skip("Not expected to be a full lecture")
-    elif file == "lecture_16.ipynb":
-        assert slide_count <= 20, "This is mostly live demo"
+    elif file == "lecture_15.ipynb":
+        assert slide_count == approx(28, abs=SLIDE_TOLERANCE), "This has a live demo"
     elif file == "lecture_21.ipynb":
-        assert slide_count <= 28, "This exercise is long"
+        assert slide_count == approx(25, abs=SLIDE_TOLERANCE), "This exercise is long"
     elif file == "lecture_25.ipynb":
         pytest.skip("The various pieces of the lecture can be scaled appropriately")
     else:
-        assert slide_count >= 30, "Too few slides"
-        assert slide_count <= 40, "Too many slides"
+        assert slide_count == approx(35, abs=SLIDE_TOLERANCE)
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
