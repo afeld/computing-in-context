@@ -34,6 +34,9 @@ This will need to be done any time you add packages.
 1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
 1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
 1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
+   - Mac: `source .venv/bin/activate`
+   - Windows: `.venv\Scripts\Activate.ps1`
+   - It will show `(.venv)` at the beginning of your terminal prompt.
 1. Add packages to a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file.
 1. Install the packages.
 
