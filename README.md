@@ -35,7 +35,13 @@ make lab
 ### Presenting
 
 ```sh
-make slides lec=N
+make slides notebook=[file]
+```
+
+For example:
+
+```sh
+make slides notebook=lecture_15.ipynb
 ```
 
 ### Creating/editing
