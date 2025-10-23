@@ -27,12 +27,28 @@ That is now your own copy; you can execute/add cells as you like, including addi
 Images will be broken in downloaded notebooks.
 ```
 
+## Activate the environment
+
+1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
+1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
+
+   - Mac: `source .venv/bin/activate`
+   - Windows: `.venv\Scripts\Activate.ps1`
+
+     - If you get an Execution Policy error, [update it](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?#change-the-execution-policy):
+
+       ```powershell
+       Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+       ```
+
+It should then show `(.venv)` at the beginning of your terminal prompt.
+
 ## Installing packages
 
 This will need to be done any time you add packages.
 
-1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
-1. [Make sure you're on the latest version of VSCode.](https://code.visualstudio.com/docs/setup/setup-overview#_update-cadence)
+1. [Activate the environment.](#activate-the-environment)
 1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
 1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
 
