@@ -133,5 +133,3 @@ Your submission should:
 ## Submission
 
 **Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, [submit](notebooks.md#submission).
-
-If for some reason you're unable to submit the full Project 3 notebook, you can submit a notebook / text file / etc. that just contains a link to your site.

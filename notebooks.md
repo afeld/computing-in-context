@@ -75,7 +75,10 @@ This will need to be done any time you add packages.
 
 ## Submission
 
-You will [submit your Lab/Project notebooks via Gradescope](https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless).
+You will submit via GradeScope.
+
+- [Lab 8](lab_8.ipynb) and [Projects](projects.md) and [Lab 8](lab_8.ipynb): Submit the URL.
+- Other Labs: [Upload your notebook.](https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless)
 
 ```{note}
 You can ignore Gradescope saying "Large file hidden". The TAs can download the notebook to view.

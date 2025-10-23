@@ -220,7 +220,7 @@ Similarly, it is common practice to use code snippets found on the internet; the
 
 Students are more than welcome to share approaches and code snippets in [Ed Discussions][ed], so long as they aren't giving the full solution away.
 
-Students may post the Projects publicly (on GitHub, LinkedIn, etc.), since they're open-ended. Other assignments (with "correct answers") cannot be posted publicly, to prevent other students from cheating. You are, however, more than welcome to share any of your work with specific people, such as future employers.
+Students will post the [Projects](https://computing-in-context.afeld.me/projects.html) and [Lab 8](https://computing-in-context.afeld.me/lab_8.html) publicly as part of their [portfolio site](https://computing-in-context.afeld.me/lab_8.html), since they're open-ended. The other Labs (which have with "correct answers") cannot be posted publicly, to prevent other students from cheating. You are, however, more than welcome to share any of your work with specific people, such as future employers.
 
 #### Generative AI
 
