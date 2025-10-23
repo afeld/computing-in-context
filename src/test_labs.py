@@ -4,7 +4,6 @@ import pytest
 
 from .nb_helper import is_code_cell, read_notebook
 
-
 lab_notebooks = glob("lab_[0-9].ipynb") + glob("lab_[0-9][0-9].ipynb")
 lab_notebooks.sort()
 
@@ -20,6 +19,9 @@ def test_lab_outputs_cleared(file):
 
 @pytest.mark.parametrize("file", lab_notebooks)
 def test_boilerplate(file):
+    if file == "lab_8.ipynb":
+        pytest.skip("This isn't a template, nor do they submit the notebook")
+
     notebook = read_notebook(file)
 
     boilerplate = "_[General notebook information](https://computing-in-context.afeld.me/notebooks.html)_"
