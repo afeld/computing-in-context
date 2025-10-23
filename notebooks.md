@@ -34,15 +34,18 @@ Images will be broken in downloaded notebooks.
 1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
 
    - Mac: `source .venv/bin/activate`
-   - Windows: `.venv\Scripts\Activate.ps1`
-
-     - If you get an Execution Policy error, [update it](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?#change-the-execution-policy):
-
-       ```powershell
-       Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-       ```
+   - Windows (PowerShell): `.venv\Scripts\Activate.ps1`
 
 It should then show `(.venv)` at the beginning of your terminal prompt.
+
+````{admonition} Execution Policy error on Windows?
+:class: warning, dropdown
+[Update the Policy:](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?#change-the-execution-policy)
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+````
 
 ## Installing packages
 
