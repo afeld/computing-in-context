@@ -24,6 +24,8 @@ Please do the following:
 
     - Windows: [Git for Windows](https://gitforwindows.org/) with the default options
 
+- [Install `jupyter-book==1.*`.](https://computing-in-context.afeld.me/notebooks.html#installing-packages)
+
 ## Reading
 
 1. [The Joys (and Woes) of the Craft of Software Engineering](https://cs.calvin.edu/courses/cs/262/kvlinden/references/brooksJoysAndWoes.html)
