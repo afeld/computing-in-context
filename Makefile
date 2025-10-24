@@ -22,8 +22,10 @@ quick:
 	# https://jupyterbook.org/en/stable/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
 	jupyter-book build -W -n --keep-going .
 
-site: clean quick
+open_site:
 	open _build/html/index.html
+
+site: clean quick open_site
 
 linkcheck:
 	# https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
