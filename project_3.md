@@ -66,8 +66,6 @@ You can think of this as similar to the [Project 2](project_2.md) requirements, 
 
 ### Process
 
-You'll be working in [the notebook created in Lecture 16](lecture_16.ipynb#try-it).
-
 1. [Find a dataset](projects.md#requirements) that seems interesting.
    - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance.
      - If you're only using one dataset, you probably want it to have 500+ rows.

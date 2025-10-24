@@ -77,7 +77,7 @@ This will need to be done any time you add packages.
 
 You will submit via GradeScope.
 
-- [Lab 8](lab_8.ipynb) and [Projects](projects.md) and [Lab 8](lab_8.ipynb): Submit the URL.
+- [Lab 8](lab_8.ipynb) and [Projects](projects.md): Submit the URL to the notebook on your [portfolio site](lab_8.ipynb).
 - Other Labs: [Upload your notebook.](https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless)
 
 ```{note}
