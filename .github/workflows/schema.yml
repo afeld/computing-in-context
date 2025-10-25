@@ -14,5 +14,10 @@ jobs:
       - name: Download nbformat schema
         run: curl -O https://raw.githubusercontent.com/jupyter/nbformat/main/nbformat/v4/nbformat.v4.schema.json
 
+      - name: Update version in notebooks
+        # TODO make dynamic
+        run: |
+          find . -maxdepth 1 -type f -name '*.ipynb' -exec sed -i 's/"nbformat_minor": 4/"nbformat_minor": 5/g' {} \;
+
       - name: Validate Jupyter notebooks
         run: pipx run check-jsonschema --schemafile nbformat.v4.schema.json *.ipynb
