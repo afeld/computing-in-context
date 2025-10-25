@@ -33,7 +33,6 @@ sphinx:
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.7/require.min.js
-      - download.js
     html_show_copyright: false
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
     language: en
@@ -71,3 +70,5 @@ sphinx:
       # Plotly gives a custom MIME Type
       # https://plotly.com/python/renderers/#plotly_mimetype
       - mystnb.unknown_mime_type
+  extra_extensions:
+    - jupyterbook_patches
