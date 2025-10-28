@@ -26,7 +26,13 @@ chapters:
       - file: lecture_15
       - file: lecture_16
       - file: lecture_17
+        sections:
+          - file: lecture_17_demo_solution
+            title: Demo solution
       - file: lecture_18
+        sections:
+          - file: lecture_18_demo_solution
+            title: Demo solution
       - file: lecture_19
       - file: lecture_20
       - file: lecture_21
