@@ -30,6 +30,8 @@ html:
 
 sphinx:
   config:
+    # https://www.sphinx-doc.org/en/master/usage/configuration.html
+
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.7/require.min.js
@@ -37,7 +39,6 @@ sphinx:
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
     language: en
     linkcheck_allow_unauthorized: true
-    # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
     linkcheck_anchors_ignore:
       # GitHub no longer has #readme anchors, apparently
       - "^readme$"
@@ -47,12 +48,8 @@ sphinx:
       # missing anchor
       # https://github.com/mattcone/markdown-guide/pull/214
       - https://www.markdownguide.org/basic-syntax/#headings
-      # invalid cert
-      - ^https://www.open311.org
-      # behind Cloudflare; get 403s
+      # get 403s
       - ^https://(.+\.)?columbia\.edu
-      - ^https://guides.gradescope\.com
-      - ^https://stackoverflow\.com
       - ^https://(.+\.)?substack\.com
       # timeouts
       - ^https://data.cityofnewyork.us
