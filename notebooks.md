@@ -50,8 +50,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 This will need to be done any time you add packages. Avoid using `pip install [package]`.
 
 1. [Activate the environment.](#activate-the-environment)
-1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
-1. [Activate the environment](#activate-the-environment), if it isn't already.
 1. Add packages to a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file.
 1. Install the packages.
 
