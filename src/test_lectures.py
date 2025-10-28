@@ -2,6 +2,7 @@ import re
 from glob import glob
 
 import pytest
+from nbformat import NotebookNode
 from pytest import approx
 
 from .nb_helper import is_code_cell, is_markdown, read_notebook
@@ -21,19 +22,22 @@ def is_slide(cell):
     return slide_type(cell) in SLIDE_TYPES
 
 
-def num_slides(cells):
+def is_exercise(source: str):
+    return re.match("#+.+(demo|exercise)", source, re.IGNORECASE) is not None
+
+
+def num_slides(cells: list[NotebookNode]):
     """Return a weighted number of slides"""
 
     slides = [cell for cell in cells if is_slide(cell)]
     count = len(slides)
+    print("  Number of slides:\t", count)
 
-    has_intro = any(re.match("# Intro(duction)?s", slide.source) for slide in slides)
-    if has_intro:
-        count += 5
-
-    num_exercises = sum(1 for slide in slides if "# In-class exercise" in slide.source)
+    num_exercises = sum(1 for slide in slides if is_exercise(slide.source))
+    print("  Number of exercises:\t", num_exercises)
     # let's say that each exercise is worth this many slides
-    count += num_exercises * 15
+    count += num_exercises * 10
+    print("  Weighted count:\t", count)
 
     return count
 
