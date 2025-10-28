@@ -26,6 +26,13 @@ chapters:
       - file: lecture_15
       - file: lecture_16
       - file: lecture_17
+        sections:
+          - file: lecture_17_exercise
+            title: In-class exercise
+          - file: lecture_17_exercise_solution
+            title: In-class exercise solution
+          - file: lecture_17_demo_solution
+            title: Demo solution
       - file: lecture_18
       - file: lecture_19
       - file: lecture_20
