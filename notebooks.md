@@ -30,20 +30,11 @@ Images will be broken in downloaded notebooks.
 1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
 1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
 1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
-
    - Mac: `source .venv/bin/activate`
    - Windows (PowerShell): `.venv\Scripts\Activate.ps1`
+     - Get an execution policy error? See [the Note in the `venv` documentation](https://docs.python.org/3/library/venv.html#creating-virtual-environments:~:text=On%20Microsoft%20Windows,%2DScope%20CurrentUser), then retry.
 
 It should then show `(.venv)` at the beginning of your terminal prompt.
-
-````{admonition} Execution Policy error on Windows?
-:class: warning, dropdown
-[Update the Policy:](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?#change-the-execution-policy)
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-````
 
 ## Installing packages
 
