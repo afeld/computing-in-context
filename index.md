@@ -210,6 +210,8 @@ _For the second half of the course, at least:_
 
 Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
 
+Even if you miss the lab session, doing the lab work on your own time is still recommended. You can find the Guide (if available) and Lab notebook in the sidebar, under `Labs`.
+
 See [grading](#grading) for more details.
 
 ### Academic Integrity
