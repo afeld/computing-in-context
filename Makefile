@@ -15,21 +15,24 @@ lab:
 
 clean:
 	rm *.slides.html || true
-	jupyter-book clean .
+	jupyter book clean
 
 quick:
 	# https://jupyterbook.org/v1/content/references.html#check-for-missing-references
 	# https://jupyterbook.org/v1/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
-	jupyter-book build -W -n --keep-going .
+	jupyter book build --site
 
 open_site:
 	open _build/html/index.html
 
 site: clean quick open_site
 
+start:
+	jupyter book start
+
 linkcheck:
 	# https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
-	jupyter-book build -W -n --keep-going --builder=linkcheck .
+	jupyter book build --site --check-links --strict
 
 open:
 	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome _build/html/index.html
