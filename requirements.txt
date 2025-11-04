@@ -1,5 +1,5 @@
 ipykernel
-jupyter-book==1.*
+jupyter-book==2.*
 jupyterbook_patches
 # https://github.com/jupyterlab/jupyterlab/issues/15968#issuecomment-3356704551
 jupyterlab>=4.5.0b0
@@ -16,8 +16,4 @@ plotly>=5.24.0
 pytest
 requests
 ruff
-# https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
-sphinx>=6.2.0
-# https://github.com/executablebooks/sphinx-book-theme/issues/865
-sphinx-book-theme>=1.1.4
 statsmodels
