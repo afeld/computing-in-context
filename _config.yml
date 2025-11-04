@@ -3,7 +3,7 @@
 title: Computing in Context (SIPA)
 author: Aidan Feldman
 
-# https://jupyterbook.org/en/stable/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
+# https://jupyterbook.org/v1/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
 only_build_toc_files: true
 exclude_patterns:
   - .github/*
@@ -32,7 +32,7 @@ sphinx:
   config:
     # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-    # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly
+    # https://jupyterbook.org/v1/interactive/interactive.html#plotly
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.7/require.min.js
     html_show_copyright: false
@@ -60,7 +60,7 @@ sphinx:
       User-Agent: ComputingInContextLinkCheck/0.0 (https://computing-in-context.afeld.me/; alf2215@columbia.edu) Python-urllib/3.14
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
-    # https://jupyterbook.org/en/stable/advanced/html.html#manually-specify-extra-files-folders-to-be-included-in-a-website
+    # https://jupyterbook.org/v1/advanced/html.html#manually-specify-extra-files-folders-to-be-included-in-a-website
     html_extra_path:
       - assets
     suppress_warnings:

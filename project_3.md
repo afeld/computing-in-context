@@ -19,8 +19,8 @@ You don't know how to do this yet. You will need to read the documentation to fi
    - Suggest making it a Markdown file, `index.md`
    - `project_3` will no longer be the `root`
    - Relevant documentation:
-     - [Create your own content file](https://jupyterbook.org/en/stable/start/new-file.html)
-     - [Structure the Table of Contents](https://jupyterbook.org/en/stable/structure/toc.html)
+     - [Create your own content file](https://jupyterbook.org/v1/start/new-file.html)
+     - [Structure the Table of Contents](https://jupyterbook.org/v1/structure/toc.html)
 1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
 
 [Build](lab_8.ipynb#build-the-site) and [preview](lab_8.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
@@ -41,7 +41,7 @@ Please do not include your Lab notebooks in your site, per the [Academic Integri
 
 ### Publish
 
-You will be [deploying the site to Read the Docs](https://jupyterbook.org/en/stable/publish/readthedocs.html) [via GitHub](https://docs.readthedocs.io/en/stable/tutorial/index.html).
+You will be [deploying the site to Read the Docs](https://jupyterbook.org/v1/publish/readthedocs.html) [via GitHub](https://docs.readthedocs.io/en/stable/tutorial/index.html).
 
 1. Add a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file to specify the package dependencies for building the site.
 

@@ -28,7 +28,7 @@ Please do the following:
 
 1. [The Joys (and Woes) of the Craft of Software Engineering](https://cs.calvin.edu/courses/cs/262/kvlinden/references/brooksJoysAndWoes.html)
    - Note not _everything_ in there is applicable to data analysis
-1. Read [Create your first \[Jupyter\]book](https://jupyterbook.org/en/stable/start/your-first-book.html)
+1. Read [Create your first \[Jupyter\]book](https://jupyterbook.org/v1/start/your-first-book.html)
 
 ### Optional
 

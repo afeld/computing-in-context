@@ -7,7 +7,7 @@ python:
 
 build:
   os: ubuntu-lts-latest
-  # https://jupyterbook.org/en/stable/publish/readthedocs.html
+  # https://jupyterbook.org/v1/publish/readthedocs.html
   tools:
     python: "3"
   jobs:

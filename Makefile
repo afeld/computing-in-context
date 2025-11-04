@@ -18,8 +18,8 @@ clean:
 	jupyter-book clean .
 
 quick:
-	# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
-	# https://jupyterbook.org/en/stable/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
+	# https://jupyterbook.org/v1/content/references.html#check-for-missing-references
+	# https://jupyterbook.org/v1/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
 	jupyter-book build -W -n --keep-going .
 
 open_site:

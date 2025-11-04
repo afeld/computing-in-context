@@ -10,7 +10,7 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 make setup
 ```
 
-## [Building the site](https://jupyterbook.org/en/stable/basics/build.html#build-via-the-command-line)
+## [Building the site](https://jupyterbook.org/v1/basics/build.html#build-via-the-command-line)
 
 Building the site from scratch and running tests:
 
