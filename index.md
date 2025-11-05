@@ -153,7 +153,7 @@ Assignments, due dates, and other aspects of the course may be modified mid-cour
 
 ### Getting help
 
-- Troubleshooting and other communications between class sessions will be through [Ed Discussions][ed].
+- Troubleshooting and other communications between class sessions will be through [Ed Discussion][ed].
   - This way, other students can respond and/or benefit from the answers.
   - Don't just say "I got an error." Include the relevant line(s) of code and the full error, copied-and-pasted or as a [screenshot](https://www.take-a-screenshot.org/).
     - See [Academic Integrity policy](#academic-integrity) for guidance on sharing solutions.
@@ -220,7 +220,7 @@ A student may work with other students. However, assignment solutions should not
 
 Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
 
-Students are more than welcome to share approaches and code snippets in [Ed Discussions][ed], so long as they aren't giving the full solution away.
+Students are more than welcome to share approaches and code snippets in [Ed Discussion][ed], so long as they aren't giving the full solution away.
 
 Students will post the [Projects](https://computing-in-context.afeld.me/projects.html) and [Lab 8](https://computing-in-context.afeld.me/lab_8.html) publicly as part of their [portfolio site](https://computing-in-context.afeld.me/lab_8.html), since they're open-ended. The other Labs (which have with "correct answers") cannot be posted publicly, to prevent other students from cheating. You are, however, more than welcome to share any of your work with specific people, such as future employers.
 
