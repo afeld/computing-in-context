@@ -22,6 +22,7 @@ assignees: afeld
   - [ ] Combine sites from sections
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
   - [ ] Specify Textbooks
+  - [ ] Update Assignment dates
   - [ ] [Automatically post grades](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-select-a-grade-posting-policy-for-a-course-in-the/ta-p/588)
   - [ ] Manually add SIPA students to Combined CourseWorks — use "NRA Student" role
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
