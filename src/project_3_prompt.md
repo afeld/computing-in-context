@@ -8,4 +8,3 @@
   - [Dataset 1] [column]
   - [Dataset 2] [column]
 - **Hypothesis**: [hypothesis]
-- **Site URL:** [the `*.readthedocs.io` URL of your live site, from the Publish section]

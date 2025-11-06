@@ -1,70 +1,16 @@
 # Project 3
 
-Complete [Lab 8](lab_8.ipynb#jupyterbook) before proceeding.
-
-## Objectives
-
-This project has two parts:
-
-- [Publishing your Projects as a website](#project-site)
-- [Proving or disproving a hypothesis using skills learned in this class](#data-analysis)
-
-They can be done in either order, or in parallel.
-
-## Project site
-
-You don't know how to do this yet. You will need to read the documentation to figure it out.
-
-1. **Make a homepage** in your JupyterBook.
-   - Suggest making it a Markdown file, `index.md`
-   - `project_3` will no longer be the `root`
-   - Relevant documentation:
-     - [Create your own content file](https://jupyterbook.org/v1/start/new-file.html)
-     - [Structure the Table of Contents](https://jupyterbook.org/v1/structure/toc.html)
-1. **Add your Project 1 and 2** as pages (`chapters`) of your site.
-
-[Build](lab_8.ipynb#build-the-site) and [preview](lab_8.ipynb#view-the-site-locally) as many times as you need to confirm things show up as expected.
-
-```{tip}
-You can press the up arrow on your keyboard to get to [previously-run commands](https://www.thomas-krenn.com/en/wiki/Bash_history), rather than having to re-type it each time.
-```
-
-The built site should look something like this:
-
-![JupyterBook homepage](img/book_home.png)
-
-You are more than welcome to customize the site as much as you like, but it's recommended that you complete the Project first.
-
-```{caution}
-Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
-```
-
-### Publish
-
-You will be [deploying the site to Read the Docs](https://jupyterbook.org/v1/publish/readthedocs.html) [via GitHub](https://docs.readthedocs.io/en/stable/tutorial/index.html).
-
-1. Add a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file to specify the package dependencies for building the site.
-
-   ```
-   jupyter-book==1.*
-   # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
-   sphinx>=6.2.0
-   ```
-
-1. Add a [`.readthedocs.yml`](https://docs.readthedocs.io/en/stable/config-file/index.html) file, matching [the one from this site](https://github.com/afeld/computing-in-context/blob/main/.readthedocs.yaml).
-   - [Mac: "Dotfiles" (starting with a period) are hidden by default in Finder.](https://www.avast.com/c-mac-show-hidden-files)
-1. Commit and push the changes.
-1. Go through the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html#creating-a-read-the-docs-account).
-   - Skip "Preparing your repository on GitHub" - you've already done that.
-   - Stop after "Checking the first build".
-
-## Data analysis
-
 [General Project information](projects.md)
+
+## Objective
+
+[Prove or disprove a hypothesis using skills learned in this class.](#data-analysis)
+
+## Intro
 
 You can think of this as similar to the [Project 2](project_2.md) requirements, but expanded. [Examples of Final Projects for Python for Public Policy](https://python-public-policy.afeld.me/en/columbia/final_project/examples.html) - the result of this Project will be similar.
 
-### Process
+## Process
 
 1. [Find a dataset](projects.md#requirements) that seems interesting.
    - To meet the [requirement](#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance.
@@ -77,7 +23,7 @@ You can think of this as similar to the [Project 2](project_2.md) requirements, 
 1. If you end up answering your initial research question easily (haven't met [the requirements](#analysis-requirements)), that's fine. Ask and answer follow-up question(s).
    - Go deep, not broad.
 
-### Prompt
+## Prompt
 
 Put the following in a Markdown cell in your notebook and fill it out:
 
@@ -104,7 +50,7 @@ The question should be:
 
 If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless) or come to [office hours](office_hours.md).
 
-#### Tips
+### Tips
 
 - Don't overthink it; getting up through filling out the prompt shouldn't take more than a few hours.
 - Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
@@ -113,7 +59,7 @@ If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.co
   - Example: "What ZIP code has the highest number of food poisoning cases?" assumes a relationship between food-borne illness and geography.
   - What assumptions does your question make?
 
-### Analysis requirements
+## Analysis requirements
 
 Your submission should:
 
@@ -130,4 +76,4 @@ Your submission should:
 
 ## Submission
 
-**Make sure you have [the prompt](#prompt) filled out**, including your site URL. Then, [submit](notebooks.md#submission).
+**Make sure you have [the prompt](#prompt) filled out**, then [submit](notebooks.md#submission).

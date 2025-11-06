@@ -50,15 +50,18 @@ This will need to be done any time you add packages. Avoid using `pip install [p
 
 ## Submission
 
-You will submit via GradeScope.
+You will submit via [Gradescope](https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless).
 
-- [Lab 8](lab_8.ipynb) and [Projects](projects.md): Submit the URL to the notebook on your [portfolio site](lab_8.ipynb).
-- Other Labs: [Upload your notebook.](https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless)
+- [Lab 8](lab_8.ipynb): Submit the URL to your [portfolio site](lab_8.ipynb) (`https://[username].github.io/`).
+- [Projects](projects.md):
+  1. Add the notebook to your [portfolio site](lab_8.ipynb).
+     1. Add to the [table of contents](lab_8.ipynb#table-of-contents).
+     1. [Build, view, and push](lab_8.ipynb#build-the-site) the page.
+  1. Submit the link to the new page (like `https://[username].github.io/project_[number].html`).
+- Other Labs: Upload your notebook.
+  - You can ignore Gradescope saying "Large file hidden". The TAs can download the notebook to view.
+  - [Gradescope limits submissions to 100MB.](https://guides.gradescope.com/hc/en-us/articles/21861529742477-File-Requirements-for-Assignment-Types#h_01HGKC7CC57Q7MMHMYJ5G6F80E) If you're unable to submit for this (or any other) reason, [reach out to the TAs](index.md#teaching-assistants-tas).
 
-```{note}
-You can ignore Gradescope saying "Large file hidden". The TAs can download the notebook to view.
-```
-
-```{warning}
-[Gradescope limits submissions to 100MB.](https://guides.gradescope.com/hc/en-us/articles/21861529742477-File-Requirements-for-Assignment-Types#h_01HGKC7CC57Q7MMHMYJ5G6F80E) If you're unable to submit for this (or any other) reason, reach out to the TAs.
+```{caution}
+Please do not include your Lab notebooks in your site, per the [Academic Integrity Policy](index.md#academic-integrity).
 ```
