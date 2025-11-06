@@ -8,6 +8,10 @@ chapters:
       #   title: Courseworks (combined)
       - url: https://courseworks2.columbia.edu/courses/230821
         title: Courseworks (SIPA)
+      # - url: https://courseworks2.columbia.edu/courses/226977/external_tools/29680?display=borderless
+      #   title: Gradescope (combined)
+      - url: https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless
+        title: Gradescope (SIPA)
       # - url: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless
       #   title: Ed Discussion (combined)
       - url: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless
