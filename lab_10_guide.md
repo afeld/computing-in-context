@@ -4,12 +4,8 @@
 
 **Goal:** Have students think through what data quality issues may occur, then how to find and address them.
 
-This part will be done all together, with the TAs mainly asking leading questions rather than lecturing. Students should be driving, telling the TA what to do. The TA will be live-coding; students can do the same if they like. At a high level, the class will:
+This part will be done all together, with the TAs mainly asking leading questions rather than lecturing. Students should be driving, telling the TA what to do. The TA will be live-coding; students can do the same if they like.
 
-1. Create a notebook.
-1. Download the dataset. (TBD)
-1. Clean the data.
-
-## Second half: Joining
+## Second half: Merging
 
 Introduce [Lab 10](lab_10.ipynb).
