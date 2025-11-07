@@ -4,3 +4,4 @@ line-length = 150
 [tool.ruff.lint.per-file-ignores]
 # ignore the provided code
 "lab_11.ipynb" = ["F821"]
+"lecture_18.ipynb" = ["F821"]
