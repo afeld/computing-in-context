@@ -4,7 +4,7 @@
 
 ## Objective
 
-[Prove or disprove a hypothesis using skills learned in this class.](#data-analysis)
+Prove or disprove a hypothesis using skills learned in this class.
 
 ## Intro
 
