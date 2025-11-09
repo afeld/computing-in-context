@@ -12,7 +12,7 @@ All Projects must:
   - Using data from a primary source is preferred.
   - Using a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
   - [Open data portals](https://python-public-policy.afeld.me/en/columbia/assignments/open_ended.html#open-data-portals)
-  - If you'd be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to the instructor](index.md#instructors).
+  - [Alumni employment data](#alumni-employment-data)
 - **Link to the source dataset(s)**
 - **Read like a blog post**
   - Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
@@ -59,3 +59,16 @@ All visualizations must:
 - [Consider which visualization type is most appropriate.](lecture_21.ipynb#what-visualization-should-i-use)
 - If you’re trying to show more than three variables at once (e.g. X axis, Y axis, and color), try simplifying.
 - [Other best practices.](https://xdgov.github.io/data-design-standards/)
+
+## Alumni employment data
+
+If you're be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to Aidan](index.md#instructors). This data comes from an annual survey by the [Career Advancement Center (CAC)](https://www.sipa.columbia.edu/pathways-careers/career-advancement-center). Caveats:
+
+- This will likely be harder than working with a [published dataset](https://python-public-policy.afeld.me/en/columbia/assignments/open_ended.html#open-data-portals).
+  - The data doesn't come with a data dictionary, so you may need extra time in case any clarifications are needed.
+- _Do not put any [identifying information](#requirements) anywhere publicly_, including Github and your portfolio site.
+  - This includes committing the raw data \[output\] to your portolio Git repository, even if removed later. That history is also public.
+  - The workaround is to only display aggregate information — see the [curve](curve.ipynb) page for an example.
+- You'll be provided with data that may be old. After doing analysis, if you want to use more recent data, we can ask the CAC at that point.
+- You will be asked to share your findings with the CAC, and meet with them if they'd like to talk through it.
+  - Aidan can connect you when appropriate.
