@@ -15,6 +15,7 @@ In this project, you will:
      - At least one numeric column
      - Between one thousand and one million rows
        - If it's larger than that, you can filter it down.
+       - The [alumni employment data](projects.md#alumni-employment-data) is smaller than that; that's ok.
    - Don't spend too long on this step.
 1. If there's more than one numeric column, pick one.
 1. Create a new notebook.
