@@ -27,6 +27,8 @@ Images will be broken in downloaded notebooks.
 
 ## Activate the environment
 
+(in the Terminal)
+
 1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
 1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
 1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
@@ -47,6 +49,17 @@ This will need to be done any time you add packages. Avoid using `pip install [p
    ```sh
    pip install -r requirements.txt
    ```
+
+## Common issues
+
+We've run into issues with being unable to [select the kernel](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook). Try each of the following:
+
+- Ensure you're on the latest versions of:
+  - [VSCode](https://code.visualstudio.com/docs/setup/setup-overview#_update-cadence)
+  - [The extensions](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_extensions-view-filter-and-commands)
+- Restart VSCode (quitting the full app, not just the window).
+- [Mac: "The application is on a read-only volume."](https://stackoverflow.com/a/65422671/358804)
+- Confirm that [the packages were installed in the virtual environment](#installing-packages), not [globally](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
 
 ## Submission
 
