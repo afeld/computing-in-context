@@ -1,6 +1,7 @@
 #*.csv
 /*.html
 *.zip
+data/
 
 __pycache__/
 _build/

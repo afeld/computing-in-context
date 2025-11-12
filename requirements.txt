@@ -8,6 +8,7 @@ nbconvert
 nbdime
 nbformat
 nbmerge
+# https://pandas.pydata.org/docs/user_guide/io.html#excel-files
 openpyxl
 pandas
 # https://plotly.com/python/mapbox-to-maplibre/
@@ -20,5 +21,3 @@ sphinx>=6.2.0
 # https://github.com/executablebooks/sphinx-book-theme/issues/865
 sphinx-book-theme>=1.1.4
 statsmodels
-# https://pandas.pydata.org/docs/user_guide/io.html#excel-files
-xlrd
