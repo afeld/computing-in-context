@@ -54,6 +54,8 @@ This will need to be done any time you add packages. Avoid using `pip install [p
 
 ### [Jupyter in VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
+[This was set up in Lecture 16.](lecture_16.ipynb#lab-8-prep)
+
 We've run into issues with being unable to [select the kernel](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook). Try each of the following:
 
 - Ensure you're on the latest versions of:
@@ -65,6 +67,11 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 
 ### [Jupyter Book](https://jupyterbook.org/v1/)
 
+[This was set up in Lab 8.](lab_8.ipynb#jupyterbook)
+
+- **`jupyter-book: command not found`:**
+  1. [Activate the environment.](#activate-the-environment)
+  1. Double-check you've done [the install](lab_8.ipynb#install).
 - **Plotly visualizations aren't appearing:**
 
   1. Add the following to the top of your notebook:
