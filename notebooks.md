@@ -67,7 +67,7 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 
 ### [Jupyter Book](https://jupyterbook.org/v1/)
 
-[This was set up in Lab 8.](lab_8.ipynb#jupyterbook)
+[This was set up in Lab 8.](lab_8.ipynb#jupyter-book)
 
 - **`jupyter-book: command not found`:**
   1. [Activate the environment.](#activate-the-environment)
@@ -86,6 +86,25 @@ We've run into issues with being unable to [select the kernel](https://code.visu
      ```
 
   1. Re-run your notebook.
+
+#### Not displaying properly
+
+If your published site looks like this:
+
+![Jekyll site](img/pages_build/jekyll.png)
+
+_No navigation, search, etc._
+
+and you see a `pages-build-deployment` under your [Actions](https://docs.github.com/en/actions/how-tos/monitor-workflows/view-workflow-run-history):
+
+![GitHub Pages default Action](img/pages_build/action.png)
+
+1. [Change the `Source`.](https://jupyterbook.org/v1/publish/gh-pages.html#enable)
+1. [Commit](lab_8.ipynb#commit) and push a change.
+   - It can be small.
+1. [After build, confirm](https://jupyterbook.org/v1/publish/gh-pages.html#confirm) your site looks like this:
+
+   ![Jupyter Book](img/pages_build/jupyter_book.png)
 
 ## Submission
 
