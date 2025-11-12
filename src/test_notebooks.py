@@ -1,10 +1,12 @@
 import ast
+import re
 from glob import glob
 from typing import Union
+
+import pytest
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
-import pytest
-import re
+
 from .nb_helper import is_h1, is_markdown, is_python, read_notebook
 
 
@@ -41,11 +43,15 @@ def get_slide_type(cell) -> str:
     return cell.metadata.get("slideshow", {}).get("slide_type")
 
 
+def has_slides(notebook):
+    return any(get_slide_type(cell) == "slide" for cell in notebook.cells)
+
+
 @pytest.mark.parametrize("file", notebooks)
 def test_heading_levels(file):
     notebook = read_notebook(file)
 
-    if not any(get_slide_type(cell) == "slide" for cell in notebook.cells):
+    if not has_slides(notebook):
         pytest.skip("No slides")
 
     for cell in notebook.cells:
@@ -174,3 +180,32 @@ def test_no_python_public_policy_tags(file):
         tags = get_tags(cell)
         for tag in ["columbia-only", "nyu-only"]:
             assert tag not in tags, f"Notebook contains a `{tag}` tag. Cell:\n\n{cell.source}\n"
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_plotly_renderer_configured(file):
+    """If a notebook imports plotly, ensure it sets the correct renderer.
+
+    https://computing-in-context.afeld.me/notebooks.html#jupyter-book"""
+
+    notebook = read_notebook(file)
+
+    is_slideshow = has_slides(notebook)
+    imports_plotly = False
+    has_renderer_config = False
+
+    for cell in notebook.cells:
+        if is_python(cell):
+            source = cell.source
+
+            if "import plotly" in source:
+                imports_plotly = True
+
+            if 'pio.renderers.default = "notebook_connected+plotly_mimetype"' in source:
+                has_renderer_config = True
+
+                if is_slideshow:
+                    assert get_slide_type(cell) == "skip", "Renderer config cell should have slide_type 'skip'"
+
+    if imports_plotly:
+        assert has_renderer_config, "Notebook imports plotly but doesn't set `pio.renderers.default = 'notebook_connected+plotly_mimetype'`"

@@ -52,6 +52,8 @@ This will need to be done any time you add packages. Avoid using `pip install [p
 
 ## Common issues
 
+### [Jupyter in VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
 We've run into issues with being unable to [select the kernel](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook). Try each of the following:
 
 - Ensure you're on the latest versions of:
@@ -60,6 +62,23 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 - Restart VSCode (quitting the full app, not just the window).
 - [Mac: "The application is on a read-only volume."](https://stackoverflow.com/a/65422671/358804)
 - Confirm that [the packages were installed in the virtual environment](#installing-packages), not [globally](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+
+### [Jupyter Book](https://jupyterbook.org/v1/)
+
+- **Plotly visualizations aren't appearing:**
+
+  1. Add the following to the top of your notebook:
+
+     ```python
+     # ensure the visualizations render properly across VSCode, Jupyter Book, etc.
+     # https://plotly.com/python/renderers/
+
+     import plotly.io as pio
+
+     pio.renderers.default = "notebook_connected+plotly_mimetype"
+     ```
+
+  1. Re-run your notebook.
 
 ## Submission
 
