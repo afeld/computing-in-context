@@ -43,6 +43,8 @@ chapters:
         sections:
           - file: lecture_21_exercise_solution
             title: Exercise solution
+          - file: lecture_21_demo_solution
+            title: Demo solution
       - file: lecture_22
       - file: lecture_23
       - file: lecture_24

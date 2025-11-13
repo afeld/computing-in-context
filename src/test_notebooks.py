@@ -40,7 +40,7 @@ def test_one_h1(file):
 
 
 def get_slide_type(cell) -> str:
-    return cell.metadata.get("slideshow", {}).get("slide_type")
+    return cell.metadata.get("slideshow", {}).get("slide_type", "")
 
 
 def has_slides(notebook):

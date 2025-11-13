@@ -59,7 +59,7 @@ def test_num_slides(file):
     elif file == "lecture_17.ipynb":
         pytest.skip("This is a walkthrough of other material")
     elif file == "lecture_21.ipynb":
-        assert slide_count == approx(25, abs=SLIDE_TOLERANCE), "This exercise is long"
+        assert slide_count == approx(25, abs=SLIDE_TOLERANCE), "Long exercise + demo"
     elif file == "lecture_25.ipynb":
         pytest.skip("The various pieces of the lecture can be scaled appropriately")
     else:
