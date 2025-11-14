@@ -105,14 +105,7 @@ To sign up for the test, contact [Aidan](#instructors).
 
 ## Grading
 
-- 30% Homework: 5% x (3 Assignments + 3 [Projects](projects.md))
-- 40% In-Class Tests: 20% x 2
-- 20% Lab Exercises: There are 12 labs. Each is worth 0-2%, up to 20%.
-- 10% Lab Attendance: There are 12 labs. Each one you attend you earn 1%, up to 10%. See [lab attendance](#labs) for more details.
-
-See [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977). Grace days may not be used for labs. That said, you get two "freebies" for both Lab Exercises and Attendace.
-
-The final grades for each section will be [curved](curve.ipynb).
+See the [combined syllabus][combined-syl] for details. The final grades for each SIPA section will be [curved](curve.ipynb).
 
 ## Readings
 
@@ -175,21 +168,6 @@ If there ends up being a wait list:
   - See the [other Python course options](#relationship-to-other-courses)
   - [There are a lot of other ways to learn Python](https://python-public-policy.afeld.me/en/columbia/resources.html)
 
-### Joining Late
-
-If you're not officially [registered](https://www.sipa.columbia.edu/sipa-education/bulletin/registration) for the course but want to be, due to being wait-listed or having a registration issue, [attend class](#course-information), and go through the following as soon as possible:
-
-- This syllabus
-- [The Courseworks homepage](https://courseworks2.columbia.edu/courses/226977)
-- [The combined syllabus][combined-syl]
-- [Lecture materials](https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j) and [Assignments](https://courseworks2.columbia.edu/courses/226977/assignments) to get caught up
-
-[Let us know](#instructors) if you have any trouble accessing.
-
-We don't give extensions on the Assignments - see [the late policy in the combined syllabus](https://courseworks2.columbia.edu/courses/226977).
-
-If you get confused/stuck on any of the material, [ask for help](#getting-help).
-
 ### Auditing
 
 See the [school policies](https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq). Students must be officially [registered](https://bulletin.columbia.edu/sipa/registration/). If there's a wait list, priority for spots in the class will be given to students taking it for credit. Once registered: To receive [R-credit](https://www.registrar.columbia.edu/content/grade-options#auditing), every assignment should at least be attempted and submitted. At the end of the course, please remind the instructor that you were auditing.
@@ -206,13 +184,7 @@ You are responsible for getting caught up on what was covered, without asking th
 
 #### Labs
 
-_For the second half of the course, at least:_
-
-Missing 15+ minutes of lab counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. If you complete the lab work before the end of the session, you may leave early.
-
-Even if you miss the lab session, doing the lab work on your own time is still recommended. You can find the Guide (if available) and Lab notebook in the sidebar, under `Labs`.
-
-See [grading](#grading) for more details.
+See the [combined syllabus][combined-syl].
 
 ### Academic Integrity
 
