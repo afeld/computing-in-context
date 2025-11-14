@@ -80,15 +80,6 @@ See also:
 - [Meeting Information](#meeting-information)
 - [Background on the course](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/)
 
-#### Discrepancies
-
-If there is any conflicting information between the syllabi, course sites, etc:
-
-- For the first half of the course, the [combined syllabus](https://courseworks2.columbia.edu/courses/226977) / Professor Santolucito / the Lead TAs will take precendence.
-- For the second half of the course, this syllabus / this site / Professor Feldman will take precendence.
-
-If you aren't sure, please ask.
-
 ### Testing out
 
 Computing in Context is a required course for [the Data Science for Policy (DSP) concentration and the Data Science for Public Policy minor](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp), and a [prerequisite for various courses](#relationship-to-other-courses). If you have Python+pandas experience, you can test out. The test will:
@@ -106,10 +97,6 @@ To sign up for the test, contact [Aidan](#instructors).
 ## Grading
 
 See the [combined syllabus][combined-syl] for details. The final grades for each SIPA section will be [curved](curve.ipynb).
-
-## Readings
-
-No textbook purchase is required. We will be using free online sources, primarily [How to Think like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html) in the first half.
 
 ## Schedule
 
