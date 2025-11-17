@@ -28,12 +28,6 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
 
 - The relationship you're showing doesn’t need to be something novel; replicating something you saw / read / heard about is fine.
 
-## Rubric
-
-- 40% [General project information](projects.md#requirements)
-- 55% Data from two datasets is reflected in a single visualization
-- 5% Visualization(s) meet [the requirements](projects.md#visualizations)
-
 ---
 
 [Submit.](notebooks.md#submission)

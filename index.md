@@ -96,7 +96,7 @@ To sign up for the test, contact [Aidan](#instructors).
 
 ## Grading
 
-See the [combined syllabus][combined-syl] for details. The final grades for each SIPA section will be [curved](curve.ipynb).
+See the [combined syllabus][combined-syl] for details. See Gradescope for the assignment rubrics. The final grades for each SIPA section will be [curved](curve.ipynb).
 
 ## Schedule
 
