@@ -57,6 +57,8 @@ chapters:
         sections:
           - file: lab_8_guide
             title: Guide
+          - file: portfolio_site_workshop.ipynb
+            title: Standalone workshop
       - file: lab_9
         sections:
           - file: lab_9_guide

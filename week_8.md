@@ -12,17 +12,18 @@ Please do the following:
   1.  Click Settings.
   1.  Add your photo.
 - Disable notificatins for combined [CourseWorks](https://courseworks2.columbia.edu/profile/communication) and [Ed](https://edstem.org/us/settings/notifications)
-- [Install Git.](https://git-scm.com/downloads)
 
-  - Many ways to install. The simplest:
+### [Install Git](https://git-scm.com/downloads)
 
-    - Mac: In the terminal, run:
+Many ways to install. The simplest:
 
-      ```sh
-      xcode-select --install
-      ```
+- Mac: In the terminal, run:
 
-    - Windows: [Git for Windows](https://gitforwindows.org/) with the default options
+  ```sh
+  xcode-select --install
+  ```
+
+- Windows: [Git for Windows](https://gitforwindows.org/) with the default options
 
 ## Reading
 
