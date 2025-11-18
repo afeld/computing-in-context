@@ -7,7 +7,7 @@ import pytest
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
 
-from .nb_helper import is_h1, is_markdown, is_python, read_notebook
+from .nb_helper import is_code_cell, is_h1, is_markdown, is_python, read_notebook
 
 
 def check_metadata(notebook, expected_kernel):
@@ -91,12 +91,13 @@ def check_link(token: Token, parent: Token | None = None):
 def test_links(file):
     """To ensure that links work from the coding environment, ensure all links are absolute."""
 
-    if file == "lecture_16.ipynb":
-        pytest.skip("Unlikely students will download this notebook, so ok that links are relative")
+    notebook = read_notebook(file)
+
+    has_code_cells = any(is_code_cell(cell) for cell in notebook.cells)
+    if not has_code_cells:
+        pytest.skip("No code cells; unlikely anyone will download")
 
     md = MarkdownIt()
-
-    notebook = read_notebook(file)
     for cell in notebook.cells:
         if is_markdown(cell):
             source = cell.source
