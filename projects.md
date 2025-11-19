@@ -24,6 +24,7 @@ All Projects must:
     - For example, include charts that you generate that may not show anything interesting and explain what you are choosing to look at instead.
     - You should still be cleaning up unused/broken code to make your notebook readable.
     - You may need to tweak your research question as you go. Show and explain why.
+- [**Appear as a page on your portfolio site**](notebooks.md#submission)
 - **Values must not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)**
   - In other words, if the dataset got additional rows, had values changed, etc., the rest of the notebook should work as expected.
 - **Don't leave any sensitive information in the notebook**, such as:
