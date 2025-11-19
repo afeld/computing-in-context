@@ -72,8 +72,6 @@ chapters:
         sections:
           - file: lab_12_guide
             title: Guide
-          - file: lab_12_solutions
-            title: Solutions
   - file: redirects/reading
     sections:
       - url: https://courseworks2.columbia.edu/courses/226977/assignments/syllabus
