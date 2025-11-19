@@ -21,11 +21,11 @@ In this project, you will:
 1. Create a new notebook.
 1. Using pandas:
    1. Read in the data.
-   1. Compute:
+   1. Compute the following (or -5 points each):
       - The mean
       - The median
       - The mode
-1. Repeat the previous step using only the Python standard library, a.k.a. [the hard way](#the-hard-way).
+1. Repeat the previous step (or -10 points each) using only the Python standard library (or -10 points), a.k.a. [the hard way](#the-hard-way).
 1. Create a data visualization, following [the instructions below](#data-visualization).
 1. [Submit.](notebooks.md#submission)
 

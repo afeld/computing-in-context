@@ -61,19 +61,20 @@ If you want help/feedback, don't hesitate to ask on [Ed](https://courseworks2.co
 
 ## Analysis requirements
 
-Your submission should:
+Your submission must:
 
 - **Meet the [general Project information](projects.md#requirements)**
-- **Not be trivial** - requiring:
+- **Not be trivial** (or -30 points) - requiring:
   - At least 40 lines of code to come to a conclusion
     - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
     - If you meet all the other requirements, you will likely be well over this number.
     - You can count them automatically using a tool like [tokei](https://github.com/XAMPPRocky/tokei).
-  - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.
-- **Have a visualization** (chart or map) of some kind
+- **Transform data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#merge), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html)** of DataFrames (or -15 points)
+- **Have a visualization** (chart or map) of some kind (or -5 points)
   - [General requirements](projects.md#visualizations)
+- **Have the [prompt](#prompt) filled out**
 
-## Submission
+---
 
-**Make sure you have [the prompt](#prompt) filled out**, then [submit](notebooks.md#submission).
+[Submit.](notebooks.md#submission)

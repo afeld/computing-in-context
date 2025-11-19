@@ -4,17 +4,21 @@
 
 ## Requirements
 
+_We grade with [negative scoring](https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-submissions-with-rubrics#h_01HHDDG2Z3HK61H0PKG5EFXPJV), meaning you get 100 points by default and we deduct from there._
+
+<!-- rubric not visible to students in Gradescope: https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/542-instructors-can-share-a-rubric-with-students-before-grades-are-published -->
+
 All Projects must:
 
-- **Be done in a Jupyter notebook**
-- **Follow the [style guide](https://courseworks2.columbia.edu/courses/226977/files?preview=24687098)**
+- **Be done in a Jupyter notebook** (or -5 points)
+- **Follow the [style guide](https://courseworks2.columbia.edu/courses/226977/files?preview=24687098)** (or -5 points)
 - **Use at least one dataset you aren't familiar with**
   - Using data from a primary source is preferred.
   - Using a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
   - [Open data portals](https://python-public-policy.afeld.me/en/columbia/assignments/open_ended.html#open-data-portals)
   - [Alumni employment data](#alumni-employment-data)
-- **Link to the source dataset(s)**
-- **Read like a blog post**
+- **Link to the source dataset(s)** (or -5 points)
+- **Read like a blog post** (or -10 points)
   - Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
   - Walk the reader through what you're doing in every step and what they should be taking away from it.
     - You are more than welcome to inject personality in there; doesn't need to be dry.
@@ -24,10 +28,10 @@ All Projects must:
     - For example, include charts that you generate that may not show anything interesting and explain what you are choosing to look at instead.
     - You should still be cleaning up unused/broken code to make your notebook readable.
     - You may need to tweak your research question as you go. Show and explain why.
-- [**Appear as a page on your portfolio site**](notebooks.md#submission)
-- **Values must not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)**
+- [**Appear as a page on your portfolio site**](notebooks.md#submission) (or -10 points)
+- **Values must not be [hard-coded](https://en.wikipedia.org/wiki/Hard_coding)** (or -5 points)
   - In other words, if the dataset got additional rows, had values changed, etc., the rest of the notebook should work as expected.
-- **Don't leave any sensitive information in the notebook**, such as:
+- **Don't leave any sensitive information in the notebook** (or -5 points), such as:
   - API keys
   - Personally-identifiable information (PII)
 
@@ -35,11 +39,11 @@ All Projects must:
 
 All visualizations must:
 
-- **Have a title** that's clear
-- **Have axis labels** that are clear
+- **Have a title** that's clear (or -5 points)
+- **Have axis labels** that are clear (or -5 points)
   - Include units, if applicable
   - Not required for Project 1.
-- **Look decent on a narrow (11") laptop screen**
+- **Look decent on a narrow (11") laptop screen** (or -5 points)
 
 ## Tips
 

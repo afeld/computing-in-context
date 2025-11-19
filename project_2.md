@@ -19,9 +19,10 @@ Here is [a thorough example](https://python-public-policy.afeld.me/en/columbia/f
 
 - Use Python/pandas for everything
   - You can use a spreadsheet program for simple preparation like extracting a table from a larger sheet (explain in the notebook if you do this), but all data cleaning, merging, visualizations, etc. should be done in code.
-- Data from two datasets is reflected in a single visualization
+- Uses data from two different datasets (or -15 points)
+- Both are reflected in a single visualization (or -20 points)
   - There can be additional visualizations
-- State the takeaway(s)
+- State the takeaway(s) (or -15 points)
 - [General Project information](projects.md)
 
 ## Tips
