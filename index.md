@@ -175,19 +175,45 @@ See the [combined syllabus][combined-syl].
 
 ### Academic Integrity
 
-A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
+If you are copying and pasting from a source (see below), it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where possible) is fine.
 
-Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
+**If you did most of the work yourself, it's ok. If most of the work was copied from elsewhere, it's plagiarism,** and will be reported.
 
-Students are more than welcome to share approaches and code snippets in [Ed Discussion][ed], so long as they aren't giving the full solution away.
+#### Sources
 
-Students will post the [Projects](https://computing-in-context.afeld.me/projects.html) and [Lab 8](https://computing-in-context.afeld.me/lab_8.html) publicly as part of their [portfolio site](https://computing-in-context.afeld.me/lab_8.html), since they're open-ended. The other Labs (which have with "correct answers") cannot be posted publicly, to prevent other students from cheating. You are, however, more than welcome to share any of your work with specific people, such as future employers.
+Anything outside of the provided course materials is considered a "source". This includes:
+
+- Other students
+- Online resources
+- Books
+- Generative AI (ChatGPT, Claude, Copilot, Gemini, etc.)
+
+#### Other notes
+
+- Students are welcome to work with one another, as long as:
+  - You indicate who you worked with
+  - The submissions are different
+- Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
+- Students will post the [Projects](https://computing-in-context.afeld.me/projects.html) and [Lab 8](https://computing-in-context.afeld.me/lab_8.html) publicly as part of their [portfolio site](https://computing-in-context.afeld.me/lab_8.html), since they're open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are more than welcome to share any of your notebooks with specific people, such as future employers.
 
 #### Generative AI
 
-For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are treated the same as other sources. For any code that's copied, reference the use of the tool and link to the discussion (where supported).
+Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
-These tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
+For this course, it's recommended that you try doing the work yourself, asking the AI questions as needed when you're stuck/confused. If you're _really_ lost, you can try:
+
+1. Having AI generate a solution.
+1. Try it.
+   1. Copy it into a code cell.
+   1. Run it.
+   1. Confirm the output makes sense.
+1. Understand it.
+   1. Read through it closely.
+   1. Add a comment above each line explaining what it's doing.
+1. Redo it.
+   1. Delete the code + comments from above.
+   1. Close the AI chat.
+   1. Re-write the solution yourself.
 
 #### SIPA Academic Integrity Statement
 
