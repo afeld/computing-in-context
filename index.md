@@ -96,7 +96,7 @@ To sign up for the test, contact [Aidan](#instructors).
 
 ## Grading
 
-See the [combined syllabus][combined-syl] for details. See Gradescope for the assignment rubrics. The final grades for each SIPA section will be [curved](curve.ipynb).
+See the [combined syllabus](https://courseworks2.columbia.edu/courses/226977) for details. See Gradescope for the assignment rubrics. The final grades for each SIPA section will be [curved](curve.ipynb).
 
 ## Schedule
 
@@ -237,4 +237,4 @@ SIPA is committed to ensuring that students registered with [Columbia University
 
 <!-- -------------------------------- -->
 
-[combined-syl]: https://courseworks2.columbia.edu/courses/226977/assignments/syllabus
+[combined-syl]: https://courseworks2.columbia.edu/courses/226977
