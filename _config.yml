@@ -42,6 +42,8 @@ sphinx:
     linkcheck_anchors_ignore:
       # GitHub no longer has #readme anchors, apparently
       - "^readme$"
+      # https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Fragment/Text_fragments
+      - ".*:~:text="
     linkcheck_ignore:
       # their anchors are title-cased
       - ^https://plotly.com
