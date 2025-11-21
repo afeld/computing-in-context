@@ -13,9 +13,9 @@ Students should get practice with:
 
 ## Steps
 
-1. **~15 minutes:** Buses
+1. **~10 minutes:** Scraping
+1. **~15 minutes:** Time series
    - Download as a CSV.
    - Make a chart.
-1. **~10 minutes:** Scraping
-1. **Remainder:** APIs
+1. **Remainder:** API
    - Have students drive
