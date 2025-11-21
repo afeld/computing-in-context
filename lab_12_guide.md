@@ -4,9 +4,9 @@
 
 Students should get practice with:
 
+- Scraping
 - Time series data
   - Resampling
-- Scraping
 - APIs
   - How to read their documentation
   - How to use them from Python
