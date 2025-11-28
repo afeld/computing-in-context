@@ -1,21 +1,37 @@
 # Test
 
-The test will contain fill-in-the-blank, matching, and free response questions, coding and high-level. It will be done on paper, closed-book (no cheat sheets, phones, laptops, etc).
+- The test will contain:
+  - Fill-in-the-blank
+  - Matching
+  - Free response questions
+    - Coding
+      - The syntax isn't expected to be perfect.
+    - High-level
+- It will be done on paper.
+- It will be "closed book", meaning no:
+  - Cheat sheets
+  - Phones
+  - Laptops
+  - etc.
 
 ## Topics
 
-The test will cover the following:
+The following is in scope for the exam:
 
 - Working with data using only the Python standard library ("pure Python")
 - Python/pandas data types/structures
 - Jupyter concepts
+- Markdown basics
 - Data manipulation
   - Boolean indexing
+  - Aggregation (count/sum/mean)
   - Grouping
   - Cleaning
   - Merging
 - Troubleshooting
 - Data visualization
+  - Choosing chart types
+  - Chart hygiene
 - Time series
   - Resampling
 - APIs, conceptually
@@ -25,7 +41,7 @@ The test will cover the following:
 Recommendation: Try completing them without using a search engine, generative AI, the course materials, etc.
 
 - What types can a pandas column be? Come up with at least three.
-- What are some scenarios where you'd need to convert between Python/pandas types? Come up with at least three.
+- What are some scenarios where you'd need to deal with types in pandas? Come up with at least three.
 - How do you make a link in Markdown?
 - How does `groupby()` work?
 - What is resampling used for? Include an example.
@@ -53,18 +69,27 @@ Recommendation: Try completing them without using a search engine, generative AI
 - What are the different kinds of merges? Can describe through text and/or visuals.
 - How would you merge the following Dataframes? Write the code as best you can.
 
-**`intros`**
+  **`intros`**
 
-| Name         | Year introduced |
-| ------------ | --------------- |
-| Mickey Mouse | 1928            |
-| Big Bird     | 1969            |
-| Lisa Simpson | 1987            |
+  | Name         | Year introduced |
+  | ------------ | --------------- |
+  | Mickey Mouse | 1928            |
+  | Big Bird     | 1969            |
+  | Lisa Simpson | 1987            |
 
-**`shows`**
+  **`shows`**
 
-| First  | Last    | Series        |
-| ------ | ------- | ------------- |
-| Lisa   | Simpson | The Simpsons  |
-| Mickey | Mouse   | multiple      |
-| Big    | Bird    | Sesame Street |
+  | First  | Last    | Series        |
+  | ------ | ------- | ------------- |
+  | Lisa   | Simpson | The Simpsons  |
+  | Mickey | Mouse   | multiple      |
+  | Big    | Bird    | Sesame Street |
+
+- Why would you use an API?
+- Suppose you have this JSON stored in a `candidates` variable. Write code to retrieve the name.
+
+  ```json
+  {
+    "results": [{ "name": "Jimmy McMillan", "first_file_date": "2010-01-01" }]
+  }
+  ```
