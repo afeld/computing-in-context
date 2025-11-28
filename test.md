@@ -1,5 +1,14 @@
 # Test
 
+The point of the test is to ensure you were doing the following throughout the course:
+
+- Paying attention
+- Completing the assignments yourself (versus [copying-and-pasting from generative AI](index.md#academic-integrity), etc.)
+
+If both of those are the case, you will likely do well on the test without a _huge_ amount of studying.
+
+## Format
+
 - The test will contain:
   - Fill-in-the-blank
   - Matching
@@ -16,7 +25,7 @@
 
 ## Topics
 
-The following is in scope for the exam:
+The following is in scope for the test:
 
 - Working with data using only the Python standard library ("pure Python")
 - Python/pandas data types/structures
