@@ -5,7 +5,7 @@ The point of the test is to ensure you were doing the following throughout the c
 - Paying attention
 - Completing the assignments yourself (versus [copying-and-pasting from generative AI](index.md#academic-integrity), etc.)
 
-If both of those are the case, you will likely do well on the test without a _huge_ amount of studying.
+If both of those are the case, you will likely do well on the test without a _huge_ amount of studying. This test is meant to evaluate _understanding_, not syntax or terminology.
 
 ## Format
 
@@ -47,11 +47,11 @@ The following is in scope for the test:
 
 ## Example questions
 
-Recommendation: Try completing them without using a search engine, generative AI, the course materials, etc.
+Recommendation: Treat this as a practice test. Try completing them without using a search engine, generative AI, the course materials, etc.
 
 - What types can a pandas column be? Come up with at least three.
 - What are some scenarios where you'd need to deal with types in pandas? Come up with at least three.
-- How do you make a link in Markdown?
+- ~~How do you make a link in Markdown?~~ What is Markdown useful for? What are specific things you can do with it?
 - How does `groupby()` work?
 - What is resampling used for? Include an example.
 - What's a kernel, in the context of this course?
