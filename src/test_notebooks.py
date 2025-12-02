@@ -35,8 +35,8 @@ def test_class_notebooks(notebook):
 @pytest.mark.parametrize("file", notebooks)
 def test_one_h1(file):
     notebook = read_notebook(file)
-    num_h1s = sum(is_h1(cell) for cell in notebook.cells)
-    assert num_h1s == 1
+    h1s = [cell.source.split("\n")[0] for cell in notebook.cells if is_h1(cell)]
+    assert len(h1s) == 1
 
 
 def get_slide_type(cell) -> str:

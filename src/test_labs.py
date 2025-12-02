@@ -43,4 +43,4 @@ def test_goal(file):
     with open(file) as f:
         guide = f.read()
 
-    assert "**Goal:** " in guide
+    assert "**Goal:** " in guide or "# Goal" in guide
