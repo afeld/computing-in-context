@@ -110,3 +110,4 @@ site:
     hide_footer_links: true
     logo_text: Computing in Context (SIPA)
     outline_maxdepth: 2
+    style: _static/styles.css
