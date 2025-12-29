@@ -27,10 +27,6 @@ open_site:
 
 site: clean quick open_site
 
-linkcheck:
-	# https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#test-external-links
-	jupyter-book build -W -n --keep-going --builder=linkcheck .
-
 open:
 	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome _build/html/index.html
 
