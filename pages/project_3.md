@@ -29,14 +29,14 @@ Put the following in a Markdown cell in your notebook and fill it out:
 
 <!-- https://myst-parser.readthedocs.io/en/latest/syntax/organising_content.html#inserting-other-documents-directly-into-the-current-document -->
 
-```{include} src/project_3_prompt.md
+```{include} ../src/project_3_prompt.md
 
 ```
 
 :::{admonition} Raw Markdown
 :class: dropdown
 
-```{literalinclude} src/project_3_prompt.md
+```{literalinclude} ../src/project_3_prompt.md
 :language: md
 ```
 

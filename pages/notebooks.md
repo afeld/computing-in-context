@@ -91,20 +91,20 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 
 If your published site looks like this:
 
-![Jekyll site](img/pages_build/jekyll.png)
+![Jekyll site](../img/pages_build/jekyll.png)
 
 _No navigation, search, etc._
 
 and you see a `pages-build-deployment` under your [Actions](https://docs.github.com/en/actions/how-tos/monitor-workflows/view-workflow-run-history):
 
-![GitHub Pages default Action](img/pages_build/action.png)
+![GitHub Pages default Action](../img/pages_build/action.png)
 
 1. Go through [the instructions](https://jupyterbook.org/stable/get-started/publish/#github-pages) again.
 1. [Commit](lab_8.ipynb#commit) and push a change.
    - It can be small.
 1. After build, confirm your site has navigation similar to this:
 
-   ![Jupyter Book](img/pages_build/jupyter_book.png)
+   ![Jupyter Book](../img/pages_build/jupyter_book.png)
 
 ## Submission
 

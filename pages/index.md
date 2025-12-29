@@ -4,7 +4,7 @@ site:
 ---
 
 <a href="https://www.sipa.columbia.edu/">
-  <img src="img/sipa.svg" style="max-height: none;" alt="Columbia SIPA banner">
+  <img src="../img/sipa.svg" style="max-height: none;" alt="Columbia SIPA banner">
 </a>
 
 ---
