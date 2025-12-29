@@ -12,16 +12,8 @@ make setup
 
 ## [Building the site](https://jupyterbook.org/v1/basics/build.html#build-via-the-command-line)
 
-Building the site from scratch and running tests:
-
 ```sh
-make
-```
-
-If just testing a change within a page:
-
-```sh
-make quick
+make site
 ```
 
 ## [Starting JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)
