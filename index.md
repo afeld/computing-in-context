@@ -1,10 +1,15 @@
-[![Columbia SIPA banner](img/sipa.svg)](https://www.sipa.columbia.edu/)
+---
+site:
+  hide_title_block: true
+---
+
+<a href="https://www.sipa.columbia.edu/">
+  <img src="img/sipa.svg" style="max-height: none;" alt="Columbia SIPA banner">
+</a>
 
 ---
 
-# Syllabus
-
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">Computing in Context, Fall 2025</p>
+# Computing in Context, Fall 2025
 
 ## Course Description
 
