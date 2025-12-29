@@ -113,8 +113,10 @@ You will submit via [Gradescope](https://courseworks2.columbia.edu/courses/23082
 - [Lab 8](lab_8.ipynb): Submit the URL to your [portfolio site](lab_8.ipynb) (`https://[username].github.io/`).
 - [Projects](projects.md):
   1. Add the notebook to your [portfolio site](lab_8.ipynb).
-     1. Add to the [table of contents](lab_8.ipynb#table-of-contents).
-     1. [Build, view, and push](lab_8.ipynb#build-the-site) the page.
+     1. Add to the [table of contents](https://jupyterbook.org/stable/authoring/table-of-contents/).
+     1. [View the page locally.](https://jupyterbook.org/stable/get-started/build-websites/)
+     1. Push the page.
+     1. Confirm it appears at `https://[username].github.io/project_[n].html` (or similar).
   1. Submit the link to the new page (like `https://[username].github.io/project_[number].html`).
 - Other Labs: Upload your notebook.
   - You can ignore Gradescope saying "Large file hidden". The TAs can download the notebook to view.
