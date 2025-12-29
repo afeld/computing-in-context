@@ -32,7 +32,7 @@ project:
         - file: test.md
         - file: curve.ipynb
         - file: analytics.ipynb
-    - file: redirects/lectures.md
+    - title: Lectures
       children:
         - url: https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j
           title: Lectures 1-14
@@ -55,7 +55,7 @@ project:
         - file: lecture_23.ipynb
         - file: lecture_24.md
         - file: lecture_25.ipynb
-    - file: redirects/labs.md
+    - title: Labs
       children:
         - url: https://courseworks2.columbia.edu/courses/226977/assignments
           title: Labs 1-7
@@ -79,7 +79,7 @@ project:
           children:
             - file: lab_12_guide.md
               title: Guide
-    - file: redirects/reading.md
+    - title: Reading
       children:
         - url: https://courseworks2.columbia.edu/courses/226977/assignments/syllabus
           title: Weeks 1-7
