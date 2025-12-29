@@ -11,7 +11,7 @@ project:
   license: CC0-1.0
   toc:
     - file: index.md
-    - file: course_info.md
+    - title: Course info
       children:
         # - url: https://courseworks2.columbia.edu/courses/226977
         #   title: Courseworks (combined)
