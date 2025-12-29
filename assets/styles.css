@@ -1,7 +1,3 @@
-html {
-  --columbia-blue: #201d5d;
-}
-
 /* match Google Docs styles for nested ordered lists */
 article ol ol li {
   list-style-type: lower-alpha;
