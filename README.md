@@ -10,7 +10,7 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 make setup
 ```
 
-## [Building the site](https://jupyterbook.org/v1/basics/build.html#build-via-the-command-line)
+## [Running the site locally](https://jupyterbook.org/stable/get-started/build-websites/#running-jupyter-book-start)
 
 ```sh
 make site

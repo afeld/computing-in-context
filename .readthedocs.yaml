@@ -4,7 +4,6 @@ version: 2
 
 build:
   os: ubuntu-lts-latest
-  # https://jupyterbook.org/v1/publish/readthedocs.html
   tools:
     nodejs: "24"
     python: "3"
