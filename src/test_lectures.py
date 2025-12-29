@@ -1,3 +1,4 @@
+import os
 import re
 from glob import glob
 
@@ -7,7 +8,7 @@ from pytest import approx
 
 from .nb_helper import is_code_cell, is_markdown, read_notebook
 
-lecture_notebooks = glob("lecture_[0-9][0-9].ipynb")
+lecture_notebooks = glob("pages/lecture_[0-9][0-9].ipynb")
 lecture_notebooks.sort()
 
 SLIDE_TOLERANCE = 4
@@ -43,13 +44,14 @@ def num_slides(cells: list[NotebookNode]):
 
 
 # see counts with `pytest -s -k num_slides`
-@pytest.mark.parametrize("file", lecture_notebooks)
-def test_num_slides(file):
+@pytest.mark.parametrize("full_path", lecture_notebooks)
+def test_num_slides(full_path):
     """Ensure there are a reasonable number of slides"""
 
-    notebook = read_notebook(file)
+    notebook = read_notebook(full_path)
 
     slide_count = num_slides(notebook.cells)
+    file = os.path.basename(full_path)
     print(f"{file}: {slide_count} slides")
 
     if "exercise" in file:

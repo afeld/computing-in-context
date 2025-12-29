@@ -1,11 +1,11 @@
-from glob import glob
 import re
+from glob import glob
 
 import pytest
 
 JINJA_EXPRESSION = re.compile(r"{{ ?\w+ ?}}")
 
-files = glob("*.ipynb") + glob("*.md")
+files = glob("pages/*.ipynb") + glob("pages/*.md")
 
 
 def get_content(file: str):
