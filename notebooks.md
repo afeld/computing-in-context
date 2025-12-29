@@ -65,11 +65,11 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 - [Mac: "The application is on a read-only volume."](https://stackoverflow.com/a/65422671/358804)
 - Confirm that [the packages were installed in the virtual environment](#installing-packages), not [globally](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
 
-### [Jupyter Book](https://jupyterbook.org/v1/)
+### [Jupyter Book](https://jupyterbook.org/)
 
 [This was set up in Lab 8.](lab_8.ipynb#jupyter-book)
 
-- **`jupyter-book: command not found`:**
+- **`Jupyter command `jupyter-book` not found.`:**
   1. [Activate the environment.](#activate-the-environment)
   1. Double-check you've done [the install](lab_8.ipynb#install).
 - **Plotly visualizations aren't appearing:**
@@ -99,10 +99,10 @@ and you see a `pages-build-deployment` under your [Actions](https://docs.github.
 
 ![GitHub Pages default Action](img/pages_build/action.png)
 
-1. [Change the `Source`.](https://jupyterbook.org/v1/publish/gh-pages.html#enable)
+1. Go through [the instructions](https://jupyterbook.org/stable/get-started/publish/#github-pages) again.
 1. [Commit](lab_8.ipynb#commit) and push a change.
    - It can be small.
-1. [After build, confirm](https://jupyterbook.org/v1/publish/gh-pages.html#confirm) your site looks like this:
+1. After build, confirm your site has navigation similar to this:
 
    ![Jupyter Book](img/pages_build/jupyter_book.png)
 
