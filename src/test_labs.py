@@ -1,11 +1,16 @@
+import itertools
 import os
-from glob import glob
 
 import pytest
 
-from .nb_helper import is_code_cell, read_notebook
+from .nb_helper import PAGES_DIR, is_code_cell, read_notebook
 
-lab_notebooks = glob("pages/lab_[0-9].ipynb") + glob("pages/lab_[0-9][0-9].ipynb")
+lab_notebooks = list(
+    itertools.chain(
+        PAGES_DIR.glob("pages/lab_[0-9].ipynb"),
+        PAGES_DIR.glob("lab_[0-9][0-9].ipynb"),
+    )
+)
 lab_notebooks.sort()
 
 
@@ -36,7 +41,7 @@ def test_submit_info(file):
     assert "https://computing-in-context.afeld.me/notebooks.html#submission" in content
 
 
-lab_guides = glob("pages/lab_*_guide.md")
+lab_guides = list(PAGES_DIR.glob("lab_*_guide.md"))
 
 
 @pytest.mark.parametrize("file", lab_guides)

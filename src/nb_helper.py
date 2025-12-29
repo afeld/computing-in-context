@@ -1,7 +1,14 @@
+from pathlib import Path
+
 import nbformat
 
+PAGES_DIR = Path(__file__).parent.parent / "pages"
 
-def read_notebook(notebook_path):
+NOTEBOOKS = list(PAGES_DIR.glob("*.ipynb"))
+NOTEBOOKS.sort()
+
+
+def read_notebook(notebook_path: Path):
     return nbformat.read(notebook_path, as_version=4)
 
 

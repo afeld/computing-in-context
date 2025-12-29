@@ -1,11 +1,13 @@
+import itertools
 import re
-from glob import glob
 
 import pytest
 
+from src.nb_helper import NOTEBOOKS, PAGES_DIR
+
 JINJA_EXPRESSION = re.compile(r"{{ ?\w+ ?}}")
 
-files = glob("pages/*.ipynb") + glob("pages/*.md")
+files = list(itertools.chain(NOTEBOOKS, PAGES_DIR.glob("*.md")))
 
 
 def get_content(file: str):

@@ -1,8 +1,8 @@
-from glob import glob
-
 import pytest
 
-projects = glob("pages/project_*.md")
+from src.nb_helper import PAGES_DIR
+
+projects = list(PAGES_DIR.glob("project_*.md"))
 
 
 @pytest.mark.parametrize("file", projects)

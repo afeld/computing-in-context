@@ -1,13 +1,13 @@
 import ast
 import re
-from glob import glob
+from pathlib import Path
 from typing import Union
 
 import pytest
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
 
-from .nb_helper import is_code_cell, is_h1, is_markdown, is_python, read_notebook
+from .nb_helper import NOTEBOOKS, is_code_cell, is_h1, is_markdown, is_python, read_notebook
 
 
 def check_metadata(notebook, expected_kernel):
@@ -18,21 +18,17 @@ def check_metadata(notebook, expected_kernel):
     assert metadata.language_info.version.startswith("3.")
 
 
-def check_file(file, expected_kernel="python3"):
+def check_file(file: Path, expected_kernel="python3"):
     notebook = read_notebook(file)
     check_metadata(notebook, expected_kernel)
 
 
-notebooks = glob("pages/*.ipynb")
-notebooks.sort()
-
-
-@pytest.mark.parametrize("notebook", notebooks)
+@pytest.mark.parametrize("notebook", NOTEBOOKS)
 def test_class_notebooks(notebook):
     check_file(notebook)
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_one_h1(file):
     notebook = read_notebook(file)
     h1s = [cell.source.split("\n")[0] for cell in notebook.cells if is_h1(cell)]
@@ -47,7 +43,7 @@ def has_slides(notebook):
     return any(get_slide_type(cell) == "slide" for cell in notebook.cells)
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_heading_levels(file):
     notebook = read_notebook(file)
 
@@ -87,7 +83,7 @@ def check_link(token: Token, parent: Token | None = None):
             assert False, f"Link should be absolute. Text:\n\n{source}\n"
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_links(file):
     """To ensure that links work from the coding environment, ensure all links are absolute."""
 
@@ -134,7 +130,7 @@ def get_tags(cell):
     return cell.metadata.get("tags", [])
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_chart_titles(file):
     """Make sure all charts have titles"""
 
@@ -159,7 +155,7 @@ def num_lines(output):
     return text.count("\n")
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_long_outputs_scrolled(file):
     notebook = read_notebook(file)
 
@@ -173,7 +169,7 @@ def test_long_outputs_scrolled(file):
                         assert cell.metadata.get("scrolled"), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_no_python_public_policy_tags(file):
     notebook = read_notebook(file)
 
@@ -183,7 +179,7 @@ def test_no_python_public_policy_tags(file):
             assert tag not in tags, f"Notebook contains a `{tag}` tag. Cell:\n\n{cell.source}\n"
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", NOTEBOOKS)
 def test_plotly_renderer_configured(file):
     """If a notebook imports plotly, ensure it sets the correct renderer.
 

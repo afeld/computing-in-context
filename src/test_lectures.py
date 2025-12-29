@@ -1,14 +1,13 @@
 import os
 import re
-from glob import glob
 
 import pytest
 from nbformat import NotebookNode
 from pytest import approx
 
-from .nb_helper import is_code_cell, is_markdown, read_notebook
+from .nb_helper import PAGES_DIR, is_code_cell, is_markdown, read_notebook
 
-lecture_notebooks = glob("pages/lecture_[0-9][0-9].ipynb")
+lecture_notebooks = list(PAGES_DIR.glob("lecture_[0-9][0-9].ipynb"))
 lecture_notebooks.sort()
 
 SLIDE_TOLERANCE = 4
