@@ -1,5 +1,3 @@
-all: site open test lint
-
 setup:
 	python -m venv .venv
 	. .venv/bin/activate && \
@@ -13,22 +11,8 @@ update:
 lab:
 	jupyter lab
 
-clean:
-	rm *.slides.html || true
-	jupyter-book clean .
-
-quick:
-	# https://jupyterbook.org/v1/content/references.html#check-for-missing-references
-	# https://jupyterbook.org/v1/advanced/sphinx.html#enable-a-custom-sphinx-builder-from-the-cli
-	jupyter-book build -W -n --keep-going .
-
-open_site:
-	open _build/html/index.html
-
-site: clean quick open_site
-
-open:
-	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome _build/html/index.html
+site:
+	jupyter book start
 
 # https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs
 slides:

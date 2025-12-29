@@ -11,32 +11,11 @@ article ol ol ol li {
 }
 
 /* keep outputs from being too long */
-.cell_output .output {
+.myst-jp-safe-output-text,
+.myst-jp-stream-output {
   max-height: 20rem;
-  overflow-y: auto;
-
-  /* for HTML outputs, go a bit longer, since this includes things like visualizations */
-  &.text_html {
-    max-height: 40rem;
-  }
 }
-
-/* top nav bar */
-.bd-header-article {
-  --pst-color-background: var(--columbia-blue);
-
-  .btn {
-    --pst-color-text-base: white;
-    --pst-color-text-muted: white;
-  }
-
-  /* undo for dropdown menus */
-  .dropdown-menu {
-    --pst-color-background: white;
-
-    .btn {
-      --pst-color-text-base: #323232;
-      --pst-color-text-muted: #646464;
-    }
-  }
+/* for HTML outputs, go a bit longer, since this includes things like visualizations */
+.jp-RenderedHTML {
+  max-height: 40rem;
 }

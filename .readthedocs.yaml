@@ -1,19 +1,17 @@
 # https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#id2
+# https://github.com/jupyter-book/jupyter-book/blob/main/.readthedocs.yaml
 version: 2
-
-python:
-  install:
-    - requirements: requirements.txt
 
 build:
   os: ubuntu-lts-latest
   # https://jupyterbook.org/v1/publish/readthedocs.html
   tools:
+    nodejs: "24"
     python: "3"
   jobs:
-    pre_build:
-      - jupyter-book config sphinx .
-
-sphinx:
-  # https://about.readthedocs.com/blog/2024/12/deprecate-config-files-without-sphinx-or-mkdocs-config/
-  configuration: conf.py
+    build:
+      html:
+        - pip install -r requirements.txt
+        - mkdir -p $READTHEDOCS_OUTPUT/html/
+        - jupyter book build --html
+        - cp -a _build/html/. "$READTHEDOCS_OUTPUT/html" && rm -r _build
