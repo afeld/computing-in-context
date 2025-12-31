@@ -2,7 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/computing-in-context/badge/?version=latest)](https://computing-in-context.afeld.me/?badge=latest)
 
-Built using [Jupyter Book](https://jupyterbook.org/).
+Built using [mkdocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/) and [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter).
 
 ## Setup
 
