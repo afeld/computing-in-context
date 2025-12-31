@@ -1,29 +1,50 @@
-const markdownIt = require("markdown-it");
-const hljs = require("highlight.js");
-const { ipynbPlugin } = require("./src/eleventy-ipynb");
+const path = require("node:path");
+const { execFile } = require("node:child_process");
+const { promisify } = require("node:util");
+
+const execFileAsync = promisify(execFile);
+
+const pythonInterpreter = (() => {
+  if (process.env.PYTHON) return process.env.PYTHON;
+  if (process.env.VIRTUAL_ENV) {
+    return path.join(process.env.VIRTUAL_ENV, "bin", "python");
+  }
+  return "python";
+})();
+
+async function renderNotebookWithNbconvert(inputPath) {
+  const { stdout } = await execFileAsync(
+    pythonInterpreter,
+    [
+      "-m",
+      "nbconvert",
+      "--to",
+      "html",
+      "--template",
+      "lab",
+      "--stdout",
+      inputPath,
+    ],
+    { maxBuffer: 100 * 1024 * 1024 }
+  );
+  return stdout;
+}
 
 module.exports = function (eleventyConfig) {
-  const md = markdownIt({
-    html: true,
-    linkify: true,
-    breaks: true,
-    highlight(str, lang) {
-      if (lang && hljs.getLanguage(lang)) {
-        try {
-          const highlighted = hljs.highlight(str, { language: lang }).value;
-          return `<pre class="hljs"><code class="language-${lang}">${highlighted}</code></pre>`;
-        } catch (err) {
-          // fall through to escaped output below
-        }
-      }
-      const escaped = md.utils.escapeHtml(str);
-      return `<pre class="hljs"><code>${escaped}</code></pre>`;
+  eleventyConfig.addExtension("ipynb", {
+    key: "ipynb",
+    outputFileExtension: "html",
+    read: false,
+    async getData() {
+      return {
+        layout: null,
+      };
+    },
+    async compile(_content, inputPath) {
+      const html = await renderNotebookWithNbconvert(inputPath);
+      return () => html;
     },
   });
-
-  eleventyConfig.setLibrary("md", md);
-
-  eleventyConfig.addPlugin(ipynbPlugin);
 
   eleventyConfig.addGlobalData("layout", "layouts/base.njk");
 

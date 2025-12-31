@@ -28,10 +28,13 @@ To browse the Markdown and notebooks in `pages/` without Jupyter Book:
 
 ```sh
 npm install
+# ensure the Python env with nbconvert is active
+source .venv/bin/activate
+export PYTHON="$VIRTUAL_ENV/bin/python"
 npm run serve
 ```
 
-The site will build to `_site/` and will live-reload while developing. Jupyter notebooks are rendered through a custom Eleventy template type.
+The site will build to `_site/` and will live-reload while developing. Notebooks are converted to HTML using `nbconvert`'s built-in templates (no custom renderer required).
 
 ## Slides
 
