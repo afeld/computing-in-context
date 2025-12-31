@@ -3,6 +3,9 @@
 *.zip
 data/
 
+node_modules/
+_site/
+
 __pycache__/
 _build/
 .ipynb_checkpoints/
