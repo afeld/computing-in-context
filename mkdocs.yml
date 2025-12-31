@@ -11,10 +11,14 @@ extra_css:
 
 theme:
   name: material
+  custom_dir: _templates
 
 plugins:
   - search
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      # https://github.com/danielfrg/mkdocs-jupyter?tab=readme-ov-file#download-notebook-link
+      include_source: true
+      execute: false
 
 nav:
   - Home: index.md
