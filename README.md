@@ -22,6 +22,17 @@ make site
 make lab
 ```
 
+## Eleventy site for `pages/`
+
+To browse the Markdown and notebooks in `pages/` without Jupyter Book:
+
+```sh
+npm install
+npm run serve
+```
+
+The site will build to `_site/` and will live-reload while developing. Jupyter notebooks are rendered through a custom Eleventy template type.
+
 ## Slides
 
 ### Presenting
