@@ -2,7 +2,7 @@
 
 ## General guidance
 
-- This site is built from Jupyter notebooks and Markdown files using [Jupyter Book](https://jupyterbook.org/). You can take a look at [the source code](https://github.com/afeld/computing-in-context), if curious.
+- This site is built from Jupyter notebooks and Markdown files using [mkdocs](https://www.mkdocs.org/) with [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter). You can take a look at [the source code](https://github.com/afeld/computing-in-context), if curious.
 - Labs are structured, while [Projects](projects.md) are more open-ended. Both are meant to be challenging, but not impossible.
   - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
     - [Ed](https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless)
@@ -91,20 +91,20 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 
 If your published site looks like this:
 
-![Jekyll site](../img/pages_build/jekyll.png)
+![Jekyll site](img/pages_build/jekyll.png)
 
 _No navigation, search, etc._
 
 and you see a `pages-build-deployment` under your [Actions](https://docs.github.com/en/actions/how-tos/monitor-workflows/view-workflow-run-history):
 
-![GitHub Pages default Action](../img/pages_build/action.png)
+![GitHub Pages default Action](img/pages_build/action.png)
 
 1. Go through [the instructions](https://jupyterbook.org/stable/get-started/publish/#github-pages) again.
 1. [Commit](lab_8.ipynb#commit) and push a change.
    - It can be small.
 1. After build, confirm your site has navigation similar to this:
 
-   ![Jupyter Book](../img/pages_build/jupyter_book.png)
+   ![Jupyter Book](img/pages_build/jupyter_book.png)
 
 ## Submission
 

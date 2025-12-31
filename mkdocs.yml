@@ -1,0 +1,65 @@
+site_name: Computing in Context (SIPA)
+site_url: https://computing-in-context.afeld.me/
+repo_url: https://github.com/afeld/computing-in-context
+repo_name: afeld/computing-in-context
+
+docs_dir: pages
+site_dir: _site
+
+extra_css:
+  - ../assets/styles.css
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - Course Info:
+      - Courseworks (SIPA): "https://courseworks2.columbia.edu/courses/230821"
+      - Gradescope (SIPA): "https://courseworks2.columbia.edu/courses/230821/external_tools/29680?display=borderless"
+      - Ed Discussion (SIPA): "https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless"
+      - Office Hours: office_hours.md
+      - Resources: "https://python-public-policy.afeld.me/en/columbia/resources.html"
+      - Notebooks Guide: notebooks.md
+      - Curve: curve.ipynb
+      - Analytics: analytics.ipynb
+  - Lectures:
+      - Lectures 1-14: "https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j"
+      - Lecture 15: lecture_15.ipynb
+      - Lecture 16: lecture_16.ipynb
+      - Lecture 17: lecture_17.ipynb
+      - Lecture 18: lecture_18.ipynb
+      - Lecture 19: lecture_19.ipynb
+      - Lecture 20: lecture_20.ipynb
+      - Lecture 21: lecture_21.ipynb
+      - Lecture 22: lecture_22.ipynb
+      - Lecture 23: lecture_23.ipynb
+      - Lecture 24: lecture_24.md
+      - Lecture 25: lecture_25.ipynb
+  - Labs:
+      - Lab 8: lab_8.ipynb
+      - Lab 9: lab_9.ipynb
+      - Lab 10: lab_10.ipynb
+      - Lab 11: lab_11.ipynb
+      - Lab 12: lab_12.ipynb
+  - Weekly Modules:
+      - Week 8: week_8.md
+      - Week 9: week_9.md
+      - Week 10: week_10.md
+      - Week 11: week_11.md
+      - Week 12: week_12.md
+  - Projects:
+      - Projects: projects.md
+      - Project 1: project_1.md
+      - Project 2: project_2.md
+      - Project 3: project_3.md
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
