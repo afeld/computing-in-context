@@ -5,7 +5,7 @@
   "description": "11ty build for Computing in Context pages",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve",
+    "serve": "eleventy --serve --incremental",
     "clean": "rm -rf _site"
   },
   "devDependencies": {
