@@ -12,7 +12,7 @@ lab:
 	jupyter lab
 
 site:
-	mkdocs serve
+	mkdocs serve --dirty
 
 # https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs
 slides:
