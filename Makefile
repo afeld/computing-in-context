@@ -4,8 +4,7 @@ setup:
 	pip install -r requirements.txt
 
 update:
-	. .venv/bin/activate && \
-	pip install --upgrade pip && \
+	pip install --upgrade pip
 	pip install --upgrade -r requirements.txt
 
 lab:
@@ -18,7 +17,6 @@ site:
 # create redirects from old URL structure
 # https://github.com/jupyter-book/jb1-redirect-generator
 html:
-	. .venv/bin/activate && \
 	cd pages && \
 	jupyter book build --html && \
 	wget -N https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py && \
