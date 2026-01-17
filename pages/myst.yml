@@ -3,14 +3,10 @@ project:
   title: Computing in Context (SIPA)
   authors:
     - name: Aidan Feldman
-  exclude:
-    - .github/*
-    - .pytest_cache/*
-    - .venv/*
   github: afeld/computing-in-context
   license: CC0-1.0
   toc:
-    - file: pages/index.md
+    - file: index.md
     - title: Course info
       children:
         # - url: https://courseworks2.columbia.edu/courses/226977
@@ -25,74 +21,74 @@ project:
         #   title: Ed Discussion (combined)
         - url: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless
           title: Ed Discussion (SIPA)
-        - file: pages/office_hours.md
+        - file: office_hours.md
         - url: https://python-public-policy.afeld.me/en/columbia/resources.html
           title: Resources
-        - file: pages/notebooks.md
-        - file: pages/test.md
-        - file: pages/curve.ipynb
-        - file: pages/analytics.ipynb
+        - file: notebooks.md
+        - file: test.md
+        - file: curve.ipynb
+        - file: analytics.ipynb
     - title: Lectures
       children:
         - url: https://drive.google.com/drive/folders/1DSDO-BBdJ7b7Im6osWGzn49Cw_snw96j
           title: Lectures 1-14
-        - file: pages/lecture_15.ipynb
-        - file: pages/lecture_16.ipynb
-        - file: pages/lecture_17.ipynb
-        - file: pages/lecture_18.ipynb
+        - file: lecture_15.ipynb
+        - file: lecture_16.ipynb
+        - file: lecture_17.ipynb
+        - file: lecture_18.ipynb
           children:
-            - file: pages/lecture_18_demo_solution.ipynb
+            - file: lecture_18_demo_solution.ipynb
               title: Demo solution
-        - file: pages/lecture_19.ipynb
-        - file: pages/lecture_20.ipynb
-        - file: pages/lecture_21.ipynb
+        - file: lecture_19.ipynb
+        - file: lecture_20.ipynb
+        - file: lecture_21.ipynb
           children:
-            - file: pages/lecture_21_exercise_solution.ipynb
+            - file: lecture_21_exercise_solution.ipynb
               title: Exercise solution
-            - file: pages/lecture_21_demo_solution.ipynb
+            - file: lecture_21_demo_solution.ipynb
               title: Demo solution
-        - file: pages/lecture_22.ipynb
-        - file: pages/lecture_23.ipynb
-        - file: pages/lecture_24.md
-        - file: pages/lecture_25.ipynb
+        - file: lecture_22.ipynb
+        - file: lecture_23.ipynb
+        - file: lecture_24.md
+        - file: lecture_25.ipynb
     - title: Labs
       children:
         - url: https://courseworks2.columbia.edu/courses/226977/assignments
           title: Labs 1-7
-        - file: pages/lab_8.ipynb
+        - file: lab_8.ipynb
           children:
-            - file: pages/lab_8_guide.md
+            - file: lab_8_guide.md
               title: Guide
-        - file: pages/lab_9.ipynb
+        - file: lab_9.ipynb
           children:
-            - file: pages/lab_9_guide.md
+            - file: lab_9_guide.md
               title: Guide
-        - file: pages/lab_10.ipynb
+        - file: lab_10.ipynb
           children:
-            - file: pages/lab_10_guide.md
+            - file: lab_10_guide.md
               title: Guide
-        - file: pages/lab_11.ipynb
+        - file: lab_11.ipynb
           children:
-            - file: pages/lab_11_guide.md
+            - file: lab_11_guide.md
               title: Guide
-        - file: pages/lab_12.ipynb
+        - file: lab_12.ipynb
           children:
-            - file: pages/lab_12_guide.md
+            - file: lab_12_guide.md
               title: Guide
     - title: Reading
       children:
         - url: https://courseworks2.columbia.edu/courses/226977/assignments/syllabus
           title: Weeks 1-7
-        - file: pages/week_8.md
-        - file: pages/week_9.md
-        - file: pages/week_10.md
-        - file: pages/week_11.md
-        - file: pages/week_12.md
-    - file: pages/projects.md
+        - file: week_8.md
+        - file: week_9.md
+        - file: week_10.md
+        - file: week_11.md
+        - file: week_12.md
+    - file: projects.md
       children:
         - url: https://courseworks2.columbia.edu/courses/226977/assignments
           title: Homeworks 1-3
-        - pattern: pages/project_*
+        - pattern: project_*
   # https://mystmd.org/guide/settings#error-rules
   error_rules:
     # notebooks have a lot of duplicate identifiers
@@ -105,7 +101,7 @@ project:
 site:
   template: book-theme
   parts:
-    primary_sidebar_footer: src/primary_sidebar_footer.md
+    primary_sidebar_footer: partials/primary_sidebar_footer.md
   options:
     # https://myst-theme.netlify.app/ui/#hide-authors
     hide_authors: true

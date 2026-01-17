@@ -6,11 +6,11 @@ build:
   os: ubuntu-lts-latest
   tools:
     nodejs: "24"
-    python: "3"
+    python: "3.14"
   jobs:
     build:
       html:
         - pip install -r requirements.txt
         - mkdir -p $READTHEDOCS_OUTPUT/html/
-        - jupyter book build --html
-        - cp -a _build/html/. "$READTHEDOCS_OUTPUT/html" && rm -r _build
+        - make html
+        - cp -a pages/_build/html/. "$READTHEDOCS_OUTPUT/html"
