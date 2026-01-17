@@ -1,7 +1,7 @@
 #*.csv
 /*.html
 *.zip
-data/
+/data/
 
 __pycache__/
 _build/
@@ -12,3 +12,5 @@ tmp/
 !.vscode/settings.json
 
 .venv/
+
+generate_redirects.py

@@ -10,11 +10,7 @@ build:
   jobs:
     build:
       html:
-        # https://github.com/jupyter-book/jb1-redirect-generator?tab=readme-ov-file#prerequisites
-        - pip install -r requirements.txt pyyaml click
+        - pip install -r requirements.txt
         - mkdir -p $READTHEDOCS_OUTPUT/html/
-        - jupyter book build --html
-        # create redirects from old URL structure
-        - wget https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py
-        - python generate_redirects.py --base-url https://computing-in-context.afeld.me/
-        - cp -a _build/html/. "$READTHEDOCS_OUTPUT/html" && rm -r _build
+        - make html
+        - cp -a pages/_build/html/. "$READTHEDOCS_OUTPUT/html"

@@ -38,18 +38,13 @@ jobs:
           python-version: "3.14"
           cache: pip
       - name: Install dependencies
-        # https://github.com/jupyter-book/jb1-redirect-generator?tab=readme-ov-file#prerequisites
-        run: pip install -r requirements.txt click pyyaml
+        run: pip install -r requirements.txt
       - name: Build HTML Assets
-        run: jupyter book build --html
-      - name: Create redirects from old URL structure
-        run: |
-          wget https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py
-          python generate_redirects.py --base-url https://computing-in-context.afeld.me/
+        run: make html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "./_build/html"
+          path: "./pages/_build/html"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

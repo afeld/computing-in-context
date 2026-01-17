@@ -18,3 +18,7 @@ pytest
 requests
 ruff
 statsmodels
+
+# https://github.com/jupyter-book/jb1-redirect-generator/tree/main?tab=readme-ov-file#prerequisites
+click
+pyyaml
