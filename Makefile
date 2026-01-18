@@ -14,12 +14,15 @@ site:
 	cd pages && \
 	jupyter book start
 
+clean:
+	cd pages && \
+	jupyter book clean -y
+
 # create redirects from old URL structure
 # https://github.com/jupyter-book/jb1-redirect-generator
 html:
 	cd pages && \
 	jupyter book build --html && \
-	wget -N https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py && \
 	python generate_redirects.py --base-url https://computing-in-context.afeld.me/
 
 # https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs
