@@ -178,6 +178,10 @@ You are responsible for getting caught up on what was covered, without asking th
 
 See the [combined syllabus][combined-syl].
 
+### Devices
+
+To encourage focus and participation, students are asked to keep laptops closed and phones away in lecture by default. (Accommodations for students with disabilities are an exception.) You'll be asked to open the laptops for in-class exercises.
+
 ### Academic Integrity
 
 If you are copying and pasting from a source (see below), it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where possible) is fine.
