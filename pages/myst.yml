@@ -89,6 +89,8 @@ project:
         - url: https://courseworks2.columbia.edu/courses/226977/assignments
           title: Homeworks 1-3
         - pattern: project_*
+    - file: portfolio_site_workshop.ipynb
+      hidden: true
   # https://mystmd.org/guide/settings#error-rules
   error_rules:
     # notebooks have a lot of duplicate identifiers
