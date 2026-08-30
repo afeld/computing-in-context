@@ -1,7 +1,6 @@
 import ast
 import re
 from pathlib import Path
-from typing import Union
 
 import pytest
 from markdown_it import MarkdownIt
@@ -105,7 +104,7 @@ def test_links(file):
                         check_link(child, token)
 
 
-def base_obj(node: ast.Call) -> Union[str, None]:
+def base_obj(node: ast.Call) -> str | None:
     """If this is a method call, return the name of the base object it was called on"""
     if isinstance(node.func, ast.Attribute) and isinstance(node.func.value, ast.Name):
         return node.func.value.id

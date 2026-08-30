@@ -5,3 +5,4 @@ line-length = 150
 # ignore the provided code
 "lab_11.ipynb" = ["F821"]
 "lecture_18.ipynb" = ["F821"]
+"pages/generate_redirects.py" = ["ALL"]
