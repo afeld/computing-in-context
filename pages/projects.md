@@ -11,7 +11,7 @@ _We grade with [negative scoring](https://guides.gradescope.com/hc/en-us/article
 All Projects must:
 
 - **Be done in a Jupyter notebook** (or -5 points)
-- **Follow the [style guide](https://courseworks2.columbia.edu/courses/226977/files?preview=24687098)** (or -5 points)
+- **Follow the [style guide](https://courseworks2.columbia.edu/courses/251473/files?preview=24687098)** (or -5 points)
 - **Use at least one dataset you aren't familiar with**
   - Using data from a primary source is preferred.
   - Using a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).

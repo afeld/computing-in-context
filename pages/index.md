@@ -9,7 +9,7 @@ site:
 
 ---
 
-# Computing in Context, Fall 2025
+# Computing in Context, Fall 2026
 
 ## Course Description
 
@@ -17,31 +17,31 @@ This introductory course will explore computing concepts and coding in the conte
 
 ## Course Information
 
-- **Course Number:** [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786), formerly INAFU6006
+- **Course Number:** [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20263/105786), formerly INAFU6006
 - **Credits:** 3
 - **Prerequisites:** none
 
 ### Instructors
 
-- **First half:** [Mark Santolucito](https://cs.barnard.edu/profiles/mark-santolucito), msantolu@barnard.edu
+- **First half:** [Adam Cannon](https://www.engineering.columbia.edu/faculty-staff/directory/adam-cannon), cannon@cs.columbia.edu
 - **Second half:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 
 ### Teaching Assistants (TAs)
 
 Section 1:
 
-- Adithi Narayan, an3308@columbia.edu
-- Riya Raj, rr3630@columbia.edu
+- Aria Kovalovich - aak2257@columbia.edu
+- Sophia Cain - sac2318@columbia.edu
 
 Section 2:
 
-- Shruti Das, sd3875@columbia.edu
-- Sneha Palle, sp4434@columbia.edu
+- Mery Situmorang - mhs2231@columbia.edu
+- Sam Fu - sf3318@columbia.edu
 
 ## Meeting Information
 
 - All class sessions take place in [IAB](https://maps.app.goo.gl/o1jz3y9X1rT1b8KW7).
-- For [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786), you need to register for the lectures but _don't_ need to register for the labs separately.
+- For [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20263/105786), you need to register for the lectures but _don't_ need to register for the labs separately.
   - This isn't clear in Vergil, at time of writing.
 - Students should bring a laptop to all labs.
 - See [Contexts and Structure](#contexts-and-structure) for more details on how the course is organized.
@@ -49,19 +49,19 @@ Section 2:
 
 ### Section 1
 
-| Component | Part of term | Start  | End    | Days                   | Times       | Room | Led by           | Contexts  |
-| --------- | ------------ | ------ | ------ | ---------------------- | ----------- | ---- | ---------------- | --------- |
-| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm | 417  | Mark Santolucito | Combined  |
-|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 1:10-2:25pm | 410  | Aidan Feldman    | SIPA only |
-| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | 1-2:30pm    | 411  | TAs              | SIPA only |
+| Component | Part of term | Start  | End    | Days                   | Times       | Room | Led by        | Contexts  |
+| --------- | ------------ | ------ | ------ | ---------------------- | ----------- | ---- | ------------- | --------- |
+| Lecture   | First half   | Sep 8  | Oct 22 | Tuesdays and Thursdays | 1:10-2:25pm | 417  | Adam Cannon   | Combined  |
+|           | Second half  | Oct 27 | Dec 10 | Tuesdays and Thursdays | 1:10-2:25pm | 410  | Aidan Feldman | SIPA only |
+| Lab       | Full         | Sep 11 | Dec 11 | Fridays                | 1-2:30pm    | 411  | TAs           | SIPA only |
 
 ### Section 2
 
-| Component | Part of term | Start  | End    | Days                   | Times         | Room | Led by           | Contexts  |
-| --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ---------------- | --------- |
-| Lecture   | First half   | Sep 2  | Oct 16 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Mark Santolucito | Combined  |
-|           | Second half  | Oct 21 | Dec 4  | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman    | SIPA only |
-| Lab       | Full         | Sep 5  | Dec 5  | Fridays                | 2:40-4:10pm   | 411  | TAs              | SIPA only |
+| Component | Part of term | Start  | End    | Days                   | Times         | Room | Led by        | Contexts  |
+| --------- | ------------ | ------ | ------ | ---------------------- | ------------- | ---- | ------------- | --------- |
+| Lecture   | First half   | Sep 8  | Oct 22 | Tuesdays and Thursdays | 1:10-2:25pm   | 417  | Adam Cannon   | Combined  |
+|           | Second half  | Oct 27 | Dec 10 | Tuesdays and Thursdays | 3:10–4:25pm\* | 410  | Aidan Feldman | SIPA only |
+| Lab       | Full         | Sep 11 | Dec 11 | Fridays                | 2:40-4:10pm   | 411  | TAs           | SIPA only |
 
 \*Note that the lecture time is different for the second half of the semester.
 
@@ -74,9 +74,9 @@ Section 2:
 
 ### Contexts and Structure
 
-Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20253/37508), SIPA's are [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20253/105786).
+Computing in Context has multiple sections, each of which correspond to a different "context". Most are listed under the course number [COMS1002W](https://vergil.columbia.edu/vergil/course/20263/37508), SIPA's are [DSPC6000IA](https://vergil.columbia.edu/vergil/course/20263/105786).
 
-The lectures in the first half of the semester have students from multiple contexts, and are taught by Mark Santolucito. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (a.k.a. recitations) are context-specific are context-specific the entire semester.
+The lectures in the first half of the semester have students from multiple contexts, and are taught by Adam Cannon. The lectures in the second half of the semester are context-specific; SIPA's are taught by Aidan Feldman. The labs (a.k.a. recitations) are context-specific are context-specific the entire semester.
 
 For example, let's say a student is in SIPA (DSPC6000IA) section 1. The first half of the semester, they will attend combined lectures with students from Biology, Linguistics, etc., while doing labs with just their SIPA section. The second half of the semester, they will have both lectures and labs with their SIPA section only.
 
@@ -101,32 +101,32 @@ To sign up for the test, contact [Aidan](#instructors).
 
 ## Grading
 
-See the [combined syllabus](https://courseworks2.columbia.edu/courses/226977) for details. See Gradescope for the assignment rubrics. The final grades for each SIPA section will be [curved](curve.ipynb).
+See the [combined syllabus][combined-syl] for details. See Gradescope for the assignment rubrics. The final grades for each SIPA section will be [curved](curve.ipynb).
 
 ## Schedule
 
 For weeks 1-7, see [the combined syllabus][combined-syl].
 
-| Week | Tuesday                                                                                                               | Thursday                            | Friday                                                                                                                                                        |
-| ---- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8    | **Oct 21**<br/>[](lecture_15.ipynb); [new location and instructor](#meeting-information)<hr/>[Lab 7][lab7] due 6pm ET | **Oct 23**<br/>[](lecture_16.ipynb) | **Oct 24**<br/>[Reading](week_8.md) due before lab<hr/>[Lab 8: Publishing on the web](lab_8_guide.md)                                                         |
-| 9    | **Oct 28**<br/>[](lecture_17.ipynb)<hr/>[Lab 8](lab_8.ipynb) due 6pm ET                                               | **Oct 30**<br/>[](lecture_18.ipynb) | **Oct 31**<br/>[Reading](week_9.md) due before lab<hr/>[Lab 9: Working with data](lab_9_guide.md)                                                             |
-| 10   | **Nov 4**<br/>None (Election Day)<hr/>[Lab 9](lab_9.ipynb) due 6pm ET                                                 | **Nov 6**<br/>[](lecture_19.ipynb)  | **Nov 7**<br/>[Reading](week_10.md) due before lab<hr/>[Lab 10: Data cleaning and joining](lab_10_guide.md)<hr/>[Project 1](project_1.md) due 11:59pm ET      |
-| 11   | **Nov 11**<br/>[](lecture_20.ipynb)<hr/>[Lab 10](lab_10.ipynb) due 6pm ET                                             | **Nov 13**<br/>[](lecture_21.ipynb) | **Nov 14**<br/>[Reading](week_11.md) due before lab<hr/>[Lab 11: Data visualization](lab_11_guide.md)                                                         |
-| 12   | **Nov 18**<br/>[](lecture_22.ipynb)<hr/>[Lab 11](lab_11.ipynb) due 6pm ET                                             | **Nov 20**<br/>[](lecture_23.ipynb) | **Nov 21**<br/>[Reading](week_12.md) due before lab<hr/>[Lab 12: APIs and time series analysis](lab_12_guide.md)<hr/>[Project 2](project_2.md) due 11:59pm ET |
-| 13   | **Nov 25**<br/>[](lecture_24.md) ([virtual][zoom])<hr/>[Lab 12](lab_12.ipynb) due 6pm ET                              | **Nov 27**<br/>None (Thanksgiving)  | **Nov 28**<br/>None (Thanksgiving)                                                                                                                            |
-| 14   | **Dec 2**<br/>[](lecture_25.ipynb)                                                                                    | **Dec 4**<br/>[Test](test.md)       | **Dec 5**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due 11:59pm ET                                                                            |
+| Week | Tuesday                                                                                                               | Thursday                            | Friday                                                                                                                                                       |
+| ---- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8    | **Oct 27**<br/>[](lecture_15.ipynb); [new location and instructor](#meeting-information)<hr/>[Lab 7][lab7] due 6pm ET | **Oct 29**<br/>[](lecture_16.ipynb) | **Oct 30**<br/>[Reading](week_8.md) due before lab<hr/>[Lab 8: Publishing on the web](lab_8_guide.md)                                                        |
+| 9    | **Nov 3**<br/>None (Election Day)<hr/>[Lab 8](lab_8.ipynb) due 6pm ET                                                 | **Nov 5**<br/>[](lecture_17.ipynb)  | **Nov 6**<br/>[Reading](week_9.md) due before lab<hr/>[Lab 9: Working with data](lab_9_guide.md)                                                             |
+| 10   | **Nov 10**<br/>[](lecture_18.ipynb)<hr/>[Lab 9](lab_9.ipynb) due 6pm ET                                               | **Nov 12**<br/>[](lecture_19.ipynb) | **Nov 13**<br/>[Reading](week_10.md) due before lab<hr/>[Lab 10: Data cleaning and joining](lab_10_guide.md)<hr/>[Project 1](project_1.md) due 11:59pm ET    |
+| 11   | **Nov 17**<br/>[](lecture_20.ipynb)<hr/>[Lab 10](lab_10.ipynb) due 6pm ET                                             | **Nov 19**<br/>[](lecture_21.ipynb) | **Nov 20**<br/>[Reading](week_11.md) due before lab<hr/>[Lab 11: Data visualization](lab_11_guide.md)                                                        |
+| 12   | **Nov 24**<br/>[](lecture_22.ipynb)<hr/>[Lab 11](lab_11.ipynb) due 6pm ET                                             | **Nov 26**<br/>None (Thanksgiving)  | **Nov 27**<br/>None (Thanksgiving)                                                                                                                           |
+| 13   | **Dec 1**<br/>[](lecture_23.ipynb) ([virtual][zoom])<hr/>[Lab 12](lab_12.ipynb) due 6pm ET                            | **Dec 3**<br/>[](lecture_24.md)     | **Dec 4**<br/>[Reading](week_12.md) due before lab<hr/>[Lab 12: APIs and time series analysis](lab_12_guide.md)<hr/>[Project 2](project_2.md) due 11:59pm ET |
+| 14   | **Dec 8**<br/>[](lecture_25.ipynb)                                                                                    | **Dec 10**<br/>[Test](test.md)      | **Dec 11**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due 11:59pm ET                                                                          |
 
-[lab7]: https://courseworks2.columbia.edu/courses/226977/files/folder/Lab%20Material
-[zoom]: https://courseworks2.columbia.edu/courses/230821/external_tools/72338
+[lab7]: https://courseworks2.columbia.edu/courses/251473/files/folder/Lab%20Material
+[zoom]: https://courseworks2.columbia.edu/courses/255881/external_tools/72338
 
-See also: [Academic Calendar](https://www.registrar.columbia.edu/event/academic-calendar?acfy=49&acterm=6&acschool=18&keys=&field_event_type1_tid%5B%5D=21&field_event_type1_tid%5B%5D=22&field_event_type1_tid%5B%5D=23)
+See also: [Academic Calendar](https://registrar.columbia.edu/content/academic-calendar#!#s=International%2520and%2520Public%2520Affairs)
 
 ### Generative AI overlap
 
-The [Generative AI course is four Fridays, 10am-5pm](https://vergil.columbia.edu/vergil/course/20253/105790). This overlaps with the [Computing in Context labs](#meeting-information).
+The [Generative AI course is four Fridays, 10am-5pm](https://vergil.columbia.edu/vergil/course/20263/105790). This overlaps with the [Computing in Context labs](#meeting-information).
 
-The September dates are still in the [first half](#contexts-and-structure), when all contexts are still doing the same material. For students enrolled in both courses, attend one of the [Thursday evening or Friday morning labs](https://vergil.columbia.edu/vergil/course/20253/20303) on those weeks.
+The first three dates are still in the [first half](#contexts-and-structure), when all contexts are still doing the same material. For students enrolled in both courses, attend one of the [other labs](https://vergil.columbia.edu/vergil/course/20263/20303) on those weeks.
 
 The SIPA labs are longer than the other contexts', so SIPA's include more introduction and walkthrough. Students are generally asked to attend the lab for their section — this is an exception.
 
@@ -166,7 +166,7 @@ See the [school policies](https://www.sipa.columbia.edu/sipa-education/bulletin/
 
 ### Attendance
 
-See also: [The combined syllabus](https://courseworks2.columbia.edu/courses/226977)
+See also: [The combined syllabus][combined-syl]
 
 Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
 
@@ -220,12 +220,12 @@ SIPA is committed to ensuring that students registered with [Columbia University
 
 <!-- combined -->
 
-<!-- [ed]: https://courseworks2.columbia.edu/courses/226977/external_tools/37606?display=borderless -->
+[ed]: https://courseworks2.columbia.edu/courses/251473/external_tools/37606?display=borderless
 
 <!-- SIPA -->
 
-[ed]: https://courseworks2.columbia.edu/courses/230821/external_tools/37606?display=borderless
+<!-- [ed]: https://courseworks2.columbia.edu/courses/255881/external_tools/37606?display=borderless -->
 
 <!-- -------------------------------- -->
 
-[combined-syl]: https://courseworks2.columbia.edu/courses/226977
+[combined-syl]: https://courseworks2.columbia.edu/courses/251473
