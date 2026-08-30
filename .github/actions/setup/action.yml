@@ -1,6 +1,7 @@
 # https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
 
 name: Set up build environment
+description: Set up Python and install project dependencies.
 runs:
   using: composite
   steps:
@@ -9,6 +10,7 @@ runs:
       with:
         python-version: "3.14"
         cache: pip
-    - run: pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install -r requirements.txt
       # https://stackoverflow.com/a/71042698/358804
       shell: bash
