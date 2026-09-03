@@ -30,12 +30,12 @@ This introductory course will explore computing concepts and coding in the conte
 
 Section 1:
 
-- Aria Kovalovich - aak2257@columbia.edu
+- Mery Situmorang - mhs2231@columbia.edu
 - Sophia Cain - sac2318@columbia.edu
 
 Section 2:
 
-- Mery Situmorang - mhs2231@columbia.edu
+- Aria Kovalovich - aak2257@columbia.edu
 - Sam Fu - sf3318@columbia.edu
 
 ## Meeting Information
