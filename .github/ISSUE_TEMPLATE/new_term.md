@@ -13,11 +13,12 @@ assignees: afeld
   - [ ] Office hours embed
   - [ ] CourseWorks links
 - [ ] Find TAs
-  - [ ] Update [job post](https://docs.google.com/document/d/10nDc6y2LZdQDjGkqSP6f1tVlRmjhYU41jWKMlIT-324/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit)
   - [ ] Update in [syllabus](https://computing-in-context.afeld.me/#teaching-assistants-tas)
   - [ ] Set up check-in
-  - [ ] Share solutions
+  - [ ] Get them added to:
+    - [ ] Combined CourseWorks
+    - [ ] Slack
 - [ ] Set up Courseworks
   - [ ] Combine sites from sections
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
@@ -44,4 +45,4 @@ assignees: afeld
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
   - [ ] Submit for reimbursement
 
-See also: [context cut-over checklist](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit#heading=h.g6ipma2850mf)
+See also: [context cut-over checklist](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit?tab=t.lsioh99925uq#heading=h.g6ipma2850mf)
