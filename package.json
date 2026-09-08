@@ -1,0 +1,14 @@
+{
+  "name": "computing-in-context-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "11ty build for Computing in Context pages",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve --incremental",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
