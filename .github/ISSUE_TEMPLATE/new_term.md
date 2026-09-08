@@ -14,11 +14,7 @@ assignees: afeld
   - [ ] CourseWorks links
 - [ ] Find TAs
   - [ ] Share the [guide](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit)
-  - [ ] Update in [syllabus](https://computing-in-context.afeld.me/#teaching-assistants-tas)
-  - [ ] Set up check-in
-  - [ ] Get them added to:
-    - [ ] Combined CourseWorks
-    - [ ] Slack
+  - [ ] Go through [checklist](https://docs.google.com/document/d/1XnM4V1Iw38Wp1jCOLpo5BDuwJc65PK0Tr9J4PHHv47M/edit?tab=t.lsioh99925uq#heading=h.f7hsf4gytouo)
 - [ ] Set up Courseworks
   - [ ] Combine sites from sections
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
