@@ -104,6 +104,8 @@ To sign up for the test, contact [Aidan](#instructors).
 
 See the [combined syllabus][combined-syl] for details. See Gradescope for the assignment rubrics. The final grades for each SIPA section will be [curved](curve.ipynb).
 
+Even if you use a freebie for a lab, working through the material is recommended.
+
 ## Schedule
 
 For weeks 1-7, see [the combined syllabus][combined-syl].
@@ -125,13 +127,7 @@ See also: [Academic Calendar](https://registrar.columbia.edu/content/academic-ca
 
 ### Generative AI overlap
 
-The [Generative AI course is four Fridays, 10am-5pm](https://vergil.columbia.edu/vergil/course/20263/105790). This overlaps with the [Computing in Context labs](#meeting-information).
-
-The first three dates are still in the [first half](#contexts-and-structure), when all contexts are still doing the same material. For students enrolled in both courses, attend one of the [other labs](https://vergil.columbia.edu/vergil/course/20263/20303) on those weeks.
-
-The SIPA labs are longer than the other contexts', so SIPA's include more introduction and walkthrough. Students are generally asked to attend the lab for their section — this is an exception.
-
-For the November dates, the labs will be SIPA-specific, so it doesn't make sense to attend labs for the other contexts. Students have [two freebies on the attendance and lab submissions](#grading), so you can use your freebies for the two weeks' labs. Working through the material is still recommended — note the caveats under [Attendance](#attendance).
+The [Generative AI course is four Fridays, 10am-5pm](https://vergil.columbia.edu/vergil/course/20263/105790). This overlaps with the [Computing in Context labs](#meeting-information). See [Attendance](#labs). For the November dates, you'll need to use your [freebies](#grading).
 
 ## Communications
 
@@ -178,6 +174,10 @@ You are responsible for getting caught up on what was covered, without asking th
 #### Labs
 
 See the [combined syllabus][combined-syl].
+
+Students are generally asked to attend the lab for their section. In the [first half](#contexts-and-structure), all contexts do the same material. If you have a conflict, you can attend one of the [a lab from any context](https://vergil.columbia.edu/vergil/course/20263/20303). That said, SIPA's labs are longer than the other contexts' — they include more introduction and walkthrough.
+
+For the [second half](#contexts-and-structure), the labs are SIPA-specific. If you have a conflict, the only other lab it would make sense to attend is the [other SIPA section](#meeting-information).
 
 ### Devices
 
