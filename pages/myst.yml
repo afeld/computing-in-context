@@ -9,18 +9,18 @@ project:
     - file: index.md
     - title: Course info
       children:
-        - url: https://courseworks2.columbia.edu/courses/251473
-          title: Courseworks (combined)
-        # - url: https://courseworks2.columbia.edu/courses/255881
-        #   title: Courseworks (SIPA)
-        - url: https://courseworks2.columbia.edu/courses/251473/external_tools/29680?display=borderless
-          title: Gradescope (combined)
-        # - url: https://courseworks2.columbia.edu/courses/255881/external_tools/29680?display=borderless
-        #   title: Gradescope (SIPA)
-        - url: https://courseworks2.columbia.edu/courses/251473/external_tools/37606?display=borderless
-          title: Ed Discussion (combined)
-        # - url: https://courseworks2.columbia.edu/courses/255881/external_tools/37606?display=borderless
-        #   title: Ed Discussion (SIPA)
+        # - url: https://courseworks2.columbia.edu/courses/251473
+        #   title: Courseworks (combined)
+        - url: https://courseworks2.columbia.edu/courses/255881
+          title: Courseworks (SIPA)
+        # - url: https://courseworks2.columbia.edu/courses/251473/external_tools/29680?display=borderless
+        #   title: Gradescope (combined)
+        - url: https://courseworks2.columbia.edu/courses/255881/external_tools/29680?display=borderless
+          title: Gradescope (SIPA)
+        # - url: https://courseworks2.columbia.edu/courses/251473/external_tools/37606?display=borderless
+        #   title: Ed Discussion (combined)
+        - url: https://courseworks2.columbia.edu/courses/255881/external_tools/37606?display=borderless
+          title: Ed Discussion (SIPA)
         - file: office_hours.md
         - url: https://python-public-policy.afeld.me/en/columbia/resources.html
           title: Resources
