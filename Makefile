@@ -1,43 +1,41 @@
 setup:
-	python -m venv .venv
-	. .venv/bin/activate && \
-	pip install -r requirements.txt
+	uv sync
 
 update:
-	pip install --upgrade pip
-	pip install --upgrade -r requirements.txt
+	uv lock --upgrade
+	uv sync
 
 lab:
-	jupyter lab
+	uv run jupyter lab
 
 site:
 	cd pages && \
-	jupyter book start
+	uv run jupyter book start
 
 clean:
 	cd pages && \
-	jupyter book clean -y
+	uv run jupyter book clean -y
 
 # create redirects from old URL structure
 # https://github.com/jupyter-book/jb1-redirect-generator
 html:
 	cd pages && \
-	jupyter book build --html && \
-	python generate_redirects.py --base-url https://computing-in-context.afeld.me/
+	uv run jupyter book build --html && \
+	uv run python generate_redirects.py --base-url https://computing-in-context.afeld.me/
 
 # https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs
 slides:
-	jupyter nbconvert --to slides \
+	uv run jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
 		--TemplateExporter.extra_template_basedirs=_templates \
 		--template=reveal-with-css \
 		--post serve $(notebook)
 
 test:
-	pytest
+	uv run pytest
 
 lint:
-	ruff check
+	uv run ruff check
 
 format:
-	ruff format *.ipynb src
+	uv run ruff format *.ipynb src

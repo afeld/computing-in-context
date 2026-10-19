@@ -1,3 +1,37 @@
+[project]
+name = "computing-in-context"
+version = "0.0.0"
+requires-python = ">=3.14"
+dependencies = [
+    "click",
+    "ipykernel",
+    "jupyter-book==2.*",
+    "jupyterbook_patches",
+    # https://github.com/jupyterlab/jupyterlab/issues/15968#issuecomment-3356704551
+    "jupyterlab>=4.5.0",
+    "lxml",
+    "markdown-it-py",
+    "nbconvert",
+    "nbdime",
+    "nbformat",
+    "nbmerge",
+    # https://pandas.pydata.org/docs/user_guide/io.html#excel-files
+    "openpyxl",
+    "pandas",
+    # https://plotly.com/python/mapbox-to-maplibre/
+    "plotly>=5.24.0",
+    "pytest",
+    "pyyaml",
+    "requests",
+    "ruff",
+    "statsmodels",
+    "types-PyYAML",
+]
+
+[tool.uv]
+# not a package, just a collection of notebooks and scripts
+package = false
+
 [tool.ruff]
 line-length = 150
 
