@@ -10,9 +10,12 @@ build:
   jobs:
     build:
       html:
-        # uv isn't available as a build tool
-        - pip install uv
-        - uv sync --frozen
         - mkdir -p $READTHEDOCS_OUTPUT/html/
         - make html
         - cp -a pages/_build/html/. "$READTHEDOCS_OUTPUT/html"
+
+# https://about.readthedocs.com/blog/2026/04/uv-native-support/
+python:
+  install:
+    - method: uv
+      command: sync
