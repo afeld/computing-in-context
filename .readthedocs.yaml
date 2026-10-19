@@ -7,10 +7,11 @@ build:
   tools:
     nodejs: "24"
     python: "3.14"
-    uv: "latest"
   jobs:
     build:
       html:
+        # uv isn't available as a build tool
+        - pip install uv
         - uv sync --frozen
         - mkdir -p $READTHEDOCS_OUTPUT/html/
         - make html
