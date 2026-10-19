@@ -25,19 +25,13 @@ That is now your own copy; you can execute/add cells as you like, including addi
 Images will be broken in downloaded notebooks.
 ```
 
-## Open a terminal
-
-1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
-1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
-
-[uv](https://docs.astral.sh/uv/) manages the virtual environment (`.venv/`) for you, so there is no need to activate it. To run a Python command in the environment, prefix it with `uv run`, e.g. `uv run python script.py`.
-
 ## Installing packages
 
 This will need to be done any time you add packages. Avoid using `pip install [package]`.
 
-1. [Open a terminal.](#open-a-terminal)
-1. Add the packages. This installs them and records them in your [`pyproject.toml`](https://docs.astral.sh/uv/concepts/projects/dependencies/) file.
+1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
+1. Add the packages. [uv](https://docs.astral.sh/uv/) installs them into the virtual environment (`.venv/`) and records them in your [`pyproject.toml`](https://docs.astral.sh/uv/concepts/projects/dependencies/) file. There's no need to activate the environment.
 
    ```sh
    uv add [package]
@@ -68,7 +62,7 @@ We've run into issues with being unable to [select the kernel](https://code.visu
 
 - **`Jupyter command `jupyter-book` not found.`:**
   1. Double-check you've done [the install](lab_8.ipynb#install).
-  1. Run the command with `uv run`, e.g. `uv run jupyter book start`.
+  1. Prefix the command with `uv run`, e.g. `uv run jupyter book start`.
 - **Plotly visualizations aren't appearing:**
   1. Add the following to the top of your notebook:
 
