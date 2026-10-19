@@ -221,11 +221,11 @@ SIPA is committed to ensuring that students registered with [Columbia University
 
 <!-- combined -->
 
-[ed]: https://courseworks2.columbia.edu/courses/251473/external_tools/37606?display=borderless
+<!-- [ed]: https://courseworks2.columbia.edu/courses/251473/external_tools/37606?display=borderless -->
 
 <!-- SIPA -->
 
-<!-- [ed]: https://courseworks2.columbia.edu/courses/255881/external_tools/37606?display=borderless -->
+[ed]: https://courseworks2.columbia.edu/courses/255881/external_tools/37606?display=borderless
 
 <!-- -------------------------------- -->
 
