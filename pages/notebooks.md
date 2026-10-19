@@ -25,30 +25,21 @@ That is now your own copy; you can execute/add cells as you like, including addi
 Images will be broken in downloaded notebooks.
 ```
 
-## Activate the environment
-
-(in the Terminal)
-
-1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
-1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
-1. [Activate the environment](https://docs.python.org/3/library/venv.html#how-venvs-work), if it isn't already.
-   - Mac: `source .venv/bin/activate`
-   - Windows (PowerShell): `.venv\Scripts\Activate.ps1`
-     - Get an execution policy error? See [the Note in the `venv` documentation](https://docs.python.org/3/library/venv.html#creating-virtual-environments:~:text=On%20Microsoft%20Windows,%2DScope%20CurrentUser), then retry.
-
-It should then show `(.venv)` at the beginning of your terminal prompt.
-
 ## Installing packages
 
 This will need to be done any time you add packages. Avoid using `pip install [package]`.
 
-1. [Activate the environment.](#activate-the-environment)
-1. Add packages to a [`requirements.txt`](https://pip.pypa.io/en/stable/reference/requirements-file-format/) file.
-1. Install the packages.
+1. [Open the working folder in VSCode.](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+1. [Open a terminal in VSCode.](https://code.visualstudio.com/docs/terminal/getting-started)
+1. Add the packages. [uv](https://docs.astral.sh/uv/) installs them into the virtual environment (`.venv/`) and records them in your [`pyproject.toml`](https://docs.astral.sh/uv/concepts/projects/dependencies/) file. There's no need to activate the environment.
 
    ```sh
-   pip install -r requirements.txt
+   uv add [package]
    ```
+
+   For example: `uv add pandas plotly`
+
+Cloned a project that already has a `pyproject.toml`? Install everything it lists with `uv sync`.
 
 ## Common issues
 
@@ -63,15 +54,15 @@ We've run into issues with being unable to [select the kernel](https://code.visu
   - [The extensions](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_extensions-view-filter-and-commands)
 - Restart VSCode (quitting the full app, not just the window).
 - [Mac: "The application is on a read-only volume."](https://stackoverflow.com/a/65422671/358804)
-- Confirm that [the packages were installed in the virtual environment](#installing-packages), not [globally](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+- Confirm that [the packages were installed with `uv add`](#installing-packages), not `pip install`.
 
 ### [Jupyter Book](https://jupyterbook.org/)
 
 [This was set up in Lab 8.](lab_8.ipynb#jupyter-book)
 
 - **`Jupyter command `jupyter-book` not found.`:**
-  1. [Activate the environment.](#activate-the-environment)
   1. Double-check you've done [the install](lab_8.ipynb#install).
+  1. Prefix the command with `uv run`, e.g. `uv run jupyter book start`.
 - **Plotly visualizations aren't appearing:**
   1. Add the following to the top of your notebook:
 

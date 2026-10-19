@@ -5,12 +5,12 @@ description: Set up Python and install project dependencies.
 runs:
   using: composite
   steps:
-    - name: Set up Python
-      uses: actions/setup-python@v7
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v7
       with:
         python-version: "3.14"
-        cache: pip
+        enable-cache: true
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: uv sync --frozen
       # https://stackoverflow.com/a/71042698/358804
       shell: bash
