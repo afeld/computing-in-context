@@ -33,7 +33,7 @@ make slides notebook=[file]
 For example:
 
 ```sh
-make slides notebook=lecture_15.ipynb
+make slides notebook=pages/lecture_15.ipynb
 ```
 
 ### Creating/editing
