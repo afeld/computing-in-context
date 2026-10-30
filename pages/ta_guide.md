@@ -39,7 +39,8 @@ First, read the [Guide to Assistantships](https://www.sipa.columbia.edu/students
   - Helping students with troubleshooting
   - Assisting the instructor as needed
 - For labs:
-  - Putting together slides for review
+  - Putting together slides for review, where needed
+  - The lab pages on the course site that are notebooks can be run as slides - see [the repository files + README](https://github.com/afeld/computing-in-context).
   - Helping prepare the practice problem(s)
   - Helping students with troubleshooting
 - In office hours: helping students with troubleshooting

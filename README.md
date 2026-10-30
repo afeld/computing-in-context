@@ -6,9 +6,12 @@ Built using [Jupyter Book](https://jupyterbook.org/).
 
 ## Setup
 
-```sh
-make setup
-```
+1. Clone this repository.
+1. From this repository directory, run:
+
+    ```sh
+    make setup
+    ```
 
 ## [Running the site locally](https://jupyterbook.org/stable/get-started/build-websites/#running-jupyter-book-start)
 
@@ -23,6 +26,8 @@ make lab
 ```
 
 ## Slides
+
+The slides are built using [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs).
 
 ### Presenting
 
