@@ -40,7 +40,7 @@ make slides notebook=pages/lecture_15.ipynb
 
 Most of the notebooks in this repository are also slide decks, with the Slide Type specified as cell metadata. In JupyterLab:
 
-![Slide type selection](img/slide_type.png)
+![Slide type selection](pages/img/slide_type.png)
 
 In general, the presentations are organized as:
 
