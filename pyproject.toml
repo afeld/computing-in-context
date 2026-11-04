@@ -7,7 +7,7 @@ dependencies = [
     "ipykernel",
     "jupyter-book==2.*",
     # https://github.com/jupyterlab/jupyterlab/issues/15968#issuecomment-3356704551
-    "jupyterlab>=4.5.0",
+    "jupyterlab>=4.6.5",
     "lxml",
     "markdown-it-py",
     "nbconvert",
