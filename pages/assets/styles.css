@@ -6,12 +6,14 @@ article ol ol ol li {
   list-style-type: lower-roman;
 }
 
-/* keep outputs from being too long */
+/* keep outputs from being too long; scroll rather than spill over the content below (older cached themes don't set overflow) */
 .myst-jp-safe-output-text,
 .myst-jp-stream-output {
   max-height: 20rem;
+  overflow: auto;
 }
 /* for HTML outputs, go a bit longer, since this includes things like visualizations */
 .jp-RenderedHTML {
   max-height: 40rem;
+  overflow: auto;
 }
