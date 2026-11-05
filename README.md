@@ -29,6 +29,8 @@ make lab
 
 The slides are built using [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs).
 
+On the site, [myst-slides](https://github.com/afeld/myst-slides) publishes a deck for each notebook with slide metadata and adds a "View as slides" link to its page. Its nbconvert settings are in `pages/jupyter_nbconvert_config.py`, which `make slides` doesn't use, so keep the two in sync.
+
 ### Presenting
 
 ```sh

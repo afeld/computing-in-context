@@ -5,6 +5,8 @@ project:
     - name: Aidan Feldman
   github: afeld/computing-in-context
   license: CC0-1.0
+  plugins:
+    - https://github.com/afeld/myst-slides/releases/download/v0.2.0/slides.mjs
   toc:
     - file: index.md
     - title: Course info
