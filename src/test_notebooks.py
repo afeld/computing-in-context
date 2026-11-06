@@ -1,12 +1,15 @@
 import ast
 import re
 from pathlib import Path
+from urllib.parse import unquote
 
 import pytest
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
 
-from .nb_helper import NOTEBOOKS, is_code_cell, is_h1, is_markdown, is_python, read_notebook
+from .nb_helper import NOTEBOOKS, PAGES_DIR, is_code_cell, is_h1, is_markdown, is_python, read_notebook
+
+SITE_URL = "https://computing-in-context.afeld.me"
 
 
 def check_metadata(notebook, expected_kernel):
@@ -76,15 +79,21 @@ def test_heading_levels(file):
 def check_link(token: Token, parent: Token | None = None):
     if token.type == "link_open":
         href = str(token.attrGet("href"))
-        # escaped Jinja2 tags
-        if not re.match(r"http|#|%7B%7B", href):
-            source = parent.content if parent else token.content
-            assert False, f"Link should be absolute. Text:\n\n{source}\n"
+        source = parent.content if parent else token.content
+
+        assert not href.startswith(SITE_URL), f"Link to this site should be relative, to a file. Text:\n\n{source}\n"
+
+        # in-page anchors, other sites, and escaped Jinja2 tags
+        if re.match(r"#|[a-z][a-z0-9+.-]*:|%7B%7B", href):
+            return
+
+        target = PAGES_DIR / unquote(href.split("#")[0])
+        assert target.exists(), f"Relative link to a file that doesn't exist: {href}. Text:\n\n{source}\n"
 
 
 @pytest.mark.parametrize("file", NOTEBOOKS)
 def test_links(file):
-    """To ensure that links work from the coding environment, ensure all links are absolute."""
+    """Links to this site are relative so that they work when previewing, and are made absolute in the downloadable notebooks by `pages/absolutize_links.py`."""
 
     notebook = read_notebook(file)
 

@@ -30,7 +30,7 @@ def test_boilerplate(file):
 
     notebook = read_notebook(file)
 
-    boilerplate = "_[General notebook information](https://computing-in-context.afeld.me/notebooks.html)_"
+    boilerplate = "_[General notebook information](notebooks.md)_"
     assert any(boilerplate in cell.source for cell in notebook.cells), "General assignment info is missing from lab"
 
 
@@ -38,7 +38,7 @@ def test_boilerplate(file):
 def test_submit_info(file):
     with open(file) as f:
         content = f.read()
-    assert "https://computing-in-context.afeld.me/notebooks.html#submission" in content
+    assert "notebooks.md#submission" in content
 
 
 lab_guides = list(PAGES_DIR.glob("lab_*_guide.md"))
