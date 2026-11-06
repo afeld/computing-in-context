@@ -106,7 +106,7 @@ project:
 # https://mystmd.org/guide/website-templates
 site:
   template: book-theme
-  favicon: img/python-logo.svg
+  favicon: img/python-logo.png
   parts:
     primary_sidebar_footer: partials/primary_sidebar_footer.md
   options:
