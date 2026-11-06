@@ -16,12 +16,13 @@ clean:
 	cd pages && \
 	uv run jupyter book clean -y
 
-# create redirects from old URL structure
+# create redirects from old URL structure, then make links in the downloadable notebooks absolute
 # https://github.com/jupyter-book/jb1-redirect-generator
 html:
 	cd pages && \
 	uv run jupyter book build --html && \
-	uv run python generate_redirects.py --base-url https://computing-in-context.afeld.me/
+	uv run python generate_redirects.py --base-url https://computing-in-context.afeld.me/ && \
+	uv run python absolutize_links.py https://computing-in-context.afeld.me _build/html
 
 # https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs
 slides:
