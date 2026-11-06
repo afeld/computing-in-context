@@ -21,10 +21,6 @@ For lecture slides / labs, download the page as a notebook to work with it local
 
 That is now your own copy; you can execute/add cells as you like, including adding your own notes in [Markdown cells](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). For Labs, the intention is for you to turn in the template via Gradescope, filled in with your code.
 
-```{warning}
-Images will be broken in downloaded notebooks.
-```
-
 ## Installing packages
 
 This will need to be done any time you add packages. Avoid using `pip install [package]`.
