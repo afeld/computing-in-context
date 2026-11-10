@@ -48,6 +48,9 @@ def main(pages_dir: Path, built_dir: Path, base_url: str) -> None:
             if cell.cell_type == "markdown":
                 cell.source = absolutize(cell.source, base_url, assets)
         nbformat.write(notebook, path)
+    # The slide decks are served from `build/`, so their relative links would resolve there.
+    for path in (built_dir / "build").glob("*.slides.html"):
+        path.write_text(absolutize(path.read_text(), base_url, assets))
 
 
 if __name__ == "__main__":

@@ -15,6 +15,10 @@ def test_page_links():
     assert absolutize("[x](index.md)", BASE, ASSETS) == "[x](https://example.com/)"
 
 
+def test_slide_html_links():
+    assert absolutize('<a href="lab_8.ipynb">x</a>', BASE, ASSETS) == '<a href="https://example.com/lab-8/">x</a>'
+
+
 def test_images():
     assert absolutize("![x](img/logo.svg)", BASE, ASSETS) == "![x](https://example.com/build/logo-abc123.svg)"
     assert absolutize('<img src="img/logo.svg">', BASE, ASSETS) == '<img src="https://example.com/build/logo-abc123.svg">'

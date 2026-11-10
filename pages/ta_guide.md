@@ -77,7 +77,7 @@ First, read the [Guide to Assistantships](https://www.sipa.columbia.edu/students
     - Forces them to take Ed seriously
     - Means they may search to see if the question has been asked before, getting them in that habit going forward
   - For student-specific/sensitive questions (grades, etc.), email is fine.
-- [Gradescope doesn’t have a way to give zeros to missing submissions.](https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/119-instructors-can-give-students-without-submissions-0-scores-on-gradescope) The workaround (per Gradescope support) is to upload a placeholder for those students, then give that a zero.
+- Gradescope doesn’t have a way to give zeros to missing submissions. The workaround (per Gradescope support) is to upload a placeholder for those students, then give that a zero.
 - Keep an eye out for students who could make good TAs next year. Things to look for:
   - Being consistently helpful in the Discussions
   - Clean, well-documented solutions for the homeworks
