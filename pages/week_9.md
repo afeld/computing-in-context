@@ -9,6 +9,8 @@
    - [Video](https://www.youtube.com/watch?v=9Os0o3wzS_I&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=8)
    - [Blog post](https://python.land/introduction-to-python/functions)
 1. [Guide to commenting your code](https://realpython.com/python-comments-guide/)
+1. [Aidan's coding style](https://blog.afeld.me/documenting-my-coding-style-d852c6a75963)
+   - This goes beyond the scope of this course, so feel free to skim over parts that aren't applicable.
 1. [Quartz Guide to Bad Data](https://github.com/Quartz/bad-data-guide)
 1. [Learn about data dictionaries](https://analystanswers.com/what-is-a-data-dictionary-a-simple-thorough-overview/)
 

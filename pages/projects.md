@@ -13,7 +13,6 @@ All Projects must:
 - **Be done in a Jupyter notebook** (or -5 points)
 - **Have good [coding style](https://en.wikipedia.org/wiki/Programming_style)** (or -5 points)
   - For the first half of the course, you were asked to follow the [style guide](https://courseworks2.columbia.edu/courses/251473/files). For the second half, we use [Ruff](lecture_15.ipynb#extensions). The latter is more strict, but should correct many issues automatically.
-  - Optional: [Read about Aidan's coding style.](https://blog.afeld.me/documenting-my-coding-style-d852c6a75963)
 - **Use at least one dataset you aren't familiar with**
   - Using data from a primary source is preferred.
   - Using a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
