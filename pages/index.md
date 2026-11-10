@@ -117,11 +117,10 @@ For weeks 1-7, see [the combined syllabus][combined-syl].
 | 10   | **Nov 10**<br/>[](lecture_18.ipynb)<hr/>[Lab 9](lab_9.ipynb) due 6pm ET                                               | **Nov 12**<br/>[](lecture_19.ipynb) | **Nov 13**<br/>[Reading](week_10.md) due before lab<hr/>[Lab 10: Data cleaning and joining](lab_10_guide.md)<hr/>[Project 1](project_1.md) due 11:59pm ET    |
 | 11   | **Nov 17**<br/>[](lecture_20.ipynb)<hr/>[Lab 10](lab_10.ipynb) due 6pm ET                                             | **Nov 19**<br/>[](lecture_21.ipynb) | **Nov 20**<br/>[Reading](week_11.md) due before lab<hr/>[Lab 11: Data visualization](lab_11_guide.md)                                                        |
 | 12   | **Nov 24**<br/>[](lecture_22.ipynb)<hr/>[Lab 11](lab_11.ipynb) due 6pm ET                                             | **Nov 26**<br/>None (Thanksgiving)  | **Nov 27**<br/>None (Thanksgiving)                                                                                                                           |
-| 13   | **Dec 1**<br/>[](lecture_23.ipynb) ([virtual][zoom])<hr/>[Lab 12](lab_12.ipynb) due 6pm ET                            | **Dec 3**<br/>[](lecture_24.md)     | **Dec 4**<br/>[Reading](week_12.md) due before lab<hr/>[Lab 12: APIs and time series analysis](lab_12_guide.md)<hr/>[Project 2](project_2.md) due 11:59pm ET |
+| 13   | **Dec 1**<br/>[](lecture_23.ipynb)<hr/>[Lab 12](lab_12.ipynb) due 6pm ET                                              | **Dec 3**<br/>[](lecture_24.md)     | **Dec 4**<br/>[Reading](week_12.md) due before lab<hr/>[Lab 12: APIs and time series analysis](lab_12_guide.md)<hr/>[Project 2](project_2.md) due 11:59pm ET |
 | 14   | **Dec 8**<br/>[](lecture_25.ipynb)                                                                                    | **Dec 10**<br/>[Test](test.md)      | **Dec 11**<br/>Office hours (optional)<hr/>[Project 3](project_3.md) due 11:59pm ET                                                                          |
 
 [lab7]: https://courseworks2.columbia.edu/courses/251473/files/folder/Lab%20Material
-[zoom]: https://courseworks2.columbia.edu/courses/255881/external_tools/72338
 
 See also: [Academic Calendar](https://registrar.columbia.edu/content/academic-calendar#!#s=International%2520and%2520Public%2520Affairs)
 
