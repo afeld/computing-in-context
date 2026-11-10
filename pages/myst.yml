@@ -7,6 +7,7 @@ project:
   license: CC0-1.0
   plugins:
     - https://github.com/afeld/myst-slides/releases/download/v0.2.0/slides.mjs
+    - https://raw.githubusercontent.com/afeld/python-public-policy/refs/heads/main/extras/myst/strikethrough.mjs
   toc:
     - file: index.md
     - title: Course info
@@ -106,10 +107,10 @@ project:
 # https://mystmd.org/guide/website-templates
 site:
   template: book-theme
-  favicon: img/python-logo.png
   parts:
     primary_sidebar_footer: partials/primary_sidebar_footer.md
   options:
+    favicon: img/python-logo.png
     # https://myst-theme.netlify.app/ui/#hide-authors
     hide_authors: true
     hide_footer_links: true
