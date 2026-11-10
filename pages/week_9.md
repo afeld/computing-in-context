@@ -8,11 +8,17 @@
 1. Learn about functions
    - [Video](https://www.youtube.com/watch?v=9Os0o3wzS_I&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=8)
    - [Blog post](https://python.land/introduction-to-python/functions)
-1. [Guide to commenting your code](https://realpython.com/python-comments-guide/)
-1. [Aidan's coding style](https://blog.afeld.me/documenting-my-coding-style-d852c6a75963)
-   - This goes beyond the scope of this course, so feel free to skim over parts that aren't applicable.
 1. [Quartz Guide to Bad Data](https://github.com/Quartz/bad-data-guide)
 1. [Learn about data dictionaries](https://analystanswers.com/what-is-a-data-dictionary-a-simple-thorough-overview/)
+
+### Coding style
+
+For the first half of the course, you were asked to follow a [style guide](https://courseworks2.columbia.edu/courses/251473/files). For the second half, we use [Ruff](lecture_15.ipynb#extensions). Ruff is more strict, but should correct most issues automatically.
+
+1. [Wikipedia page](https://en.wikipedia.org/wiki/Programming_style) - skimming this is fine
+1. [Guide to commenting your code](https://realpython.com/python-comments-guide/)
+1. [Aidan's coding style](https://blog.afeld.me/documenting-my-coding-style-d852c6a75963)
+   - There are some instructions in there that are more advanced / that go beyond the scope of this course - feel free to skim over parts that aren't applicable. If you're curious what they mean, please [ask](index.md#getting-help)!
 
 ### Optional
 
