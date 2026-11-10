@@ -1,4 +1,4 @@
-# Lecture 24: ~~Guest speaker~~ Me again
+# Lecture 24: Guest speaker
 
 1. BHA work (notes to self)
    1. Lakehouse
