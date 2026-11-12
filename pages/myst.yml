@@ -106,7 +106,8 @@ project:
       severity: ignore
 # https://mystmd.org/guide/website-templates
 site:
-  template: book-theme
+  # Pinned to v1.4.1: book-theme v2.0.0 (2026-11-10) breaks the static HTML export with jupyter-book 2.1.7, so no `build/` assets are emitted
+  template: https://github.com/myst-templates/book-theme/archive/23f2df54.zip
   parts:
     primary_sidebar_footer: partials/primary_sidebar_footer.md
   options:
