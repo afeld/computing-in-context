@@ -15,6 +15,11 @@
     overflow-y: scroll;
   }
 
+  /* nbconvert clips this wrapper (`overflow: hidden`), which hides wide tables instead of letting `.jp-OutputArea` scroll them horizontally */
+  .jp-OutputArea-child {
+    overflow: visible;
+  }
+
   .jp-RenderedHTMLCommon {
     /* output code should be the same size as input code */
     pre code {
