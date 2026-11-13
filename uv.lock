@@ -382,7 +382,7 @@ requires-dist = [
     { name = "click" },
     { name = "ipykernel" },
     { name = "jupyter-book", specifier = "==2.*" },
-    { name = "jupyterlab", specifier = ">=4.5.0" },
+    { name = "jupyterlab", specifier = ">=4.6.6" },
     { name = "lxml" },
     { name = "markdown-it-py" },
     { name = "nbconvert" },
