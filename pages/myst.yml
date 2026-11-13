@@ -106,8 +106,7 @@ project:
       severity: ignore
 # https://mystmd.org/guide/website-templates
 site:
-  # https://github.com/jupyter-book/myst-theme/issues/1004
-  template: https://github.com/myst-templates/book-theme/archive/23f2df54.zip
+  template: book-theme
   parts:
     primary_sidebar_footer: partials/primary_sidebar_footer.md
   options:
