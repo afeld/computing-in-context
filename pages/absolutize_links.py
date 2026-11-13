@@ -8,6 +8,9 @@ import nbformat
 from generate_redirects import sanitize_for_myst_url
 
 # Markdown links/images `](target)` and HTML `src="target"` / `href="target"`
+# Where MyST (book-theme v2+) emits downloads, images and slides; v1 used `build/`
+PUBLIC_DIR = "_public"
+
 LINK = re.compile(r"""(\]\(|(?:src|href)=["'])([^)"'\s#]+)(#[^)"'\s]*)?""")
 
 
@@ -30,11 +33,11 @@ def absolutize(text: str, base_url: str, assets: dict[str, str]) -> str:
 
 
 def find_assets(pages_dir: Path, built_dir: Path) -> dict[str, str]:
-    """Maps source image paths (`img/foo.png`) to the hashed copies MyST emits under `build/`."""
+    """Maps source image paths (`img/foo.png`) to the hashed copies MyST emits under `_public/`."""
     assets = {}
     for source in (pages_dir / "img").rglob("*.*"):
         hashed = re.compile(rf"{re.escape(source.stem)}-[0-9a-f]{{32}}{re.escape(source.suffix)}")
-        built = sorted(p for p in (built_dir / "build").iterdir() if hashed.fullmatch(p.name))
+        built = sorted(p for p in (built_dir / PUBLIC_DIR).iterdir() if hashed.fullmatch(p.name))
         if built:
             assets[source.relative_to(pages_dir).as_posix()] = built[-1].relative_to(built_dir).as_posix()
     return assets
@@ -42,14 +45,14 @@ def find_assets(pages_dir: Path, built_dir: Path) -> dict[str, str]:
 
 def main(pages_dir: Path, built_dir: Path, base_url: str) -> None:
     assets = find_assets(pages_dir, built_dir)
-    for path in (built_dir / "build").glob("*.ipynb"):
+    for path in (built_dir / PUBLIC_DIR).glob("*.ipynb"):
         notebook = nbformat.read(path, as_version=4)
         for cell in notebook.cells:
             if cell.cell_type == "markdown":
                 cell.source = absolutize(cell.source, base_url, assets)
         nbformat.write(notebook, path)
-    # The slide decks are served from `build/`, so their relative links would resolve there.
-    for path in (built_dir / "build").glob("*.slides.html"):
+    # The slide decks are served from `_public/`, so their relative links would resolve there.
+    for path in (built_dir / PUBLIC_DIR).glob("*.slides.html"):
         path.write_text(absolutize(path.read_text(), base_url, assets))
 
 

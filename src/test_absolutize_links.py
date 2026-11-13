@@ -6,7 +6,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "pages"))
 from absolutize_links import absolutize
 
 BASE = "https://example.com"
-ASSETS = {"img/logo.svg": "build/logo-abc123.svg"}
+ASSETS = {"img/logo.svg": "_public/logo-abc123.svg"}
 
 
 def test_page_links():
@@ -20,8 +20,8 @@ def test_slide_html_links():
 
 
 def test_images():
-    assert absolutize("![x](img/logo.svg)", BASE, ASSETS) == "![x](https://example.com/build/logo-abc123.svg)"
-    assert absolutize('<img src="img/logo.svg">', BASE, ASSETS) == '<img src="https://example.com/build/logo-abc123.svg">'
+    assert absolutize("![x](img/logo.svg)", BASE, ASSETS) == "![x](https://example.com/_public/logo-abc123.svg)"
+    assert absolutize('<img src="img/logo.svg">', BASE, ASSETS) == '<img src="https://example.com/_public/logo-abc123.svg">'
 
 
 def test_leaves_other_links_alone():
