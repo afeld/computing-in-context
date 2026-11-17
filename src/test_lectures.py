@@ -43,7 +43,7 @@ def num_slides(cells: list[NotebookNode]):
 
 
 # see counts with `pytest -s -k num_slides`
-@pytest.mark.parametrize("full_path", lecture_notebooks)
+@pytest.mark.parametrize("full_path", lecture_notebooks, ids=[os.path.basename(p) for p in lecture_notebooks])
 def test_num_slides(full_path):
     """Ensure there are a reasonable number of slides"""
 
