@@ -94,6 +94,8 @@ Computing in Context is a required course for [the Data Science for Policy (DSP)
 - Take 90 minutes (or less)
 - Be closed-book
 
+See the [example questions from the last test in Computing in Context](test.md#example-questions) — you should know how to answer all of those.
+
 If you pass, you'll be exempt from Computing in Context as a requirement and prerequisite. You'll choose three credits of other DSP course(s) in its place, and be able to go straight into more advanced classes.
 
 If you _don't_ pass, you'll need to take Computing in Context as normal. Your grade will be unaffected.
