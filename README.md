@@ -25,6 +25,20 @@ make site
 make lab
 ```
 
+## Eleventy site for `pages/`
+
+To browse the Markdown and notebooks in `pages/` without Jupyter Book:
+
+```sh
+npm install
+# ensure the Python env with nbconvert is active
+source .venv/bin/activate
+export PYTHON="$VIRTUAL_ENV/bin/python"
+npm run serve
+```
+
+The site will build to `_site/` and will live-reload while developing. Notebooks are converted to HTML using `nbconvert`'s built-in templates (no custom renderer required).
+
 ## Slides
 
 The slides are built using [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html#convert-revealjs).
