@@ -13,3 +13,8 @@ tmp/
 !.vscode/settings.json
 
 .venv/
+
+# Quarto
+/.quarto/
+**/*.quarto_ipynb
+_site/

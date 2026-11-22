@@ -1,0 +1,24 @@
+project:
+  type: website
+  # only render these files (for now)
+  render:
+    - index.qmd
+    - about.qmd
+    - pages/lecture_20.ipynb
+
+website:
+  title: "mysite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - pages/lecture_20.ipynb
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
