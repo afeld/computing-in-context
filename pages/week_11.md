@@ -11,5 +11,6 @@
 
 - Watch [this talk on audification/sonification](https://www.youtube.com/watch?v=55dIfA7C038). We won't be doing so in this class, but hopefully will provide some inspiration about different ways that data can be represented.
 - Read about other tools and techniques for visualization in Python.
+  - [Plotly gallery](https://plotly.com/python/plotly-express/#gallery)
   - [PyViz](https://pyviz.org/)
   - [Python Graph Gallery](https://www.python-graph-gallery.com/)
